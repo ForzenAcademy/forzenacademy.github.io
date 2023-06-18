@@ -11,6 +11,8 @@ You can start with some basics like choosing a bpm for the song to determine how
 4. Add percussion
 5. Add a melody
 
+&nbsp;  
+
 ## Choose a key
 ## Choose a chord progression
 ## Choose a bassline

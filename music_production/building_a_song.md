@@ -13,8 +13,10 @@ You can start with some basics like choosing a bpm for the song to determine how
 
 &nbsp;  
 
-## Choose a key
-## Choose a chord progression
-## Choose a bassline
-## Add percussion
-## Add a melody
+## 1. Choose a key
+## 2. Choose a chord progression
+## 3. Choose a bassline
+## 4. Add percussion
+## 5. Add a melody
+## Other tips
+- **Two-Measure Rule**: After you have an established loop, unless it changes every two measures the long will get boring. Change either the notes being played or the energy of the song by adding or removing instruments.

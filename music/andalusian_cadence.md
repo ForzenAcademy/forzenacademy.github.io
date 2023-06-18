@@ -8,7 +8,10 @@ For major sound in the Phrygian mode use **iv-III-II-I**
 ## Melodies
 Common melody patterns can easily be constructed by playing only notes from the root chord chosen for the cadence (with an exception for the final chord below), or playing arpeggios for each chord during its measures.  
 
-In the Aeolian mode and creating melody for the final chord in the progression, use notes from the **Harmonic Minor** scale, not just the **Minor** scale.  
+In the Aeolian mode and creating melody for the final chord in the progression, use notes from the **Harmonic Minor** scale, not just the **Minor** scale. 
+
+## Bassline
+One pattern you can use is using the roots and fifths of each chord. This may work well for a Latin style
 
 ## Aeolian (minor) examples
 - **Em - D - C - B**
@@ -16,4 +19,4 @@ In the Aeolian mode and creating melody for the final chord in the progression, 
 - **Am - G - F - E/E7**
 
 ## References
-1. Youtube video showing easy to use examples https://www.youtube.com/watch?v=qbeRVJMT5CY
+1. Youtube video showing easy to use examples in various styles [link](https://www.youtube.com/watch?v=qbeRVJMT5CY)

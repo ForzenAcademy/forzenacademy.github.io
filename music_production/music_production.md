@@ -1,4 +1,4 @@
-# Music
+# Music Production
 
 ## Guides
 ### [Building a Song](building_a_song.md)

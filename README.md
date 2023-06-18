@@ -1,4 +1,3 @@
-# forzenacademy.github.io
+# Subjects with written entries
 
-[Music](music/music.md)
-A knowledge compedium for various tasks
+## [Music Production](music_production/music_production.md)  

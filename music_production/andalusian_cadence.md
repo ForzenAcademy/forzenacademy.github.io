@@ -2,7 +2,7 @@
 
 A common [chord progression](chord_progression.md) originating from flamenco. You can use this style of chord progression to create music with the distinctive flamenco flavor.
 
-In [Aeolian mode](aeolian_mode.md) use chords **i-VII-VI-V**  
+In [Aeolian mode](aeolian_mode.md) use chords **i-bVII-bVI-V**  
 In [Phrygian mode](phrygian_mode.md) use chords **iv-III-II-I**  
 These numbers correspond to making a chord from the note at the position in the key's natural scale. For a chart of notes in each scale look [here](scales.md).
 

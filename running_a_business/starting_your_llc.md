@@ -51,4 +51,4 @@
 
 ## Link to Oregon's guide to starting a business:
 
-https://sos.oregon.gov/business/Documents/business-guides/start-business-guide.pdf
+[https://sos.oregon.gov/business/Documents/business-guides/start-business-guide.pdf](https://sos.oregon.gov/business/Documents/business-guides/start-business-guide.pdf)

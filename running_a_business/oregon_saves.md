@@ -13,4 +13,4 @@ If you’re a business owner with at least one employee, you are required to reg
 * You can then use this code and your EIN to register.
 
 See the link below for more info and to register:
-https://www.oregonsaves.com/
+[https://www.oregonsaves.com/](https://www.oregonsaves.com/)

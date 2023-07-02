@@ -22,8 +22,8 @@ You can get insurance from any insurer authorized to provide workers’ compensa
 
 <br>
 <hr>
-<br
->
+<br>
+
 All employers in Oregon that are required to provide workers' compensation coverage must display a Notice of Compliance poster in a central gathering area, such as a breakroom. Employers automatically receive a Notice of Compliance poster when they first get coverage or change coverage providers.
 <br>
 <br>

@@ -9,11 +9,14 @@
 3. Open a [business bank account](bank_account.md)
 
 4. If you hire [employees](having_employees.md) you will also need
+
 * [BIN](bin.md)
 
 * [Unlemployment Insurance Rate](unemployment_insurance_rate.md)
 
 * [Workers Comp Insurance](workers_comp_insurance.md)
+
+* [Oregon Saves](oregon_saves.md)
 
 * Register for [Frances Online](frances_online.md), Oregon [Department of Revenue](department_of_revenue.md), Oregon [Department of Justice](department_of_justice.md), and [EFTPS](eftps.md)
 
@@ -25,15 +28,15 @@
 
 * Consider [Health Insurance](health_insurance.md)
 
-4. Consider getting a CPA
+5. Consider getting a CPA
 
 * All businesses must fulfill their tax obligations to the federal government and the state of Oregon. When you start a business, it is important to determine what kind of tax obligations you will have, and how and when you will be required to pay your taxes. It’s a good idea to invest in a good CPA to help you understand and meet your tax obligations.
 
-5. Keep track of finances
+6. Keep track of finances
 
 * [Bookkeeping](bookkeeping.md)
 
-6. Taxes
+7. Taxes
 
 * [LLC Taxes (No Employees)](llc_taxes_no_employees.md)
 
@@ -41,7 +44,11 @@
 
 * [Quarterly Payroll Taxes for those who have employees](quarterly_payroll_taxes_and_reports.md)
 
+8. Yearly Renewal/Annual Re​port
 
-## Guide for starting an LLC in Oregon
+* [Renew](yearly_renewal.md) your LLC for $100 yearly
 
-https://sos.oregon.gov/business/Documents/business-guides/start-business-guide.pdf
+
+## Link to Oregon's guide to starting a business:
+
+[https://sos.oregon.gov/business/Documents/business-guides/start-business-guide.pdf](https://sos.oregon.gov/business/Documents/business-guides/start-business-guide.pdf)

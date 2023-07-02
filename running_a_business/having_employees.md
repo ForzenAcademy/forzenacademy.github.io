@@ -12,6 +12,10 @@ If you are going to have Employees (as an S Corp the Owner is considered an empl
 
 Oregon requires almost all employers to carry [workers’ compensation insurance](workers_comp_insurance.md) for their employees. If you employ workers in Oregon, you probably need workers’ compensation coverage.
 
+## Oregon Saves
+
+[Oregon Saves](oregon_saves.md) offers retirement plan. Employers must register and employees choose if they want it or not.
+
 ## Accounts Needed
 
 Plan ahead as many of these sites require mail verification and it may take several weeks to actually make these accounts:

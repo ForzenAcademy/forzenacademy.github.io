@@ -15,4 +15,4 @@ Unemployment tax rates for employers subject to Oregon payroll tax will move to 
 The Oregon Employment Department mails notifications to businesses regarding their individual tax rates and encourages employers to wait until they receive their individual notice before attempting to contact the department with questions. Any employer who has not received their notice by Nov. 22, 2022​, can email OED_TAX_STATUS@employ.oregon.gov​ or call 503-947-1488. Due to the projected high call volume, we encourage employers to contact us by email
 
 See more information here:
-https://www.oregon.gov/employ/businesses/tax/pages/current-tax-rate.aspx
+[https://www.oregon.gov/employ/businesses/tax/pages/current-tax-rate.aspx](https://www.oregon.gov/employ/businesses/tax/pages/current-tax-rate.aspx)

@@ -20,8 +20,7 @@ You will need to file quarterly reports through your [Frances Online](frances_on
 
 You need to:
 
-* By Jan. 1, 2023: Post the model notice poster.
-https://d1o0i0v5q5lp8h.cloudfront.net/paidleave/stage/assets/resources/Paid-Leave-ModelNotice-Poster-EN.pdf
+* By Jan. 1, 2023: Post the model notice poster: [https://d1o0i0v5q5lp8h.cloudfront.net/paidleave/stage/assets/resources/Paid-Leave-ModelNotice-Poster-EN.pdf](https://d1o0i0v5q5lp8h.cloudfront.net/paidleave/stage/assets/resources/Paid-Leave-ModelNotice-Poster-EN.pdf)
 
     * The model notice poster tells employees about Paid Leave Oregon benefits as well as their rights and duties under the program.
 
@@ -59,7 +58,7 @@ If you choose to pay the employer contribution, here are some things to know:
 
 * You can apply for assistance grants. These grants help cover costs like hiring a temporary replacement employee or helping with other wage-related costs when an employee takes leave. 
 
-    * Learn more about assistance grants here: https://paidleave.oregon.gov/employers/assistance-grants.html
+    * Learn more about assistance grants here: [https://paidleave.oregon.gov/employers/assistance-grants.html](https://paidleave.oregon.gov/employers/assistance-grants.html)
 
 * You will file your report through Frances Online. 
 
@@ -123,4 +122,4 @@ A qualifying life event means any of these:
 * You have a serious health condition (learn what is considered a serious health condition under Paid Leave Oregon)
 * You or your child are a survivor of sexual assault, domestic violence, harassment, or stalking
 
-See more information here: https://paidleave.oregon.gov/
+See more information here: [https://paidleave.oregon.gov/](https://paidleave.oregon.gov/)

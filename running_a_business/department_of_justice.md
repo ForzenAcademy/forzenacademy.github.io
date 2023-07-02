@@ -10,7 +10,7 @@ Oregon law requires employers to report within 20 days all new hires and re-hire
 
 A “new hire” is any employee who is required to fill out a W-4 form, or any returning employee who has been absent for more than 60 days.
 
-We recommend employers use the Oregon Employer Services Portal (https://employerportal.oregonchildsupport.gov/index.aspx?ReturnUrl=%2f) to report new hires and terminations, as well as update employee or employer information. Using the portal, employers may submit multiple new hires at one time by uploading a spreadsheet or text file with the required information. Employers may also opt to complete the Oregon New Hire Reporting Form (https://www.doj.state.or.us/wp-content/uploads/2017/06/Oregon_New_Hire_Reporting_Form.pdf) and fax to 1-877-877-7415, or return it by mail to:
+We recommend employers use the Oregon Employer Services Portal [https://employerportal.oregonchildsupport.gov/index.aspx?ReturnUrl=%2f](https://employerportal.oregonchildsupport.gov/index.aspx?ReturnUrl=%2f) to report new hires and terminations, as well as update employee or employer information. Using the portal, employers may submit multiple new hires at one time by uploading a spreadsheet or text file with the required information. Employers may also opt to complete the Oregon New Hire Reporting Form [https://www.doj.state.or.us/wp-content/uploads/2017/06/Oregon_New_Hire_Reporting_Form.pdf](https://www.doj.state.or.us/wp-content/uploads/2017/06/Oregon_New_Hire_Reporting_Form.pdf) and fax to 1-877-877-7415, or return it by mail to:
 
 Employer Services
 
@@ -43,4 +43,4 @@ To get started, you <b>must have a Federal Employer Identification Number (FEIN)
 
 Again the link to this portal is:
 
-https://employerportal.oregonchildsupport.gov/index.aspx?ReturnUrl=%2f
+[https://employerportal.oregonchildsupport.gov/index.aspx?ReturnUrl=%2f](https://employerportal.oregonchildsupport.gov/index.aspx?ReturnUrl=%2f)

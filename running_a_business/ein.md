@@ -1,13 +1,14 @@
 # EIN
 Use the following link to apply for an EIN online:
 
-https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online 
+[https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online](https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online )
 
 Or to apply with a physical form use the following links for form and instructions:
 
-https://www.irs.gov/pub/irs-pdf/fss4.pdf
+[https://www.irs.gov/pub/irs-pdf/fss4.pdf](https://www.irs.gov/pub/irs-pdf/fss4.pdf
+)
 
-https://www.irs.gov/pub/irs-pdf/iss4.pdf
+[https://www.irs.gov/pub/irs-pdf/iss4.pdf](https://www.irs.gov/pub/irs-pdf/iss4.pdf)
 
 <hr>
 

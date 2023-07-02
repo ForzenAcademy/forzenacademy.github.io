@@ -7,4 +7,4 @@ This also gives you your [Unemployment Insurance](unemployment_insurance_rate.md
 If you are not an employer and have no imminent plans to hire, you do not need a BIN but this can take several weels to aquire so plan in advace as soon as you know. 
 
 You can apply for a BIN using the following link:
-https://secure.sos.state.or.us/cbrmanager/index.action#stay
+[https://secure.sos.state.or.us/cbrmanager/index.action#stay](https://secure.sos.state.or.us/cbrmanager/index.action#stay)

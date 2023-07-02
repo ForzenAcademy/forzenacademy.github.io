@@ -35,17 +35,18 @@ A sole proprietor, or limited liability company member may be required to make q
 
 ## Federal
 Estimate Federal taxes using the following form:
-https://www.irs.gov/pub/irs-pdf/f1040es.pdf
+[https://www.irs.gov/pub/irs-pdf/f1040es.pdf](https://www.irs.gov/pub/irs-pdf/f1040es.pdf)
 
 ## State
 Estimate state taxes using the following form:
-https://www.oregon.gov/dor/forms/FormsPubs/publication-or-estimate_101-026_2023.pdf 
+[https://www.oregon.gov/dor/forms/FormsPubs/publication-or-estimate_101-026_2023.pdf](https://www.oregon.gov/dor/forms/FormsPubs/publication-or-estimate_101-026_2023.pdf)
 
 File state taxes using the following form: 
-https://www.oregon.gov/dor/forms/FormsPubs/form-or-40-v_101-172.pdf
+[https://www.oregon.gov/dor/forms/FormsPubs/form-or-40-v_101-172.pdf](https://www.oregon.gov/dor/forms/FormsPubs/form-or-40-v_101-172.pdf
+)
 
 Instructions for State Taxes:
-https://www.oregon.gov/dor/forms/FormsPubs/form-or-40-v-instructions_101-172-1.pdf
+[https://www.oregon.gov/dor/forms/FormsPubs/form-or-40-v-instructions_101-172-1.pdf](https://www.oregon.gov/dor/forms/FormsPubs/form-or-40-v-instructions_101-172-1.pdf)
 
 ## Local
 <b>Portland Homeless tax Quarterly</b>
@@ -55,15 +56,15 @@ The SHS program is partially funded by a 1% personal income tax.
 The SHS personal tax is owed by individuals with Metro taxable income above $125,000 if filing single or $200,000 if filing joint who live in Metro (including for only a portion of the year), work in Metro,
 
 This can be paid online here:
-https://www.portland.gov/revenue/pay-personal-tax
+[https://www.portland.gov/revenue/pay-personal-tax](https://www.portland.gov/revenue/pay-personal-tax)
 
 or
 
 On paper here:
-https://www.portland.gov/revenue/documents/form-pit-v-metro-shs-mc-pfa-personal-income-tax-payment-voucher-fill-print/download
+[https://www.portland.gov/revenue/documents/form-pit-v-metro-shs-mc-pfa-personal-income-tax-payment-voucher-fill-print/download](https://www.portland.gov/revenue/documents/form-pit-v-metro-shs-mc-pfa-personal-income-tax-payment-voucher-fill-print/download)
 
 More information can be found here: 
-https://www.portland.gov/revenue/personal-tax
+[https://www.portland.gov/revenue/personal-tax](https://www.portland.gov/revenue/personal-tax)
 
 <b>For those that live in Multnomah County there is also a Preschool for All (PFA) Personal Income Tax</b>
 

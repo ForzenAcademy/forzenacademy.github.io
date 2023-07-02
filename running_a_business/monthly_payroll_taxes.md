@@ -18,11 +18,11 @@ This is the form that is needed for the state taxes. It will either be provided 
 
 Form:
 
-https://www.oregon.gov/dor/forms/FormsPubs/form-or-otc-v_211-053.pdf
+[https://www.oregon.gov/dor/forms/FormsPubs/form-or-otc-v_211-053.pdf](https://www.oregon.gov/dor/forms/FormsPubs/form-or-otc-v_211-053.pdf)
 
 Instructions:
 
-https://www.oregon.gov/dor/forms/FormsPubs/new-noteworthy_206-552.pdf
+[https://www.oregon.gov/dor/forms/FormsPubs/new-noteworthy_206-552.pdf](https://www.oregon.gov/dor/forms/FormsPubs/new-noteworthy_206-552.pdf)
 
 # Federal
 

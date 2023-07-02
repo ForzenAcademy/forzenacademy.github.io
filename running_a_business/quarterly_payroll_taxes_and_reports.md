@@ -33,11 +33,11 @@ or
 
 Use the following link to get Form 132, Form OQ and Schedule B and then file in the mail:
 
-https://www.oregon.gov/EMPLOY/Businesses/Tax/Pages/Tax-Forms-and-Fliers.aspx
+[https://www.oregon.gov/EMPLOY/Businesses/Tax/Pages/Tax-Forms-and-Fliers.aspx](https://www.oregon.gov/EMPLOY/Businesses/Tax/Pages/Tax-Forms-and-Fliers.aspx)
 
 See the following link if you need more information on payroll reports:
 
-https://www.oregon.gov/employ/Documents/2023CombinedPayrollTaxReportInstructions.pdf
+[https://www.oregon.gov/employ/Documents/2023CombinedPayrollTaxReportInstructions.pdf](https://www.oregon.gov/employ/Documents/2023CombinedPayrollTaxReportInstructions.pdf)
 
 ## Year-end reconciliation information
 You must file an Oregon Annual Withholding Reconciliation Report, Form WR, even if you submit your W-2 information electronically. Form WR is due January 31 in the year after the tax year. If you stop doing business during the year, the report is due within 30 days of your final payroll. You can file this form electronically through Revenue Online.

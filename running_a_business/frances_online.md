@@ -27,7 +27,7 @@ Frances Online supports both Unemployment Insurance and Paid Leave Oregon, the n
 * View your online submissions, letters, and tax rates in Frances Online
 * Letters are available in PDF formats
 
-Use the following link to go to the employer Frances Online site: https://frances.oregon.gov/Employer/_/
+Use the following link to go to the employer Frances Online site: [https://frances.oregon.gov/Employer/_/](https://frances.oregon.gov/Employer/_/)
 
 # How to Make an Account:
 As an employer doing business in the state of Oregon, you can use this request to sign up for Frances Online access if your business is already registered with the Oregon Employment Department (OED).

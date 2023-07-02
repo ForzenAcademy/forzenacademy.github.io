@@ -32,6 +32,6 @@ Note that in addition to posters generally required for all employers, Oregon la
 
 ## Link to  Oregon Required Posters
 
-https://www.oregon.gov/boli/employers/pages/required-worksite-postings.aspx#:~:text=Effective%20January%201%2C%202023%2C%20employers,uses%20to%20communicate%20with%20employees.
+[https://www.oregon.gov/boli/employers/pages/required-worksite-postings.aspx#:~:text=Effective%20January%201%2C%202023%2C%20employers,uses%20to%20communicate%20with%20employees.](https://www.oregon.gov/boli/employers/pages/required-worksite-postings.aspx#:~:text=Effective%20January%201%2C%202023%2C%20employers,uses%20to%20communicate%20with%20employees.)
 
 

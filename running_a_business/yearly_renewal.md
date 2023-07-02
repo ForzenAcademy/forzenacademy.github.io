@@ -9,7 +9,7 @@ Renewal notices are mailed approximately 45 days before the renewal due date. Yo
 ## File Your Annual Re​port/Renewal and Pay Online
 Follow these steps to ren​ew​​ online at the following link:
 
-https://sos.oregon.gov/business/pages/renewal-help.aspx
+[https://sos.oregon.gov/business/pages/renewal-help.aspx](https://sos.oregon.gov/business/pages/renewal-help.aspx)
 
 * Select Renew online​ and yo​u will be prompted to enter your registry number. If you don't know your registry number, Select Find My Business​ to search by the business name.
 

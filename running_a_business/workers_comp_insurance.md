@@ -12,7 +12,9 @@ If you employ one or more workers, you are an employer. A worker is anyone you p
 
 Every worker in Oregon is a subject worker unless the worker falls under an exemption. There are about 30 exemptions in Oregon law.
 
-Additional information regarding exemptions that an Oregon worker may fall under can be found by reviewing OR 656.027 (https://www.oregonlegislature.gov/bills_laws/ors/ors656.html).
+Additional information regarding exemptions that an Oregon worker may fall under can be found by reviewing OR 656.027: 
+
+[https://www.oregonlegislature.gov/bills_laws/ors/ors656.html](https://www.oregonlegislature.gov/bills_laws/ors/ors656.html).
 
 ## How do I get workers’ compensation coverage?
 
@@ -34,8 +36,8 @@ Each poster includes workers' compensation information to help workers and emplo
 <br>
 <br>
 
-See the following link for more information on how to get a poster: https://wcd.oregon.gov/employer/Pages/noc-poster.aspx
+See the following link for more information on how to get a poster: [https://wcd.oregon.gov/employer/Pages/noc-poster.aspx](https://wcd.oregon.gov/employer/Pages/noc-poster.aspx)
 <br>
 <br>
 
-See the following link for more information on Workers Comp Insurance: https://wcd.oregon.gov/employer/Pages/index.aspx
+See the following link for more information on Workers Comp Insurance: [https://wcd.oregon.gov/employer/Pages/index.aspx](https://wcd.oregon.gov/employer/Pages/index.aspx)

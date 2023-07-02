@@ -37,8 +37,8 @@ Revenue Online is a secure web service that provides access to your tax account 
 
 The following link will take you to the Oregon Department of Revenue website:
 
-https://www.oregon.gov/dor/programs/businesses/Pages/default.aspx
+[https://www.oregon.gov/dor/programs/businesses/Pages/default.aspx](https://www.oregon.gov/dor/programs/businesses/Pages/default.aspx)
 
 The following link will take you to the Revenue Online website:
 
-https://revenueonline.dor.oregon.gov/tap/_/
+[https://revenueonline.dor.oregon.gov/tap/_/](https://revenueonline.dor.oregon.gov/tap/_/)

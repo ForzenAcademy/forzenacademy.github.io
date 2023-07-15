@@ -1,5 +1,7 @@
 # Monthly Payroll taxes
 
+Quickbooks will notify you when taxes are due to make sure they are paid on time.
+
 If you use Quickbooks they will provide a filled out form to print and pay by mail or online using [Revenue Online](department_of_revenue.md).
 
 ## If your total FEDERAL tax liability is:

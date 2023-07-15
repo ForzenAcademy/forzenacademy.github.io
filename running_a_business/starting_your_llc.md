@@ -36,6 +36,8 @@
 
     * [Bookkeeping](bookkeeping.md)
 
+    * [Quickbooks](quickbooks.md)
+
 7. Taxes
 
     * [LLC Taxes (No Employees)](llc_taxes_no_employees.md)

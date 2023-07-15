@@ -1,5 +1,7 @@
 # Quarterly Payroll Taxes and Reports
 
+Quickbooks will notify you when taxes/reports are due to make sure they are done on time. They will also tell you if you need to pay them yourself or if Quickbooks will pay them automaically.
+
 ## About payroll taxes
 All employers with paid employees working in Oregon must register for a business identification number (BIN) to report and pay Oregon payroll taxes. Corporations without employees must also register to report compensation paid to corporate officers.
 

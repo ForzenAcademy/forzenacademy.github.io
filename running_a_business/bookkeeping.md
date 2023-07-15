@@ -22,8 +22,12 @@
 
 ## Quickbooks
 
-Using Quickbooks you can keep track of the books and also run payroll if you chose to add that option for an additional fee.
+Using [Quickbooks](quickbooks.md) you can keep track of the books and also run payroll if you chose to add that option for an additional fee.
 
-You will need to connect your bank account and approve each transaction as it comes through the account. Each payment that comes through will require you to sort it into the appropriate category (income, subcontractors, equiptment, etc). You can do this as often as appropriate (once a week or a couple times a month for example)
+You will need to connect your bank account and approve each transaction as it comes through the account.
 
-At the end of each month you should recieve bank statements giving you the update on your accounts. Using this every month you do account reconciliation. This compares each transaction marked in Quickbooks to your bank account to make sure everything matches up. If anything is extra or missing you will need to go back and figure out the issue.
+You will want to make sure Quickbooks is set up to take out all of the Taxes necessary.
+
+Quickbooks can help you keep track of which taxes/reports are due when and how to pay them. Some may need to be paid by you and others can be done by Quickbooks.
+
+At the end of each month you should recieve bank statements giving you the update on your accounts. Using this every month you do account reconciliation.

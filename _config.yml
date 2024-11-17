@@ -1,5 +1,0 @@
-title: Compendium
-subtitle: A collection of knowledge on various tasks
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme

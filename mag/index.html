@@ -9,6 +9,27 @@
     />
 
     <title>forzenboy</title>
+
+    <!-- Set the mobile class ASAP to avoid a flash of wrong layout -->
+    <script>
+      (function () {
+        const ua = navigator.userAgent || "";
+        const isAndroid = /Android/i.test(ua);
+        const isIOS = /iPhone|iPad|iPod/i.test(ua);
+
+        // Touch capability
+        const hasTouch =
+          (navigator.maxTouchPoints && navigator.maxTouchPoints > 0) ||
+          "ontouchstart" in window;
+
+        // Consider it "mobile UI" if it's Android/iOS with touch.
+        // This sidesteps inconsistent hover/pointer media-query reporting on some Samsung devices.
+        const isMobile = hasTouch && (isAndroid || isIOS);
+
+        if (isMobile) document.documentElement.classList.add("is-mobile");
+      })();
+    </script>
+
     <script type="module" src="/mag/bundle.js"></script>
 
     <style>
@@ -125,87 +146,96 @@
         user-select: none;
       }
 
-      /* MOBILE DETECTION FIX:
-         Use touch capability instead of max-width so landscape phones still match. */
-      @media (hover: none) and (pointer: coarse) {
-        html,
-        body {
-          background: black !important;
-        }
+      /* ============================================================
+         MOBILE UI: driven by html.is-mobile (reliable on Samsung)
+         ============================================================ */
+      html.is-mobile,
+      html.is-mobile body {
+        background: black !important;
+      }
 
+      html.is-mobile body {
         /* tiny scroll to encourage browser chrome collapse */
-        body {
-          overflow-y: auto;
-          -webkit-overflow-scrolling: touch;
-        }
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+      }
 
-        .hide-mobile {
+      html.is-mobile .hide-mobile {
+        display: flex !important;
+      }
+
+      html.is-mobile .hide-desktop {
+        display: none !important;
+      }
+
+      html.is-mobile .canvas-wrapper {
+        background: black !important;
+        width: 100vw;
+        height: 100vh; /* fallback */
+        height: 100dvh; /* visible viewport when supported */
+      }
+
+      html.is-mobile canvas {
+        max-width: 100%;
+        max-height: 100%;
+      }
+
+      /* Overlay controls: no blur/backdrop, overlaps canvas */
+      html.is-mobile #control-pane {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        z-index: 999999;
+
+        height: 110px;
+        padding-bottom: calc(14px + env(safe-area-inset-bottom));
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
+        padding-top: 10px;
+
+        background: transparent;
+        pointer-events: auto;
+      }
+
+      html.is-mobile .child {
+        align-items: center;
+      }
+
+      html.is-mobile #joystick-container {
+        padding: 10px 12px;
+      }
+
+      html.is-mobile #buttons {
+        padding: 10px 12px;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
+      }
+
+      /* joystick stays big */
+      html.is-mobile .joystick {
+        width: 96px;
+        height: 96px;
+      }
+
+      html.is-mobile .joystick .inner-circle {
+        width: 64px;
+        height: 64px;
+        margin-top: -32px;
+        margin-left: -32px;
+      }
+
+      /* Optional fallback: keep your original media query too (doesn't hurt) */
+      @media (hover: none) and (pointer: coarse) {
+        /* If some device matches this but JS didn't add is-mobile, still show controls */
+        html:not(.is-mobile) .hide-mobile {
           display: flex !important;
         }
-        .hide-desktop {
+        html:not(.is-mobile) .hide-desktop {
           display: none !important;
-        }
-
-        .canvas-wrapper {
-          background: black !important;
-          width: 100vw;
-          height: 100vh; /* fallback */
-          height: 100dvh; /* visible viewport when supported */
-        }
-
-        /* JS sizes the canvas; keep it centered */
-        canvas {
-          max-width: 100%;
-          max-height: 100%;
-        }
-
-        /* Overlay controls: no blur/backdrop, overlaps canvas, always visible */
-        #control-pane {
-          position: fixed;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          width: 100%;
-          display: flex;
-          z-index: 999999;
-
-          /* keep room above bottom UI */
-          height: 110px;
-          padding-bottom: calc(14px + env(safe-area-inset-bottom));
-          padding-left: env(safe-area-inset-left);
-          padding-right: env(safe-area-inset-right);
-          padding-top: 10px;
-
-          background: transparent;
-          pointer-events: auto;
-        }
-
-        .child {
-          align-items: center;
-        }
-
-        #joystick-container {
-          padding: 10px 12px;
-        }
-
-        #buttons {
-          padding: 10px 12px;
-          align-items: center;
-          justify-content: flex-end;
-          gap: 10px;
-        }
-
-        /* joystick stays big (your earlier preference) */
-        .joystick {
-          width: 96px;
-          height: 96px;
-        }
-
-        .joystick .inner-circle {
-          width: 64px;
-          height: 64px;
-          margin-top: -32px;
-          margin-left: -32px;
         }
       }
     </style>
@@ -259,12 +289,9 @@
 
       // Best-effort chrome collapse
       function nudgeBars() {
-        // Only on touch devices
-        const isTouch =
-          window.matchMedia("(hover: none) and (pointer: coarse)").matches ||
-          navigator.maxTouchPoints > 0;
-
-        if (isTouch) {
+        const isMobile =
+          document.documentElement.classList.contains("is-mobile");
+        if (isMobile) {
           document.body.style.minHeight = "calc(100dvh + 1px)";
           window.scrollTo(0, 1);
         }

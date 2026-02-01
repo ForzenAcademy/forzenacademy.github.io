@@ -1,0 +1,6 @@
+{
+  "name": "forzen-core",
+  "version": "0.0.0",
+  "main": "./bundle.js",
+  "types": "./forzen-core.d.ts"
+}

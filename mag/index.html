@@ -3,10 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="data:," />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
 
     <title>forzenboy</title>
-    <script type="module" src="/bundle.js"></script>
+    <script type="module" src="/mag/bundle.js"></script>
 
     <style>
       * {
@@ -227,7 +230,7 @@
 
     <script>
       function resizeGameCanvas() {
-        const canvas = document.getElementById('canvas');
+        const canvas = document.getElementById("canvas");
         if (!canvas) return;
 
         const baseW = 240;
@@ -258,11 +261,11 @@
       function nudgeBars() {
         // Only on touch devices
         const isTouch =
-          window.matchMedia('(hover: none) and (pointer: coarse)').matches ||
+          window.matchMedia("(hover: none) and (pointer: coarse)").matches ||
           navigator.maxTouchPoints > 0;
 
         if (isTouch) {
-          document.body.style.minHeight = 'calc(100dvh + 1px)';
+          document.body.style.minHeight = "calc(100dvh + 1px)";
           window.scrollTo(0, 1);
         }
       }
@@ -272,15 +275,23 @@
         setTimeout(nudgeBars, 0);
       }
 
-      window.addEventListener('load', onViewportChange, { passive: true });
-      window.addEventListener('resize', onViewportChange, { passive: true });
-      window.addEventListener('orientationchange', () => setTimeout(onViewportChange, 250), {
-        passive: true,
-      });
+      window.addEventListener("load", onViewportChange, { passive: true });
+      window.addEventListener("resize", onViewportChange, { passive: true });
+      window.addEventListener(
+        "orientationchange",
+        () => setTimeout(onViewportChange, 250),
+        {
+          passive: true,
+        },
+      );
 
       if (window.visualViewport) {
-        window.visualViewport.addEventListener('resize', onViewportChange, { passive: true });
-        window.visualViewport.addEventListener('scroll', onViewportChange, { passive: true });
+        window.visualViewport.addEventListener("resize", onViewportChange, {
+          passive: true,
+        });
+        window.visualViewport.addEventListener("scroll", onViewportChange, {
+          passive: true,
+        });
       }
     </script>
   </body>

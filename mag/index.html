@@ -3,30 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="data:," />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
 
     <title>forzenboy</title>
 
     <!-- Set the mobile class ASAP to avoid a flash of wrong layout -->
     <script>
       (function () {
-        const ua = navigator.userAgent || '';
+        const ua = navigator.userAgent || "";
         const isAndroid = /Android/i.test(ua);
         const isIOS = /iPhone|iPad|iPod/i.test(ua);
 
         // Touch capability
         const hasTouch =
-          (navigator.maxTouchPoints && navigator.maxTouchPoints > 0) || 'ontouchstart' in window;
+          (navigator.maxTouchPoints && navigator.maxTouchPoints > 0) ||
+          "ontouchstart" in window;
 
         // Consider it "mobile UI" if it's Android/iOS with touch.
         // This sidesteps inconsistent hover/pointer media-query reporting on some Samsung devices.
         const isMobile = hasTouch && (isAndroid || isIOS);
 
-        if (isMobile) document.documentElement.classList.add('is-mobile');
+        if (isMobile) document.documentElement.classList.add("is-mobile");
       })();
     </script>
 
-    <script type="module" src="/bundle.js"></script>
+    <script type="module" src="/mag/bundle.js"></script>
 
     <style>
       * {
@@ -256,7 +260,7 @@
 
     <script>
       function resizeGameCanvas() {
-        const canvas = document.getElementById('canvas');
+        const canvas = document.getElementById("canvas");
         if (!canvas) return;
 
         const baseW = 240;
@@ -285,9 +289,10 @@
 
       // Best-effort chrome collapse
       function nudgeBars() {
-        const isMobile = document.documentElement.classList.contains('is-mobile');
+        const isMobile =
+          document.documentElement.classList.contains("is-mobile");
         if (isMobile) {
-          document.body.style.minHeight = 'calc(100dvh + 1px)';
+          document.body.style.minHeight = "calc(100dvh + 1px)";
           window.scrollTo(0, 1);
         }
       }
@@ -297,15 +302,23 @@
         setTimeout(nudgeBars, 0);
       }
 
-      window.addEventListener('load', onViewportChange, { passive: true });
-      window.addEventListener('resize', onViewportChange, { passive: true });
-      window.addEventListener('orientationchange', () => setTimeout(onViewportChange, 250), {
-        passive: true,
-      });
+      window.addEventListener("load", onViewportChange, { passive: true });
+      window.addEventListener("resize", onViewportChange, { passive: true });
+      window.addEventListener(
+        "orientationchange",
+        () => setTimeout(onViewportChange, 250),
+        {
+          passive: true,
+        },
+      );
 
       if (window.visualViewport) {
-        window.visualViewport.addEventListener('resize', onViewportChange, { passive: true });
-        window.visualViewport.addEventListener('scroll', onViewportChange, { passive: true });
+        window.visualViewport.addEventListener("resize", onViewportChange, {
+          passive: true,
+        });
+        window.visualViewport.addEventListener("scroll", onViewportChange, {
+          passive: true,
+        });
       }
     </script>
   </body>

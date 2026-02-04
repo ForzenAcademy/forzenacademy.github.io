@@ -111,6 +111,30 @@
           inset 0 0 0 8px #404040;
       }
 
+      /* NEW: NES-style start button (oval, no label) */
+      .start-button {
+        opacity: 0.4;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 96px;
+        height: 34px;
+        background-color: #5c5c5c;
+        border-radius: 999px; /* pill */
+        box-shadow:
+          inset 0 0 0 4px #9c9c9c,
+          inset 0 0 0 8px #404040;
+        user-select: none;
+        transition: 0.1s ease-in-out;
+      }
+
+      .start-button:active {
+        transform: translateY(2px);
+        box-shadow:
+          inset 0 0 0 4px #9c9c9c,
+          inset 0 0 0 6px #404040;
+      }
+
       #buttons {
         justify-content: flex-end;
         padding: 0.5in;
@@ -119,6 +143,13 @@
       #joystick-container {
         justify-content: flex-start;
         padding: 0.33in;
+      }
+
+      /* NEW: center slot for start button */
+      #start-container {
+        width: auto;
+        justify-content: center;
+        padding: 0.33in 0;
       }
 
       .joystick {
@@ -208,6 +239,12 @@
         padding: 10px 12px;
       }
 
+      /* NEW: start container spacing for mobile */
+      html.is-mobile #start-container {
+        padding: 10px 0;
+        justify-content: center;
+      }
+
       html.is-mobile #buttons {
         padding: 10px 12px;
         align-items: center;
@@ -252,6 +289,12 @@
           <div class="inner-circle"></div>
         </div>
       </div>
+
+      <!-- NEW: Start button in the middle -->
+      <div class="child" id="start-container">
+        <div class="start-button" id="startbutton"></div>
+      </div>
+
       <div class="child" id="buttons">
         <div class="gameboy-button" id="xbutton">B</div>
         <div class="gameboy-button" id="zbutton">A</div>

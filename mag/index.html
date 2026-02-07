@@ -4,7 +4,12 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="data:," />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- iOS Safari: prevent pinch-zoom/double-tap zoom (game-only page) -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1, user-scalable=no"
+    />
 
     <title>forzenboy</title>
 
@@ -37,6 +42,23 @@
         -webkit-tap-highlight-color: transparent;
       }
 
+      /* Prevent iOS "Copy" callout / selection highlight while dragging */
+      html,
+      body,
+      canvas,
+      #control-pane,
+      #joystick-hit,
+      .joystick,
+      .joystick * {
+        -webkit-user-select: none;
+        user-select: none;
+        -webkit-touch-callout: none;
+        -webkit-user-drag: none;
+      }
+      *::selection {
+        background: transparent;
+      }
+
       html,
       body {
         width: 100%;
@@ -53,6 +75,8 @@
         image-rendering: crisp-edges;
         image-rendering: pixelated;
         -ms-interpolation-mode: nearest-neighbor;
+
+        /* Prevent gesture interactions */
         touch-action: none;
       }
 
@@ -183,10 +207,13 @@
         background: black !important;
       }
 
+      /* CRITICAL: lock the page on mobile so iOS can't scroll/pan it */
+      html.is-mobile,
       html.is-mobile body {
-        /* tiny scroll to encourage browser chrome collapse */
-        overflow-y: auto;
-        -webkit-overflow-scrolling: touch;
+        height: 100%;
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
       }
 
       html.is-mobile .hide-mobile {
@@ -200,8 +227,10 @@
       html.is-mobile .canvas-wrapper {
         background: black !important;
         width: 100vw;
-        height: 100vh; /* fallback */
-        height: 100dvh; /* visible viewport when supported */
+
+        /* Prefer dvh; fallback is ok */
+        height: 100vh;
+        height: 100dvh;
       }
 
       html.is-mobile canvas {
@@ -262,8 +291,6 @@
 
       /* ============================================================
          SUPER GENEROUS HIT REGION (mobile) — NOW FULL VERTICAL SLAB
-         - Covers almost the entire left side of the screen vertically.
-         - Leaves the right side (A/B/Start) alone by limiting width.
          ============================================================ */
       html.is-mobile #joystick-hit {
         position: fixed;
@@ -337,6 +364,7 @@
         const baseH = 160;
         const aspect = baseW / baseH;
 
+        // visualViewport is best on mobile; fallback is window inner dims.
         const vv = window.visualViewport;
         const vw = (vv ? vv.width : window.innerWidth) || window.innerWidth;
         const vh = (vv ? vv.height : window.innerHeight) || window.innerHeight;
@@ -355,17 +383,8 @@
         canvas.style.height = `${Math.floor(h)}px`;
       }
 
-      function nudgeBars() {
-        const isMobile = document.documentElement.classList.contains('is-mobile');
-        if (isMobile) {
-          document.body.style.minHeight = 'calc(100dvh + 1px)';
-          window.scrollTo(0, 1);
-        }
-      }
-
       function onViewportChange() {
         resizeGameCanvas();
-        setTimeout(nudgeBars, 0);
       }
 
       window.addEventListener('load', onViewportChange, { passive: true });
@@ -374,10 +393,44 @@
         passive: true,
       });
 
+      // iOS Safari: visualViewport.scroll can create feedback loops / jitter — do NOT listen to it.
       if (window.visualViewport) {
         window.visualViewport.addEventListener('resize', onViewportChange, { passive: true });
-        window.visualViewport.addEventListener('scroll', onViewportChange, { passive: true });
       }
+
+      // iOS Safari: prevent page scroll / pinch zoom / callouts while interacting
+      (function () {
+        const ua = navigator.userAgent || '';
+        const isIOS = /iPhone|iPad|iPod/i.test(ua);
+        if (!isIOS) return;
+
+        const blocker = (e) => {
+          const t = e.target;
+          if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA')) return;
+          e.preventDefault();
+        };
+
+        // Prevent panning/scrolling
+        document.addEventListener('touchstart', blocker, { passive: false });
+        document.addEventListener('touchmove', blocker, { passive: false });
+
+        // Prevent pinch zoom gestures (older iOS safari)
+        document.addEventListener('gesturestart', blocker, { passive: false });
+        document.addEventListener('gesturechange', blocker, { passive: false });
+        document.addEventListener('gestureend', blocker, { passive: false });
+
+        // Prevent double-tap zoom on some iOS versions
+        let lastTouchEnd = 0;
+        document.addEventListener(
+          'touchend',
+          (e) => {
+            const now = Date.now();
+            if (now - lastTouchEnd <= 300) e.preventDefault();
+            lastTouchEnd = now;
+          },
+          { passive: false },
+        );
+      })();
     </script>
   </body>
 </html>

@@ -1,3 +1,4 @@
+<!-- index.html -->
 <!doctype html>
 <html lang="en">
   <head>
@@ -107,7 +108,7 @@
           inset 0 0 0 8px #404040;
       }
 
-      /* NEW: NES-style start button (oval, no label) */
+      /* NES-style start button (oval, no label) */
       .start-button {
         opacity: 0.4;
         display: inline-flex;
@@ -141,7 +142,7 @@
         padding: 0.33in;
       }
 
-      /* NEW: center slot for start button */
+      /* center slot for start button */
       #start-container {
         width: auto;
         justify-content: center;
@@ -157,20 +158,21 @@
         border: 1px solid #fff;
         background-color: #666;
         user-select: none;
+        touch-action: none; /* important for pointer events */
       }
 
       .joystick .inner-circle {
         position: absolute;
-        top: 50%;
         left: 50%;
+        top: 50%;
         width: 0.66in;
         height: 0.66in;
-        margin-top: -0.33in;
-        margin-left: -0.33in;
         border-radius: 50%;
         opacity: 0.4;
         background-color: #fff;
         user-select: none;
+        transform: translate(-50%, -50%); /* important */
+        will-change: transform;
       }
 
       /* ============================================================
@@ -233,9 +235,9 @@
 
       html.is-mobile #joystick-container {
         padding: 10px 12px;
+        position: relative;
       }
 
-      /* NEW: start container spacing for mobile */
       html.is-mobile #start-container {
         padding: 10px 0;
         justify-content: center;
@@ -248,7 +250,6 @@
         gap: 10px;
       }
 
-      /* joystick stays big */
       html.is-mobile .joystick {
         width: 96px;
         height: 96px;
@@ -257,13 +258,41 @@
       html.is-mobile .joystick .inner-circle {
         width: 64px;
         height: 64px;
-        margin-top: -32px;
-        margin-left: -32px;
+      }
+
+      /* ============================================================
+         SUPER GENEROUS HIT REGION (mobile) — NOW FULL VERTICAL SLAB
+         - Covers almost the entire left side of the screen vertically.
+         - Leaves the right side (A/B/Start) alone by limiting width.
+         ============================================================ */
+      html.is-mobile #joystick-hit {
+        position: fixed;
+
+        /* Left-side slab width: tune this */
+        left: 0;
+        width: min(62vw, 640px);
+        max-width: 820px;
+
+        /* FULL vertical generosity */
+        top: 0;
+        bottom: 0;
+
+        /* Respect notches */
+        padding-top: env(safe-area-inset-top);
+        padding-bottom: env(safe-area-inset-bottom);
+
+        z-index: 999998; /* below control-pane (999999) but above canvas */
+        background: transparent;
+        touch-action: none;
+      }
+
+      /* Keep the visible joystick above the hit region */
+      html.is-mobile #control-pane {
+        z-index: 999999;
       }
 
       /* Optional fallback: keep your original media query too (doesn't hurt) */
       @media (hover: none) and (pointer: coarse) {
-        /* If some device matches this but JS didn't add is-mobile, still show controls */
         html:not(.is-mobile) .hide-mobile {
           display: flex !important;
         }
@@ -281,12 +310,14 @@
 
     <div class="hide-mobile" id="control-pane">
       <div class="child" id="joystick-container">
+        <!-- SUPER generous full-vertical left-side touch region -->
+        <div id="joystick-hit"></div>
+
         <div class="joystick">
           <div class="inner-circle"></div>
         </div>
       </div>
 
-      <!-- NEW: Start button in the middle -->
       <div class="child" id="start-container">
         <div class="start-button" id="startbutton"></div>
       </div>
@@ -310,11 +341,9 @@
         const vw = (vv ? vv.width : window.innerWidth) || window.innerWidth;
         const vh = (vv ? vv.height : window.innerHeight) || window.innerHeight;
 
-        // Controls overlap canvas; do not subtract their height.
         const availW = vw;
         const availH = vh;
 
-        // Height-first fit (use full height if possible)
         let h = availH;
         let w = h * aspect;
         if (w > availW) {
@@ -326,7 +355,6 @@
         canvas.style.height = `${Math.floor(h)}px`;
       }
 
-      // Best-effort chrome collapse
       function nudgeBars() {
         const isMobile = document.documentElement.classList.contains('is-mobile');
         if (isMobile) {

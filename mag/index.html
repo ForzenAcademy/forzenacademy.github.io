@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="data:," />
 
-    <!-- iOS Safari: prevent pinch-zoom/double-tap zoom (game-only page) -->
+    <!-- iOS Safari: game-only page; prevent pinch-zoom/double-tap zoom -->
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1, user-scalable=no"
@@ -20,14 +20,10 @@
         const isAndroid = /Android/i.test(ua);
         const isIOS = /iPhone|iPad|iPod/i.test(ua);
 
-        // Touch capability
         const hasTouch =
           (navigator.maxTouchPoints && navigator.maxTouchPoints > 0) || 'ontouchstart' in window;
 
-        // Consider it "mobile UI" if it's Android/iOS with touch.
-        // This sidesteps inconsistent hover/pointer media-query reporting on some Samsung devices.
         const isMobile = hasTouch && (isAndroid || isIOS);
-
         if (isMobile) document.documentElement.classList.add('is-mobile');
       })();
     </script>
@@ -75,8 +71,6 @@
         image-rendering: crisp-edges;
         image-rendering: pixelated;
         -ms-interpolation-mode: nearest-neighbor;
-
-        /* Prevent gesture interactions */
         touch-action: none;
       }
 
@@ -88,7 +82,6 @@
         display: flex !important;
       }
 
-      /* Wrapper centers canvas on desktop */
       .canvas-wrapper {
         width: 100%;
         height: 100%;
@@ -110,8 +103,8 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        width: 60px; /* keep big always */
-        height: 60px; /* keep big always */
+        width: 60px;
+        height: 60px;
         background-color: #5c5c5c;
         border-radius: 50%;
         box-shadow:
@@ -121,7 +114,6 @@
         font-weight: bold;
         font-size: 20px;
         color: #1c1c1c;
-        user-select: none;
         transition: 0.1s ease-in-out;
       }
 
@@ -132,20 +124,21 @@
           inset 0 0 0 8px #404040;
       }
 
-      /* NES-style start button (oval, no label) */
+      /* Start button (smaller now) */
       .start-button {
         opacity: 0.4;
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        width: 96px;
-        height: 34px;
+
+        width: 78px; /* smaller */
+        height: 28px; /* smaller */
+
         background-color: #5c5c5c;
-        border-radius: 999px; /* pill */
+        border-radius: 999px;
         box-shadow:
           inset 0 0 0 4px #9c9c9c,
           inset 0 0 0 8px #404040;
-        user-select: none;
         transition: 0.1s ease-in-out;
       }
 
@@ -166,7 +159,6 @@
         padding: 0.33in;
       }
 
-      /* center slot for start button */
       #start-container {
         width: auto;
         justify-content: center;
@@ -181,8 +173,7 @@
         opacity: 0.4;
         border: 1px solid #fff;
         background-color: #666;
-        user-select: none;
-        touch-action: none; /* important for pointer events */
+        touch-action: none;
       }
 
       .joystick .inner-circle {
@@ -194,26 +185,32 @@
         border-radius: 50%;
         opacity: 0.4;
         background-color: #fff;
-        user-select: none;
-        transform: translate(-50%, -50%); /* important */
+        transform: translate(-50%, -50%);
         will-change: transform;
       }
 
       /* ============================================================
-         MOBILE UI: driven by html.is-mobile (reliable on Samsung)
+         MOBILE UI
          ============================================================ */
       html.is-mobile,
       html.is-mobile body {
         background: black !important;
       }
 
-      /* CRITICAL: lock the page on mobile so iOS can't scroll/pan it */
+      /* Lock page so iOS can't scroll/pan */
       html.is-mobile,
       html.is-mobile body {
         height: 100%;
         overflow: hidden;
         position: fixed;
         width: 100%;
+      }
+
+      /* Single source of truth for joystick column width */
+      html.is-mobile {
+        /* joystick capture column width:
+           - make it generous, but keep it strictly left-side only */
+        --joystick-col-w: min(45vw, 520px);
       }
 
       html.is-mobile .hide-mobile {
@@ -227,8 +224,6 @@
       html.is-mobile .canvas-wrapper {
         background: black !important;
         width: 100vw;
-
-        /* Prefer dvh; fallback is ok */
         height: 100vh;
         height: 100dvh;
       }
@@ -238,7 +233,6 @@
         max-height: 100%;
       }
 
-      /* Overlay controls: no blur/backdrop, overlaps canvas */
       html.is-mobile #control-pane {
         position: fixed;
         left: 0;
@@ -290,35 +284,32 @@
       }
 
       /* ============================================================
-         SUPER GENEROUS HIT REGION (mobile) — NOW FULL VERTICAL SLAB
+         JOYSTICK HIT REGION: FULL HEIGHT LEFT COLUMN
+         - Can be touched ANYWHERE on the bottom (because it's full height).
+         - Cannot intercept Start because it never enters the center column.
          ============================================================ */
       html.is-mobile #joystick-hit {
         position: fixed;
-
-        /* Left-side slab width: tune this */
         left: 0;
-        width: min(62vw, 640px);
-        max-width: 820px;
-
-        /* FULL vertical generosity */
         top: 0;
         bottom: 0;
 
-        /* Respect notches */
+        width: var(--joystick-col-w);
+
+        /* Respect notch/safe areas */
         padding-top: env(safe-area-inset-top);
         padding-bottom: env(safe-area-inset-bottom);
 
-        z-index: 999998; /* below control-pane (999999) but above canvas */
+        z-index: 999998; /* below control pane, above canvas */
         background: transparent;
         touch-action: none;
       }
 
-      /* Keep the visible joystick above the hit region */
+      /* Keep visible controls above hit region */
       html.is-mobile #control-pane {
         z-index: 999999;
       }
 
-      /* Optional fallback: keep your original media query too (doesn't hurt) */
       @media (hover: none) and (pointer: coarse) {
         html:not(.is-mobile) .hide-mobile {
           display: flex !important;
@@ -337,7 +328,7 @@
 
     <div class="hide-mobile" id="control-pane">
       <div class="child" id="joystick-container">
-        <!-- SUPER generous full-vertical left-side touch region -->
+        <!-- FULL HEIGHT LEFT COLUMN hit region -->
         <div id="joystick-hit"></div>
 
         <div class="joystick">
@@ -364,7 +355,6 @@
         const baseH = 160;
         const aspect = baseW / baseH;
 
-        // visualViewport is best on mobile; fallback is window inner dims.
         const vv = window.visualViewport;
         const vw = (vv ? vv.width : window.innerWidth) || window.innerWidth;
         const vh = (vv ? vv.height : window.innerHeight) || window.innerHeight;
@@ -393,7 +383,6 @@
         passive: true,
       });
 
-      // iOS Safari: visualViewport.scroll can create feedback loops / jitter — do NOT listen to it.
       if (window.visualViewport) {
         window.visualViewport.addEventListener('resize', onViewportChange, { passive: true });
       }
@@ -405,21 +394,16 @@
         if (!isIOS) return;
 
         const blocker = (e) => {
-          const t = e.target;
-          if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA')) return;
           e.preventDefault();
         };
 
-        // Prevent panning/scrolling
         document.addEventListener('touchstart', blocker, { passive: false });
         document.addEventListener('touchmove', blocker, { passive: false });
 
-        // Prevent pinch zoom gestures (older iOS safari)
         document.addEventListener('gesturestart', blocker, { passive: false });
         document.addEventListener('gesturechange', blocker, { passive: false });
         document.addEventListener('gestureend', blocker, { passive: false });
 
-        // Prevent double-tap zoom on some iOS versions
         let lastTouchEnd = 0;
         document.addEventListener(
           'touchend',

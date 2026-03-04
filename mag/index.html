@@ -83,6 +83,13 @@
         overscroll-behavior: none;
       }
 
+      canvas:focus {
+        outline: none;
+      }
+      canvas:focus-visible {
+        outline: none;
+      }
+
       canvas {
         display: block;
         image-rendering: optimizeSpeed;
@@ -413,21 +420,40 @@
         const isIOS = /iPhone|iPad|iPod/i.test(ua);
         if (!isIOS) return;
 
+        const canvas = document.getElementById('canvas');
+        const controlPane = document.getElementById('control-pane');
+
+        const allowInteraction = (target) => {
+          // Allow touches on the canvas and the control pane (buttons/joystick area).
+          // Everything else gets blocked to prevent scrolling/zoom/callouts.
+          if (!target) return false;
+          if (canvas && (target === canvas || target.closest?.('#canvas'))) return true;
+          if (controlPane && (target === controlPane || target.closest?.('#control-pane')))
+            return true;
+          return false;
+        };
+
         const blocker = (e) => {
+          if (allowInteraction(e.target)) return;
           e.preventDefault();
         };
 
+        // Block page scroll/pan, but DO NOT block canvas/control pane events.
         document.addEventListener('touchstart', blocker, { passive: false });
         document.addEventListener('touchmove', blocker, { passive: false });
 
+        // Block pinch zoom gestures
         document.addEventListener('gesturestart', blocker, { passive: false });
         document.addEventListener('gesturechange', blocker, { passive: false });
         document.addEventListener('gestureend', blocker, { passive: false });
 
+        // Prevent double-tap zoom
         let lastTouchEnd = 0;
         document.addEventListener(
           'touchend',
           (e) => {
+            if (allowInteraction(e.target)) return;
+
             const now = Date.now();
             if (now - lastTouchEnd <= 300) e.preventDefault();
             lastTouchEnd = now;

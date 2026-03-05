@@ -43,8 +43,13 @@
 
     <script>
       window.ANALYTICS_BRIDGE = {
+        build: null,
         event(name, params) {
-          gtag('event', name, params || {});
+          const p = params ? { ...params } : {};
+          if (this.build != null && this.build !== '') {
+            p.build = this.build;
+          }
+          gtag('event', name, p);
         },
       };
     </script>

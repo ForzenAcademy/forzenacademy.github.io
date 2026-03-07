@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+canvas,
+#control-pane,
+#joystick-hit,
+.joystick,
+.joystick * {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-drag: none;
+}
+
+*::selection {
+  background: transparent;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #2d2d2d;
+  overflow: hidden;
+  overscroll-behavior: none;
+  touch-action: none;
+}
+
+body {
+  position: fixed;
+  inset: 0;
+}
+
+canvas:focus,
+canvas:focus-visible {
+  outline: none;
+}
+
+canvas {
+  display: block;
+  image-rendering: optimizeSpeed;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
+  touch-action: none;
+}
+
+/* Defaults = desktop */
+.hide-mobile {
+  display: none !important;
+}
+
+.hide-desktop {
+  display: flex !important;
+}
+
+.canvas-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #2d2d2d;
+  touch-action: none;
+}
+
+.child {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.gameboy-button {
+  opacity: 0.4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #5c5c5c;
+  border-radius: 50%;
+  box-shadow:
+    inset 0 0 0 5px #9c9c9c,
+    inset 0 0 0 10px #404040;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #1c1c1c;
+  transition: 0.1s ease-in-out;
+}
+
+.gameboy-button:active {
+  transform: translateY(2px);
+  box-shadow:
+    inset 0 0 0 5px #9c9c9c,
+    inset 0 0 0 8px #404040;
+}
+
+.start-button {
+  opacity: 0.4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 78px;
+  height: 28px;
+  background-color: #5c5c5c;
+  border-radius: 999px;
+  box-shadow:
+    inset 0 0 0 4px #9c9c9c,
+    inset 0 0 0 8px #404040;
+  transition: 0.1s ease-in-out;
+}
+
+.start-button:active {
+  transform: translateY(2px);
+  box-shadow:
+    inset 0 0 0 4px #9c9c9c,
+    inset 0 0 0 6px #404040;
+}
+
+#buttons {
+  justify-content: flex-end;
+  padding: 0.5in;
+}
+
+#joystick-container {
+  justify-content: flex-start;
+  padding: 0.33in;
+}
+
+#start-container {
+  width: auto;
+  justify-content: center;
+  padding: 0.33in 0;
+}
+
+.joystick {
+  position: relative;
+  width: 1in;
+  height: 1in;
+  border-radius: 50%;
+  opacity: 0.4;
+  border: 1px solid #fff;
+  background-color: #666;
+  touch-action: none;
+}
+
+.joystick .inner-circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0.66in;
+  height: 0.66in;
+  border-radius: 50%;
+  opacity: 0.4;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  will-change: transform;
+}
+
+/* ============================================================
+   MOBILE UI
+   ============================================================ */
+html.is-mobile,
+html.is-mobile body {
+  background: black !important;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  inset: 0;
+  touch-action: none;
+}
+
+html.is-mobile {
+  --joystick-col-w: min(45vw, 520px);
+}
+
+html.is-mobile .hide-mobile {
+  display: flex !important;
+}
+
+html.is-mobile .hide-desktop {
+  display: none !important;
+}
+
+html.is-mobile .canvas-wrapper {
+  background: black !important;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+}
+
+html.is-mobile canvas {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+html.is-mobile #control-pane {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  z-index: 999999;
+  height: 110px;
+  padding-bottom: calc(14px + env(safe-area-inset-bottom));
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+  padding-top: 10px;
+  background: transparent;
+  pointer-events: auto;
+  touch-action: none;
+}
+
+html.is-mobile .child {
+  align-items: center;
+}
+
+html.is-mobile #joystick-container {
+  padding: 10px 12px;
+  position: relative;
+}
+
+html.is-mobile #start-container {
+  padding: 10px 0;
+  justify-content: center;
+}
+
+html.is-mobile #buttons {
+  padding: 10px 12px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+html.is-mobile .joystick {
+  width: 96px;
+  height: 96px;
+}
+
+html.is-mobile .joystick .inner-circle {
+  width: 64px;
+  height: 64px;
+}
+
+html.is-mobile #joystick-hit {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: var(--joystick-col-w);
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  z-index: 999998;
+  background: transparent;
+  touch-action: none;
+}
+
+html.is-mobile #control-pane {
+  z-index: 999999;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  html:not(.is-mobile) .hide-mobile {
+    display: flex !important;
+  }
+
+  html:not(.is-mobile) .hide-desktop {
+    display: none !important;
+  }
+}
+
+/* ============================================================
+   CRT OVERLAY (ALIGNED TO 240x160 SOURCE GRID)
+   ============================================================ */
+.canvas-shell {
+  position: relative;
+  display: inline-block;
+}
+
+.canvas-shell canvas {
+  position: relative;
+  z-index: 1;
+}
+
+/* Bloom / light bleed */
+.canvas-shell::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.06) 0%,
+    rgba(255, 255, 255, 0) 55%
+  );
+
+  backdrop-filter: blur(0.8px) saturate(1.08) contrast(1.02);
+  -webkit-backdrop-filter: blur(0.8px) saturate(1.08) contrast(1.02);
+
+  opacity: 0.75;
+}
+
+/* Scanlines + subtle mask + vignette */
+.canvas-shell::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.12) 50%),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 0.015) 0%,
+      rgba(0, 255, 0, 0.01) 33%,
+      rgba(0, 0, 255, 0.015) 66%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    radial-gradient(
+      circle at center,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.05) 60%,
+      rgba(0, 0, 0, 0.12) 100%
+    );
+
+  background-size:
+    100% calc(100% / 160),
+    calc(100% / 240) 100%,
+    100% 100%;
+
+  background-repeat: repeat, repeat, no-repeat;
+  background-position:
+    0 0,
+    0 0,
+    0 0;
+
+  mix-blend-mode: multiply;
+  opacity: 1;
+}
+
+/* Mobile: reduce heavy bloom */
+html.is-mobile .canvas-shell::before {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  opacity: 0.35;
+}
+
+html.crt-disabled .canvas-shell::before,
+html.crt-disabled .canvas-shell::after {
+  content: none !important;
+  display: none !important;
+  background: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}

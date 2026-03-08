@@ -247,7 +247,7 @@ window.HAPTICS_BRIDGE = (() => {
     impact(style) {
       switch (style) {
         case 'light':
-          vibrate(12);
+          vibrate(4);
           break;
         case 'medium':
           vibrate(24);

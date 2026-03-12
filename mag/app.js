@@ -216,12 +216,11 @@ window.HAPTICS_BRIDGE = (() => {
     }
   }
 
-  function canVibrate() {
+  function canVibrateBrowser() {
     if (typeof navigator === 'undefined' || typeof navigator.vibrate !== 'function') {
       return false;
     }
 
-    // Only gate when embedded. Normal top-level pages should work as before.
     if (isInIframe() && !hasUserActivation()) {
       return false;
     }
@@ -229,8 +228,8 @@ window.HAPTICS_BRIDGE = (() => {
     return true;
   }
 
-  function vibrate(pattern) {
-    if (!canVibrate()) return false;
+  function vibrateBrowser(pattern) {
+    if (!canVibrateBrowser()) return false;
 
     try {
       return navigator.vibrate(pattern);
@@ -239,24 +238,140 @@ window.HAPTICS_BRIDGE = (() => {
     }
   }
 
+  function getConnectedGamepads() {
+    try {
+      if (typeof navigator === 'undefined' || typeof navigator.getGamepads !== 'function') {
+        return [];
+      }
+
+      const pads = navigator.getGamepads();
+      if (!pads) return [];
+
+      const out = [];
+      for (let i = 0; i < pads.length; i++) {
+        const pad = pads[i];
+        if (pad && pad.connected) out.push(pad);
+      }
+      return out;
+    } catch {
+      return [];
+    }
+  }
+
+  function getActuator(gamepad) {
+    if (!gamepad) return null;
+
+    if (gamepad.vibrationActuator && typeof gamepad.vibrationActuator.playEffect === 'function') {
+      return gamepad.vibrationActuator;
+    }
+
+    if (Array.isArray(gamepad.hapticActuators) && gamepad.hapticActuators.length > 0) {
+      const a = gamepad.hapticActuators[0];
+      if (a && typeof a.playEffect === 'function') return a;
+      if (a && typeof a.pulse === 'function') return a;
+    }
+
+    return null;
+  }
+
+  function pulseGamepad(duration, weakMagnitude = 1, strongMagnitude = weakMagnitude) {
+    const pads = getConnectedGamepads();
+    if (pads.length === 0) return false;
+
+    let any = false;
+
+    for (const pad of pads) {
+      const actuator = getActuator(pad);
+      if (!actuator) continue;
+
+      try {
+        if (typeof actuator.playEffect === 'function') {
+          actuator.playEffect('dual-rumble', {
+            startDelay: 0,
+            duration: Math.max(1, duration | 0),
+            weakMagnitude: Math.max(0, Math.min(1, weakMagnitude)),
+            strongMagnitude: Math.max(0, Math.min(1, strongMagnitude)),
+          });
+          any = true;
+          continue;
+        }
+
+        if (typeof actuator.pulse === 'function') {
+          actuator.pulse(Math.max(weakMagnitude, strongMagnitude), Math.max(1, duration | 0));
+          any = true;
+        }
+      } catch {
+        // ignore unsupported actuator errors
+      }
+    }
+
+    return any;
+  }
+
+  function playHaptics({ browserPattern, gamepadBursts }) {
+    let didAnything = false;
+
+    if (browserPattern != null) {
+      didAnything = vibrateBrowser(browserPattern) || didAnything;
+    }
+
+    if (Array.isArray(gamepadBursts)) {
+      let delay = 0;
+
+      for (const burst of gamepadBursts) {
+        const { duration = 20, weak = 1, strong = weak, gapAfter = 0 } = burst ?? {};
+
+        if (delay <= 0) {
+          didAnything = pulseGamepad(duration, weak, strong) || didAnything;
+        } else {
+          setTimeout(() => {
+            pulseGamepad(duration, weak, strong);
+          }, delay);
+        }
+
+        delay += Math.max(0, duration | 0) + Math.max(0, gapAfter | 0);
+      }
+    }
+
+    return didAnything;
+  }
+
   return {
     selection() {
-      vibrate(7);
+      playHaptics({
+        browserPattern: 7,
+        gamepadBursts: [{ duration: 24, weak: 0.2, strong: 0.1 }],
+      });
     },
 
     impact(style) {
       switch (style) {
         case 'light':
-          vibrate(4);
+          playHaptics({
+            browserPattern: 4,
+            gamepadBursts: [{ duration: 20, weak: 0.2, strong: 0.15 }],
+          });
           break;
         case 'medium':
-          vibrate(24);
+          playHaptics({
+            browserPattern: 24,
+            gamepadBursts: [{ duration: 40, weak: 0.45, strong: 0.35 }],
+          });
           break;
         case 'strong':
-          vibrate([36, 12, 36]);
+          playHaptics({
+            browserPattern: [36, 12, 36],
+            gamepadBursts: [
+              { duration: 36, weak: 0.8, strong: 0.7, gapAfter: 12 },
+              { duration: 36, weak: 0.8, strong: 0.7 },
+            ],
+          });
           break;
         default:
-          vibrate(12);
+          playHaptics({
+            browserPattern: 12,
+            gamepadBursts: [{ duration: 28, weak: 0.35, strong: 0.25 }],
+          });
           break;
       }
     },
@@ -264,16 +379,38 @@ window.HAPTICS_BRIDGE = (() => {
     notify(type) {
       switch (type) {
         case 'success':
-          vibrate([18, 24, 36]);
+          playHaptics({
+            browserPattern: [18, 24, 36],
+            gamepadBursts: [
+              { duration: 18, weak: 0.25, strong: 0.15, gapAfter: 24 },
+              { duration: 36, weak: 0.6, strong: 0.45 },
+            ],
+          });
           break;
         case 'warning':
-          vibrate([30, 20, 30]);
+          playHaptics({
+            browserPattern: [30, 20, 30],
+            gamepadBursts: [
+              { duration: 30, weak: 0.5, strong: 0.35, gapAfter: 20 },
+              { duration: 30, weak: 0.5, strong: 0.35 },
+            ],
+          });
           break;
         case 'error':
-          vibrate([50, 20, 50, 20, 50]);
+          playHaptics({
+            browserPattern: [50, 20, 50, 20, 50],
+            gamepadBursts: [
+              { duration: 50, weak: 1, strong: 0.9, gapAfter: 20 },
+              { duration: 50, weak: 1, strong: 0.9, gapAfter: 20 },
+              { duration: 50, weak: 1, strong: 0.9 },
+            ],
+          });
           break;
         default:
-          vibrate(20);
+          playHaptics({
+            browserPattern: 20,
+            gamepadBursts: [{ duration: 30, weak: 0.4, strong: 0.3 }],
+          });
           break;
       }
     },
@@ -381,3 +518,24 @@ if (window.visualViewport) {
     { passive: false },
   );
 })();
+
+function focusGameCanvas() {
+  const canvas = document.getElementById('canvas');
+  if (!canvas) return;
+
+  try {
+    canvas.focus({ preventScroll: true });
+  } catch {
+    canvas.focus();
+  }
+}
+
+window.addEventListener(
+  'load',
+  () => {
+    onViewportChange();
+    focusGameCanvas();
+    requestAnimationFrame(() => focusGameCanvas());
+  },
+  { passive: true },
+);

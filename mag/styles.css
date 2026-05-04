@@ -368,7 +368,11 @@ html.crt-disabled .canvas-shell::after {
   -webkit-backdrop-filter: none !important;
 }
 
+/* Forzen Studio hide cursor start */
+.canvas-wrapper,
 .canvas-shell,
-.canvas-shell canvas {
+.canvas-shell canvas,
+canvas {
   cursor: none;
 }
+/* Forzen Studio hide cursor end */

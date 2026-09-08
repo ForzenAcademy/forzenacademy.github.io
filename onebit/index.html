@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en" translate="no">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="data:," />
+    <meta name="google" content="notranslate" />
+
+    <script src="./app.js"></script>
+
+    <!-- Lock zooming as much as browsers allow -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+
+    <title>magitower</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./bundle.js"></script>
+  </head>
+
+  <body translate="no">
+    <audio id="bgm" preload="auto" loop playsinline></audio>
+
+    <div class="canvas-wrapper">
+      <div class="canvas-shell" id="canvas-shell">
+        <canvas id="canvas" width="240" height="160" tabindex="0"></canvas>
+      </div>
+    </div>
+
+    <div class="hide-mobile" id="control-pane">
+      <div id="shoulder-buttons">
+        <div class="shoulder-button-group">
+          <div
+            class="shoulder-button mobile-gamepad-button"
+            data-mobile-gamepad-button="l2"
+            aria-label="L2 button"
+            hidden
+          >
+            L2
+          </div>
+          <div
+            class="shoulder-button mobile-gamepad-button"
+            data-mobile-gamepad-button="l"
+            aria-label="L button"
+            hidden
+          >
+            L
+          </div>
+          <div
+            class="shoulder-button mobile-gamepad-button"
+            data-mobile-gamepad-button="l3"
+            aria-label="L3 button"
+            hidden
+          >
+            L3
+          </div>
+        </div>
+        <div class="shoulder-button-group">
+          <div
+            class="shoulder-button mobile-gamepad-button"
+            data-mobile-gamepad-button="r"
+            aria-label="R button"
+            hidden
+          >
+            R
+          </div>
+          <div
+            class="shoulder-button mobile-gamepad-button"
+            data-mobile-gamepad-button="r2"
+            aria-label="R2 button"
+            hidden
+          >
+            R2
+          </div>
+          <div
+            class="shoulder-button mobile-gamepad-button"
+            data-mobile-gamepad-button="r3"
+            aria-label="R3 button"
+            hidden
+          >
+            R3
+          </div>
+        </div>
+      </div>
+
+      <div class="child" id="joystick-container">
+        <div
+          class="mobile-direction-stick-hit"
+          data-mobile-gamepad-stick-hit="leftStick"
+          hidden
+        ></div>
+
+        <div
+          class="mobile-direction-control mobile-direction-stick mobile-direction-left-stick"
+          data-mobile-gamepad-control="leftStick"
+          aria-label="Left stick"
+          hidden
+        >
+          <div class="joystick">
+            <div class="inner-circle"></div>
+          </div>
+        </div>
+
+        <div
+          class="mobile-direction-control mobile-direction-dpad"
+          data-mobile-gamepad-control="dpad"
+          aria-label="D-pad"
+          hidden
+        >
+          <div class="mobile-dpad-arm mobile-dpad-vertical"></div>
+          <div class="mobile-dpad-arm mobile-dpad-horizontal"></div>
+          <div class="mobile-dpad-center"></div>
+        </div>
+      </div>
+
+      <div class="child" id="start-container">
+        <div
+          class="start-button mobile-gamepad-button"
+          data-mobile-gamepad-button="y"
+          aria-label="Y button"
+          hidden
+        ></div>
+        <div
+          class="start-button mobile-gamepad-button"
+          id="startbutton"
+          data-mobile-gamepad-button="z"
+          aria-label="Z button"
+        ></div>
+      </div>
+
+      <div class="child" id="buttons">
+        <div class="mobile-face-button-cluster">
+          <div
+            class="gameboy-button mobile-gamepad-button"
+            data-mobile-gamepad-button="c"
+            aria-label="C button"
+            hidden
+          >
+            C
+          </div>
+          <div
+            class="gameboy-button mobile-gamepad-button"
+            data-mobile-gamepad-button="d"
+            aria-label="D button"
+            hidden
+          >
+            D
+          </div>
+          <div
+            class="gameboy-button mobile-gamepad-button"
+            id="xbutton"
+            data-mobile-gamepad-button="b"
+            aria-label="B button"
+          >
+            B
+          </div>
+          <div
+            class="gameboy-button mobile-gamepad-button"
+            id="zbutton"
+            data-mobile-gamepad-button="a"
+            aria-label="A button"
+          >
+            A
+          </div>
+        </div>
+
+        <div
+          class="mobile-direction-control mobile-direction-stick mobile-direction-right-stick"
+          data-mobile-gamepad-control="rightStick"
+          aria-label="Right stick"
+          hidden
+        >
+          <div class="joystick">
+            <div class="inner-circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

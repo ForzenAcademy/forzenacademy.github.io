@@ -1,0 +1,937 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+canvas,
+#control-pane,
+.mobile-direction-control,
+.mobile-direction-stick-hit,
+.joystick,
+.joystick * {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-drag: none;
+}
+
+*::selection {
+  background: transparent;
+}
+
+.forzen-text-input-overlay *::selection {
+  background: rgba(255, 255, 255, 0.28);
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #2d2d2d;
+  overflow: hidden;
+  overscroll-behavior: none;
+  touch-action: none;
+}
+
+body {
+  position: fixed;
+  inset: 0;
+}
+
+canvas:focus,
+canvas:focus-visible {
+  outline: none;
+}
+
+canvas {
+  display: block;
+  image-rendering: optimizeSpeed;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
+  touch-action: none;
+}
+
+/* Defaults = desktop */
+.hide-mobile {
+  display: none !important;
+}
+
+.hide-desktop {
+  display: flex !important;
+}
+
+.canvas-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #2d2d2d;
+  touch-action: none;
+}
+
+.child {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.gameboy-button {
+  opacity: 0.4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #5c5c5c;
+  border-radius: 50%;
+  box-shadow:
+    inset 0 0 0 5px #9c9c9c,
+    inset 0 0 0 10px #404040;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #1c1c1c;
+  transition: 0.1s ease-in-out;
+}
+
+.gameboy-button:active {
+  transform: translateY(2px);
+  box-shadow:
+    inset 0 0 0 5px #9c9c9c,
+    inset 0 0 0 8px #404040;
+}
+
+.start-button {
+  opacity: 0.4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 78px;
+  height: 28px;
+  background-color: #5c5c5c;
+  border-radius: 999px;
+  box-shadow:
+    inset 0 0 0 4px #9c9c9c,
+    inset 0 0 0 8px #404040;
+  transition: 0.1s ease-in-out;
+}
+
+.start-button:active {
+  transform: translateY(2px);
+  box-shadow:
+    inset 0 0 0 4px #9c9c9c,
+    inset 0 0 0 6px #404040;
+}
+
+#buttons {
+  justify-content: flex-end;
+  padding: 0.5in;
+}
+
+.mobile-face-button-cluster {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+#buttons.mobile-gamepad-face-cross-active .mobile-face-button-cluster {
+  --mobile-gamepad-face-cross-offset: 47px;
+  --mobile-gamepad-face-cross-offset-2: 94px;
+  --mobile-gamepad-face-cross-size: 154px;
+  display: block;
+  min-height: var(--mobile-gamepad-face-cross-size);
+  min-width: var(--mobile-gamepad-face-cross-size);
+  position: relative;
+}
+
+#buttons.mobile-gamepad-face-cross-active .gameboy-button[data-mobile-gamepad-button='d'] {
+  bottom: var(--mobile-gamepad-face-cross-offset-2);
+  position: absolute;
+  right: var(--mobile-gamepad-face-cross-offset);
+}
+
+#buttons.mobile-gamepad-face-cross-active .gameboy-button[data-mobile-gamepad-button='c'] {
+  bottom: var(--mobile-gamepad-face-cross-offset);
+  position: absolute;
+  right: var(--mobile-gamepad-face-cross-offset-2);
+}
+
+#buttons.mobile-gamepad-face-cross-active .gameboy-button[data-mobile-gamepad-button='b'] {
+  bottom: var(--mobile-gamepad-face-cross-offset);
+  position: absolute;
+  right: 0;
+}
+
+#buttons.mobile-gamepad-face-cross-active .gameboy-button[data-mobile-gamepad-button='a'] {
+  bottom: 0;
+  position: absolute;
+  right: var(--mobile-gamepad-face-cross-offset);
+}
+
+.mobile-gamepad-button {
+  cursor: pointer;
+  touch-action: none;
+  user-select: none;
+}
+
+.mobile-gamepad-button[hidden] {
+  display: none !important;
+}
+
+#shoulder-buttons {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  left: calc(12px + env(safe-area-inset-left));
+  pointer-events: none;
+  position: fixed;
+  right: calc(12px + env(safe-area-inset-right));
+  top: calc(12px + env(safe-area-inset-top));
+  z-index: 1000000;
+}
+
+.shoulder-button-group {
+  align-items: flex-start;
+  column-gap: 6px;
+  display: grid;
+  grid-template-columns: auto auto;
+  min-width: 0;
+  pointer-events: none;
+  row-gap: 10px;
+}
+
+.shoulder-button {
+  opacity: 0.4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: clamp(48px, 14vw, 92px);
+  height: 38px;
+  background-color: #5c5c5c;
+  border: none;
+  border-radius: 999px;
+  box-shadow:
+    inset 0 0 0 4px #9c9c9c,
+    inset 0 0 0 8px #404040;
+  color: #1c1c1c;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  pointer-events: auto;
+  touch-action: none;
+  transition: 0.1s ease-in-out;
+}
+
+.shoulder-button:active {
+  transform: translateY(2px);
+  box-shadow:
+    inset 0 0 0 4px #9c9c9c,
+    inset 0 0 0 6px #404040;
+}
+
+.shoulder-button[data-mobile-gamepad-button='l2'],
+.shoulder-button[data-mobile-gamepad-button='r'] {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.shoulder-button[data-mobile-gamepad-button='l'],
+.shoulder-button[data-mobile-gamepad-button='r2'] {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.shoulder-button[data-mobile-gamepad-button='l3'] {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.shoulder-button[data-mobile-gamepad-button='r3'] {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#joystick-container {
+  justify-content: flex-start;
+  padding: 0.33in;
+}
+
+#joystick-container[hidden] {
+  display: none !important;
+}
+
+.mobile-direction-control {
+  cursor: pointer;
+  flex: 0 0 auto;
+  height: 1in;
+  position: relative;
+  touch-action: none;
+  width: 1in;
+}
+
+.mobile-direction-control[hidden] {
+  display: none !important;
+}
+
+.mobile-direction-stick-hit {
+  cursor: pointer;
+  touch-action: none;
+  user-select: none;
+}
+
+.mobile-direction-stick-hit[hidden] {
+  display: none !important;
+}
+
+#start-container {
+  width: auto;
+  min-width: 78px;
+  justify-content: center;
+  padding: 0.33in 0;
+  position: relative;
+}
+
+#start-container .start-button[data-mobile-gamepad-button='y'] {
+  position: absolute;
+  right: calc(100% + 10px);
+}
+
+.joystick {
+  position: relative;
+  width: 1in;
+  height: 1in;
+  border-radius: 50%;
+  opacity: 0.4;
+  border: 1px solid #fff;
+  background-color: #666;
+  touch-action: none;
+}
+
+.joystick .inner-circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0.66in;
+  height: 0.66in;
+  border-radius: 50%;
+  opacity: 0.4;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  will-change: transform;
+}
+
+.mobile-direction-dpad {
+  opacity: 0.4;
+}
+
+.mobile-dpad-arm,
+.mobile-dpad-center {
+  background-color: #5c5c5c;
+  border: 1px solid #9c9c9c;
+  box-shadow: inset 0 0 0 5px #404040;
+  position: absolute;
+}
+
+.mobile-dpad-arm {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mobile-dpad-vertical {
+  height: 100%;
+  width: 36%;
+}
+
+.mobile-dpad-horizontal {
+  height: 36%;
+  width: 100%;
+}
+
+.mobile-dpad-center {
+  height: 36%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 36%;
+}
+
+/* ============================================================
+   MOBILE UI
+   ============================================================ */
+html.is-mobile,
+html.is-mobile body {
+  background: black !important;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  inset: 0;
+  touch-action: none;
+}
+
+html.is-mobile {
+  --joystick-col-w: min(45vw, 520px);
+  --mobile-control-bottom: calc(10px + env(safe-area-inset-bottom));
+  --mobile-control-edge-padding: 12px;
+  --mobile-control-gap: 8px;
+  --mobile-dpad-zone-width: 120px;
+  --mobile-face-buttons-zone-width: 154px;
+}
+
+html.is-mobile #control-pane.mobile-gamepad-direction-count-0 {
+  --mobile-dpad-zone-width: 0px;
+}
+
+html.is-mobile #control-pane.mobile-gamepad-direction-count-1 {
+  --mobile-dpad-zone-width: 120px;
+}
+
+html.is-mobile #control-pane.mobile-gamepad-direction-count-2 {
+  --mobile-dpad-zone-width: 120px;
+}
+
+html.is-mobile #control-pane.mobile-gamepad-direction-count-3 {
+  --mobile-dpad-zone-width: 120px;
+}
+
+html.is-mobile .hide-mobile {
+  display: flex !important;
+}
+
+html.is-mobile .hide-desktop {
+  display: none !important;
+}
+
+html.is-mobile .canvas-wrapper {
+  background: black !important;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+}
+
+html.is-mobile canvas {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+html.is-mobile #control-pane {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  display: block !important;
+  z-index: 999999;
+  height: 110px;
+  padding-bottom: calc(14px + env(safe-area-inset-bottom));
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+  padding-top: 10px;
+  background: transparent;
+  overflow: visible;
+  pointer-events: auto;
+  touch-action: none;
+}
+
+html.is-mobile .child {
+  align-items: center;
+  width: auto;
+}
+
+html.is-mobile #joystick-container {
+  align-items: flex-start;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--mobile-control-gap);
+  left: env(safe-area-inset-left);
+  padding: 10px 12px;
+  position: absolute;
+}
+
+html.is-mobile .mobile-direction-stick-hit {
+  bottom: 0;
+  left: 0;
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-top: env(safe-area-inset-top);
+  pointer-events: auto;
+  position: fixed;
+  top: 0;
+  touch-action: none;
+  width: var(--joystick-col-w);
+  z-index: 999998;
+}
+
+html.is-mobile #start-container {
+  bottom: var(--mobile-control-bottom);
+  gap: 8px;
+  left: calc(env(safe-area-inset-left) + var(--mobile-dpad-zone-width) + var(--mobile-control-gap));
+  min-width: 0;
+  padding: 0;
+  position: absolute;
+  right: calc(
+    env(safe-area-inset-right) + var(--mobile-control-edge-padding) +
+      var(--mobile-face-buttons-zone-width) + var(--mobile-control-gap)
+  );
+  transform: none;
+  justify-content: center;
+}
+
+html.is-mobile #start-container .start-button {
+  flex: 1 1 78px;
+  max-width: 78px;
+  min-width: 0;
+  overflow: hidden;
+  width: auto;
+}
+
+html.is-mobile #start-container .start-button[data-mobile-gamepad-button='y'] {
+  position: static;
+  right: auto;
+}
+
+html.is-mobile #buttons {
+  align-items: flex-end;
+  bottom: var(--mobile-control-bottom);
+  display: flex;
+  flex-direction: column;
+  gap: var(--mobile-control-gap);
+  justify-content: flex-end;
+  padding: 0;
+  position: absolute;
+  right: calc(var(--mobile-control-edge-padding) + env(safe-area-inset-right));
+}
+
+html.is-mobile #buttons.mobile-gamepad-face-cross-active {
+  --mobile-gamepad-face-cross-offset: 47px;
+  --mobile-gamepad-face-cross-offset-2: 94px;
+  --mobile-gamepad-face-cross-size: 154px;
+  bottom: var(--mobile-control-bottom);
+  height: auto;
+  margin-bottom: 0;
+  min-height: 0;
+  padding: 0;
+  position: absolute;
+  right: calc(var(--mobile-control-edge-padding) + env(safe-area-inset-right));
+  width: auto;
+  z-index: 1000000;
+}
+
+html.is-mobile #buttons.mobile-gamepad-face-cross-active .mobile-face-button-cluster {
+  height: var(--mobile-gamepad-face-cross-size);
+  min-height: var(--mobile-gamepad-face-cross-size);
+  min-width: var(--mobile-gamepad-face-cross-size);
+  width: var(--mobile-gamepad-face-cross-size);
+}
+
+html.is-mobile .joystick {
+  width: 96px;
+  height: 96px;
+}
+
+html.is-mobile .mobile-direction-control {
+  width: 96px;
+  height: 96px;
+  z-index: 1000000;
+}
+
+html.is-mobile .joystick .inner-circle {
+  width: 64px;
+  height: 64px;
+}
+
+html.is-mobile #control-pane {
+  z-index: 999999;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  html:not(.is-mobile) .hide-mobile {
+    display: flex !important;
+  }
+
+  html:not(.is-mobile) .hide-desktop {
+    display: none !important;
+  }
+}
+
+/* ============================================================
+   CRT OVERLAY (ALIGNED TO THE GENERATED SOURCE GRID)
+   ============================================================ */
+.canvas-shell {
+  position: relative;
+  display: inline-block;
+}
+
+.canvas-shell canvas {
+  position: relative;
+  z-index: 1;
+}
+
+/* Bloom / light bleed */
+.canvas-shell::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.06) 0%,
+    rgba(255, 255, 255, 0) 55%
+  );
+
+  backdrop-filter: blur(0.8px) saturate(1.08) contrast(1.02);
+  -webkit-backdrop-filter: blur(0.8px) saturate(1.08) contrast(1.02);
+
+  opacity: 0.75;
+}
+
+/* Scanlines + subtle mask + vignette */
+.canvas-shell::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.12) 50%),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 0.015) 0%,
+      rgba(0, 255, 0, 0.01) 33%,
+      rgba(0, 0, 255, 0.015) 66%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    radial-gradient(
+      circle at center,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.05) 60%,
+      rgba(0, 0, 0, 0.12) 100%
+    );
+
+  background-size:
+    100% var(--forzen-scanline-height, 0.625%),
+    var(--forzen-mask-column-width, 0.4166666667%) 100%,
+    100% 100%;
+
+  background-repeat: repeat, repeat, no-repeat;
+  background-position:
+    0 0,
+    0 0,
+    0 0;
+
+  mix-blend-mode: multiply;
+  opacity: 1;
+}
+
+/* Mobile: reduce heavy bloom */
+html.is-mobile .canvas-shell::before {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  opacity: 0.35;
+}
+
+html.crt-disabled .canvas-shell::before,
+html.crt-disabled .canvas-shell::after {
+  content: none !important;
+  display: none !important;
+  background: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+.forzen-text-input-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: max(20px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right))
+    max(20px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+  background: transparent;
+  pointer-events: auto;
+  touch-action: none;
+}
+
+.forzen-text-input-overlay[hidden] {
+  display: none !important;
+}
+
+.forzen-text-input-canvas-dim {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.54);
+  pointer-events: none;
+  touch-action: none;
+}
+
+.forzen-text-input-canvas-dim[hidden] {
+  display: none !important;
+}
+
+.forzen-text-input-canvas-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(6px, 4%, 18px);
+  pointer-events: auto;
+  touch-action: none;
+}
+
+.forzen-text-input-canvas-layer[hidden] {
+  display: none !important;
+}
+
+.forzen-text-input-panel {
+  width: min(420px, 100%);
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 8px;
+  background: rgba(25, 27, 30, 0.96);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
+  color: #f5f5f5;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.forzen-text-input-panel:focus,
+.forzen-text-input-keyboard:focus {
+  outline: none;
+}
+
+.forzen-text-input-canvas-layer .forzen-text-input-panel {
+  width: min(96%, 620px);
+  max-height: 94%;
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: clamp(8px, 2.5vw, 14px);
+}
+
+.forzen-text-input-title {
+  margin-bottom: 6px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.forzen-text-input-message {
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.forzen-text-input-form {
+  display: grid;
+  gap: 10px;
+}
+
+.forzen-text-input-canvas-layer .forzen-text-input-form {
+  gap: clamp(6px, 1.5vw, 10px);
+}
+
+.forzen-text-input-preview[hidden],
+.forzen-text-input-keyboard[hidden],
+.forzen-text-input-actions[hidden] {
+  display: none !important;
+}
+
+.forzen-text-input-field {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 6px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.94);
+  color: #111;
+  font:
+    16px/1.25 system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  touch-action: manipulation;
+  user-select: text;
+  -webkit-user-select: text;
+  -webkit-touch-callout: default;
+}
+
+.forzen-text-input-field-hidden {
+  position: fixed;
+  left: -1000px;
+  top: -1000px;
+  width: 1px;
+  height: 1px;
+  min-height: 1px !important;
+  opacity: 0;
+  pointer-events: none;
+}
+
+textarea.forzen-text-input-field {
+  min-height: 108px;
+  resize: vertical;
+}
+
+.forzen-text-input-field:focus {
+  border-color: rgba(93, 190, 255, 0.95);
+  box-shadow: 0 0 0 3px rgba(93, 190, 255, 0.24);
+}
+
+.forzen-text-input-preview {
+  min-height: 42px;
+  padding: 9px 11px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.34);
+  color: #f7fbff;
+  font:
+    600 16px/1.25 system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.forzen-text-input-preview-empty {
+  color: rgba(255, 255, 255, 0.48);
+  font-weight: 500;
+}
+
+.forzen-text-input-keyboard {
+  display: grid;
+  gap: clamp(4px, 1.2vw, 7px);
+}
+
+.forzen-text-input-keyboard-row {
+  display: flex;
+  gap: clamp(4px, 1.2vw, 7px);
+  justify-content: center;
+  min-width: 0;
+}
+
+.forzen-text-input-key {
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: clamp(30px, 7.2vw, 42px);
+  padding: 0 clamp(5px, 1.4vw, 11px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #f5f8fb;
+  font:
+    700 clamp(11px, 2.8vw, 15px) / 1 system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.forzen-text-input-pointer-mode .forzen-text-input-key:hover:not(:disabled),
+.forzen-text-input-key-active:not(:disabled) {
+  border-color: rgba(118, 205, 255, 0.95);
+  background: rgba(63, 151, 221, 0.86);
+  box-shadow: 0 0 0 2px rgba(118, 205, 255, 0.22);
+}
+
+.forzen-text-input-key:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.forzen-text-input-key:disabled {
+  color: rgba(255, 255, 255, 0.34);
+  opacity: 0.48;
+}
+
+.forzen-text-input-key-mode,
+.forzen-text-input-key-on {
+  flex-grow: 1.25;
+}
+
+.forzen-text-input-key-primary {
+  flex-grow: 1.45;
+  border-color: rgba(93, 190, 255, 0.75);
+  background: #2e8fd8;
+}
+
+.forzen-text-input-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.forzen-text-input-button {
+  min-width: 72px;
+  height: 36px;
+  padding: 0 12px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #f5f5f5;
+  font:
+    600 13px/1 system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.forzen-text-input-button-primary {
+  border-color: rgba(93, 190, 255, 0.75);
+  background: #2e8fd8;
+}
+
+html.forzen-text-input-active #control-pane,
+html.forzen-text-input-active .mobile-direction-control,
+html.forzen-text-input-active .mobile-direction-stick-hit {
+  pointer-events: none !important;
+}
+
+/* Forzen Studio CRT filter disabled start */
+.canvas-shell::before,
+.canvas-shell::after {
+  content: none !important;
+  display: none !important;
+  background: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+/* Forzen Studio CRT filter disabled end */

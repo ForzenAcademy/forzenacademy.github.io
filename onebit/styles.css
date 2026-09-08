@@ -925,6 +925,14 @@ html.forzen-text-input-active .mobile-direction-stick-hit {
   pointer-events: none !important;
 }
 
+/* Forzen Studio wrapper color start */
+html,
+body,
+.canvas-wrapper {
+  background-color: #ffffff;
+}
+/* Forzen Studio wrapper color end */
+
 /* Forzen Studio CRT filter disabled start */
 .canvas-shell::before,
 .canvas-shell::after {

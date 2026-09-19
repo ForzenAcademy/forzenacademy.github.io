@@ -87,6 +87,7 @@ a:focus-visible {
 }
 
 .wordmark {
+  flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
   gap: 0.72rem;
@@ -124,12 +125,36 @@ a:focus-visible {
 }
 
 .site-nav {
+  min-width: 0;
+  max-width: 100%;
+  flex: 0 1 auto;
   display: flex;
   align-items: center;
   gap: 0.35rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-inline: contain;
+  scrollbar-color: rgba(184, 126, 53, 0.65) transparent;
+  scrollbar-width: thin;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.site-nav::-webkit-scrollbar {
+  height: 0.24rem;
+}
+
+.site-nav::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.site-nav::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(184, 126, 53, 0.65);
 }
 
 .site-nav a {
+  flex: 0 0 auto;
   min-height: 2.75rem;
   padding: 0.62rem 0.9rem;
   display: inline-flex;
@@ -590,6 +615,10 @@ a:focus-visible {
     gap: 0.5rem;
   }
 
+  .site-nav {
+    flex: 1 1 auto;
+  }
+
   .wordmark {
     font-size: 0.9rem;
     letter-spacing: 0.14em;
@@ -688,21 +717,14 @@ a:focus-visible {
 
   .site-nav {
     width: 100%;
+    flex: 0 0 auto;
     gap: 0.1rem;
     justify-content: flex-start;
-    overflow-x: auto;
-    overscroll-behavior-inline: contain;
-    scrollbar-width: none;
-    white-space: nowrap;
-  }
-
-  .site-nav::-webkit-scrollbar {
-    display: none;
   }
 
   .site-nav a {
-    padding-inline: 0.24rem;
-    font-size: 0.7rem;
+    padding-inline: 0.7rem;
+    font-size: 0.86rem;
   }
 
   .wordmark {

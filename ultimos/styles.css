@@ -689,7 +689,15 @@ a:focus-visible {
   .site-nav {
     width: 100%;
     gap: 0.1rem;
-    justify-content: space-between;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scrollbar-width: none;
+    white-space: nowrap;
+  }
+
+  .site-nav::-webkit-scrollbar {
+    display: none;
   }
 
   .site-nav a {

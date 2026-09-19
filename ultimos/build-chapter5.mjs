@@ -15,7 +15,7 @@ const renderInlineMarkdown = (value) => escapeHtml(value)
   .replace(/\*([^*]+)\*/g, "<em>$1</em>");
 
 const blocks = source.split(/\n\s*\n/).slice(1);
-const practiceAnchor = "Longing entered his voice so quietly that Orin almost mistook it for exhaustion. Then Ultimos withdrew his hand and the moment closed behind his armor.";
+const practiceAnchor = "Longing entered his voice so quietly that Orin almost mistook it for exhaustion. Then Ultimos withdrew his hand. Whatever the name had exposed vanished from his voice.";
 const practiceResume = "Kisaya did not ask what she had begun to ask.";
 const outletAnchor = "Across the chamber, the service plate’s outer ring shifted by the width of a fingernail. The barrier’s hum swallowed the tiny scrape.";
 const outletResume = "Ultimos had his back to them, one hand raised within a finger’s width of the largest ward anchor.";

@@ -21,7 +21,7 @@ const muralAnchor = "Two armored fingers touched the crack across Fermina’s pa
 const muralResume = "Pale geometry opened beneath them.";
 const containmentLead = "Yesterday, the same magic had carried grain and repaired drains.";
 const containmentAnchor = "Today, it divided the city into cells.";
-const containmentResume = "Ultimos led them into a cloth market before the bridge sealed completely.";
+const containmentResume = "Ultimos led them into a cloth market before the bridge sealed.";
 
 const illustrations = new Map([
   [

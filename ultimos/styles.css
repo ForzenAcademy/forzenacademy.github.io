@@ -533,6 +533,32 @@ a:focus-visible {
   margin: 0 0 1.45em;
 }
 
+.chapter-body strong {
+  font-weight: 700;
+}
+
+.scene-break {
+  width: 3.5rem;
+  height: 1px;
+  margin: 4rem auto;
+  border: 0;
+  background: var(--line-strong);
+  overflow: visible;
+  position: relative;
+}
+
+.scene-break::after {
+  content: "";
+  width: 0.52rem;
+  height: 0.52rem;
+  border: 1px solid var(--accent);
+  background: var(--paper);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
 .chapter-illustration {
   width: min(42rem, calc(100vw - 2rem));
   margin: clamp(3rem, 8vw, 5.5rem) 50%;

@@ -11,7 +11,7 @@
     "name": "rolldown-runtime"
   },
   "app/page.tsx": {
-    "file": "node/_next/static/chunks/page-DSHuF7Og.js",
+    "file": "node/_next/static/chunks/page-B32-mB84.js",
     "name": "page",
     "src": "app/page.tsx",
     "isDynamicEntry": true,
@@ -21,7 +21,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js": {
-    "file": "node/_next/static/chunks/app-route-prefetch-policy-D64AlMoQ.js",
+    "file": "node/_next/static/chunks/app-route-prefetch-policy-CfmnJbrd.js",
     "name": "app-route-prefetch-policy",
     "src": "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js",
     "isDynamicEntry": true,
@@ -30,7 +30,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "node/_next/static/chunks/layout-segment-context-BfuNTFIp.js",
+    "file": "node/_next/static/chunks/layout-segment-context-CSfIy7f4.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -51,7 +51,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "node/_next/static/chunks/index-C73SatFC.js",
+    "file": "node/_next/static/chunks/index-BOO3gI0b.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,

@@ -45,6 +45,7 @@ const illustrations = {
   },
   4: {
     after: {
+      "Ultimos studied the paper without slowing, then continued walking.": ["chapter-4-wanted.webp", 1024, 1536, "Orin and Kisaya pass their wanted notices in disguise while a cloaked Ultimos follows and black-robed mages patrol the streets of Veyr."],
       "The symbol on its face matched the center of the legend. Its seven notches matched the breaks in the outer ring, and every hooked finger and angled ray was identical.": ["chapter-4-disk.webp", 1055, 1491, "Orin, Kisaya, and a cloaked Ultimos compare the pale disk with an ancient survey map inside the Civic Survey Hall."],
     },
   },

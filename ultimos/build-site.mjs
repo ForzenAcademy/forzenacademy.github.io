@@ -9,13 +9,16 @@ const chapterDescriptions = [
   "Witnesses to a murder, Orin and Kisaya flee three black mages into ruins Veyr has forbidden anyone to enter.",
   "The hunters descend into the broken seal and confront the ancient power their own history tried to erase.",
   "Hidden beneath a borrowed cloak, Ultimos enters modern Veyr and discovers what remains of white magic.",
-  "A search through Veyr’s buried records uncovers a route toward the Spire—and a lie Ultimos cannot leave untouched.",
+  "A search through Veyr’s buried records connects the stolen disk to a hidden route beneath the Black Spire.",
+  "One face within Veyr’s greatest lie draws Ultimos into a choice that exposes all three fugitives.",
   "Beneath Veyr, the children demand the truth about the White Order, the Severance, and Ultimos’s promised revenge.",
   "Solmir turns an innocent woman into bait, forcing Ultimos to answer a public execution without surrendering control.",
   "Modern elemental formations close around Ultimos as Solmir fights to capture the impossible man behind the helmet.",
   "Ultimos abandons restraint, and the victory he considers righteous becomes terrifying to everyone who survives it.",
   "The Spire answers the destruction in the Ashward, while its hidden rulers uncover a name history was meant to bury.",
 ];
+
+const totalChapters = chapterDescriptions.length;
 
 const favicon = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%2311141a'/%3E%3Ccircle cx='32' cy='32' r='19' fill='none' stroke='%23d1a35f' stroke-width='3'/%3E%3Cpath d='M32 10v44M10 32h44M16.5 16.5l31 31M47.5 16.5l-31 31' stroke='%23d1a35f' stroke-width='2'/%3E%3Ccircle cx='32' cy='32' r='5' fill='%23f5f1e8'/%3E%3C/svg%3E";
 
@@ -42,15 +45,19 @@ const illustrations = {
   },
   4: {
     after: {
-      "Every notch divided the outer ring at the same interval.": ["chapter-4-disk.webp", 1055, 1491, "Orin compares an ancient survey map while Kisaya holds the pale disk out of a cloaked Ultimos’s sight in the Civic Survey Hall."],
-      "Two armored fingers touched the crack across Fermina’s painted face.": ["chapter-4-mural.webp", 1062, 1481, "Ultimos touches the crack across Fermina’s painted face as white geometry flares through a monumental false mural of him."],
-      "Today, it divided the city into cells.": ["chapter-4-escape.webp", 1218, 1292, "Ultimos leads Orin and Kisaya through Veyr as containment barriers rise, Wardens fill the walls, and wind riders descend."],
+      "The symbol on its face matched the center of the legend. Its seven notches matched the breaks in the outer ring, and every hooked finger and angled ray was identical.": ["chapter-4-disk.webp", 1055, 1491, "Orin, Kisaya, and a cloaked Ultimos compare the pale disk with an ancient survey map inside the Civic Survey Hall."],
     },
   },
   5: {
     after: {
-      "Longing entered his voice so quietly that Orin almost mistook it for exhaustion. Then Ultimos withdrew his hand. Whatever the name had exposed vanished from his voice.": ["chapter-5-practice-court.webp", 1055, 1491, "Ultimos rests one armored hand against the novice exercises of an abandoned White Order practice court while Orin and Kisaya watch his silent grief."],
-      "Across the chamber, the service plate’s outer ring shifted by the width of a fingernail. The barrier’s hum swallowed the tiny scrape.": ["chapter-5-outlet.webp", 1024, 1536, "Kisaya conceals the glowing pale disk as an ancient service plate responds beside the sealed northern outlet while Ultimos studies the barrier."],
+      "Two armored fingers touched the crack across Fermina’s painted face.": ["chapter-5-mural.webp", 1062, 1481, "Ultimos touches the crack across Fermina’s painted face as white geometry flares through a monumental false mural of him."],
+      "Today, it divided the city into cells.": ["chapter-5-escape.webp", 1218, 1292, "Ultimos leads Orin and Kisaya through Veyr as containment barriers rise, Wardens fill the walls, and wind riders descend."],
+    },
+  },
+  6: {
+    after: {
+      "Longing entered his voice so quietly that Orin almost mistook it for exhaustion. Then Ultimos withdrew his hand. Whatever the name had exposed vanished from his voice.": ["chapter-6-practice-court.webp", 1055, 1491, "Ultimos rests one armored hand against the novice exercises of an abandoned White Order practice court while Orin and Kisaya watch his silent grief."],
+      "Across the chamber, the service plate’s outer ring shifted by the width of a fingernail. The barrier’s hum swallowed the tiny scrape.": ["chapter-6-outlet.webp", 1024, 1536, "Kisaya conceals the glowing pale disk as an ancient service plate responds beside the sealed northern outlet while Ultimos studies the barrier."],
     },
   },
 };
@@ -66,13 +73,13 @@ const renderInlineMarkdown = (value) => escapeHtml(value)
   .replace(/\*([^*]+)\*/g, "<em>$1</em>");
 
 const chapterLabel = (number) => [
-  "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine",
+  "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
 ][number - 1];
 
 const makeNav = (current = 0) => `
       <nav class="site-nav" aria-label="Primary navigation" data-scroll-current>
         <a href="index.html"${current === 0 ? ' aria-current="page"' : ""}>Home</a>
-${Array.from({ length: 9 }, (_, index) => {
+${Array.from({ length: totalChapters }, (_, index) => {
   const number = index + 1;
   return `        <a href="chapter${number}.html"${current === number ? ' aria-current="page"' : ""}>Chapter ${number}</a>`;
 }).join("\n")}
@@ -111,7 +118,7 @@ const navScript = `
     currentNavItem?.scrollIntoView({ block: 'nearest', inline: 'center' });
   </script>`;
 
-const chapters = Array.from({ length: 9 }, (_, index) => {
+const chapters = Array.from({ length: totalChapters }, (_, index) => {
   const number = index + 1;
   const sourcePath = resolve(outputDir, `chapter${number}.md`);
   if (!existsSync(sourcePath)) {
@@ -263,7 +270,7 @@ for (const chapter of chapters) {
   const previous = number === 1
     ? '<a href="index.html">← Volume One</a>'
     : `<a href="chapter${number - 1}.html">← Previous chapter</a>`;
-  const next = number === 9
+  const next = number === totalChapters
     ? '<a class="text-link" href="index.html">Volume One complete <span class="arrow" aria-hidden="true">→</span></a>'
     : `<a class="text-link" href="chapter${number + 1}.html">Next chapter <span class="arrow" aria-hidden="true">→</span></a>`;
   const footerPrevious = number === 1

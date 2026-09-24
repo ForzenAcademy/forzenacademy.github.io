@@ -51,8 +51,9 @@ const illustrations = {
   },
   5: {
     after: {
-      "Two armored fingers touched the crack across Fermina’s painted face.": ["chapter-5-mural.webp", 1062, 1481, "Ultimos touches the crack across Fermina’s painted face as white geometry flares through a monumental false mural of him."],
-      "Today, it divided the city into cells.": ["chapter-5-escape.webp", 1218, 1292, "Ultimos leads Orin and Kisaya through Veyr as containment barriers rise, Wardens fill the walls, and wind riders descend."],
+      "Then white light opened against the mural. Two armored fingers touched the crack across Fermina’s painted face, and a pattern of pale geometry no larger than Orin’s palm formed beneath them.": ["chapter-5-mural.webp", 1062, 1481, "Ultimos touches the crack across Fermina’s painted face as white geometry flares through a monumental false mural of him."],
+      "“Ultimos!”": ["chapter-5-captain.webp", 1024, 1536, "Ultimos stands over a terrified Hall security captain bound by white chains as a tearful Orin calls out beneath the altered mural."],
+      "The same magic that had carried grain and repaired drains yesterday now divided the city into cells.": ["chapter-5-escape.webp", 1218, 1292, "Ultimos leads Orin and Kisaya through Veyr as containment barriers rise, Wardens fill the walls, and wind riders descend."],
     },
   },
   6: {

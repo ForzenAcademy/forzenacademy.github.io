@@ -58,8 +58,8 @@ const illustrations = {
   },
   6: {
     after: {
-      "Longing entered his voice so quietly that Orin almost mistook it for exhaustion. Then Ultimos withdrew his hand. Whatever the name had exposed vanished from his voice.": ["chapter-6-practice-court.webp", 1055, 1491, "Ultimos rests one armored hand against the novice exercises of an abandoned White Order practice court while Orin and Kisaya watch his silent grief."],
-      "Across the chamber, the service plate’s outer ring shifted by the width of a fingernail. The barrier’s hum swallowed the tiny scrape.": ["chapter-6-outlet.webp", 1024, 1536, "Kisaya conceals the glowing pale disk as an ancient service plate responds beside the sealed northern outlet while Ultimos studies the barrier."],
+      "It struck the wind blade head-on. The spell burst apart from tip to hilt, compressed air breaking across the walls in sheets of spray.": ["chapter-6-wind-fight.webp", 1024, 1536, "Ultimos holds a warded iron gate above Orin and Kisaya while his white beam shatters a wind witch’s attack inside the flooded waterworks."],
+      "“Fiona was Fermina’s sister.”": ["chapter-6-practice-court.webp", 1055, 1491, "Ultimos rests one armored hand against the novice exercises of an abandoned White Order practice court while Orin and Kisaya witness his grief."],
     },
   },
 };

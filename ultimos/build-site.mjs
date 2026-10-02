@@ -62,6 +62,12 @@ const illustrations = {
       "“Fiona was Fermina’s sister.”": ["chapter-6-practice-court.webp", 1055, 1491, "Ultimos rests one armored hand against the novice exercises of an abandoned White Order practice court while Orin and Kisaya witness his grief."],
     },
   },
+  7: {
+    after: {
+      "The smooth white helmet and its red cross faced the Archmage of Veyr.": ["chapter-7-summons.webp", 1024, 1536, "Ultimos answers Feran’s summons before the assembled Ashward as Sela remains bound above the black surrender circle."],
+      "Stone broke beneath it.": ["chapter-7-duel.webp", 1024, 1536, "Feran’s compressed spear of black fire fractures Ultimos’s white shield and drives his heel into the paving."],
+    },
+  },
 };
 
 const escapeHtml = (value) => value

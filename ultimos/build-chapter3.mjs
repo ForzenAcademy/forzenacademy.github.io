@@ -15,7 +15,7 @@ const renderInlineMarkdown = (value) => escapeHtml(value)
   .replace(/\*([^*]+)\*/g, "<em>$1</em>");
 
 const blocks = source.split(/\n\s*\n/).slice(1);
-const cityAnchor = "Not a tower beside a garden he could still describe after four centuries in darkness.";
+const cityAnchor = "Not a tower beside a garden he could still describe after four centuries sealed away.";
 const healingAnchor = "It described the hand as if the wound had never happened.";
 const illustrations = new Map([
   [

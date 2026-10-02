@@ -12,8 +12,8 @@ const chapterDescriptions = [
   "A search through Veyr’s buried records connects the stolen disk to a hidden route beneath the Black Spire.",
   "One face within Veyr’s greatest lie draws Ultimos into a choice that exposes all three fugitives.",
   "Beneath Veyr, the children demand the truth about the White Order, the Severance, and Ultimos’s promised revenge.",
-  "Solmir turns an innocent woman into bait, forcing Ultimos to answer a public execution without surrendering control.",
-  "Modern elemental formations close around Ultimos as Solmir fights to capture the impossible man behind the helmet.",
+  "Feran turns an innocent woman into bait, forcing Ultimos to answer a public execution without surrendering control.",
+  "Modern elemental formations close around Ultimos as Feran fights to capture the impossible man behind the helmet.",
   "Ultimos abandons restraint, and the victory he considers righteous becomes terrifying to everyone who survives it.",
   "The Spire answers the destruction in the Ashward, while its hidden rulers uncover a name history was meant to bury.",
 ];
@@ -39,7 +39,7 @@ const illustrations = {
   },
   3: {
     after: {
-      "Not a tower beside a garden he could still describe after four centuries in darkness.": ["chapter-3-city.webp", 1086, 1448, "Orin, Kisaya, and Ultimos look across modern Veyr toward the immense, twisted Black Spire at sunset."],
+      "Not a tower beside a garden he could still describe after four centuries sealed away.": ["chapter-3-city.webp", 1086, 1448, "Orin, Kisaya, and Ultimos look across modern Veyr toward the immense, twisted Black Spire at sunset."],
       "It described the hand as if the wound had never happened.": ["chapter-3-healing.webp", 1055, 1491, "Ultimos shapes luminous white geometry above a burned boy’s hand while Nema, Orin, Kisaya, and the boy’s mother watch."],
     },
   },

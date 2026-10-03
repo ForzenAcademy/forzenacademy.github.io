@@ -11,7 +11,7 @@
     "name": "rolldown-runtime"
   },
   "components/game/game-page.tsx": {
-    "file": "bnode/_next/static/chunks/game-page-DoNK3xJP.js",
+    "file": "bnode/_next/static/chunks/game-page-aUQR26Vv.js",
     "name": "game-page",
     "src": "components/game/game-page.tsx",
     "isDynamicEntry": true,
@@ -21,7 +21,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js": {
-    "file": "bnode/_next/static/chunks/app-route-prefetch-policy-DOdIhxTm.js",
+    "file": "bnode/_next/static/chunks/app-route-prefetch-policy-BxPNf9nV.js",
     "name": "app-route-prefetch-policy",
     "src": "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js",
     "isDynamicEntry": true,
@@ -30,7 +30,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "bnode/_next/static/chunks/layout-segment-context-I-n0Y2PA.js",
+    "file": "bnode/_next/static/chunks/layout-segment-context-BYWsXNU1.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -51,7 +51,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "bnode/_next/static/chunks/index-C5-lqnjw.js",
+    "file": "bnode/_next/static/chunks/index-BlrGajEu.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,

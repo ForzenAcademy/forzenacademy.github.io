@@ -105,7 +105,7 @@
 <a class="toc-level-3" href="#super-fusions">Super fusions</a></nav>
     </aside>
     <main class="wiki-content">
-      <div class="wiki-meta">Live mechanics reference · Source d69c49b40d6f</div>
+      <div class="wiki-meta">Live mechanics reference · Source d6e7adbfb077</div>
       <h1 id="node-catalog">Node Catalog</h1>
 <p>This document describes the nodes currently implemented in magitower: Arcane Circuit. Values and behavior reflect the game code, not earlier design notes.</p>
 <p>Every catalog row pairs the exact current <strong>in-game copy</strong> with a fuller <strong>detailed behavior</strong> description. The quoted copy is sourced from the same registry used by node cards and inspection modals.</p>
@@ -138,6 +138,7 @@
 <p>Each of the three level-up cards rolls its rarity independently. Levels 2–5 use 70% Common, 25% Uncommon, and 5% Rare odds. Levels 6–12 use 58% Common, 32% Uncommon, and 10% Rare. Level 13 onward uses 48% Common, 36% Uncommon, and 16% Rare. If an eligible tier is empty, its odds are redistributed across the tiers that still have valid rewards.</p>
 <p>After four level-up offers without a Rare, the next level-up offer guarantees at least one eligible Rare. Seeing a Rare resets this protection, including when it appears from a reroll. Rerolling an offer without finding a Rare does not advance the protection counter.</p>
 <p>Three-copy fusion ingredients gain <strong>fusion momentum</strong> from loose copies currently on the board. With one loose copy, later copies roll as one tier more common. With two loose copies, the completing copy rolls as two tiers more common, down to Common. Fused results do not count as loose ingredients, so completing a fusion resets that family's momentum.</p>
+<p>Completing a fusion removes its offered ingredients from the level-up pool for the rest of that run. For example, creating <strong>Time Warp</strong> retires <strong>Attack Speed</strong> from later offers, even if Time Warp is later removed or used in another fusion. Creating <strong>Ordnance Foundry</strong> similarly retires both <strong>Recycler</strong> and <strong>Salvager</strong>.</p>
 <h2 id="run-coins">Run coins</h2>
 <ul><li>Every defeated enemy awards <strong>1 coin</strong>.</li><li>Elite enemies award <strong>3 base coins</strong> and bosses award <strong>5 base coins</strong> instead.</li><li>Clearing a wave awards <strong>1 additional coin</strong>.</li><li>Coins are currently run-local and reset when the run restarts; they are not written to saved data yet.</li><li>Each loose Bounty Hunter makes the single marked enemy take 15% more damage and award 2 bonus coins. Three copies fuse into Death Warrant.</li><li>Midas Touch adds 10 Power and permanently marks enemies damaged by its chain for 20% more kill coins. Repeated hits from the same Midas Touch do not stack, while distinct copies stack additively. Its multiplier applies to the full enemy reward, including a Bounty Hunter bonus.</li><li>Gilded Edge is a Clyde-only Rare inline node that converts held wealth into damage without spending it: +10% base damage plus +1% per 2 coins, capped at +50% at 80 coins.</li><li>Salvager gives ammo-bearing nodes 25% more damage or healing and awards 3 coins whenever the player breaks a depleted one.</li></ul>
 <h2 id="enemy-archetypes">Enemy archetypes</h2>

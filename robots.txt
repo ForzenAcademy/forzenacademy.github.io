@@ -1,3 +1,22 @@
-# https://www.robotstxt.org/robotstxt.html
+# Only the main Forzen Academy homepage should be crawled.
+# The /assets/ directory and favicon remain available so crawlers can render it.
 User-agent: *
-Disallow:
+Disallow: /bnode/
+Disallow: /docs/
+Disallow: /mag/
+Disallow: /magitower/
+Disallow: /mtg/
+Disallow: /node/
+Disallow: /onebit/
+Disallow: /photo/
+Disallow: /scripts/
+Disallow: /ultimos/
+Disallow: /vectorsaur/
+
+# Do not crawl leftover files published beside the homepage.
+Disallow: /.DS_Store
+Disallow: /.nojekyll
+Disallow: /CNAME
+Disallow: /MTG_DEPLOY.md
+Disallow: /bundle.js
+Disallow: /index2.html

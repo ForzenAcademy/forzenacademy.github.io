@@ -1,0 +1,1 @@
+import{n as e}from"./game-renderer-BazDmCYn.js";export{e as WebGPURenderer};

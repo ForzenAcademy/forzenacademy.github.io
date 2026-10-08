@@ -131,8 +131,8 @@
       "_framework-xWbE11K6.js"
     ]
   },
-  "_renderer-diagnostics-Cgtt-i1q.js": {
-    "file": "bnode/_next/static/chunks/renderer-diagnostics-Cgtt-i1q.js",
+  "_renderer-diagnostics-C4N7GJeg.js": {
+    "file": "bnode/_next/static/chunks/renderer-diagnostics-C4N7GJeg.js",
     "name": "renderer-diagnostics"
   },
   "_rolldown-runtime-Dh2opQnG.js": {
@@ -151,18 +151,18 @@
     ]
   },
   "components/game/game-error-boundary.tsx": {
-    "file": "bnode/_next/static/chunks/game-error-boundary-koIw3BP2.js",
+    "file": "bnode/_next/static/chunks/game-error-boundary-D9GDZfjB.js",
     "name": "game-error-boundary",
     "src": "components/game/game-error-boundary.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-Dh2opQnG.js",
-      "_renderer-diagnostics-Cgtt-i1q.js",
+      "_renderer-diagnostics-C4N7GJeg.js",
       "_framework-xWbE11K6.js"
     ]
   },
   "components/game/game-page.tsx": {
-    "file": "bnode/_next/static/chunks/game-page-C9CxT6YL.js",
+    "file": "bnode/_next/static/chunks/game-page-_BUwghbO.js",
     "name": "game-page",
     "src": "components/game/game-page.tsx",
     "isDynamicEntry": true,
@@ -170,7 +170,7 @@
       "_rolldown-runtime-Dh2opQnG.js",
       "virtual:vinext-app-browser-entry",
       "_player-combat-popups-DcESmGgF.js",
-      "_renderer-diagnostics-Cgtt-i1q.js",
+      "_renderer-diagnostics-C4N7GJeg.js",
       "_duration-histogram-BtNeEMgd.js",
       "_createLucideIcon-BbnsFED0.js",
       "_x-DVk2kewz.js",
@@ -195,29 +195,29 @@
     ]
   },
   "components/game/renderer-diagnostics.tsx": {
-    "file": "bnode/_next/static/chunks/renderer-diagnostics-rpseaXGy.js",
+    "file": "bnode/_next/static/chunks/renderer-diagnostics-DTH4_-wL.js",
     "name": "renderer-diagnostics",
     "src": "components/game/renderer-diagnostics.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-Dh2opQnG.js",
-      "_renderer-diagnostics-Cgtt-i1q.js",
+      "_renderer-diagnostics-C4N7GJeg.js",
       "_framework-xWbE11K6.js"
     ]
   },
   "lib/performance-capture.ts": {
-    "file": "bnode/_next/static/chunks/performance-capture-1feqLQuV.js",
+    "file": "bnode/_next/static/chunks/performance-capture-B6aR1db7.js",
     "name": "performance-capture",
     "src": "lib/performance-capture.ts",
     "isDynamicEntry": true,
     "imports": [
-      "_renderer-diagnostics-Cgtt-i1q.js",
+      "_renderer-diagnostics-C4N7GJeg.js",
       "_duration-histogram-BtNeEMgd.js",
       "_scene-counters-CB7CxOL3.js"
     ]
   },
   "lib/renderer/game-renderer.ts": {
-    "file": "bnode/_next/static/chunks/game-renderer-DwPqclMQ.js",
+    "file": "bnode/_next/static/chunks/game-renderer-DbpTrQfS.js",
     "name": "game-renderer",
     "src": "lib/renderer/game-renderer.ts",
     "isDynamicEntry": true,
@@ -225,7 +225,7 @@
       "_rolldown-runtime-Dh2opQnG.js",
       "virtual:vinext-app-browser-entry",
       "_player-combat-popups-DcESmGgF.js",
-      "_renderer-diagnostics-Cgtt-i1q.js",
+      "_renderer-diagnostics-C4N7GJeg.js",
       "_scene-counters-CB7CxOL3.js",
       "_CanvasPool-CEELLAli.js",
       "_GCManagedHash-B02EoKVU.js",
@@ -270,7 +270,7 @@
     ]
   },
   "node_modules/pixi.js/lib/rendering/renderers/canvas/CanvasRenderer.mjs": {
-    "file": "bnode/_next/static/chunks/CanvasRenderer-CYY3juDb.js",
+    "file": "bnode/_next/static/chunks/CanvasRenderer-kAmgz23Y.js",
     "name": "CanvasRenderer",
     "src": "node_modules/pixi.js/lib/rendering/renderers/canvas/CanvasRenderer.mjs",
     "isDynamicEntry": true,
@@ -279,7 +279,7 @@
     ]
   },
   "node_modules/pixi.js/lib/rendering/renderers/gl/WebGLRenderer.mjs": {
-    "file": "bnode/_next/static/chunks/WebGLRenderer-jM2zeEoX.js",
+    "file": "bnode/_next/static/chunks/WebGLRenderer-BHvMn-au.js",
     "name": "WebGLRenderer",
     "src": "node_modules/pixi.js/lib/rendering/renderers/gl/WebGLRenderer.mjs",
     "isDynamicEntry": true,
@@ -288,7 +288,7 @@
     ]
   },
   "node_modules/pixi.js/lib/rendering/renderers/gpu/WebGPURenderer.mjs": {
-    "file": "bnode/_next/static/chunks/WebGPURenderer-ClBF0123.js",
+    "file": "bnode/_next/static/chunks/WebGPURenderer-D1B-59-D.js",
     "name": "WebGPURenderer",
     "src": "node_modules/pixi.js/lib/rendering/renderers/gpu/WebGPURenderer.mjs",
     "isDynamicEntry": true,
@@ -297,7 +297,7 @@
     ]
   },
   "node_modules/pixi.js/lib/scene/text-bitmap/BitmapFont.mjs": {
-    "file": "bnode/_next/static/chunks/BitmapFont-CuRCTqwu.js",
+    "file": "bnode/_next/static/chunks/BitmapFont-C2T7q7Z-.js",
     "name": "BitmapFont",
     "src": "node_modules/pixi.js/lib/scene/text-bitmap/BitmapFont.mjs",
     "isDynamicEntry": true,
@@ -306,7 +306,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js": {
-    "file": "bnode/_next/static/chunks/app-route-prefetch-policy-BjvjFH7k.js",
+    "file": "bnode/_next/static/chunks/app-route-prefetch-policy-y2Ga6D7L.js",
     "name": "app-route-prefetch-policy",
     "src": "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js",
     "isDynamicEntry": true,
@@ -315,7 +315,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "bnode/_next/static/chunks/layout-segment-context-BhDzBwlN.js",
+    "file": "bnode/_next/static/chunks/layout-segment-context-BbZMoXqv.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -336,7 +336,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "bnode/_next/static/chunks/index-D3LG7z91.js",
+    "file": "bnode/_next/static/chunks/index-BlTnD6Ft.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,

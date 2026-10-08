@@ -1,4 +1,4 @@
-import{L as e,W as t,d as n,i as r,r as i,x as a}from"./CanvasPool-CEELLAli.js";import{m as o}from"./RenderTargetSystem-Bkmydp8V.js";import{m as s}from"./GCManagedHash-B02EoKVU.js";var c={name:`local-uniform-bit`,vertex:{header:`
+import{L as e,W as t,d as n,i as r,r as i,x as a}from"./CanvasPool-CEELLAli.js";import{g as o}from"./RenderTargetSystem-Dt8HfeR3.js";import{m as s}from"./GCManagedHash-B02EoKVU.js";var c={name:`local-uniform-bit`,vertex:{header:`
 
             struct LocalUniforms {
                 uTransformMatrix:mat3x3<f32>,

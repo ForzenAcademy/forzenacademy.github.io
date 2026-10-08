@@ -1,0 +1,1 @@
+import{n as e}from"./game-renderer-CJcau_v-.js";export{e as WebGPURenderer};

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Node gallery · magitower</title>
+    <script type="module" crossorigin src="./debug-node-assets/debug_nodes-BbGqstbG.js"></script>
+    <link rel="modulepreload" crossorigin href="./debug-node-assets/node-preview-model-Bxvt72ts.js">
+    <link rel="stylesheet" crossorigin href="./debug-node-assets/node-preview-model-6ESdgcEV.css">
+    <link rel="stylesheet" crossorigin href="./debug-node-assets/debug_nodes-BsEC4ibc.css">
+  </head>
+  <body>
+    <header id="node-debug-toolbar">
+      <div class="node-debug-heading"><div><h1>Node gallery</h1><p>The same Pixi cards used during a run. Sample values; no active game.</p></div><a href="./debug_node_modals.html">Eye modals</a><a href="./">Back to game</a></div>
+      <div class="node-debug-controls">
+        <label class="node-debug-search">Find a node<input id="node-debug-search" type="search" placeholder="Name or node ID…" autocomplete="off" /></label>
+        <label>Category<select id="node-debug-category"><option value="all">All nodes</option><option value="weapon">Weapons</option><option value="modifier">Modifiers</option><option value="item">Items</option><option value="relic">Relics</option><option value="target">Targets</option><option value="fused">Fusions</option><option value="ascendant">Ascendant fusions</option><option value="none">No rarity</option></select></label>
+        <label>Artwork<select id="node-debug-art"><option value="all">All artwork</option><option value="yes">With artwork</option><option value="no">Without artwork</option></select></label>
+        <label>Appearance<select id="node-debug-mode"><option value="connected">Connected</option><option value="disconnected">Disconnected</option><option value="selected">Selected</option><option value="processing">Processing</option><option value="replaying">Replaying</option></select></label>
+        <label>Zoom <output id="node-debug-zoom-value">100%</output><input id="node-debug-zoom" aria-label="Zoom" type="range" min="60" max="160" step="10" value="100" /></label>
+        <label>Sample values <output id="node-debug-sample-value">50%</output><input id="node-debug-sample" aria-label="Sample values" type="range" min="0" max="100" value="50" /></label>
+        <label class="node-debug-toggle"><input id="node-debug-animate" type="checkbox" /> Animate widgets</label>
+      </div>
+      <p id="node-debug-status" role="status">Preparing the renderer…</p>
+    </header>
+    <main id="node-debug-viewport" aria-label="Rendered node gallery">
+      <div id="node-debug-scroll"><div id="node-debug-grid"></div><p id="node-debug-empty" hidden>No nodes match these filters.</p></div>
+      <div id="node-debug-scene" class="game-shell" aria-hidden="true"></div>
+    </main>
+    <noscript>This gallery needs JavaScript and WebGL to display the in-game node renderer.</noscript>
+  </body>
+</html>

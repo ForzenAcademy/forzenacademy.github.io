@@ -114,8 +114,8 @@
       "_FilterSystem-BNFbTbru.js"
     ]
   },
-  "_player-combat-popups-DAIt4Of4.js": {
-    "file": "bnode/_next/static/chunks/player-combat-popups-DAIt4Of4.js",
+  "_player-combat-popups-BATuqBiT.js": {
+    "file": "bnode/_next/static/chunks/player-combat-popups-BATuqBiT.js",
     "name": "player-combat-popups",
     "imports": [
       "_rolldown-runtime-Dh2opQnG.js",
@@ -162,14 +162,14 @@
     ]
   },
   "components/game/game-page.tsx": {
-    "file": "bnode/_next/static/chunks/game-page-DnsLT-ks.js",
+    "file": "bnode/_next/static/chunks/game-page-CDlCsGny.js",
     "name": "game-page",
     "src": "components/game/game-page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-Dh2opQnG.js",
       "virtual:vinext-app-browser-entry",
-      "_player-combat-popups-DAIt4Of4.js",
+      "_player-combat-popups-BATuqBiT.js",
       "_renderer-diagnostics-YeM6SyQK.js",
       "_duration-histogram-BtNeEMgd.js",
       "_createLucideIcon-BbnsFED0.js",
@@ -217,14 +217,14 @@
     ]
   },
   "lib/renderer/game-renderer.ts": {
-    "file": "bnode/_next/static/chunks/game-renderer-D7XKd4ac.js",
+    "file": "bnode/_next/static/chunks/game-renderer-pJBmMcoX.js",
     "name": "game-renderer",
     "src": "lib/renderer/game-renderer.ts",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-Dh2opQnG.js",
       "virtual:vinext-app-browser-entry",
-      "_player-combat-popups-DAIt4Of4.js",
+      "_player-combat-popups-BATuqBiT.js",
       "_renderer-diagnostics-YeM6SyQK.js",
       "_scene-counters-CB7CxOL3.js",
       "_CanvasPool-CEELLAli.js",
@@ -270,7 +270,7 @@
     ]
   },
   "node_modules/pixi.js/lib/rendering/renderers/canvas/CanvasRenderer.mjs": {
-    "file": "bnode/_next/static/chunks/CanvasRenderer-B7RGmYdj.js",
+    "file": "bnode/_next/static/chunks/CanvasRenderer-hk9sbPlh.js",
     "name": "CanvasRenderer",
     "src": "node_modules/pixi.js/lib/rendering/renderers/canvas/CanvasRenderer.mjs",
     "isDynamicEntry": true,
@@ -279,7 +279,7 @@
     ]
   },
   "node_modules/pixi.js/lib/rendering/renderers/gl/WebGLRenderer.mjs": {
-    "file": "bnode/_next/static/chunks/WebGLRenderer-v_RKZgHh.js",
+    "file": "bnode/_next/static/chunks/WebGLRenderer-nZ7CCYTB.js",
     "name": "WebGLRenderer",
     "src": "node_modules/pixi.js/lib/rendering/renderers/gl/WebGLRenderer.mjs",
     "isDynamicEntry": true,
@@ -288,7 +288,7 @@
     ]
   },
   "node_modules/pixi.js/lib/rendering/renderers/gpu/WebGPURenderer.mjs": {
-    "file": "bnode/_next/static/chunks/WebGPURenderer-DXQHpQJG.js",
+    "file": "bnode/_next/static/chunks/WebGPURenderer-CuNkRPrB.js",
     "name": "WebGPURenderer",
     "src": "node_modules/pixi.js/lib/rendering/renderers/gpu/WebGPURenderer.mjs",
     "isDynamicEntry": true,
@@ -297,7 +297,7 @@
     ]
   },
   "node_modules/pixi.js/lib/scene/text-bitmap/BitmapFont.mjs": {
-    "file": "bnode/_next/static/chunks/BitmapFont-C8MDw8BM.js",
+    "file": "bnode/_next/static/chunks/BitmapFont-xsv6RfFD.js",
     "name": "BitmapFont",
     "src": "node_modules/pixi.js/lib/scene/text-bitmap/BitmapFont.mjs",
     "isDynamicEntry": true,
@@ -306,7 +306,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js": {
-    "file": "bnode/_next/static/chunks/app-route-prefetch-policy-Rfv-PZnR.js",
+    "file": "bnode/_next/static/chunks/app-route-prefetch-policy-CjtlZCCH.js",
     "name": "app-route-prefetch-policy",
     "src": "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js",
     "isDynamicEntry": true,
@@ -315,7 +315,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "bnode/_next/static/chunks/layout-segment-context-Bmws7c4f.js",
+    "file": "bnode/_next/static/chunks/layout-segment-context-Bw21N83A.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -336,7 +336,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "bnode/_next/static/chunks/index-BcpHC1kw.js",
+    "file": "bnode/_next/static/chunks/index-zozcoskr.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,

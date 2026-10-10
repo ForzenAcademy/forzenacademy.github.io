@@ -1,1 +1,0 @@
-import{t as e}from"./game-renderer-B4VjHvsu.js";export{e as BitmapFont};

@@ -1,0 +1,1 @@
+import{i as e}from"./game-renderer-BtQlgHk0.js";export{e as CanvasRenderer};

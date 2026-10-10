@@ -1,0 +1,1 @@
+import{n as e}from"./game-renderer-B4VjHvsu.js";export{e as WebGPURenderer};

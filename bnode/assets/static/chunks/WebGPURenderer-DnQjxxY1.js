@@ -1,1 +1,0 @@
-import{n as e}from"./game-renderer-C_JFFabq.js";export{e as WebGPURenderer};

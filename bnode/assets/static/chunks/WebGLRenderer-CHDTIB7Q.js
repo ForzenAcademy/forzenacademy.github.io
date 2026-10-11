@@ -1,1 +1,0 @@
-import{r as e}from"./game-renderer-BnD-Tiko.js";export{e as WebGLRenderer};

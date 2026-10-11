@@ -1,1 +1,0 @@
-import{t as e}from"./game-renderer-BnD-Tiko.js";export{e as BitmapFont};

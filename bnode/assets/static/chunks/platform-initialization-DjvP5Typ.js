@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-Dh2opQnG.js";import{i as t}from"./framework-xWbE11K6.js";import{t as n}from"./services-DO5zZr0s.js";var r=e(t(),1);function i(){return(0,r.useEffect)(()=>{n().analytics.initialize()},[]),null}export{i as PlatformInitialization};

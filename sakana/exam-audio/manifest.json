@@ -1,0 +1,373 @@
+{
+  "version": 1,
+  "voice": "Kyoko (Japanese, macOS) · synthetic narration",
+  "license": "Original SAKANAFISH scripts. No JLPT recordings or transcripts are reproduced.",
+  "tracks": {
+    "check": {
+      "file": "check.m4a",
+      "hash": "6b82408a5fb6fe4eed9aa3364352e4f098f44086f8b4a9ee789d1d36bc25b7c8",
+      "level": "",
+      "rate": 200
+    },
+    "n5-exam-l01": {
+      "file": "n5/n5-exam-l01.m4a",
+      "hash": "b290fed6519616c15c41e95bce278a7233456f1882bcd8e4cb4a46ecb5010975",
+      "level": "N5",
+      "rate": 155
+    },
+    "n5-exam-l02": {
+      "file": "n5/n5-exam-l02.m4a",
+      "hash": "c96e65da68010ed765e4cae50a5fc5b71c3357d803155d5dc4de5cdc57b3b6bd",
+      "level": "N5",
+      "rate": 155
+    },
+    "n5-exam-l03": {
+      "file": "n5/n5-exam-l03.m4a",
+      "hash": "b81f8fcd3f0e02c0b4ebc98a7b685d1027715012211fc69c413bdb2aaeb49a9f",
+      "level": "N5",
+      "rate": 155
+    },
+    "n5-exam-l04": {
+      "file": "n5/n5-exam-l04.m4a",
+      "hash": "f2a6f6c33db5d09e69562457296a9fcda08218ce482863426d812c80a61a3197",
+      "level": "N5",
+      "rate": 155
+    },
+    "n5-exam-l05": {
+      "file": "n5/n5-exam-l05.m4a",
+      "hash": "f9b89025dd1444a20414fc46f7f742f2b26e566ffe8d6d1d98216072db000264",
+      "level": "N5",
+      "rate": 155
+    },
+    "n5-exam-l06": {
+      "file": "n5/n5-exam-l06.m4a",
+      "hash": "1803fa841cf49ae5c3a7d639892a94f00910e30ad1a37ff150635841295c19bd",
+      "level": "N5",
+      "rate": 155
+    },
+    "n5-exam-l07": {
+      "file": "n5/n5-exam-l07.m4a",
+      "hash": "dec01c4d7c3a6d3c19e3c1c82e5ae962141f7d2593279d6d2c53b08cb9abb75d",
+      "level": "N5",
+      "rate": 155
+    },
+    "n5-exam-l08": {
+      "file": "n5/n5-exam-l08.m4a",
+      "hash": "8e1bbcee479f05f1583a9f1398b7c53e73489105138cf084ab34a13b9dc99143",
+      "level": "N5",
+      "rate": 155
+    },
+    "n5-exam-l09": {
+      "file": "n5/n5-exam-l09.m4a",
+      "hash": "db112545b16bac3dad9eecee6074624ac2c7c1af16dfd4acdf0926e5a2e563e1",
+      "level": "N5",
+      "rate": 155
+    },
+    "n5-exam-l10": {
+      "file": "n5/n5-exam-l10.m4a",
+      "hash": "728ff81dc31547373fa92eb77478140459f6268d620d5559dab138b318f52d96",
+      "level": "N5",
+      "rate": 155
+    },
+    "n5-exam-l11": {
+      "file": "n5/n5-exam-l11.m4a",
+      "hash": "8846c7559089d151202f1f1f4e00468bb39b623ad1df137e5875e8e263b1cda7",
+      "level": "N5",
+      "rate": 155
+    },
+    "n5-exam-l12": {
+      "file": "n5/n5-exam-l12.m4a",
+      "hash": "1a2ccbb3006275bb374b811408d3dbc7527f77338e50b282dcb87c685f3dd3f5",
+      "level": "N5",
+      "rate": 155
+    },
+    "n4-exam-l01": {
+      "file": "n4/n4-exam-l01.m4a",
+      "hash": "33290d734ea8788d91ff12a9e19dffc1c6bbdfea36ba6a0fc9569aee4a2bbb8b",
+      "level": "N4",
+      "rate": 170
+    },
+    "n4-exam-l02": {
+      "file": "n4/n4-exam-l02.m4a",
+      "hash": "4830e34eb667a903638119a31db303a478956c92ff0622055566c9a41b169f0c",
+      "level": "N4",
+      "rate": 170
+    },
+    "n4-exam-l03": {
+      "file": "n4/n4-exam-l03.m4a",
+      "hash": "4729437170a806dc83c10e7d388a94b7723f3fc331e9f0980f94381feb33f1f7",
+      "level": "N4",
+      "rate": 170
+    },
+    "n4-exam-l04": {
+      "file": "n4/n4-exam-l04.m4a",
+      "hash": "f5af9dfcf9e18b2538ca8d34ef405d1ff43fe49394c3c10b010afbed0403f7c3",
+      "level": "N4",
+      "rate": 170
+    },
+    "n4-exam-l05": {
+      "file": "n4/n4-exam-l05.m4a",
+      "hash": "cc6b62f1f786e9a5343127fbb4e899363172b1c78da58e71aff57f589b2fd446",
+      "level": "N4",
+      "rate": 170
+    },
+    "n4-exam-l06": {
+      "file": "n4/n4-exam-l06.m4a",
+      "hash": "66b00227e0287e377d0dd28ed1037fb994dc1b45e367d48a0f78e318fb769c15",
+      "level": "N4",
+      "rate": 170
+    },
+    "n4-exam-l07": {
+      "file": "n4/n4-exam-l07.m4a",
+      "hash": "533273be8890c5a593465f30969f11540c73a2f362da9cc123806c6f2385215e",
+      "level": "N4",
+      "rate": 170
+    },
+    "n4-exam-l08": {
+      "file": "n4/n4-exam-l08.m4a",
+      "hash": "942013f2b1c9978bfbd67f4ac6dc4666f6b7c71e6f44bab108388880db1029a6",
+      "level": "N4",
+      "rate": 170
+    },
+    "n4-exam-l09": {
+      "file": "n4/n4-exam-l09.m4a",
+      "hash": "07a1756b52c59ffebac6bb267a958458f51528817684865f1de9384ec968308e",
+      "level": "N4",
+      "rate": 170
+    },
+    "n4-exam-l10": {
+      "file": "n4/n4-exam-l10.m4a",
+      "hash": "a7df090dd88733e8f1fc42ccd6d49c10c54e9c83186c8efece4505429afb20f5",
+      "level": "N4",
+      "rate": 170
+    },
+    "n4-exam-l11": {
+      "file": "n4/n4-exam-l11.m4a",
+      "hash": "516684f0250ff8e18a67a8e75e11495bb2673f2bc95d0896969f3dca74d7bfb1",
+      "level": "N4",
+      "rate": 170
+    },
+    "n4-exam-l12": {
+      "file": "n4/n4-exam-l12.m4a",
+      "hash": "d0594434ecd01bb61a95df99143b4e71f849b8d5e4802b9cc83a5db5c93a58f0",
+      "level": "N4",
+      "rate": 170
+    },
+    "n3-exam-l01": {
+      "file": "n3/n3-exam-l01.m4a",
+      "hash": "91f22639821571908a6ac81604b1a67af541193197e7b5228f7e8d64f4cceaff",
+      "level": "N3",
+      "rate": 185
+    },
+    "n3-exam-l02": {
+      "file": "n3/n3-exam-l02.m4a",
+      "hash": "82f245813b4ec9b19da82652492abecd3d897ee8725c20fc8f2d78d015a6bf9a",
+      "level": "N3",
+      "rate": 185
+    },
+    "n3-exam-l03": {
+      "file": "n3/n3-exam-l03.m4a",
+      "hash": "a2b4e6cb2e839d7a0fd258af15433fb8b0f5b5ad680cf0aa8bd6529ad507f9a5",
+      "level": "N3",
+      "rate": 185
+    },
+    "n3-exam-l04": {
+      "file": "n3/n3-exam-l04.m4a",
+      "hash": "0f8a1645917a912ba0370f9b8ecae7812012ce2ea6419f99253ae12c189623ed",
+      "level": "N3",
+      "rate": 185
+    },
+    "n3-exam-l05": {
+      "file": "n3/n3-exam-l05.m4a",
+      "hash": "27cb379156198c261b05639a044065799641e134467ba9e72134d9f923e809c2",
+      "level": "N3",
+      "rate": 185
+    },
+    "n3-exam-l06": {
+      "file": "n3/n3-exam-l06.m4a",
+      "hash": "e243c4e4eee7c4264e3346a62988d78370b97c677907b3635d24ad44e1854b31",
+      "level": "N3",
+      "rate": 185
+    },
+    "n3-exam-l07": {
+      "file": "n3/n3-exam-l07.m4a",
+      "hash": "d514e55f9e2d60168c1a2b727acb6b9d78e7b3fa41781ed1ea21364b0bcf1839",
+      "level": "N3",
+      "rate": 185
+    },
+    "n3-exam-l08": {
+      "file": "n3/n3-exam-l08.m4a",
+      "hash": "0cd92403fb5add295af1c1aefeb29a4c5717fa980154bb34bed899fda8f77cf2",
+      "level": "N3",
+      "rate": 185
+    },
+    "n3-exam-l09": {
+      "file": "n3/n3-exam-l09.m4a",
+      "hash": "bcf971605545022cfdd85ca66d9a4c2e6e7364d1662be08849d206686fedbefb",
+      "level": "N3",
+      "rate": 185
+    },
+    "n3-exam-l10": {
+      "file": "n3/n3-exam-l10.m4a",
+      "hash": "14b6a9ae887ae1f29d24f354df07a2ec54d40e80a7f111a0d492ac5bbe8fd1a0",
+      "level": "N3",
+      "rate": 185
+    },
+    "n3-exam-l11": {
+      "file": "n3/n3-exam-l11.m4a",
+      "hash": "7affbcc202fdea9ea5b5a73fb778ff18e77f1915db15872b34369f11aefbc2a3",
+      "level": "N3",
+      "rate": 185
+    },
+    "n3-exam-l12": {
+      "file": "n3/n3-exam-l12.m4a",
+      "hash": "58a7c506e5ec64c0b91f1cd8cad00d0a30fdf869455e556e3f5896f672080150",
+      "level": "N3",
+      "rate": 185
+    },
+    "n2-exam-l01": {
+      "file": "n2/n2-exam-l01.m4a",
+      "hash": "cc00fdc46fdbc87c36b75d8d584b2717b3a384ae0a4a4849541a05d4d5f0e46d",
+      "level": "N2",
+      "rate": 200
+    },
+    "n2-exam-l02": {
+      "file": "n2/n2-exam-l02.m4a",
+      "hash": "2a0d2b6ac2f989344d1efcdbe5f0e0f41ac250c3c769abd5571d5d15dd02b0da",
+      "level": "N2",
+      "rate": 200
+    },
+    "n2-exam-l03": {
+      "file": "n2/n2-exam-l03.m4a",
+      "hash": "b39d7b1e92611a287803bc7699afea758c2895eca945f87b4390fd96fb53074f",
+      "level": "N2",
+      "rate": 200
+    },
+    "n2-exam-l04": {
+      "file": "n2/n2-exam-l04.m4a",
+      "hash": "fa0786b86c0312df0f77ac8619e868832ced50cc5ac64fc1d75625ad2ee2f4d3",
+      "level": "N2",
+      "rate": 200
+    },
+    "n2-exam-l05": {
+      "file": "n2/n2-exam-l05.m4a",
+      "hash": "31e8219e3cd6d48dbcaeb2714b6c027c1a2e75f9191cf0314e1a28cc88011912",
+      "level": "N2",
+      "rate": 200
+    },
+    "n2-exam-l06": {
+      "file": "n2/n2-exam-l06.m4a",
+      "hash": "3c0f2dc77cd56293c21239d2e58f5325a5a0444a97a2f2d938d3ab5de29f9f92",
+      "level": "N2",
+      "rate": 200
+    },
+    "n2-exam-l07": {
+      "file": "n2/n2-exam-l07.m4a",
+      "hash": "49a1d788483b5260a2bd8ac0f6cc0d7da3fd7731d208520b518cc021c7a9929c",
+      "level": "N2",
+      "rate": 200
+    },
+    "n2-exam-l08": {
+      "file": "n2/n2-exam-l08.m4a",
+      "hash": "0d3eb53a04ce149183127c954ae719affac09f1b62ab4a757f6a64611331088a",
+      "level": "N2",
+      "rate": 200
+    },
+    "n2-exam-l09": {
+      "file": "n2/n2-exam-l09.m4a",
+      "hash": "4683f579979288217e58baa5c8d619669226671a05cebbbb349d374940dc9c47",
+      "level": "N2",
+      "rate": 200
+    },
+    "n2-exam-l10": {
+      "file": "n2/n2-exam-l10.m4a",
+      "hash": "17ce251afd0cfe07047b6b0c608bf7f3c18dab51b2ce6126c3c514ae1b194f32",
+      "level": "N2",
+      "rate": 200
+    },
+    "n2-exam-l11": {
+      "file": "n2/n2-exam-l11.m4a",
+      "hash": "fc78df206872c98255a9e70835116a3e60bc40d03c3dc7b1ff0d42ddcb39c60a",
+      "level": "N2",
+      "rate": 200
+    },
+    "n2-exam-l12": {
+      "file": "n2/n2-exam-l12.m4a",
+      "hash": "299764b55ff21249b17293298d391f63001d75831a2cd99036078e514646b7e1",
+      "level": "N2",
+      "rate": 200
+    },
+    "n1-exam-l01": {
+      "file": "n1/n1-exam-l01.m4a",
+      "hash": "9185cafb3ea9f0951cfbf4c5f526b5d1740bebe00e4718946606dda0e2d60326",
+      "level": "N1",
+      "rate": 200
+    },
+    "n1-exam-l02": {
+      "file": "n1/n1-exam-l02.m4a",
+      "hash": "fcb269061d7e5099f1916159dc30f5877e0ab282143c98ac8e4034d04d9b1f21",
+      "level": "N1",
+      "rate": 200
+    },
+    "n1-exam-l03": {
+      "file": "n1/n1-exam-l03.m4a",
+      "hash": "7cf984a99c0622b98bd089210b62212434590acb989017f80c4c078680482708",
+      "level": "N1",
+      "rate": 200
+    },
+    "n1-exam-l04": {
+      "file": "n1/n1-exam-l04.m4a",
+      "hash": "0f68dcf24831960f6d92275e4cb90885eae3e47af26a34b78262227b3e35ed1d",
+      "level": "N1",
+      "rate": 200
+    },
+    "n1-exam-l05": {
+      "file": "n1/n1-exam-l05.m4a",
+      "hash": "11f0ab19db15eb50107b5c07a3699f83795ee89e8e8d14f140368f6fab81e6af",
+      "level": "N1",
+      "rate": 200
+    },
+    "n1-exam-l06": {
+      "file": "n1/n1-exam-l06.m4a",
+      "hash": "1f1e6ce210a0881ec8d29ded9742bd6da72845e80ac893fce4a07b1e28645c64",
+      "level": "N1",
+      "rate": 200
+    },
+    "n1-exam-l07": {
+      "file": "n1/n1-exam-l07.m4a",
+      "hash": "8cdbcf86871b747ba3f201c0d554504dc94b70ed56e8c5129bdef1eb0ef690c6",
+      "level": "N1",
+      "rate": 200
+    },
+    "n1-exam-l08": {
+      "file": "n1/n1-exam-l08.m4a",
+      "hash": "e87995940f7249781e856db94d83b6b4041cb720492138c128657110aee3dcd7",
+      "level": "N1",
+      "rate": 200
+    },
+    "n1-exam-l09": {
+      "file": "n1/n1-exam-l09.m4a",
+      "hash": "b6ab73840b15d79b4546521db70cdc016fea13c0e76931c2bdd4138ce8e485de",
+      "level": "N1",
+      "rate": 200
+    },
+    "n1-exam-l10": {
+      "file": "n1/n1-exam-l10.m4a",
+      "hash": "870859f3904927d219f6b3d093544af4f9d785f5b8efd2e751e3752076bbe431",
+      "level": "N1",
+      "rate": 200
+    },
+    "n1-exam-l11": {
+      "file": "n1/n1-exam-l11.m4a",
+      "hash": "ef0a564104e118ac04881261101703a939e8c98e857493a13856e2aef6075fb0",
+      "level": "N1",
+      "rate": 200
+    },
+    "n1-exam-l12": {
+      "file": "n1/n1-exam-l12.m4a",
+      "hash": "7fbff3e3353f54f056c57c996a683bb188290a840c8701620968efa8e94c6578",
+      "level": "N1",
+      "rate": 200
+    }
+  }
+}

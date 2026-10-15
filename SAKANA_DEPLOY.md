@@ -1,14 +1,21 @@
-# Deploy SAKANAFISH
+# Optional GitHub Pages deployment
+
+The default deployment command now publishes to AWS. See [AWS_DEPLOY.md](AWS_DEPLOY.md).
+This guide describes the retained GitHub Pages deployment option.
 
 The release lives in `sakana/` and is published by GitHub Pages at:
 
 - <https://www.forzenacademy.com/sakana/>
 - <https://forzenacademy.github.io/sakana/> (redirects to the custom domain)
 
+Kanafish retains the existing `/sakana/` publishing path, deployment command names,
+and `SAKANA_*` configuration variables so current links and deployment setups keep
+working. The source directory is still named `sakanafish`.
+
 From the source project at `../sakanafish`, run:
 
 ```bash
-npm run deploy
+npm run deploy:pages
 ```
 
 Or, from anywhere:
@@ -24,13 +31,13 @@ checkout must be clean, on `main`, and authenticated to GitHub.
 
 ```bash
 # Test, build, validate, and preview changes without changing the Pages checkout.
-npm run deploy -- --dry-run
+npm run deploy:pages -- --dry-run
 
 # Choose a commit message.
-npm run deploy -- --message "Update the konbini lessons"
+npm run deploy:pages -- --message "Update the konbini lessons"
 
 # Copy and commit locally, without pushing.
-npm run deploy -- --no-push
+npm run deploy:pages -- --no-push
 ```
 
 The publishing-repository wrapper accepts the same arguments. If the source or

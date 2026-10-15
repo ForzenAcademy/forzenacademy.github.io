@@ -1,5 +1,5 @@
 {
-  "title": "SAKANAFISH N1 KANJIDIC2 subset",
+  "title": "KANAFISH N1 KANJIDIC2 subset",
   "source": "KANJIDIC2",
   "copyright": "James William BREEN and The Electronic Dictionary Research and Development Group",
   "project_url": "https://www.edrdg.org/wiki/KANJIDIC_Project.html",
@@ -454,7 +454,7 @@
       "pave"
     ]
   },
-  "endorsement": "Neither the original authors nor EDRDG endorse SAKANAFISH or this adaptation.",
+  "endorsement": "Neither the original authors nor EDRDG endorse KANAFISH or this adaptation.",
   "entries": [
     {
       "jp": "命",

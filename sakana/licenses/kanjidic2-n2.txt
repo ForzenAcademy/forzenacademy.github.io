@@ -1,6 +1,6 @@
 KANJIDIC2 attribution and licence notice
 
-SAKANAFISH uses a compact adapted subset of KANJIDIC2 character data.
+KANAFISH uses a compact adapted subset of KANJIDIC2 character data.
 Copyright: James William BREEN and The Electronic Dictionary Research and
 Development Group (EDRDG). The source contributors retain their rights.
 
@@ -26,7 +26,7 @@ link to the licence, and distribute adaptations under the same or a compatible
 licence. This notice applies to the dictionary data, not the app's original
 lesson text, illustrations, or software.
 
-The original authors and EDRDG do not endorse SAKANAFISH or this adaptation.
+The original authors and EDRDG do not endorse KANAFISH or this adaptation.
 The dictionary data are supplied without warranty; consult the source licence.
 
 Update procedure (downloads the current official source during development):

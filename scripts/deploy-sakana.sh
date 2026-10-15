@@ -7,7 +7,7 @@ repo_dir="$(cd -- "$script_dir/.." && pwd -P)"
 source_dir="${SAKANA_SOURCE_DIR:-$repo_dir/../sakanafish}"
 
 if [[ ! -f "$source_dir/scripts/deploy.sh" ]]; then
-  printf 'SAKANAFISH source not found at %s. Set SAKANA_SOURCE_DIR.\n' "$source_dir" >&2
+  printf 'KANAFISH source not found at %s. Set SAKANA_SOURCE_DIR.\n' "$source_dir" >&2
   exit 1
 fi
 

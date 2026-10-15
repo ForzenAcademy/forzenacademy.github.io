@@ -1,5 +1,5 @@
 {
-  "title": "SAKANAFISH N3 KANJIDIC2 subset",
+  "title": "KANAFISH N3 KANJIDIC2 subset",
   "source": "KANJIDIC2",
   "copyright": "James William BREEN and The Electronic Dictionary Research and Development Group",
   "project_url": "https://www.edrdg.org/wiki/KANJIDIC_Project.html",
@@ -13,7 +13,7 @@
   "character_count": 222,
   "vocabulary_word_count": 288,
   "changes": "Subset of Han ideographs first appearing in the N3 vocabulary, excluding characters already taught in N5/N4 and excluding the iteration mark 々. Entries follow first vocabulary occurrence. The first three English senses are retained when available, whitespace is normalized, Japanese on readings are converted to hiragana, okurigana dots and prefix/suffix hyphens are removed, duplicate readings are removed, and the primary stroke count is used. Dictionary indexes, SKIP codes, and other search codes are not included.",
-  "endorsement": "Neither the original authors nor EDRDG endorse SAKANAFISH or this adaptation.",
+  "endorsement": "Neither the original authors nor EDRDG endorse KANAFISH or this adaptation.",
   "entries": [
     {
       "jp": "掲",

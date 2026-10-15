@@ -1,11 +1,11 @@
 {
   "version": 1,
   "voice": "Kyoko (Japanese, macOS) · synthetic narration",
-  "license": "Original SAKANAFISH scripts. No JLPT recordings or transcripts are reproduced.",
+  "license": "Original KANAFISH scripts. No JLPT recordings or transcripts are reproduced.",
   "tracks": {
     "check": {
       "file": "check.m4a",
-      "hash": "6b82408a5fb6fe4eed9aa3364352e4f098f44086f8b4a9ee789d1d36bc25b7c8",
+      "hash": "91456eb065993818e5210d76b0117392635a01b50784a8ee1480b7d3b0af524e",
       "level": "",
       "rate": 200
     },

@@ -1,0 +1,1 @@
+import{r as e}from"./game-renderer-op55Ro-C.js";export{e as WebGLRenderer};

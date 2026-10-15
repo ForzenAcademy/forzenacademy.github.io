@@ -1,0 +1,1740 @@
+{
+  "title": "SAKANAFISH N1 KANJIDIC2 subset",
+  "source": "KANJIDIC2",
+  "copyright": "James William BREEN and The Electronic Dictionary Research and Development Group",
+  "project_url": "https://www.edrdg.org/wiki/KANJIDIC_Project.html",
+  "source_url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz",
+  "licence_statement_url": "https://www.edrdg.org/edrdg/licence.html",
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "database_version": "2026-288",
+  "source_date": "2026-10-15",
+  "source_xml_sha256": "d4fc595d44c580123b17d81f76ec61e70860ce7ca3ddc8aaed8b222a93fea374",
+  "character_count": 160,
+  "vocabulary_word_count": 288,
+  "changes": "Subset of Han ideographs first appearing in the N1 vocabulary, excluding characters already taught in N5/N4/N3/N2 and excluding the iteration mark 々. Entries follow first vocabulary occurrence. Up to three existing English senses are retained. A documented explicit sense-order table in scripts/update-n1-kanji.py prioritizes senses useful for the first vocabulary word introducing a character; other source senses follow in their original order. No new English senses are invented. Each priority sense is checked against the full source entry. Whitespace is normalized, Japanese on readings are converted to hiragana, okurigana dots and prefix/suffix hyphens are removed, duplicate readings are removed, and the primary stroke count is used. Dictionary indexes, SKIP codes, and other search codes are not included.",
+  "context_sense_order": {
+    "命": [
+      "command",
+      "decree",
+      "life"
+    ],
+    "概": [
+      "outline",
+      "generally",
+      "approximation"
+    ],
+    "恣": [
+      "arbitrary",
+      "selfish"
+    ],
+    "産": [
+      "property",
+      "products",
+      "native"
+    ],
+    "傷": [
+      "injure",
+      "impair",
+      "wound"
+    ],
+    "形": [
+      "form",
+      "shape",
+      "style"
+    ],
+    "緒": [
+      "beginning",
+      "inception",
+      "cord"
+    ],
+    "元": [
+      "origin",
+      "former time",
+      "beginning"
+    ],
+    "郷": [
+      "native place",
+      "home town",
+      "village"
+    ],
+    "希": [
+      "rare",
+      "few",
+      "hope"
+    ],
+    "衝": [
+      "collide",
+      "brunt",
+      "thrust"
+    ],
+    "渉": [
+      "involve",
+      "ford",
+      "go cross"
+    ],
+    "隔": [
+      "distance",
+      "separate",
+      "gulf"
+    ],
+    "猶": [
+      "still",
+      "yet",
+      "furthermore"
+    ],
+    "駆": [
+      "run",
+      "advance",
+      "impel"
+    ],
+    "致": [
+      "cause",
+      "exert",
+      "do"
+    ],
+    "介": [
+      "mediate",
+      "concern oneself with",
+      "jammed in"
+    ],
+    "著": [
+      "remarkable",
+      "phenomenal",
+      "renowned"
+    ],
+    "乏": [
+      "scarce",
+      "limited",
+      "destitution"
+    ],
+    "是": [
+      "right",
+      "justice",
+      "just so"
+    ],
+    "閲": [
+      "inspection",
+      "review",
+      "revision"
+    ],
+    "誇": [
+      "boast",
+      "pride",
+      "be proud"
+    ],
+    "潮": [
+      "tide",
+      "opportunity",
+      "salt water"
+    ],
+    "趨": [
+      "tend towards",
+      "go",
+      "run"
+    ],
+    "格": [
+      "status",
+      "rank",
+      "character"
+    ],
+    "流": [
+      "flow",
+      "current",
+      "a sink"
+    ],
+    "遍": [
+      "everywhere",
+      "widely",
+      "generally"
+    ],
+    "潜": [
+      "hide",
+      "conceal",
+      "submerge"
+    ],
+    "帰": [
+      "lead to",
+      "arrive at",
+      "homecoming"
+    ],
+    "属": [
+      "belong",
+      "affiliated",
+      "genus"
+    ],
+    "凝": [
+      "congeal",
+      "be absorbed in",
+      "stiff"
+    ],
+    "覆": [
+      "capsize",
+      "cover",
+      "be ruined"
+    ],
+    "和": [
+      "soften",
+      "harmony",
+      "peace"
+    ],
+    "措": [
+      "set aside",
+      "suspend",
+      "lay aside"
+    ],
+    "令": [
+      "laws",
+      "orders",
+      "decree"
+    ],
+    "採": [
+      "take up",
+      "take",
+      "pick"
+    ],
+    "拘": [
+      "arrest",
+      "seize",
+      "adhere to"
+    ],
+    "非": [
+      "mistake",
+      "negative",
+      "injustice"
+    ],
+    "叙": [
+      "narrate",
+      "relate",
+      "describe"
+    ],
+    "写": [
+      "describe",
+      "copy",
+      "be photographed"
+    ],
+    "徴": [
+      "sign",
+      "indications",
+      "omen"
+    ],
+    "暗": [
+      "darkness",
+      "shade",
+      "informal"
+    ],
+    "韻": [
+      "tone",
+      "elegance",
+      "rhyme"
+    ],
+    "機": [
+      "mechanism",
+      "opportunity",
+      "occasion"
+    ],
+    "哀": [
+      "sorrow",
+      "grief",
+      "pathos"
+    ],
+    "愁": [
+      "lament",
+      "grieve",
+      "distress"
+    ],
+    "慨": [
+      "sigh",
+      "lament",
+      "be sad"
+    ],
+    "鮮": [
+      "vivid",
+      "clear",
+      "brilliant"
+    ],
+    "烈": [
+      "extreme",
+      "vehement",
+      "ardent"
+    ],
+    "端": [
+      "point",
+      "edge",
+      "origin"
+    ],
+    "遂": [
+      "accomplish",
+      "attain",
+      "consummate"
+    ],
+    "稼": [
+      "work",
+      "earn money",
+      "earnings"
+    ],
+    "堅": [
+      "reliable",
+      "solid",
+      "hard"
+    ],
+    "頑": [
+      "stubborn",
+      "firmly",
+      "foolish"
+    ],
+    "厳": [
+      "strictness",
+      "rigidity",
+      "stern"
+    ],
+    "徹": [
+      "clear",
+      "penetrate",
+      "pierce"
+    ],
+    "底": [
+      "base",
+      "bottom",
+      "depth"
+    ],
+    "兆": [
+      "sign",
+      "omen",
+      "symptoms"
+    ],
+    "把": [
+      "grasp",
+      "bunch",
+      "counter for bundles"
+    ],
+    "赴": [
+      "proceed",
+      "tend",
+      "get"
+    ],
+    "掘": [
+      "dig",
+      "excavate",
+      "delve"
+    ],
+    "追": [
+      "follow",
+      "pursue",
+      "chase"
+    ],
+    "佇": [
+      "linger",
+      "stop",
+      "appearance"
+    ],
+    "啓": [
+      "open",
+      "say",
+      "disclose"
+    ],
+    "貴": [
+      "honor",
+      "esteem",
+      "precious"
+    ],
+    "御": [
+      "honorable",
+      "govern",
+      "manipulate"
+    ],
+    "際": [
+      "occasion",
+      "time",
+      "when"
+    ],
+    "憾": [
+      "regret",
+      "remorse",
+      "be sorry"
+    ],
+    "処": [
+      "deal with",
+      "manage",
+      "act"
+    ],
+    "服": [
+      "obey",
+      "admit",
+      "clothing"
+    ],
+    "尽": [
+      "serve",
+      "exhaust",
+      "use up"
+    ],
+    "委": [
+      "entrust to",
+      "leave to",
+      "devote"
+    ],
+    "謹": [
+      "reverently",
+      "humbly",
+      "discreet"
+    ],
+    "略": [
+      "abbreviation",
+      "omission",
+      "shorten"
+    ],
+    "末": [
+      "close",
+      "end",
+      "tip"
+    ],
+    "殿": [
+      "Mr.",
+      "lord",
+      "hall"
+    ],
+    "収": [
+      "obtain",
+      "store",
+      "income"
+    ],
+    "異": [
+      "different",
+      "uncommon",
+      "unusual"
+    ],
+    "弁": [
+      "speech",
+      "dialect",
+      "distinguish"
+    ],
+    "及": [
+      "exert",
+      "reach out",
+      "exercise"
+    ],
+    "唱": [
+      "call upon",
+      "recite",
+      "chant"
+    ],
+    "訴": [
+      "appeal to",
+      "accusation",
+      "sue"
+    ],
+    "両": [
+      "both",
+      "two",
+      "counter for carriages (e.g., in a train)"
+    ],
+    "括": [
+      "tie up",
+      "fasten",
+      "constrict"
+    ],
+    "羅": [
+      "spread out",
+      "arrange",
+      "gauze"
+    ],
+    "核": [
+      "core",
+      "kernel",
+      "nucleus"
+    ],
+    "角": [
+      "angle",
+      "corner",
+      "horn"
+    ],
+    "敷": [
+      "spread",
+      "promulgate",
+      "pave"
+    ]
+  },
+  "endorsement": "Neither the original authors nor EDRDG endorse SAKANAFISH or this adaptation.",
+  "entries": [
+    {
+      "jp": "命",
+      "meaning": "command; decree; life",
+      "on": "めい・みょう",
+      "kun": "いのち",
+      "strokes": 8,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "概",
+      "meaning": "outline; generally; approximation",
+      "on": "がい",
+      "kun": "おおむね",
+      "strokes": 14,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "洞",
+      "meaning": "den; cave; excavation",
+      "on": "どう",
+      "kun": "ほら",
+      "strokes": 9,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "枠",
+      "meaning": "frame; framework; spindle",
+      "on": "—",
+      "kun": "わく",
+      "strokes": 8,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "矛",
+      "meaning": "halberd; arms; festival float",
+      "on": "む・ぼう",
+      "kun": "ほこ",
+      "strokes": 5,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "盾",
+      "meaning": "shield; escutcheon; pretext",
+      "on": "じゅん",
+      "kun": "たて",
+      "strokes": 9,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "恣",
+      "meaning": "arbitrary; selfish",
+      "on": "し",
+      "kun": "ほしいまま",
+      "strokes": 10,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "遺",
+      "meaning": "bequeath; leave behind; reserve",
+      "on": "い・ゆい",
+      "kun": "のこす",
+      "strokes": 15,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "産",
+      "meaning": "property; products; native",
+      "on": "さん",
+      "kun": "うむ・うまれる・うぶ・むす",
+      "strokes": 11,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "跡",
+      "meaning": "tracks; mark; print",
+      "on": "せき",
+      "kun": "あと",
+      "strokes": 13,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "劣",
+      "meaning": "inferiority; be inferior to; be worse",
+      "on": "れつ",
+      "kun": "おとる",
+      "strokes": 6,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "損",
+      "meaning": "damage; loss; disadvantage",
+      "on": "そん",
+      "kun": "そこなう・そこねる",
+      "strokes": 13,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "傷",
+      "meaning": "injure; impair; wound",
+      "on": "しょう",
+      "kun": "きず・いたむ・いためる",
+      "strokes": 13,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "形",
+      "meaning": "form; shape; style",
+      "on": "けい・ぎょう",
+      "kun": "かた・がた・かたち・なり",
+      "strokes": 7,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "緒",
+      "meaning": "beginning; inception; cord",
+      "on": "しょ・ちょ",
+      "kun": "お・いとぐち",
+      "strokes": 14,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "真",
+      "meaning": "true; reality; Buddhist sect",
+      "on": "しん",
+      "kun": "ま・まこと",
+      "strokes": 10,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "元",
+      "meaning": "origin; former time; beginning",
+      "on": "げん・がん",
+      "kun": "もと",
+      "strokes": 4,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "脆",
+      "meaning": "brittle; fragile; easy to beat",
+      "on": "ぜい・せい・せつ",
+      "kun": "もろい・よわい",
+      "strokes": 10,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "郷",
+      "meaning": "native place; home town; village",
+      "on": "きょう・ごう",
+      "kun": "さと",
+      "strokes": 11,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "希",
+      "meaning": "rare; few; hope",
+      "on": "き・け",
+      "kun": "まれ・こいねがう",
+      "strokes": 7,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "少",
+      "meaning": "few; little",
+      "on": "しょう",
+      "kun": "すくない・すこし",
+      "strokes": 4,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "顧",
+      "meaning": "look back; review; examine oneself",
+      "on": "こ",
+      "kun": "かえりみる",
+      "strokes": 21,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "衝",
+      "meaning": "collide; brunt; thrust",
+      "on": "しょう",
+      "kun": "つく",
+      "strokes": 15,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "渉",
+      "meaning": "involve; ford; go cross",
+      "on": "しょう",
+      "kun": "わたる",
+      "strokes": 11,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "隔",
+      "meaning": "distance; separate; gulf",
+      "on": "かく",
+      "kun": "へだてる・へだたる",
+      "strokes": 13,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "撤",
+      "meaning": "remove; withdraw; disarm",
+      "on": "てつ",
+      "kun": "—",
+      "strokes": 15,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "履",
+      "meaning": "perform; complete; footgear",
+      "on": "り",
+      "kun": "はく",
+      "strokes": 15,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "破",
+      "meaning": "rend; rip; tear",
+      "on": "は",
+      "kun": "やぶる・やぶれる・われる",
+      "strokes": 10,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "猶",
+      "meaning": "still; yet; furthermore",
+      "on": "ゆう・ゆ",
+      "kun": "なお",
+      "strokes": 12,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "難",
+      "meaning": "difficult; impossible; trouble",
+      "on": "なん",
+      "kun": "かたい・がたい・むずかしい・むづかしい・むつかしい・にくい",
+      "strokes": 18,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "航",
+      "meaning": "navigate; sail; cruise",
+      "on": "こう",
+      "kun": "—",
+      "strokes": 10,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "駆",
+      "meaning": "run; advance; impel",
+      "on": "く",
+      "kun": "かける・かる",
+      "strokes": 14,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "益",
+      "meaning": "benefit; gain; profit",
+      "on": "えき・やく",
+      "kun": "ます",
+      "strokes": 10,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "致",
+      "meaning": "cause; exert; do",
+      "on": "ち",
+      "kun": "いたす",
+      "strokes": 10,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "仲",
+      "meaning": "go-between; relationship",
+      "on": "ちゅう",
+      "kun": "なか",
+      "strokes": 6,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "介",
+      "meaning": "mediate; concern oneself with; jammed in",
+      "on": "かい",
+      "kun": "—",
+      "strokes": 4,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "偽",
+      "meaning": "falsehood; lie; deceive",
+      "on": "ぎ・か",
+      "kun": "いつわる・にせ・いつわり",
+      "strokes": 11,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "疑",
+      "meaning": "doubt; distrust; be suspicious",
+      "on": "ぎ",
+      "kun": "うたがう",
+      "strokes": 14,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "顕",
+      "meaning": "appear; existing",
+      "on": "けん",
+      "kun": "あきらか・あらわれる",
+      "strokes": 18,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "著",
+      "meaning": "remarkable; phenomenal; renowned",
+      "on": "ちょ・ちゃく",
+      "kun": "あらわす・いちじるしい",
+      "strokes": 11,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "乏",
+      "meaning": "scarce; limited; destitution",
+      "on": "ぼう",
+      "kun": "とぼしい・ともしい",
+      "strokes": 4,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "是",
+      "meaning": "right; justice; just so",
+      "on": "ぜ・し",
+      "kun": "これ・この・ここ",
+      "strokes": 9,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "漏",
+      "meaning": "leak; escape; time",
+      "on": "ろう",
+      "kun": "もる・もれる・もらす",
+      "strokes": 14,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "捏",
+      "meaning": "knead; mix",
+      "on": "ねつ・てつ・ねち",
+      "kun": "こねる・ねる・つくねる",
+      "strokes": 10,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "造",
+      "meaning": "create; make; structure",
+      "on": "ぞう",
+      "kun": "つくる・つくり・づくり",
+      "strokes": 10,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "隠",
+      "meaning": "conceal; hide; cover",
+      "on": "いん・おん",
+      "kun": "かくす・かくし・かくれる・よる",
+      "strokes": 14,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "蔽",
+      "meaning": "cover; shade; mantle",
+      "on": "へい・へつ・ふつ",
+      "kun": "おおう・おおい",
+      "strokes": 15,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "閲",
+      "meaning": "inspection; review; revision",
+      "on": "えつ",
+      "kun": "けみする",
+      "strokes": 15,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "誇",
+      "meaning": "boast; pride; be proud",
+      "on": "こ",
+      "kun": "ほこる",
+      "strokes": 13,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "潮",
+      "meaning": "tide; opportunity; salt water",
+      "on": "ちょう",
+      "kun": "しお・うしお",
+      "strokes": 15,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "趨",
+      "meaning": "tend towards; go; run",
+      "on": "すう・そく",
+      "kun": "しゅ・おもむく・はしる",
+      "strokes": 17,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "勢",
+      "meaning": "forces; energy; military strength",
+      "on": "せい・ぜい",
+      "kun": "いきおい・はずみ",
+      "strokes": 13,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "格",
+      "meaning": "status; rank; character",
+      "on": "かく・こう・きゃく・ごう",
+      "kun": "—",
+      "strokes": 10,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "均",
+      "meaning": "level; average",
+      "on": "きん",
+      "kun": "ならす",
+      "strokes": 7,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "衡",
+      "meaning": "equilibrium; measuring rod; scale",
+      "on": "こう",
+      "kun": "—",
+      "strokes": 16,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "流",
+      "meaning": "flow; current; a sink",
+      "on": "りゅう・る",
+      "kun": "ながれる・ながれ・ながす",
+      "strokes": 10,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "普",
+      "meaning": "universal; wide(ly); generally",
+      "on": "ふ",
+      "kun": "あまねく・あまねし",
+      "strokes": 12,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "遍",
+      "meaning": "everywhere; widely; generally",
+      "on": "へん",
+      "kun": "あまねく",
+      "strokes": 12,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "潜",
+      "meaning": "hide; conceal; submerge",
+      "on": "せん",
+      "kun": "ひそむ・もぐる・かくれる・くぐる・ひそめる",
+      "strokes": 15,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "疎",
+      "meaning": "alienate; rough; neglect",
+      "on": "そ・しょ",
+      "kun": "うとい・うとむ・まばら",
+      "strokes": 12,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "帰",
+      "meaning": "lead to; arrive at; homecoming",
+      "on": "き",
+      "kun": "かえる・かえす・おくる・とつぐ",
+      "strokes": 10,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "属",
+      "meaning": "belong; affiliated; genus",
+      "on": "ぞく・しょく",
+      "kun": "さかん・つく・やから",
+      "strokes": 12,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "凝",
+      "meaning": "congeal; be absorbed in; stiff",
+      "on": "ぎょう",
+      "kun": "こる・こらす・こごらす・こごらせる・こごる",
+      "strokes": 16,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "覆",
+      "meaning": "capsize; cover; be ruined",
+      "on": "ふく",
+      "kun": "おおう・くつがえす・くつがえる",
+      "strokes": 18,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "促",
+      "meaning": "stimulate; urge; press",
+      "on": "そく",
+      "kun": "うながす",
+      "strokes": 9,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "和",
+      "meaning": "soften; harmony; peace",
+      "on": "わ・お・か",
+      "kun": "やわらぐ・やわらげる・なごむ・なごやか・あえる",
+      "strokes": 8,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "措",
+      "meaning": "set aside; suspend; lay aside",
+      "on": "そ",
+      "kun": "おく",
+      "strokes": 11,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "令",
+      "meaning": "laws; orders; decree",
+      "on": "れい",
+      "kun": "—",
+      "strokes": 5,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "審",
+      "meaning": "hearing; judge; trial",
+      "on": "しん",
+      "kun": "つまびらか・つぶさに",
+      "strokes": 15,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "採",
+      "meaning": "take up; take; pick",
+      "on": "さい",
+      "kun": "とる",
+      "strokes": 11,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "免",
+      "meaning": "excuse; dismissal",
+      "on": "めん",
+      "kun": "まぬかれる・まぬがれる",
+      "strokes": 8,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "拘",
+      "meaning": "arrest; seize; adhere to",
+      "on": "こう",
+      "kun": "かかわる",
+      "strokes": 8,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "遵",
+      "meaning": "abide by; follow; obey",
+      "on": "じゅん",
+      "kun": "—",
+      "strokes": 15,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "非",
+      "meaning": "mistake; negative; injustice",
+      "on": "ひ",
+      "kun": "あらず",
+      "strokes": 8,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "叙",
+      "meaning": "narrate; relate; describe",
+      "on": "じょ",
+      "kun": "ついず・ついで",
+      "strokes": 9,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "写",
+      "meaning": "describe; copy; be photographed",
+      "on": "しゃ・じゃ",
+      "kun": "うつす・うつる・うつ・うつし",
+      "strokes": 5,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "徴",
+      "meaning": "sign; indications; omen",
+      "on": "ちょう・ち",
+      "kun": "しるし",
+      "strokes": 14,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "暗",
+      "meaning": "darkness; shade; informal",
+      "on": "あん",
+      "kun": "くらい・くらむ・くれる",
+      "strokes": 13,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "含",
+      "meaning": "contain; include; hold in the mouth",
+      "on": "がん",
+      "kun": "ふくむ・ふくめる",
+      "strokes": 7,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "韻",
+      "meaning": "tone; elegance; rhyme",
+      "on": "いん",
+      "kun": "—",
+      "strokes": 19,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "機",
+      "meaning": "mechanism; opportunity; occasion",
+      "on": "き",
+      "kun": "はた",
+      "strokes": 16,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "微",
+      "meaning": "delicate; minuteness; insignificance",
+      "on": "び",
+      "kun": "かすか",
+      "strokes": 13,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "哀",
+      "meaning": "sorrow; grief; pathos",
+      "on": "あい",
+      "kun": "あわれ・あわれむ・かなしい",
+      "strokes": 9,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "愁",
+      "meaning": "lament; grieve; distress",
+      "on": "しゅう",
+      "kun": "うれえる・うれい",
+      "strokes": 13,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "慨",
+      "meaning": "sigh; lament; be sad",
+      "on": "がい",
+      "kun": "なげく",
+      "strokes": 13,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "憧",
+      "meaning": "yearn after; long for; aspire to",
+      "on": "しょう・とう・どう",
+      "kun": "あこがれる",
+      "strokes": 15,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "嘆",
+      "meaning": "sigh; lament; moan",
+      "on": "たん",
+      "kun": "なげく・なげかわしい",
+      "strokes": 13,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "慈",
+      "meaning": "mercy",
+      "on": "じ",
+      "kun": "いつくしむ",
+      "strokes": 13,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "偲",
+      "meaning": "recollect; remember",
+      "on": "さい・し",
+      "kun": "しのぶ",
+      "strokes": 11,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "儚",
+      "meaning": "fleeting; fickle",
+      "on": "ぼう・もう",
+      "kun": "はかない・くらい",
+      "strokes": 15,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "鮮",
+      "meaning": "vivid; clear; brilliant",
+      "on": "せん",
+      "kun": "あざやか",
+      "strokes": 17,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "烈",
+      "meaning": "extreme; vehement; ardent",
+      "on": "れつ",
+      "kun": "はげしい",
+      "strokes": 10,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "端",
+      "meaning": "point; edge; origin",
+      "on": "たん",
+      "kun": "はし・は・はた・ばた・はな",
+      "strokes": 14,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "紡",
+      "meaning": "spinning",
+      "on": "ぼう",
+      "kun": "つむぐ",
+      "strokes": 10,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "遂",
+      "meaning": "accomplish; attain; consummate",
+      "on": "すい",
+      "kun": "とげる・ついに",
+      "strokes": 12,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "滞",
+      "meaning": "stagnate; be delayed; overdue",
+      "on": "たい・てい",
+      "kun": "とどこおる",
+      "strokes": 13,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "陥",
+      "meaning": "collapse; fall into; cave in",
+      "on": "かん",
+      "kun": "おちいる・おとしいれる",
+      "strokes": 10,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "稼",
+      "meaning": "work; earn money; earnings",
+      "on": "か",
+      "kun": "かせぐ",
+      "strokes": 15,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "働",
+      "meaning": "work; (kokuji)",
+      "on": "どう",
+      "kun": "はたらく",
+      "strokes": 13,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "滑",
+      "meaning": "slippery; slide; slip",
+      "on": "かつ・こつ",
+      "kun": "すべる・なめらか",
+      "strokes": 13,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "既",
+      "meaning": "previously; already; long ago",
+      "on": "き",
+      "kun": "すでに",
+      "strokes": 10,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "堅",
+      "meaning": "reliable; solid; hard",
+      "on": "けん",
+      "kun": "かたい・がたい",
+      "strokes": 12,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "頑",
+      "meaning": "stubborn; firmly; foolish",
+      "on": "がん",
+      "kun": "かたくな",
+      "strokes": 13,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "厳",
+      "meaning": "strictness; rigidity; stern",
+      "on": "げん・ごん",
+      "kun": "おごそか・きびしい・いかめしい・いつくし",
+      "strokes": 17,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "徹",
+      "meaning": "clear; penetrate; pierce",
+      "on": "てつ",
+      "kun": "—",
+      "strokes": 15,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "底",
+      "meaning": "base; bottom; depth",
+      "on": "てい",
+      "kun": "そこ",
+      "strokes": 8,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "怠",
+      "meaning": "neglect; laziness",
+      "on": "たい",
+      "kun": "おこたる・なまける",
+      "strokes": 9,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "踏",
+      "meaning": "step; trample; carry through",
+      "on": "とう",
+      "kun": "ふむ・ふまえる",
+      "strokes": 15,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "兆",
+      "meaning": "sign; omen; symptoms",
+      "on": "ちょう",
+      "kun": "きざす・きざし",
+      "strokes": 6,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "痕",
+      "meaning": "mark; foot print",
+      "on": "こん",
+      "kun": "あと",
+      "strokes": 11,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "把",
+      "meaning": "grasp; bunch; counter for bundles",
+      "on": "は・わ",
+      "kun": "—",
+      "strokes": 7,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "握",
+      "meaning": "grip; hold; mould sushi",
+      "on": "あく",
+      "kun": "にぎる",
+      "strokes": 12,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "赴",
+      "meaning": "proceed; tend; get",
+      "on": "ふ",
+      "kun": "おもむく",
+      "strokes": 9,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "渡",
+      "meaning": "transit; ford; ferry",
+      "on": "と",
+      "kun": "わたる・わたす",
+      "strokes": 12,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "掘",
+      "meaning": "dig; excavate; delve",
+      "on": "くつ",
+      "kun": "ほる",
+      "strokes": 11,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "追",
+      "meaning": "follow; pursue; chase",
+      "on": "つい",
+      "kun": "おう",
+      "strokes": 9,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "佇",
+      "meaning": "linger; stop; appearance",
+      "on": "ちょ",
+      "kun": "たたずむ",
+      "strokes": 7,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "次",
+      "meaning": "next; order; sequence",
+      "on": "じ・し",
+      "kun": "つぐ・つぎ",
+      "strokes": 6,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "忽",
+      "meaning": "in a moment; instantly; all of a sudden",
+      "on": "こつ",
+      "kun": "たちまち・ゆるがせ",
+      "strokes": 8,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "拝",
+      "meaning": "worship; adore; pray to",
+      "on": "はい",
+      "kun": "おがむ・おろがむ",
+      "strokes": 8,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "啓",
+      "meaning": "open; say; disclose",
+      "on": "けい",
+      "kun": "ひらく・さとす",
+      "strokes": 11,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "貴",
+      "meaning": "honor; esteem; precious",
+      "on": "き",
+      "kun": "たっとい・とうとい・たっとぶ・とうとぶ",
+      "strokes": 12,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "弊",
+      "meaning": "abuse; evil; vice",
+      "on": "へい",
+      "kun": "—",
+      "strokes": 15,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "御",
+      "meaning": "honorable; govern; manipulate",
+      "on": "ぎょ・ご",
+      "kun": "おん・お・み",
+      "strokes": 12,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "賜",
+      "meaning": "grant; gift; boon",
+      "on": "し",
+      "kun": "たまわる・たまう・たもう",
+      "strokes": 15,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "際",
+      "meaning": "occasion; time; when",
+      "on": "さい",
+      "kun": "きわ・ぎわ",
+      "strokes": 14,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "憾",
+      "meaning": "regret; remorse; be sorry",
+      "on": "かん",
+      "kun": "うらむ",
+      "strokes": 16,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "処",
+      "meaning": "deal with; manage; act",
+      "on": "しょ",
+      "kun": "ところ・こ・おる",
+      "strokes": 5,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "服",
+      "meaning": "obey; admit; clothing",
+      "on": "ふく",
+      "kun": "—",
+      "strokes": 8,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "尽",
+      "meaning": "serve; exhaust; use up",
+      "on": "じん・さん",
+      "kun": "つきる・つくす・つかす・づく・ずく・ことごとく",
+      "strokes": 6,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "委",
+      "meaning": "entrust to; leave to; devote",
+      "on": "い",
+      "kun": "ゆだねる",
+      "strokes": 8,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "謹",
+      "meaning": "reverently; humbly; discreet",
+      "on": "きん",
+      "kun": "つつしむ",
+      "strokes": 17,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "略",
+      "meaning": "abbreviation; omission; shorten",
+      "on": "りゃく",
+      "kun": "ほぼ・はぶく・おかす・おさめる・はかりごと・はかる",
+      "strokes": 11,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "末",
+      "meaning": "close; end; tip",
+      "on": "まつ・ばつ",
+      "kun": "すえ・うら・うれ",
+      "strokes": 5,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "殿",
+      "meaning": "Mr.; lord; hall",
+      "on": "でん・てん",
+      "kun": "との・どの",
+      "strokes": 13,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "収",
+      "meaning": "obtain; store; income",
+      "on": "しゅう",
+      "kun": "おさめる・おさまる",
+      "strokes": 4,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "駁",
+      "meaning": "refutation; contradiction",
+      "on": "はく・ばく",
+      "kun": "ぶち・まじる・まだら",
+      "strokes": 14,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "異",
+      "meaning": "different; uncommon; unusual",
+      "on": "い",
+      "kun": "こと・ことなる・け",
+      "strokes": 11,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "弁",
+      "meaning": "speech; dialect; distinguish",
+      "on": "べん・へん",
+      "kun": "かんむり・わきまえる・わける・はなびら・あらそう",
+      "strokes": 5,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "及",
+      "meaning": "exert; reach out; exercise",
+      "on": "きゅう",
+      "kun": "およぶ・および・およぼす",
+      "strokes": 3,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "唱",
+      "meaning": "call upon; recite; chant",
+      "on": "しょう",
+      "kun": "となえる",
+      "strokes": 11,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "訴",
+      "meaning": "appeal to; accusation; sue",
+      "on": "そ",
+      "kun": "うったえる",
+      "strokes": 12,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "捉",
+      "meaning": "catch; capture",
+      "on": "そく・さく",
+      "kun": "とらえる",
+      "strokes": 10,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "据",
+      "meaning": "set; lay a foundation; install",
+      "on": "きょ",
+      "kun": "すえる・すわる",
+      "strokes": 11,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "建",
+      "meaning": "build",
+      "on": "けん・こん",
+      "kun": "たてる・たて・だて・たつ",
+      "strokes": 9,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "逆",
+      "meaning": "inverted; reverse; opposite",
+      "on": "ぎゃく・げき",
+      "kun": "さか・さかさ・さからう",
+      "strokes": 9,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "両",
+      "meaning": "both; two; counter for carriages (e.g., in a train)",
+      "on": "りょう",
+      "kun": "てる・ふたつ",
+      "strokes": 6,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "総",
+      "meaning": "general; whole; all",
+      "on": "そう",
+      "kun": "すべて・ふさ",
+      "strokes": 14,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "括",
+      "meaning": "tie up; fasten; constrict",
+      "on": "かつ",
+      "kun": "くくる",
+      "strokes": 9,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "俯",
+      "meaning": "bend down; lie prostrate",
+      "on": "ふ",
+      "kun": "ふす・うつむく・ふせる",
+      "strokes": 10,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "瞰",
+      "meaning": "look; see",
+      "on": "かん",
+      "kun": "みる",
+      "strokes": 17,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "網",
+      "meaning": "netting; network",
+      "on": "もう",
+      "kun": "あみ",
+      "strokes": 14,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "羅",
+      "meaning": "spread out; arrange; gauze",
+      "on": "ら",
+      "kun": "うすもの",
+      "strokes": 19,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "捨",
+      "meaning": "discard; throw away; abandon",
+      "on": "しゃ",
+      "kun": "すてる",
+      "strokes": 11,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "核",
+      "meaning": "core; kernel; nucleus",
+      "on": "かく",
+      "kun": "—",
+      "strokes": 10,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "蓋",
+      "meaning": "cover; lid; flap",
+      "on": "がい・かい・こう",
+      "kun": "ふた・けだし・おおう・かさ・かこう",
+      "strokes": 13,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "角",
+      "meaning": "angle; corner; horn",
+      "on": "かく",
+      "kun": "かど・つの",
+      "strokes": 7,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "暫",
+      "meaning": "temporarily; a while; moment",
+      "on": "ざん",
+      "kun": "しばらく",
+      "strokes": 15,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "敷",
+      "meaning": "spread; promulgate; pave",
+      "on": "ふ",
+      "kun": "しく・しき",
+      "strokes": 15,
+      "source": "KANJIDIC2"
+    },
+    {
+      "jp": "衍",
+      "meaning": "overflowing",
+      "on": "えん",
+      "kun": "あまり・しく・はびこる",
+      "strokes": 9,
+      "source": "KANJIDIC2"
+    }
+  ]
+}

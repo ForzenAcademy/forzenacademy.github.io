@@ -1,0 +1,36 @@
+KANJIDIC2 attribution and licence notice
+
+SAKANAFISH uses a compact adapted subset of KANJIDIC2 character data.
+Copyright: James William BREEN and The Electronic Dictionary Research and
+Development Group (EDRDG). The source contributors retain their rights.
+
+Project: https://www.edrdg.org/wiki/KANJIDIC_Project.html
+Original data: https://www.edrdg.org/kanjidic/kanjidic2.xml.gz
+General Dictionary Licence Statement: https://www.edrdg.org/edrdg/licence.html
+Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+Licence terms: https://creativecommons.org/licenses/by-sa/4.0/
+Full legal code: https://creativecommons.org/licenses/by-sa/4.0/legalcode.en
+
+Source database version: 2026-288
+Source creation date: 2026-10-15
+Source XML SHA-256: d4fc595d44c580123b17d81f76ec61e70860ce7ca3ddc8aaed8b222a93fea374
+Subset: 160 characters from 288 N1 vocabulary entries.
+
+Changes made for this adaptation:
+Subset of Han ideographs first appearing in the N1 vocabulary, excluding characters already taught in N5/N4/N3/N2 and excluding the iteration mark 々. Entries follow first vocabulary occurrence. Up to three existing English senses are retained. A documented explicit sense-order table in scripts/update-n1-kanji.py prioritizes senses useful for the first vocabulary word introducing a character; other source senses follow in their original order. No new English senses are invented. Each priority sense is checked against the full source entry. Whitespace is normalized, Japanese on readings are converted to hiragana, okurigana dots and prefix/suffix hyphens are removed, duplicate readings are removed, and the primary stroke count is used. Dictionary indexes, SKIP codes, and other search codes are not included.
+
+The adapted dictionary data in src/lib/n1-kanji.json and the standalone
+public/licenses/kanjidic2-n1-data.json are distributed under CC BY-SA 4.0.
+When sharing or adapting this subset, retain attribution, identify changes,
+link to the licence, and distribute adaptations under the same or a compatible
+licence. This notice applies to the dictionary data, not the app's original
+lesson text, illustrations, or software.
+
+The original authors and EDRDG do not endorse SAKANAFISH or this adaptation.
+The dictionary data are supplied without warranty; consult the source licence.
+
+Update procedure (downloads the current official source during development):
+  python3 scripts/update-n1-kanji.py
+Offline update using a saved source:
+  python3 scripts/update-n1-kanji.py --source /path/to/kanjidic2.xml.gz
+The generated data are bundled locally. There are no runtime dictionary calls.

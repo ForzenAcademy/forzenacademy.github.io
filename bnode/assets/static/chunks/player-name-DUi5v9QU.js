@@ -1,1 +1,0 @@
-import{n as e}from"./services-DTJMY2Oo.js";var t=`magitower:player-name:v1`;function n(e){try{let n=e?.getItem(t);if(n&&/^[a-z]{6}$/i.test(n))return n}catch{}let n=Array.from({length:6},()=>`ABCDEFGHIJKLMNOPQRSTUVWXYZ`[Math.floor(Math.random()*26)]).join(``);try{e?.setItem(t,n)}catch{}return n}var r;function i(){return r??=n(e())}export{i as t};

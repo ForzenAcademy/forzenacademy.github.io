@@ -1,1 +1,0 @@
-import{n as e}from"./game-renderer-McYwgWJt.js";export{e as WebGPURenderer};

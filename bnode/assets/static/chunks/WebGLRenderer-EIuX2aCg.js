@@ -1,0 +1,1 @@
+import{r as e}from"./game-renderer-CWG_lwHh.js";export{e as WebGLRenderer};

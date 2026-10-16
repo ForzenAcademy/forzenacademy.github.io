@@ -1,1 +1,0 @@
-import{i as e}from"./game-renderer-FfTuGUHt.js";export{e as CanvasRenderer};

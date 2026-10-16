@@ -1,0 +1,1 @@
+import{r as e}from"./game-renderer-NRCcIV2S.js";export{e as WebGLRenderer};

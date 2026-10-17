@@ -1,0 +1,1 @@
+import{r as e}from"./game-renderer-B3XnR-Mp.js";export{e as WebGLRenderer};

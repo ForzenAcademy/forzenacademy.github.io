@@ -1,1 +1,0 @@
-import{r as e}from"./game-renderer-iG4hpVwE.js";export{e as WebGLRenderer};

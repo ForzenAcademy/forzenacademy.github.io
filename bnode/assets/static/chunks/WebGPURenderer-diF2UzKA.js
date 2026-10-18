@@ -1,0 +1,1 @@
+import{n as e}from"./game-renderer-Di1m70aL.js";export{e as WebGPURenderer};

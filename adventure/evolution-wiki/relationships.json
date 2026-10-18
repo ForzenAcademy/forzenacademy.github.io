@@ -2,7 +2,7 @@
   "schema": 2,
   "status": "active",
   "levels": {
-    "firstEvolution": 6,
+    "firstEvolution": 7,
     "branchChoice": 10,
     "finalEvolution": 24
   },
@@ -45,7 +45,7 @@
         {
           "from": "class-squire",
           "to": "class-knight",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-knight",
@@ -132,7 +132,7 @@
         {
           "from": "class-recruit",
           "to": "class-soldier",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-soldier",
@@ -219,7 +219,7 @@
         {
           "from": "class-lancer",
           "to": "class-dragoon",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-dragoon",
@@ -306,7 +306,7 @@
         {
           "from": "class-cavalier",
           "to": "class-outrider",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-outrider",
@@ -393,7 +393,7 @@
         {
           "from": "class-page",
           "to": "class-myrmidon",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-myrmidon",
@@ -480,7 +480,7 @@
         {
           "from": "class-brawler",
           "to": "class-monk",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-monk",
@@ -567,7 +567,7 @@
         {
           "from": "class-brigand",
           "to": "class-berserker",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-berserker",
@@ -654,7 +654,7 @@
         {
           "from": "class-rogue",
           "to": "class-thief",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-thief",
@@ -741,7 +741,7 @@
         {
           "from": "class-scout",
           "to": "class-archer",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-archer",
@@ -828,7 +828,7 @@
         {
           "from": "class-huntsman",
           "to": "class-crossbowman",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-crossbowman",
@@ -915,7 +915,7 @@
         {
           "from": "class-pirate",
           "to": "class-corsair",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-corsair",
@@ -1002,7 +1002,7 @@
         {
           "from": "class-gunner",
           "to": "class-musketeer",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-musketeer",
@@ -1089,7 +1089,7 @@
         {
           "from": "class-tinkerer",
           "to": "class-machinist",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-machinist",
@@ -1177,7 +1177,7 @@
         {
           "from": "class-chemist",
           "to": "class-apothecary",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-apothecary",
@@ -1265,7 +1265,7 @@
         {
           "from": "class-mage",
           "to": "class-black-mage",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-black-mage",
@@ -1352,7 +1352,7 @@
         {
           "from": "class-acolyte",
           "to": "class-white-mage",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-white-mage",
@@ -1439,7 +1439,7 @@
         {
           "from": "class-hedgewitch",
           "to": "class-herbalist",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-herbalist",
@@ -1526,7 +1526,7 @@
         {
           "from": "class-tidecaller",
           "to": "class-aquamancer",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-aquamancer",
@@ -1613,7 +1613,7 @@
         {
           "from": "class-sparkhand",
           "to": "class-thunder-mage",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-thunder-mage",
@@ -1700,7 +1700,7 @@
         {
           "from": "class-frost-novice",
           "to": "class-ice-mage",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-ice-mage",
@@ -1787,7 +1787,7 @@
         {
           "from": "class-gravedigger",
           "to": "class-bonecaller",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-bonecaller",
@@ -1874,7 +1874,7 @@
         {
           "from": "class-dreamer",
           "to": "class-illusionist",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-illusionist",
@@ -1961,7 +1961,7 @@
         {
           "from": "class-apprentice",
           "to": "class-summoner",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-summoner",
@@ -2048,7 +2048,7 @@
         {
           "from": "class-astrologer",
           "to": "class-diviner",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-diviner",
@@ -2135,7 +2135,7 @@
         {
           "from": "class-geomancer",
           "to": "class-earthspeaker",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-earthspeaker",
@@ -2222,7 +2222,7 @@
         {
           "from": "class-bard",
           "to": "class-minstrel",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-minstrel",
@@ -2309,7 +2309,7 @@
         {
           "from": "class-dancer",
           "to": "class-veil-dancer",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-veil-dancer",
@@ -2397,7 +2397,7 @@
         {
           "from": "class-villager",
           "to": "class-quartermaster",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-quartermaster",
@@ -2484,7 +2484,7 @@
         {
           "from": "class-cook",
           "to": "class-field-chef",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-field-chef",
@@ -2571,7 +2571,7 @@
         {
           "from": "class-mason",
           "to": "class-sapper",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-sapper",
@@ -2658,7 +2658,7 @@
         {
           "from": "class-fisherman",
           "to": "class-netcaster",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-netcaster",
@@ -2745,7 +2745,7 @@
         {
           "from": "class-courier",
           "to": "class-windrunner",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-windrunner",
@@ -2832,7 +2832,7 @@
         {
           "from": "class-shrine-tender",
           "to": "class-talisman-scribe",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-talisman-scribe",
@@ -2919,7 +2919,7 @@
         {
           "from": "class-beast-tender",
           "to": "class-beastmaster",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-beastmaster",
@@ -3006,7 +3006,7 @@
         {
           "from": "class-ink-student",
           "to": "class-calligrapher",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-calligrapher",
@@ -3093,7 +3093,7 @@
         {
           "from": "class-candle-novice",
           "to": "class-lantern-bearer",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-lantern-bearer",
@@ -3180,7 +3180,7 @@
         {
           "from": "class-pilgrim",
           "to": "class-duelist",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-duelist",
@@ -3268,7 +3268,7 @@
         {
           "from": "class-shieldbearer",
           "to": "class-warden",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-warden",
@@ -3355,7 +3355,7 @@
         {
           "from": "class-silk-spinner",
           "to": "class-threadwitch",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-threadwitch",
@@ -3442,7 +3442,7 @@
         {
           "from": "class-treasure-seeker",
           "to": "class-relic-hunter",
-          "level": 6
+          "level": 7
         },
         {
           "from": "class-relic-hunter",
@@ -3496,7 +3496,7 @@
     {
       "from": "class-squire",
       "to": "class-knight",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-knight",
@@ -3527,7 +3527,7 @@
     {
       "from": "class-recruit",
       "to": "class-soldier",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-soldier",
@@ -3558,7 +3558,7 @@
     {
       "from": "class-lancer",
       "to": "class-dragoon",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-dragoon",
@@ -3589,7 +3589,7 @@
     {
       "from": "class-cavalier",
       "to": "class-outrider",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-outrider",
@@ -3620,7 +3620,7 @@
     {
       "from": "class-page",
       "to": "class-myrmidon",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-myrmidon",
@@ -3651,7 +3651,7 @@
     {
       "from": "class-brawler",
       "to": "class-monk",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-monk",
@@ -3682,7 +3682,7 @@
     {
       "from": "class-brigand",
       "to": "class-berserker",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-berserker",
@@ -3713,7 +3713,7 @@
     {
       "from": "class-rogue",
       "to": "class-thief",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-thief",
@@ -3744,7 +3744,7 @@
     {
       "from": "class-scout",
       "to": "class-archer",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-archer",
@@ -3775,7 +3775,7 @@
     {
       "from": "class-huntsman",
       "to": "class-crossbowman",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-crossbowman",
@@ -3806,7 +3806,7 @@
     {
       "from": "class-pirate",
       "to": "class-corsair",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-corsair",
@@ -3837,7 +3837,7 @@
     {
       "from": "class-gunner",
       "to": "class-musketeer",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-musketeer",
@@ -3868,7 +3868,7 @@
     {
       "from": "class-tinkerer",
       "to": "class-machinist",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-machinist",
@@ -3899,7 +3899,7 @@
     {
       "from": "class-chemist",
       "to": "class-apothecary",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-apothecary",
@@ -3930,7 +3930,7 @@
     {
       "from": "class-mage",
       "to": "class-black-mage",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-black-mage",
@@ -3961,7 +3961,7 @@
     {
       "from": "class-acolyte",
       "to": "class-white-mage",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-white-mage",
@@ -3992,7 +3992,7 @@
     {
       "from": "class-hedgewitch",
       "to": "class-herbalist",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-herbalist",
@@ -4023,7 +4023,7 @@
     {
       "from": "class-tidecaller",
       "to": "class-aquamancer",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-aquamancer",
@@ -4054,7 +4054,7 @@
     {
       "from": "class-sparkhand",
       "to": "class-thunder-mage",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-thunder-mage",
@@ -4085,7 +4085,7 @@
     {
       "from": "class-frost-novice",
       "to": "class-ice-mage",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-ice-mage",
@@ -4116,7 +4116,7 @@
     {
       "from": "class-gravedigger",
       "to": "class-bonecaller",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-bonecaller",
@@ -4147,7 +4147,7 @@
     {
       "from": "class-dreamer",
       "to": "class-illusionist",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-illusionist",
@@ -4178,7 +4178,7 @@
     {
       "from": "class-apprentice",
       "to": "class-summoner",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-summoner",
@@ -4209,7 +4209,7 @@
     {
       "from": "class-astrologer",
       "to": "class-diviner",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-diviner",
@@ -4240,7 +4240,7 @@
     {
       "from": "class-geomancer",
       "to": "class-earthspeaker",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-earthspeaker",
@@ -4271,7 +4271,7 @@
     {
       "from": "class-bard",
       "to": "class-minstrel",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-minstrel",
@@ -4302,7 +4302,7 @@
     {
       "from": "class-dancer",
       "to": "class-veil-dancer",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-veil-dancer",
@@ -4333,7 +4333,7 @@
     {
       "from": "class-villager",
       "to": "class-quartermaster",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-quartermaster",
@@ -4364,7 +4364,7 @@
     {
       "from": "class-cook",
       "to": "class-field-chef",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-field-chef",
@@ -4395,7 +4395,7 @@
     {
       "from": "class-mason",
       "to": "class-sapper",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-sapper",
@@ -4426,7 +4426,7 @@
     {
       "from": "class-fisherman",
       "to": "class-netcaster",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-netcaster",
@@ -4457,7 +4457,7 @@
     {
       "from": "class-courier",
       "to": "class-windrunner",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-windrunner",
@@ -4488,7 +4488,7 @@
     {
       "from": "class-shrine-tender",
       "to": "class-talisman-scribe",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-talisman-scribe",
@@ -4519,7 +4519,7 @@
     {
       "from": "class-beast-tender",
       "to": "class-beastmaster",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-beastmaster",
@@ -4550,7 +4550,7 @@
     {
       "from": "class-ink-student",
       "to": "class-calligrapher",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-calligrapher",
@@ -4581,7 +4581,7 @@
     {
       "from": "class-candle-novice",
       "to": "class-lantern-bearer",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-lantern-bearer",
@@ -4612,7 +4612,7 @@
     {
       "from": "class-pilgrim",
       "to": "class-duelist",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-duelist",
@@ -4643,7 +4643,7 @@
     {
       "from": "class-shieldbearer",
       "to": "class-warden",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-warden",
@@ -4674,7 +4674,7 @@
     {
       "from": "class-silk-spinner",
       "to": "class-threadwitch",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-threadwitch",
@@ -4705,7 +4705,7 @@
     {
       "from": "class-treasure-seeker",
       "to": "class-relic-hunter",
-      "level": 6
+      "level": 7
     },
     {
       "from": "class-relic-hunter",

@@ -1,0 +1,4738 @@
+{
+  "schema": 2,
+  "status": "active",
+  "levels": {
+    "firstEvolution": 6,
+    "branchChoice": 10,
+    "finalEvolution": 24
+  },
+  "branches": [
+    {
+      "id": "line-01",
+      "title": "Dawn oath",
+      "base": "class-squire",
+      "evolution": "class-knight",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-dawn-templar",
+      "identity": "brown-skinned woman with short fluffy chestnut curls and hazel eyes",
+      "palette": "dusty sage, cream, rose scarf and warm iron",
+      "paths": [
+        {
+          "name": "Banner command",
+          "specialist": "class-banneret",
+          "final": "class-dawnmarshal",
+          "types": [
+            "Steel",
+            "Wind"
+          ],
+          "role": "Tactician",
+          "purpose": "Leads formations and rallies allies with banner-driven attacks."
+        },
+        {
+          "name": "Sacred bulwark",
+          "specialist": "class-paladin",
+          "final": "class-dawn-templar",
+          "types": [
+            "Steel",
+            "Spirit"
+          ],
+          "role": "Sustainer",
+          "purpose": "Turns the holy sword-and-shield tradition toward wards and recovery."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-squire",
+          "to": "class-knight",
+          "level": 6
+        },
+        {
+          "from": "class-knight",
+          "to": "class-banneret",
+          "level": 10,
+          "choice": true,
+          "path": "Banner command"
+        },
+        {
+          "from": "class-banneret",
+          "to": "class-dawnmarshal",
+          "level": 24,
+          "path": "Banner command"
+        },
+        {
+          "from": "class-knight",
+          "to": "class-paladin",
+          "level": 10,
+          "choice": true,
+          "path": "Sacred bulwark"
+        },
+        {
+          "from": "class-paladin",
+          "to": "class-dawn-templar",
+          "level": 24,
+          "path": "Sacred bulwark"
+        }
+      ],
+      "number": "01",
+      "folk": "Human",
+      "units": [
+        "class-squire",
+        "class-knight",
+        "class-banneret",
+        "class-dawnmarshal",
+        "class-paladin",
+        "class-dawn-templar"
+      ],
+      "types": [
+        "Steel",
+        "Wind",
+        "Spirit"
+      ],
+      "roles": [
+        "Tactician",
+        "Sustainer"
+      ]
+    },
+    {
+      "id": "line-02",
+      "title": "Iron wall",
+      "base": "class-recruit",
+      "evolution": "class-soldier",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-iron-partisan",
+      "identity": "stocky dark-skinned man with a shaved head, warm brown eyes and a tiny neat beard",
+      "palette": "slate blue, ochre, pewter and ivory",
+      "paths": [
+        {
+          "name": "Polearm pursuit",
+          "specialist": "class-halberdier",
+          "final": "class-iron-partisan",
+          "types": [
+            "Steel",
+            "Wind"
+          ],
+          "role": "Bruiser",
+          "purpose": "Extends the halberd into a mobile, long-reach offensive style."
+        },
+        {
+          "name": "Fortress defense",
+          "specialist": "class-sentinel",
+          "final": "class-citadel-general",
+          "types": [
+            "Steel",
+            "Rock"
+          ],
+          "role": "Bulwark",
+          "purpose": "Builds on the tower shield and hammer as the immovable defensive option."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-recruit",
+          "to": "class-soldier",
+          "level": 6
+        },
+        {
+          "from": "class-soldier",
+          "to": "class-halberdier",
+          "level": 10,
+          "choice": true,
+          "path": "Polearm pursuit"
+        },
+        {
+          "from": "class-halberdier",
+          "to": "class-iron-partisan",
+          "level": 24,
+          "path": "Polearm pursuit"
+        },
+        {
+          "from": "class-soldier",
+          "to": "class-sentinel",
+          "level": 10,
+          "choice": true,
+          "path": "Fortress defense"
+        },
+        {
+          "from": "class-sentinel",
+          "to": "class-citadel-general",
+          "level": 24,
+          "path": "Fortress defense"
+        }
+      ],
+      "number": "02",
+      "folk": "Human",
+      "units": [
+        "class-recruit",
+        "class-soldier",
+        "class-halberdier",
+        "class-iron-partisan",
+        "class-sentinel",
+        "class-citadel-general"
+      ],
+      "types": [
+        "Steel",
+        "Wind",
+        "Rock"
+      ],
+      "roles": [
+        "Bruiser",
+        "Bulwark"
+      ]
+    },
+    {
+      "id": "line-03",
+      "title": "Sky spear",
+      "base": "class-lancer",
+      "evolution": "class-dragoon",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-wyvern-regent",
+      "identity": "copper-skinned elf woman with white braided hair and sea-green eyes",
+      "palette": "seafoam, dusty indigo, silver and pale coral",
+      "paths": [
+        {
+          "name": "Comet spear",
+          "specialist": "class-sky-lancer",
+          "final": "class-starfall-dragoon",
+          "types": [
+            "Wind",
+            "Steel"
+          ],
+          "role": "Speedster",
+          "purpose": "Keeps the lancer on foot for aerial leaps and precise meteor-like strikes."
+        },
+        {
+          "name": "Wyvern command",
+          "specialist": "class-wyvern-cavalier",
+          "final": "class-wyvern-regent",
+          "types": [
+            "Wind",
+            "Fire"
+          ],
+          "role": "All-rounder",
+          "purpose": "Develops the established wyvern mount into a coordinated rider-and-dragon style."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-lancer",
+          "to": "class-dragoon",
+          "level": 6
+        },
+        {
+          "from": "class-dragoon",
+          "to": "class-sky-lancer",
+          "level": 10,
+          "choice": true,
+          "path": "Comet spear"
+        },
+        {
+          "from": "class-sky-lancer",
+          "to": "class-starfall-dragoon",
+          "level": 24,
+          "path": "Comet spear"
+        },
+        {
+          "from": "class-dragoon",
+          "to": "class-wyvern-cavalier",
+          "level": 10,
+          "choice": true,
+          "path": "Wyvern command"
+        },
+        {
+          "from": "class-wyvern-cavalier",
+          "to": "class-wyvern-regent",
+          "level": 24,
+          "path": "Wyvern command"
+        }
+      ],
+      "number": "03",
+      "folk": "Elf",
+      "units": [
+        "class-lancer",
+        "class-dragoon",
+        "class-sky-lancer",
+        "class-starfall-dragoon",
+        "class-wyvern-cavalier",
+        "class-wyvern-regent"
+      ],
+      "types": [
+        "Wind",
+        "Steel",
+        "Fire"
+      ],
+      "roles": [
+        "Speedster",
+        "All-rounder"
+      ]
+    },
+    {
+      "id": "line-04",
+      "title": "Gryphon road",
+      "base": "class-cavalier",
+      "evolution": "class-outrider",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-lance-commander",
+      "identity": "freckled fair-skinned man with wavy ginger hair and blue eyes",
+      "palette": "buttercream, soft rust, sky blue and brushed bronze",
+      "paths": [
+        {
+          "name": "Ground cavalry",
+          "specialist": "class-chevalier",
+          "final": "class-lance-commander",
+          "types": [
+            "Steel",
+            "Rock"
+          ],
+          "role": "Bulwark",
+          "purpose": "Keeps the existing cream horse and specializes in a disciplined armored charge."
+        },
+        {
+          "name": "Gryphon cavalry",
+          "specialist": "class-gryphon-rider",
+          "final": "class-gryphon-marshal",
+          "types": [
+            "Wind",
+            "Steel"
+          ],
+          "role": "All-rounder",
+          "purpose": "Develops the gryphon rider into the airborne command path."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-cavalier",
+          "to": "class-outrider",
+          "level": 6
+        },
+        {
+          "from": "class-outrider",
+          "to": "class-chevalier",
+          "level": 10,
+          "choice": true,
+          "path": "Ground cavalry"
+        },
+        {
+          "from": "class-chevalier",
+          "to": "class-lance-commander",
+          "level": 24,
+          "path": "Ground cavalry"
+        },
+        {
+          "from": "class-outrider",
+          "to": "class-gryphon-rider",
+          "level": 10,
+          "choice": true,
+          "path": "Gryphon cavalry"
+        },
+        {
+          "from": "class-gryphon-rider",
+          "to": "class-gryphon-marshal",
+          "level": 24,
+          "path": "Gryphon cavalry"
+        }
+      ],
+      "number": "04",
+      "folk": "Human",
+      "units": [
+        "class-cavalier",
+        "class-outrider",
+        "class-chevalier",
+        "class-lance-commander",
+        "class-gryphon-rider",
+        "class-gryphon-marshal"
+      ],
+      "types": [
+        "Steel",
+        "Rock",
+        "Wind"
+      ],
+      "roles": [
+        "Bulwark",
+        "All-rounder"
+      ]
+    },
+    {
+      "id": "line-05",
+      "title": "Moon edge",
+      "base": "class-page",
+      "evolution": "class-myrmidon",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-dusk-ronin",
+      "identity": "olive-skinned androgynous adult with straight ink-black bob and lavender eyes",
+      "palette": "muted plum, dusty teal, pearl and tarnished silver",
+      "paths": [
+        {
+          "name": "Twin sword mastery",
+          "specialist": "class-swordmaster",
+          "final": "class-dusk-ronin",
+          "types": [
+            "Steel",
+            "Wind"
+          ],
+          "role": "Speedster",
+          "purpose": "Perfects the physical two-sword discipline with fast draw cuts."
+        },
+        {
+          "name": "Moon enchantment",
+          "specialist": "class-spellblade",
+          "final": "class-moonblade",
+          "types": [
+            "Spirit",
+            "Steel"
+          ],
+          "role": "Tactician",
+          "purpose": "Grows the rune saber into a crescent-magic sword style."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-page",
+          "to": "class-myrmidon",
+          "level": 6
+        },
+        {
+          "from": "class-myrmidon",
+          "to": "class-swordmaster",
+          "level": 10,
+          "choice": true,
+          "path": "Twin sword mastery"
+        },
+        {
+          "from": "class-swordmaster",
+          "to": "class-dusk-ronin",
+          "level": 24,
+          "path": "Twin sword mastery"
+        },
+        {
+          "from": "class-myrmidon",
+          "to": "class-spellblade",
+          "level": 10,
+          "choice": true,
+          "path": "Moon enchantment"
+        },
+        {
+          "from": "class-spellblade",
+          "to": "class-moonblade",
+          "level": 24,
+          "path": "Moon enchantment"
+        }
+      ],
+      "number": "05",
+      "folk": "Human",
+      "units": [
+        "class-page",
+        "class-myrmidon",
+        "class-swordmaster",
+        "class-dusk-ronin",
+        "class-spellblade",
+        "class-moonblade"
+      ],
+      "types": [
+        "Steel",
+        "Wind",
+        "Spirit"
+      ],
+      "roles": [
+        "Speedster",
+        "Tactician"
+      ]
+    },
+    {
+      "id": "line-06",
+      "title": "Open palm",
+      "base": "class-brawler",
+      "evolution": "class-monk",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-iron-knuckle",
+      "identity": "broad-shouldered tan woman with black hair in two small buns and amber eyes",
+      "palette": "terracotta, dusty jade, cream and brass",
+      "paths": [
+        {
+          "name": "Iron body",
+          "specialist": "class-pugilist",
+          "final": "class-iron-knuckle",
+          "types": [
+            "Rock",
+            "Steel"
+          ],
+          "role": "Bruiser",
+          "purpose": "Advances wrapped-fist boxing into a close-range armored striking discipline."
+        },
+        {
+          "name": "Celestial aura",
+          "specialist": "class-aura-adept",
+          "final": "class-celestial-fist",
+          "types": [
+            "Spirit",
+            "Rock"
+          ],
+          "role": "Sustainer",
+          "purpose": "Develops prayer beads and palm energy into protective celestial martial arts."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-brawler",
+          "to": "class-monk",
+          "level": 6
+        },
+        {
+          "from": "class-monk",
+          "to": "class-pugilist",
+          "level": 10,
+          "choice": true,
+          "path": "Iron body"
+        },
+        {
+          "from": "class-pugilist",
+          "to": "class-iron-knuckle",
+          "level": 24,
+          "path": "Iron body"
+        },
+        {
+          "from": "class-monk",
+          "to": "class-aura-adept",
+          "level": 10,
+          "choice": true,
+          "path": "Celestial aura"
+        },
+        {
+          "from": "class-aura-adept",
+          "to": "class-celestial-fist",
+          "level": 24,
+          "path": "Celestial aura"
+        }
+      ],
+      "number": "06",
+      "folk": "Human",
+      "units": [
+        "class-brawler",
+        "class-monk",
+        "class-pugilist",
+        "class-iron-knuckle",
+        "class-aura-adept",
+        "class-celestial-fist"
+      ],
+      "types": [
+        "Rock",
+        "Steel",
+        "Spirit"
+      ],
+      "roles": [
+        "Bruiser",
+        "Sustainer"
+      ]
+    },
+    {
+      "id": "line-07",
+      "title": "Ember fury",
+      "base": "class-brigand",
+      "evolution": "class-berserker",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-ember-conqueror",
+      "identity": "muscular dark-skinned dwarf woman with a long copper braid and cheerful brown eyes",
+      "palette": "dusty brick red, warm gray, honey and dark leather",
+      "paths": [
+        {
+          "name": "Conquest banner",
+          "specialist": "class-warlord",
+          "final": "class-ember-conqueror",
+          "types": [
+            "Fire",
+            "Steel"
+          ],
+          "role": "Bruiser",
+          "purpose": "Builds a commanding martial path around the war axe and ember-forged armor."
+        },
+        {
+          "name": "Rune shattering",
+          "specialist": "class-runebreaker",
+          "final": "class-titan-vanguard",
+          "types": [
+            "Rock",
+            "Fire"
+          ],
+          "role": "Bulwark",
+          "purpose": "Completes the stone-rune greataxe route as a heavy siege fighter."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-brigand",
+          "to": "class-berserker",
+          "level": 6
+        },
+        {
+          "from": "class-berserker",
+          "to": "class-warlord",
+          "level": 10,
+          "choice": true,
+          "path": "Conquest banner"
+        },
+        {
+          "from": "class-warlord",
+          "to": "class-ember-conqueror",
+          "level": 24,
+          "path": "Conquest banner"
+        },
+        {
+          "from": "class-berserker",
+          "to": "class-runebreaker",
+          "level": 10,
+          "choice": true,
+          "path": "Rune shattering"
+        },
+        {
+          "from": "class-runebreaker",
+          "to": "class-titan-vanguard",
+          "level": 24,
+          "path": "Rune shattering"
+        }
+      ],
+      "number": "07",
+      "folk": "Dwarf",
+      "units": [
+        "class-brigand",
+        "class-berserker",
+        "class-warlord",
+        "class-ember-conqueror",
+        "class-runebreaker",
+        "class-titan-vanguard"
+      ],
+      "types": [
+        "Fire",
+        "Steel",
+        "Rock"
+      ],
+      "roles": [
+        "Bruiser",
+        "Bulwark"
+      ]
+    },
+    {
+      "id": "line-08",
+      "title": "Velvet shadow",
+      "base": "class-rogue",
+      "evolution": "class-thief",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-luckweaver",
+      "identity": "small upright midnight-purple catfolk adult with huge triangular ears, tousled silver forelock, moss-green eyes, soft rounded muzzle and expressive gloved hands",
+      "palette": "dusty violet, charcoal, sage and muted gold",
+      "paths": [
+        {
+          "name": "Fortune tricks",
+          "specialist": "class-trickster",
+          "final": "class-luckweaver",
+          "types": [
+            "Spirit",
+            "Poison"
+          ],
+          "role": "Tactician",
+          "purpose": "Evolves enchanted cards and sleight of hand into luck manipulation."
+        },
+        {
+          "name": "Phantom blades",
+          "specialist": "class-shadowdancer",
+          "final": "class-phantom-blade",
+          "types": [
+            "Poison",
+            "Wind"
+          ],
+          "role": "Speedster",
+          "purpose": "Finishes the flowing scarf and spectral dagger path."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-rogue",
+          "to": "class-thief",
+          "level": 6
+        },
+        {
+          "from": "class-thief",
+          "to": "class-trickster",
+          "level": 10,
+          "choice": true,
+          "path": "Fortune tricks"
+        },
+        {
+          "from": "class-trickster",
+          "to": "class-luckweaver",
+          "level": 24,
+          "path": "Fortune tricks"
+        },
+        {
+          "from": "class-thief",
+          "to": "class-shadowdancer",
+          "level": 10,
+          "choice": true,
+          "path": "Phantom blades"
+        },
+        {
+          "from": "class-shadowdancer",
+          "to": "class-phantom-blade",
+          "level": 24,
+          "path": "Phantom blades"
+        }
+      ],
+      "number": "08",
+      "folk": "Catfolk",
+      "units": [
+        "class-rogue",
+        "class-thief",
+        "class-trickster",
+        "class-luckweaver",
+        "class-shadowdancer",
+        "class-phantom-blade"
+      ],
+      "types": [
+        "Spirit",
+        "Poison",
+        "Wind"
+      ],
+      "roles": [
+        "Tactician",
+        "Speedster"
+      ]
+    },
+    {
+      "id": "line-09",
+      "title": "Horizon watch",
+      "base": "class-scout",
+      "evolution": "class-archer",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-verdant-sniper",
+      "identity": "warm brown-skinned woman with a long dark braid, green eyes and freckles",
+      "palette": "moss green, dusty apricot, oatmeal and walnut",
+      "paths": [
+        {
+          "name": "Patient longbow",
+          "specialist": "class-ranger",
+          "final": "class-verdant-sniper",
+          "types": [
+            "Grass",
+            "Steel"
+          ],
+          "role": "Bruiser",
+          "purpose": "Advances the ranger into a grounded precision archer with a great longbow."
+        },
+        {
+          "name": "Falcon bond",
+          "specialist": "class-falconer",
+          "final": "class-horizon-warden",
+          "types": [
+            "Wind",
+            "Grass"
+          ],
+          "role": "Speedster",
+          "purpose": "Develops the bird companion and feather mantle into the aerial scouting route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-scout",
+          "to": "class-archer",
+          "level": 6
+        },
+        {
+          "from": "class-archer",
+          "to": "class-ranger",
+          "level": 10,
+          "choice": true,
+          "path": "Patient longbow"
+        },
+        {
+          "from": "class-ranger",
+          "to": "class-verdant-sniper",
+          "level": 24,
+          "path": "Patient longbow"
+        },
+        {
+          "from": "class-archer",
+          "to": "class-falconer",
+          "level": 10,
+          "choice": true,
+          "path": "Falcon bond"
+        },
+        {
+          "from": "class-falconer",
+          "to": "class-horizon-warden",
+          "level": 24,
+          "path": "Falcon bond"
+        }
+      ],
+      "number": "09",
+      "folk": "Human",
+      "units": [
+        "class-scout",
+        "class-archer",
+        "class-ranger",
+        "class-verdant-sniper",
+        "class-falconer",
+        "class-horizon-warden"
+      ],
+      "types": [
+        "Grass",
+        "Steel",
+        "Wind"
+      ],
+      "roles": [
+        "Bruiser",
+        "Speedster"
+      ]
+    },
+    {
+      "id": "line-10",
+      "title": "Siege string",
+      "base": "class-huntsman",
+      "evolution": "class-crossbowman",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-gale-arbalester",
+      "identity": "stocky upright badgerfolk man with cream-and-ash facial stripes, a wide blond moustache, round glasses, blue eyes and expressive gloved hands",
+      "palette": "dusty blue, mustard, cream and dark walnut",
+      "paths": [
+        {
+          "name": "Heavy ballista",
+          "specialist": "class-arbalist",
+          "final": "class-ballista-lord",
+          "types": [
+            "Steel",
+            "Rock"
+          ],
+          "role": "Bruiser",
+          "purpose": "Keeps the slow, powerful arbalest-to-ballista progression."
+        },
+        {
+          "name": "Mobile siegecraft",
+          "specialist": "class-siege-ranger",
+          "final": "class-gale-arbalester",
+          "types": [
+            "Wind",
+            "Steel"
+          ],
+          "role": "Speedster",
+          "purpose": "Turns the pavise and windlass weapon into a mobile cover-and-reposition style."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-huntsman",
+          "to": "class-crossbowman",
+          "level": 6
+        },
+        {
+          "from": "class-crossbowman",
+          "to": "class-arbalist",
+          "level": 10,
+          "choice": true,
+          "path": "Heavy ballista"
+        },
+        {
+          "from": "class-arbalist",
+          "to": "class-ballista-lord",
+          "level": 24,
+          "path": "Heavy ballista"
+        },
+        {
+          "from": "class-crossbowman",
+          "to": "class-siege-ranger",
+          "level": 10,
+          "choice": true,
+          "path": "Mobile siegecraft"
+        },
+        {
+          "from": "class-siege-ranger",
+          "to": "class-gale-arbalester",
+          "level": 24,
+          "path": "Mobile siegecraft"
+        }
+      ],
+      "number": "10",
+      "folk": "Badgerfolk",
+      "units": [
+        "class-huntsman",
+        "class-crossbowman",
+        "class-arbalist",
+        "class-ballista-lord",
+        "class-siege-ranger",
+        "class-gale-arbalester"
+      ],
+      "types": [
+        "Steel",
+        "Rock",
+        "Wind"
+      ],
+      "roles": [
+        "Bruiser",
+        "Speedster"
+      ]
+    },
+    {
+      "id": "line-11",
+      "title": "Salt banner",
+      "base": "class-pirate",
+      "evolution": "class-corsair",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-privateer-captain",
+      "identity": "tan woman with auburn high ponytail, bright blue eyes and a mischievous grin",
+      "palette": "faded navy, dusty coral, cream and weathered silver",
+      "paths": [
+        {
+          "name": "Privateer powder",
+          "specialist": "class-buccaneer",
+          "final": "class-privateer-captain",
+          "types": [
+            "Steel",
+            "Fire"
+          ],
+          "role": "Bruiser",
+          "purpose": "Develops the flintlock and tricorn into the powder-and-boarding route."
+        },
+        {
+          "name": "Tidal command",
+          "specialist": "class-tide-reaver",
+          "final": "class-admiral",
+          "types": [
+            "Water",
+            "Steel"
+          ],
+          "role": "All-rounder",
+          "purpose": "Completes the existing wave-saber officer route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-pirate",
+          "to": "class-corsair",
+          "level": 6
+        },
+        {
+          "from": "class-corsair",
+          "to": "class-buccaneer",
+          "level": 10,
+          "choice": true,
+          "path": "Privateer powder"
+        },
+        {
+          "from": "class-buccaneer",
+          "to": "class-privateer-captain",
+          "level": 24,
+          "path": "Privateer powder"
+        },
+        {
+          "from": "class-corsair",
+          "to": "class-tide-reaver",
+          "level": 10,
+          "choice": true,
+          "path": "Tidal command"
+        },
+        {
+          "from": "class-tide-reaver",
+          "to": "class-admiral",
+          "level": 24,
+          "path": "Tidal command"
+        }
+      ],
+      "number": "11",
+      "folk": "Human",
+      "units": [
+        "class-pirate",
+        "class-corsair",
+        "class-buccaneer",
+        "class-privateer-captain",
+        "class-tide-reaver",
+        "class-admiral"
+      ],
+      "types": [
+        "Steel",
+        "Fire",
+        "Water"
+      ],
+      "roles": [
+        "Bruiser",
+        "All-rounder"
+      ]
+    },
+    {
+      "id": "line-12",
+      "title": "Starlock company",
+      "base": "class-gunner",
+      "evolution": "class-musketeer",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-runelock-artillerist",
+      "identity": "East Asian man with short dark hair, round amber glasses and a calm smile",
+      "palette": "dusty mauve, faded cobalt, ivory and brass",
+      "paths": [
+        {
+          "name": "Runelock barrage",
+          "specialist": "class-fusilier",
+          "final": "class-runelock-artillerist",
+          "types": [
+            "Electric",
+            "Steel"
+          ],
+          "role": "Bruiser",
+          "purpose": "Amplifies the arquebus into a compact rune-powered artillery discipline."
+        },
+        {
+          "name": "Celestial precision",
+          "specialist": "class-deadeye",
+          "final": "class-starlock-marshal",
+          "types": [
+            "Steel",
+            "Spirit"
+          ],
+          "role": "Speedster",
+          "purpose": "Carries the scoped marksman into a precise celestial gunfighter."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-gunner",
+          "to": "class-musketeer",
+          "level": 6
+        },
+        {
+          "from": "class-musketeer",
+          "to": "class-fusilier",
+          "level": 10,
+          "choice": true,
+          "path": "Runelock barrage"
+        },
+        {
+          "from": "class-fusilier",
+          "to": "class-runelock-artillerist",
+          "level": 24,
+          "path": "Runelock barrage"
+        },
+        {
+          "from": "class-musketeer",
+          "to": "class-deadeye",
+          "level": 10,
+          "choice": true,
+          "path": "Celestial precision"
+        },
+        {
+          "from": "class-deadeye",
+          "to": "class-starlock-marshal",
+          "level": 24,
+          "path": "Celestial precision"
+        }
+      ],
+      "number": "12",
+      "folk": "Human",
+      "units": [
+        "class-gunner",
+        "class-musketeer",
+        "class-fusilier",
+        "class-runelock-artillerist",
+        "class-deadeye",
+        "class-starlock-marshal"
+      ],
+      "types": [
+        "Electric",
+        "Steel",
+        "Spirit"
+      ],
+      "roles": [
+        "Bruiser",
+        "Speedster"
+      ]
+    },
+    {
+      "id": "line-13",
+      "title": "Little workshop",
+      "base": "class-tinkerer",
+      "evolution": "class-machinist",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-siege-mechanist",
+      "identity": "tiny upright dark-furred mousefolk adult with oversized round ears, fluffy mint forelock, copper goggles, violet eyes, expressive tiny hands and a curled tail",
+      "palette": "dusty mint, peach, linen and copper",
+      "paths": [
+        {
+          "name": "Mechanical siege",
+          "specialist": "class-engineer",
+          "final": "class-siege-mechanist",
+          "types": [
+            "Steel",
+            "Rock"
+          ],
+          "role": "Bulwark",
+          "purpose": "Builds the bolt launcher into a wearable construction-and-siege rig."
+        },
+        {
+          "name": "Arcane clockwork",
+          "specialist": "class-artificer",
+          "final": "class-clockwork-savant",
+          "types": [
+            "Electric",
+            "Spirit"
+          ],
+          "role": "Tactician",
+          "purpose": "Develops floating gear magic and clockwork satellites."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-tinkerer",
+          "to": "class-machinist",
+          "level": 6
+        },
+        {
+          "from": "class-machinist",
+          "to": "class-engineer",
+          "level": 10,
+          "choice": true,
+          "path": "Mechanical siege"
+        },
+        {
+          "from": "class-engineer",
+          "to": "class-siege-mechanist",
+          "level": 24,
+          "path": "Mechanical siege"
+        },
+        {
+          "from": "class-machinist",
+          "to": "class-artificer",
+          "level": 10,
+          "choice": true,
+          "path": "Arcane clockwork"
+        },
+        {
+          "from": "class-artificer",
+          "to": "class-clockwork-savant",
+          "level": 24,
+          "path": "Arcane clockwork"
+        }
+      ],
+      "number": "13",
+      "folk": "Mousefolk",
+      "units": [
+        "class-tinkerer",
+        "class-machinist",
+        "class-engineer",
+        "class-siege-mechanist",
+        "class-artificer",
+        "class-clockwork-savant"
+      ],
+      "types": [
+        "Steel",
+        "Rock",
+        "Electric",
+        "Spirit"
+      ],
+      "roles": [
+        "Bulwark",
+        "Tactician"
+      ]
+    },
+    {
+      "id": "line-14",
+      "title": "Gentle remedy",
+      "base": "class-chemist",
+      "evolution": "class-apothecary",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-miasma-physician",
+      "identity": "warm olive-skinned man with curly dark hair, round lavender goggles and gentle brown eyes",
+      "palette": "muted aubergine, sage, cream and antique copper",
+      "paths": [
+        {
+          "name": "Transmutation",
+          "specialist": "class-alchemist",
+          "final": "class-philosopher",
+          "types": [
+            "Spirit",
+            "Steel"
+          ],
+          "role": "Tactician",
+          "purpose": "Completes the philosopher-stone and transmutation route."
+        },
+        {
+          "name": "Medicinal miasma",
+          "specialist": "class-plague-doctor",
+          "final": "class-miasma-physician",
+          "types": [
+            "Poison",
+            "Grass"
+          ],
+          "role": "Sustainer",
+          "purpose": "Develops the beaked mask and potion belt into herbal antidotes and controlled mist."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-chemist",
+          "to": "class-apothecary",
+          "level": 6
+        },
+        {
+          "from": "class-apothecary",
+          "to": "class-alchemist",
+          "level": 10,
+          "choice": true,
+          "path": "Transmutation"
+        },
+        {
+          "from": "class-alchemist",
+          "to": "class-philosopher",
+          "level": 24,
+          "path": "Transmutation"
+        },
+        {
+          "from": "class-apothecary",
+          "to": "class-plague-doctor",
+          "level": 10,
+          "choice": true,
+          "path": "Medicinal miasma"
+        },
+        {
+          "from": "class-plague-doctor",
+          "to": "class-miasma-physician",
+          "level": 24,
+          "path": "Medicinal miasma"
+        }
+      ],
+      "number": "14",
+      "folk": "Human",
+      "units": [
+        "class-chemist",
+        "class-apothecary",
+        "class-alchemist",
+        "class-philosopher",
+        "class-plague-doctor",
+        "class-miasma-physician"
+      ],
+      "types": [
+        "Spirit",
+        "Steel",
+        "Poison",
+        "Grass"
+      ],
+      "roles": [
+        "Tactician",
+        "Sustainer"
+      ]
+    },
+    {
+      "id": "line-15",
+      "title": "Arcane flame",
+      "base": "class-mage",
+      "evolution": "class-black-mage",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-phoenix-invoker",
+      "identity": "fair-skinned woman with softly curled blonde hair, round spectacles and luminous violet eyes",
+      "palette": "dusty cobalt, muted rose, buttercream and warm gold",
+      "paths": [
+        {
+          "name": "Flame familiars",
+          "specialist": "class-evoker",
+          "final": "class-phoenix-invoker",
+          "types": [
+            "Fire",
+            "Wind"
+          ],
+          "role": "Speedster",
+          "purpose": "Develops the existing little flame bird into a phoenix-familiar specialty."
+        },
+        {
+          "name": "Battle sorcery",
+          "specialist": "class-war-mage",
+          "final": "class-archmage",
+          "types": [
+            "Fire",
+            "Spirit"
+          ],
+          "role": "Bruiser",
+          "purpose": "Finishes the staff-and-grimoire battle-magic tradition."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-mage",
+          "to": "class-black-mage",
+          "level": 6
+        },
+        {
+          "from": "class-black-mage",
+          "to": "class-evoker",
+          "level": 10,
+          "choice": true,
+          "path": "Flame familiars"
+        },
+        {
+          "from": "class-evoker",
+          "to": "class-phoenix-invoker",
+          "level": 24,
+          "path": "Flame familiars"
+        },
+        {
+          "from": "class-black-mage",
+          "to": "class-war-mage",
+          "level": 10,
+          "choice": true,
+          "path": "Battle sorcery"
+        },
+        {
+          "from": "class-war-mage",
+          "to": "class-archmage",
+          "level": 24,
+          "path": "Battle sorcery"
+        }
+      ],
+      "number": "15",
+      "folk": "Human",
+      "units": [
+        "class-mage",
+        "class-black-mage",
+        "class-evoker",
+        "class-phoenix-invoker",
+        "class-war-mage",
+        "class-archmage"
+      ],
+      "types": [
+        "Fire",
+        "Wind",
+        "Spirit"
+      ],
+      "roles": [
+        "Speedster",
+        "Bruiser"
+      ]
+    },
+    {
+      "id": "line-16",
+      "title": "Mercy bell",
+      "base": "class-acolyte",
+      "evolution": "class-white-mage",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-sanctuary-warden",
+      "identity": "brown-skinned woman with silver-gray shoulder-length curls and kind teal eyes",
+      "palette": "ivory, faded lilac, powder blue and pale gold",
+      "paths": [
+        {
+          "name": "Armored sanctuary",
+          "specialist": "class-cleric",
+          "final": "class-sanctuary-warden",
+          "types": [
+            "Spirit",
+            "Steel"
+          ],
+          "role": "Bulwark",
+          "purpose": "Builds the censer mace and shoulder mantle into a defensive battle chaplain."
+        },
+        {
+          "name": "Merciful blessing",
+          "specialist": "class-bishop",
+          "final": "class-hierophant",
+          "types": [
+            "Spirit",
+            "Water"
+          ],
+          "role": "Sustainer",
+          "purpose": "Completes the bell-and-crozier healing route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-acolyte",
+          "to": "class-white-mage",
+          "level": 6
+        },
+        {
+          "from": "class-white-mage",
+          "to": "class-cleric",
+          "level": 10,
+          "choice": true,
+          "path": "Armored sanctuary"
+        },
+        {
+          "from": "class-cleric",
+          "to": "class-sanctuary-warden",
+          "level": 24,
+          "path": "Armored sanctuary"
+        },
+        {
+          "from": "class-white-mage",
+          "to": "class-bishop",
+          "level": 10,
+          "choice": true,
+          "path": "Merciful blessing"
+        },
+        {
+          "from": "class-bishop",
+          "to": "class-hierophant",
+          "level": 24,
+          "path": "Merciful blessing"
+        }
+      ],
+      "number": "16",
+      "folk": "Human",
+      "units": [
+        "class-acolyte",
+        "class-white-mage",
+        "class-cleric",
+        "class-sanctuary-warden",
+        "class-bishop",
+        "class-hierophant"
+      ],
+      "types": [
+        "Spirit",
+        "Steel",
+        "Water"
+      ],
+      "roles": [
+        "Bulwark",
+        "Sustainer"
+      ]
+    },
+    {
+      "id": "line-17",
+      "title": "Root covenant",
+      "base": "class-hedgewitch",
+      "evolution": "class-herbalist",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-thorn-shepherd",
+      "identity": "olive-skinned elf man with long sage-green hair, amber eyes and small round spectacles",
+      "palette": "sage, dusty rose, oatmeal and bark brown",
+      "paths": [
+        {
+          "name": "Living thorns",
+          "specialist": "class-druid",
+          "final": "class-thorn-shepherd",
+          "types": [
+            "Grass",
+            "Rock"
+          ],
+          "role": "Bulwark",
+          "purpose": "Grows the living oak staff and vines into a protective wilderness guardian."
+        },
+        {
+          "name": "Grove prophecy",
+          "specialist": "class-grove-sage",
+          "final": "class-verdant-oracle",
+          "types": [
+            "Grass",
+            "Spirit"
+          ],
+          "role": "Sustainer",
+          "purpose": "Completes the flowering canopy and nature-oracle path."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-hedgewitch",
+          "to": "class-herbalist",
+          "level": 6
+        },
+        {
+          "from": "class-herbalist",
+          "to": "class-druid",
+          "level": 10,
+          "choice": true,
+          "path": "Living thorns"
+        },
+        {
+          "from": "class-druid",
+          "to": "class-thorn-shepherd",
+          "level": 24,
+          "path": "Living thorns"
+        },
+        {
+          "from": "class-herbalist",
+          "to": "class-grove-sage",
+          "level": 10,
+          "choice": true,
+          "path": "Grove prophecy"
+        },
+        {
+          "from": "class-grove-sage",
+          "to": "class-verdant-oracle",
+          "level": 24,
+          "path": "Grove prophecy"
+        }
+      ],
+      "number": "17",
+      "folk": "Elf",
+      "units": [
+        "class-hedgewitch",
+        "class-herbalist",
+        "class-druid",
+        "class-thorn-shepherd",
+        "class-grove-sage",
+        "class-verdant-oracle"
+      ],
+      "types": [
+        "Grass",
+        "Rock",
+        "Spirit"
+      ],
+      "roles": [
+        "Bulwark",
+        "Sustainer"
+      ]
+    },
+    {
+      "id": "line-18",
+      "title": "Pearl current",
+      "base": "class-tidecaller",
+      "evolution": "class-aquamancer",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-nacre-theurge",
+      "identity": "deep brown-skinned woman with seafoam braided hair, pearl earrings and blue eyes",
+      "palette": "seafoam, powder blue, shell pink and pearl",
+      "paths": [
+        {
+          "name": "Pearl wards",
+          "specialist": "class-pearl-mystic",
+          "final": "class-nacre-theurge",
+          "types": [
+            "Water",
+            "Steel"
+          ],
+          "role": "Bulwark",
+          "purpose": "Develops the pearl focus into shell armor and defensive pearl sorcery."
+        },
+        {
+          "name": "Deep sea visions",
+          "specialist": "class-sea-oracle",
+          "final": "class-abyss-magus",
+          "types": [
+            "Water",
+            "Spirit"
+          ],
+          "role": "Tactician",
+          "purpose": "Completes the tidal mirror and deep-sea lantern route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-tidecaller",
+          "to": "class-aquamancer",
+          "level": 6
+        },
+        {
+          "from": "class-aquamancer",
+          "to": "class-pearl-mystic",
+          "level": 10,
+          "choice": true,
+          "path": "Pearl wards"
+        },
+        {
+          "from": "class-pearl-mystic",
+          "to": "class-nacre-theurge",
+          "level": 24,
+          "path": "Pearl wards"
+        },
+        {
+          "from": "class-aquamancer",
+          "to": "class-sea-oracle",
+          "level": 10,
+          "choice": true,
+          "path": "Deep sea visions"
+        },
+        {
+          "from": "class-sea-oracle",
+          "to": "class-abyss-magus",
+          "level": 24,
+          "path": "Deep sea visions"
+        }
+      ],
+      "number": "18",
+      "folk": "Human",
+      "units": [
+        "class-tidecaller",
+        "class-aquamancer",
+        "class-pearl-mystic",
+        "class-nacre-theurge",
+        "class-sea-oracle",
+        "class-abyss-magus"
+      ],
+      "types": [
+        "Water",
+        "Steel",
+        "Spirit"
+      ],
+      "roles": [
+        "Bulwark",
+        "Tactician"
+      ]
+    },
+    {
+      "id": "line-19",
+      "title": "Bottled storm",
+      "base": "class-sparkhand",
+      "evolution": "class-thunder-mage",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-stormheart-conductor",
+      "identity": "tan androgynous adult with tousled golden curls, gray eyes and a gap-toothed grin",
+      "palette": "butter yellow, mist gray, faded teal and brass",
+      "paths": [
+        {
+          "name": "Storm resonance",
+          "specialist": "class-stormcaller",
+          "final": "class-stormheart-conductor",
+          "types": [
+            "Electric",
+            "Steel"
+          ],
+          "role": "Tactician",
+          "purpose": "Advances the storm bell into resonant lightning control with brass instruments."
+        },
+        {
+          "name": "Tempest speed",
+          "specialist": "class-tempest-sage",
+          "final": "class-fulgurant",
+          "types": [
+            "Electric",
+            "Wind"
+          ],
+          "role": "Speedster",
+          "purpose": "Completes the wind ribbons and rapid storm-casting route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-sparkhand",
+          "to": "class-thunder-mage",
+          "level": 6
+        },
+        {
+          "from": "class-thunder-mage",
+          "to": "class-stormcaller",
+          "level": 10,
+          "choice": true,
+          "path": "Storm resonance"
+        },
+        {
+          "from": "class-stormcaller",
+          "to": "class-stormheart-conductor",
+          "level": 24,
+          "path": "Storm resonance"
+        },
+        {
+          "from": "class-thunder-mage",
+          "to": "class-tempest-sage",
+          "level": 10,
+          "choice": true,
+          "path": "Tempest speed"
+        },
+        {
+          "from": "class-tempest-sage",
+          "to": "class-fulgurant",
+          "level": 24,
+          "path": "Tempest speed"
+        }
+      ],
+      "number": "19",
+      "folk": "Human",
+      "units": [
+        "class-sparkhand",
+        "class-thunder-mage",
+        "class-stormcaller",
+        "class-stormheart-conductor",
+        "class-tempest-sage",
+        "class-fulgurant"
+      ],
+      "types": [
+        "Electric",
+        "Steel",
+        "Wind"
+      ],
+      "roles": [
+        "Tactician",
+        "Speedster"
+      ]
+    },
+    {
+      "id": "line-20",
+      "title": "Winter glass",
+      "base": "class-frost-novice",
+      "evolution": "class-ice-mage",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-hoarfrost-hexer",
+      "identity": "fair-skinned woman with pale lavender bob, silver eyelashes and cool blue eyes",
+      "palette": "powder blue, lilac, pearl white and frosted silver",
+      "paths": [
+        {
+          "name": "Winter hexes",
+          "specialist": "class-snow-witch",
+          "final": "class-hoarfrost-hexer",
+          "types": [
+            "Ice",
+            "Poison"
+          ],
+          "role": "Tactician",
+          "purpose": "Builds the witch specialty around frost curses and slowing ice petals."
+        },
+        {
+          "name": "Glacier foresight",
+          "specialist": "class-glacier-seer",
+          "final": "class-winter-archon",
+          "types": [
+            "Ice",
+            "Spirit"
+          ],
+          "role": "Bulwark",
+          "purpose": "Completes the ice-seer and protective winter-regalia path."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-frost-novice",
+          "to": "class-ice-mage",
+          "level": 6
+        },
+        {
+          "from": "class-ice-mage",
+          "to": "class-snow-witch",
+          "level": 10,
+          "choice": true,
+          "path": "Winter hexes"
+        },
+        {
+          "from": "class-snow-witch",
+          "to": "class-hoarfrost-hexer",
+          "level": 24,
+          "path": "Winter hexes"
+        },
+        {
+          "from": "class-ice-mage",
+          "to": "class-glacier-seer",
+          "level": 10,
+          "choice": true,
+          "path": "Glacier foresight"
+        },
+        {
+          "from": "class-glacier-seer",
+          "to": "class-winter-archon",
+          "level": 24,
+          "path": "Glacier foresight"
+        }
+      ],
+      "number": "20",
+      "folk": "Human",
+      "units": [
+        "class-frost-novice",
+        "class-ice-mage",
+        "class-snow-witch",
+        "class-hoarfrost-hexer",
+        "class-glacier-seer",
+        "class-winter-archon"
+      ],
+      "types": [
+        "Ice",
+        "Poison",
+        "Spirit"
+      ],
+      "roles": [
+        "Tactician",
+        "Bulwark"
+      ]
+    },
+    {
+      "id": "line-21",
+      "title": "Quiet grave",
+      "base": "class-gravedigger",
+      "evolution": "class-bonecaller",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-ossuary-sovereign",
+      "identity": "pale lavender-skinned woman with straight midnight hair, blunt bangs, purple eyes and a stern little frown",
+      "palette": "muted indigo, dusty lilac, faded black and antique silver",
+      "paths": [
+        {
+          "name": "Bonecraft",
+          "specialist": "class-necromancer",
+          "final": "class-ossuary-sovereign",
+          "types": [
+            "Poison",
+            "Rock"
+          ],
+          "role": "Bulwark",
+          "purpose": "Develops bonecalling into defensive skeletal constructs and ossuary regalia."
+        },
+        {
+          "name": "Soul weaving",
+          "specialist": "class-soul-weaver",
+          "final": "class-grave-hierarch",
+          "types": [
+            "Spirit",
+            "Poison"
+          ],
+          "role": "Tactician",
+          "purpose": "Completes the soul-thread and spiritual necromancy route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-gravedigger",
+          "to": "class-bonecaller",
+          "level": 6
+        },
+        {
+          "from": "class-bonecaller",
+          "to": "class-necromancer",
+          "level": 10,
+          "choice": true,
+          "path": "Bonecraft"
+        },
+        {
+          "from": "class-necromancer",
+          "to": "class-ossuary-sovereign",
+          "level": 24,
+          "path": "Bonecraft"
+        },
+        {
+          "from": "class-bonecaller",
+          "to": "class-soul-weaver",
+          "level": 10,
+          "choice": true,
+          "path": "Soul weaving"
+        },
+        {
+          "from": "class-soul-weaver",
+          "to": "class-grave-hierarch",
+          "level": 24,
+          "path": "Soul weaving"
+        }
+      ],
+      "number": "21",
+      "folk": "Human",
+      "units": [
+        "class-gravedigger",
+        "class-bonecaller",
+        "class-necromancer",
+        "class-ossuary-sovereign",
+        "class-soul-weaver",
+        "class-grave-hierarch"
+      ],
+      "types": [
+        "Poison",
+        "Rock",
+        "Spirit"
+      ],
+      "roles": [
+        "Bulwark",
+        "Tactician"
+      ]
+    },
+    {
+      "id": "line-22",
+      "title": "Dream theater",
+      "base": "class-dreamer",
+      "evolution": "class-illusionist",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-prism-harlequin",
+      "identity": "dark-skinned man with fluffy lavender hair, silver freckles and sleepy golden eyes",
+      "palette": "dusty lavender, faded midnight blue, peach and pearl",
+      "paths": [
+        {
+          "name": "Prismatic performance",
+          "specialist": "class-mirage-dancer",
+          "final": "class-prism-harlequin",
+          "types": [
+            "Spirit",
+            "Fire"
+          ],
+          "role": "Speedster",
+          "purpose": "Develops stage mirages into a theatrical refraction-and-light trickster."
+        },
+        {
+          "name": "Dream shaping",
+          "specialist": "class-dreamweaver",
+          "final": "class-oneiromancer",
+          "types": [
+            "Spirit",
+            "Wind"
+          ],
+          "role": "Tactician",
+          "purpose": "Completes the dream-thread and sleeping-vision route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-dreamer",
+          "to": "class-illusionist",
+          "level": 6
+        },
+        {
+          "from": "class-illusionist",
+          "to": "class-mirage-dancer",
+          "level": 10,
+          "choice": true,
+          "path": "Prismatic performance"
+        },
+        {
+          "from": "class-mirage-dancer",
+          "to": "class-prism-harlequin",
+          "level": 24,
+          "path": "Prismatic performance"
+        },
+        {
+          "from": "class-illusionist",
+          "to": "class-dreamweaver",
+          "level": 10,
+          "choice": true,
+          "path": "Dream shaping"
+        },
+        {
+          "from": "class-dreamweaver",
+          "to": "class-oneiromancer",
+          "level": 24,
+          "path": "Dream shaping"
+        }
+      ],
+      "number": "22",
+      "folk": "Human",
+      "units": [
+        "class-dreamer",
+        "class-illusionist",
+        "class-mirage-dancer",
+        "class-prism-harlequin",
+        "class-dreamweaver",
+        "class-oneiromancer"
+      ],
+      "types": [
+        "Spirit",
+        "Fire",
+        "Wind"
+      ],
+      "roles": [
+        "Speedster",
+        "Tactician"
+      ]
+    },
+    {
+      "id": "line-23",
+      "title": "Astral pact",
+      "base": "class-apprentice",
+      "evolution": "class-summoner",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-wild-pact-archon",
+      "identity": "brown-skinned elf woman with copper-red curls, pointed ears and luminous teal eyes",
+      "palette": "dusty coral, soft turquoise, cream and old gold",
+      "paths": [
+        {
+          "name": "Wild covenant",
+          "specialist": "class-pact-keeper",
+          "final": "class-wild-pact-archon",
+          "types": [
+            "Spirit",
+            "Grass"
+          ],
+          "role": "Sustainer",
+          "purpose": "Grows the keeper into a reciprocal pact with woodland guardians."
+        },
+        {
+          "name": "Astral invocation",
+          "specialist": "class-eidolon-speaker",
+          "final": "class-astral-convoker",
+          "types": [
+            "Spirit",
+            "Fire"
+          ],
+          "role": "Tactician",
+          "purpose": "Completes the eidolon-speaking and cosmic guardian route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-apprentice",
+          "to": "class-summoner",
+          "level": 6
+        },
+        {
+          "from": "class-summoner",
+          "to": "class-pact-keeper",
+          "level": 10,
+          "choice": true,
+          "path": "Wild covenant"
+        },
+        {
+          "from": "class-pact-keeper",
+          "to": "class-wild-pact-archon",
+          "level": 24,
+          "path": "Wild covenant"
+        },
+        {
+          "from": "class-summoner",
+          "to": "class-eidolon-speaker",
+          "level": 10,
+          "choice": true,
+          "path": "Astral invocation"
+        },
+        {
+          "from": "class-eidolon-speaker",
+          "to": "class-astral-convoker",
+          "level": 24,
+          "path": "Astral invocation"
+        }
+      ],
+      "number": "23",
+      "folk": "Elf",
+      "units": [
+        "class-apprentice",
+        "class-summoner",
+        "class-pact-keeper",
+        "class-wild-pact-archon",
+        "class-eidolon-speaker",
+        "class-astral-convoker"
+      ],
+      "types": [
+        "Spirit",
+        "Grass",
+        "Fire"
+      ],
+      "roles": [
+        "Sustainer",
+        "Tactician"
+      ]
+    },
+    {
+      "id": "line-24",
+      "title": "Hourglass stars",
+      "base": "class-astrologer",
+      "evolution": "class-diviner",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-epoch-oracle",
+      "identity": "elderly olive-skinned woman with a silver braid bun, round blue glasses and bright gray eyes",
+      "palette": "faded indigo, pale gold, dusty peach and silver",
+      "paths": [
+        {
+          "name": "Clockwork time",
+          "specialist": "class-chronomancer",
+          "final": "class-aeon-keeper",
+          "types": [
+            "Spirit",
+            "Electric"
+          ],
+          "role": "Tactician",
+          "purpose": "Completes the chronomancer through clockwork rings and temporal acceleration."
+        },
+        {
+          "name": "Frozen moments",
+          "specialist": "class-time-sage",
+          "final": "class-epoch-oracle",
+          "types": [
+            "Spirit",
+            "Ice"
+          ],
+          "role": "Sustainer",
+          "purpose": "Turns the sage toward stillness, preservation and reading distant eras."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-astrologer",
+          "to": "class-diviner",
+          "level": 6
+        },
+        {
+          "from": "class-diviner",
+          "to": "class-chronomancer",
+          "level": 10,
+          "choice": true,
+          "path": "Clockwork time"
+        },
+        {
+          "from": "class-chronomancer",
+          "to": "class-aeon-keeper",
+          "level": 24,
+          "path": "Clockwork time"
+        },
+        {
+          "from": "class-diviner",
+          "to": "class-time-sage",
+          "level": 10,
+          "choice": true,
+          "path": "Frozen moments"
+        },
+        {
+          "from": "class-time-sage",
+          "to": "class-epoch-oracle",
+          "level": 24,
+          "path": "Frozen moments"
+        }
+      ],
+      "number": "24",
+      "folk": "Human",
+      "units": [
+        "class-astrologer",
+        "class-diviner",
+        "class-chronomancer",
+        "class-aeon-keeper",
+        "class-time-sage",
+        "class-epoch-oracle"
+      ],
+      "types": [
+        "Spirit",
+        "Electric",
+        "Ice"
+      ],
+      "roles": [
+        "Tactician",
+        "Sustainer"
+      ]
+    },
+    {
+      "id": "line-25",
+      "title": "Earth song",
+      "base": "class-geomancer",
+      "evolution": "class-earthspeaker",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-prism-geomancer",
+      "identity": "young adult lizardfolk man with a mostly human-shaped expressive face, warm olive skin, subtle moss-jade scales at his cheeks and forearms, small ear fins, a slim lizard tail, thick dark locs and amber eyes with narrow pupils",
+      "palette": "ochre, muted turquoise, clay pink and moss",
+      "paths": [
+        {
+          "name": "Crystal shaping",
+          "specialist": "class-crystal-sage",
+          "final": "class-prism-geomancer",
+          "types": [
+            "Rock",
+            "Ice"
+          ],
+          "role": "Tactician",
+          "purpose": "Develops the lizardfolk crystal specialist into faceted quartz and frost geometry."
+        },
+        {
+          "name": "Living landscapes",
+          "specialist": "class-fault-shaper",
+          "final": "class-world-sculptor",
+          "types": [
+            "Rock",
+            "Grass"
+          ],
+          "role": "Bulwark",
+          "purpose": "Completes the stone-and-landscape guardian route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-geomancer",
+          "to": "class-earthspeaker",
+          "level": 6
+        },
+        {
+          "from": "class-earthspeaker",
+          "to": "class-crystal-sage",
+          "level": 10,
+          "choice": true,
+          "path": "Crystal shaping"
+        },
+        {
+          "from": "class-crystal-sage",
+          "to": "class-prism-geomancer",
+          "level": 24,
+          "path": "Crystal shaping"
+        },
+        {
+          "from": "class-earthspeaker",
+          "to": "class-fault-shaper",
+          "level": 10,
+          "choice": true,
+          "path": "Living landscapes"
+        },
+        {
+          "from": "class-fault-shaper",
+          "to": "class-world-sculptor",
+          "level": 24,
+          "path": "Living landscapes"
+        }
+      ],
+      "number": "25",
+      "folk": "Lizardfolk",
+      "units": [
+        "class-geomancer",
+        "class-earthspeaker",
+        "class-crystal-sage",
+        "class-prism-geomancer",
+        "class-fault-shaper",
+        "class-world-sculptor"
+      ],
+      "types": [
+        "Rock",
+        "Ice",
+        "Grass"
+      ],
+      "roles": [
+        "Tactician",
+        "Bulwark"
+      ]
+    },
+    {
+      "id": "line-26",
+      "title": "Traveling song",
+      "base": "class-bard",
+      "evolution": "class-minstrel",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-saga-cantor",
+      "identity": "freckled fair-skinned elf man with shoulder-length chestnut hair and green eyes",
+      "palette": "dusty burgundy, faded teal, oatmeal and brass",
+      "paths": [
+        {
+          "name": "Heroic saga",
+          "specialist": "class-troubadour",
+          "final": "class-saga-cantor",
+          "types": [
+            "Wind",
+            "Fire"
+          ],
+          "role": "Bruiser",
+          "purpose": "Builds the traveling lute tradition into stirring battle ballads and heroic recitals."
+        },
+        {
+          "name": "Harmonic inspiration",
+          "specialist": "class-anthem-weaver",
+          "final": "class-laureate",
+          "types": [
+            "Wind",
+            "Spirit"
+          ],
+          "role": "Sustainer",
+          "purpose": "Completes the chime-and-harp supportive performance route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-bard",
+          "to": "class-minstrel",
+          "level": 6
+        },
+        {
+          "from": "class-minstrel",
+          "to": "class-troubadour",
+          "level": 10,
+          "choice": true,
+          "path": "Heroic saga"
+        },
+        {
+          "from": "class-troubadour",
+          "to": "class-saga-cantor",
+          "level": 24,
+          "path": "Heroic saga"
+        },
+        {
+          "from": "class-minstrel",
+          "to": "class-anthem-weaver",
+          "level": 10,
+          "choice": true,
+          "path": "Harmonic inspiration"
+        },
+        {
+          "from": "class-anthem-weaver",
+          "to": "class-laureate",
+          "level": 24,
+          "path": "Harmonic inspiration"
+        }
+      ],
+      "number": "26",
+      "folk": "Elf",
+      "units": [
+        "class-bard",
+        "class-minstrel",
+        "class-troubadour",
+        "class-saga-cantor",
+        "class-anthem-weaver",
+        "class-laureate"
+      ],
+      "types": [
+        "Wind",
+        "Fire",
+        "Spirit"
+      ],
+      "roles": [
+        "Bruiser",
+        "Sustainer"
+      ]
+    },
+    {
+      "id": "line-27",
+      "title": "Ribbon court",
+      "base": "class-dancer",
+      "evolution": "class-veil-dancer",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-petal-duelist",
+      "identity": "deep brown-skinned woman with black curls in a high bun and amber eyes",
+      "palette": "dusty rose, plum, apricot and antique gold",
+      "paths": [
+        {
+          "name": "Ribbon fencing",
+          "specialist": "class-ribbonblade",
+          "final": "class-petal-duelist",
+          "types": [
+            "Steel",
+            "Grass"
+          ],
+          "role": "Speedster",
+          "purpose": "Turns the flexible blade and dance steps into precise petal-pattern fencing."
+        },
+        {
+          "name": "Celestial muse",
+          "specialist": "class-muse",
+          "final": "class-luminary",
+          "types": [
+            "Spirit",
+            "Fire"
+          ],
+          "role": "Sustainer",
+          "purpose": "Completes the radiant fan and inspiring celestial-dance route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-dancer",
+          "to": "class-veil-dancer",
+          "level": 6
+        },
+        {
+          "from": "class-veil-dancer",
+          "to": "class-ribbonblade",
+          "level": 10,
+          "choice": true,
+          "path": "Ribbon fencing"
+        },
+        {
+          "from": "class-ribbonblade",
+          "to": "class-petal-duelist",
+          "level": 24,
+          "path": "Ribbon fencing"
+        },
+        {
+          "from": "class-veil-dancer",
+          "to": "class-muse",
+          "level": 10,
+          "choice": true,
+          "path": "Celestial muse"
+        },
+        {
+          "from": "class-muse",
+          "to": "class-luminary",
+          "level": 24,
+          "path": "Celestial muse"
+        }
+      ],
+      "number": "27",
+      "folk": "Human",
+      "units": [
+        "class-dancer",
+        "class-veil-dancer",
+        "class-ribbonblade",
+        "class-petal-duelist",
+        "class-muse",
+        "class-luminary"
+      ],
+      "types": [
+        "Steel",
+        "Grass",
+        "Spirit",
+        "Fire"
+      ],
+      "roles": [
+        "Speedster",
+        "Sustainer"
+      ]
+    },
+    {
+      "id": "line-28",
+      "title": "Field command",
+      "base": "class-villager",
+      "evolution": "class-quartermaster",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-warboard-marshal",
+      "identity": "East Asian woman with neat black ponytail, brown eyes and round wire glasses",
+      "palette": "dusty navy, sage, cream and muted gold",
+      "paths": [
+        {
+          "name": "Field formations",
+          "specialist": "class-tactician",
+          "final": "class-warboard-marshal",
+          "types": [
+            "Steel",
+            "Rock"
+          ],
+          "role": "Bulwark",
+          "purpose": "Specializes the tactical map into physical cover, formations and terrain control."
+        },
+        {
+          "name": "Grand strategy",
+          "specialist": "class-strategist",
+          "final": "class-grand-strategist",
+          "types": [
+            "Spirit",
+            "Steel"
+          ],
+          "role": "Tactician",
+          "purpose": "Completes the broad command-and-forecasting route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-villager",
+          "to": "class-quartermaster",
+          "level": 6
+        },
+        {
+          "from": "class-quartermaster",
+          "to": "class-tactician",
+          "level": 10,
+          "choice": true,
+          "path": "Field formations"
+        },
+        {
+          "from": "class-tactician",
+          "to": "class-warboard-marshal",
+          "level": 24,
+          "path": "Field formations"
+        },
+        {
+          "from": "class-quartermaster",
+          "to": "class-strategist",
+          "level": 10,
+          "choice": true,
+          "path": "Grand strategy"
+        },
+        {
+          "from": "class-strategist",
+          "to": "class-grand-strategist",
+          "level": 24,
+          "path": "Grand strategy"
+        }
+      ],
+      "number": "28",
+      "folk": "Human",
+      "units": [
+        "class-villager",
+        "class-quartermaster",
+        "class-tactician",
+        "class-warboard-marshal",
+        "class-strategist",
+        "class-grand-strategist"
+      ],
+      "types": [
+        "Steel",
+        "Rock",
+        "Spirit"
+      ],
+      "roles": [
+        "Bulwark",
+        "Tactician"
+      ]
+    },
+    {
+      "id": "line-29",
+      "title": "Warm kitchen",
+      "base": "class-cook",
+      "evolution": "class-field-chef",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-oven-crusader",
+      "identity": "round-bodied tan dwarf woman with curly cinnamon hair, hazel eyes and flour-dusted cheeks",
+      "palette": "butter yellow, sage, dusty terracotta and cream",
+      "paths": [
+        {
+          "name": "Battle baking",
+          "specialist": "class-battle-baker",
+          "final": "class-oven-crusader",
+          "types": [
+            "Fire",
+            "Steel"
+          ],
+          "role": "Bruiser",
+          "purpose": "Builds the bread peel and baker cap into a sturdy, oven-armored frontline cook."
+        },
+        {
+          "name": "Restorative feasts",
+          "specialist": "class-feast-keeper",
+          "final": "class-hearth-saint",
+          "types": [
+            "Grass",
+            "Fire"
+          ],
+          "role": "Sustainer",
+          "purpose": "Completes the communal stockpot and healing hearth route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-cook",
+          "to": "class-field-chef",
+          "level": 6
+        },
+        {
+          "from": "class-field-chef",
+          "to": "class-battle-baker",
+          "level": 10,
+          "choice": true,
+          "path": "Battle baking"
+        },
+        {
+          "from": "class-battle-baker",
+          "to": "class-oven-crusader",
+          "level": 24,
+          "path": "Battle baking"
+        },
+        {
+          "from": "class-field-chef",
+          "to": "class-feast-keeper",
+          "level": 10,
+          "choice": true,
+          "path": "Restorative feasts"
+        },
+        {
+          "from": "class-feast-keeper",
+          "to": "class-hearth-saint",
+          "level": 24,
+          "path": "Restorative feasts"
+        }
+      ],
+      "number": "29",
+      "folk": "Dwarf",
+      "units": [
+        "class-cook",
+        "class-field-chef",
+        "class-battle-baker",
+        "class-oven-crusader",
+        "class-feast-keeper",
+        "class-hearth-saint"
+      ],
+      "types": [
+        "Fire",
+        "Steel",
+        "Grass"
+      ],
+      "roles": [
+        "Bruiser",
+        "Sustainer"
+      ]
+    },
+    {
+      "id": "line-30",
+      "title": "Stone workshop",
+      "base": "class-mason",
+      "evolution": "class-sapper",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-deepdelve-foreman",
+      "identity": "dark-skinned dwarf man with thick salt-and-pepper beard and warm amber eyes",
+      "palette": "dusty sandstone, faded teal, cream and iron",
+      "paths": [
+        {
+          "name": "Deep excavation",
+          "specialist": "class-miner",
+          "final": "class-deepdelve-foreman",
+          "types": [
+            "Rock",
+            "Fire"
+          ],
+          "role": "Bruiser",
+          "purpose": "Develops the lantern and pick into deep-earth excavation and geothermal force."
+        },
+        {
+          "name": "Runic construction",
+          "specialist": "class-runesmith",
+          "final": "class-citadel-crafter",
+          "types": [
+            "Rock",
+            "Steel"
+          ],
+          "role": "Bulwark",
+          "purpose": "Completes the rune hammer and stone-building route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-mason",
+          "to": "class-sapper",
+          "level": 6
+        },
+        {
+          "from": "class-sapper",
+          "to": "class-miner",
+          "level": 10,
+          "choice": true,
+          "path": "Deep excavation"
+        },
+        {
+          "from": "class-miner",
+          "to": "class-deepdelve-foreman",
+          "level": 24,
+          "path": "Deep excavation"
+        },
+        {
+          "from": "class-sapper",
+          "to": "class-runesmith",
+          "level": 10,
+          "choice": true,
+          "path": "Runic construction"
+        },
+        {
+          "from": "class-runesmith",
+          "to": "class-citadel-crafter",
+          "level": 24,
+          "path": "Runic construction"
+        }
+      ],
+      "number": "30",
+      "folk": "Dwarf",
+      "units": [
+        "class-mason",
+        "class-sapper",
+        "class-miner",
+        "class-deepdelve-foreman",
+        "class-runesmith",
+        "class-citadel-crafter"
+      ],
+      "types": [
+        "Rock",
+        "Fire",
+        "Steel"
+      ],
+      "roles": [
+        "Bruiser",
+        "Bulwark"
+      ]
+    },
+    {
+      "id": "line-31",
+      "title": "Reef ward",
+      "base": "class-fisherman",
+      "evolution": "class-netcaster",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-coral-hoplite",
+      "identity": "tan older man with silver moustache, sea-blue eyes and weathered cheeks",
+      "palette": "dusty sea green, coral, oatmeal and dark driftwood",
+      "paths": [
+        {
+          "name": "Coral phalanx",
+          "specialist": "class-trident-guard",
+          "final": "class-coral-hoplite",
+          "types": [
+            "Water",
+            "Steel"
+          ],
+          "role": "Bulwark",
+          "purpose": "Builds the trident guard into a shield-bearing coastal defender."
+        },
+        {
+          "name": "Leviathan pursuit",
+          "specialist": "class-leviathan-hunter",
+          "final": "class-reef-guardian",
+          "types": [
+            "Water",
+            "Rock"
+          ],
+          "role": "Bruiser",
+          "purpose": "Completes the harpoon hunter and great reef-guardian route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-fisherman",
+          "to": "class-netcaster",
+          "level": 6
+        },
+        {
+          "from": "class-netcaster",
+          "to": "class-trident-guard",
+          "level": 10,
+          "choice": true,
+          "path": "Coral phalanx"
+        },
+        {
+          "from": "class-trident-guard",
+          "to": "class-coral-hoplite",
+          "level": 24,
+          "path": "Coral phalanx"
+        },
+        {
+          "from": "class-netcaster",
+          "to": "class-leviathan-hunter",
+          "level": 10,
+          "choice": true,
+          "path": "Leviathan pursuit"
+        },
+        {
+          "from": "class-leviathan-hunter",
+          "to": "class-reef-guardian",
+          "level": 24,
+          "path": "Leviathan pursuit"
+        }
+      ],
+      "number": "31",
+      "folk": "Human",
+      "units": [
+        "class-fisherman",
+        "class-netcaster",
+        "class-trident-guard",
+        "class-coral-hoplite",
+        "class-leviathan-hunter",
+        "class-reef-guardian"
+      ],
+      "types": [
+        "Water",
+        "Steel",
+        "Rock"
+      ],
+      "roles": [
+        "Bulwark",
+        "Bruiser"
+      ]
+    },
+    {
+      "id": "line-32",
+      "title": "Cloud post",
+      "base": "class-courier",
+      "evolution": "class-windrunner",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-cloudway-navigator",
+      "identity": "small upright turquoise-and-cream birdfolk adult with a soft feather crest, bright amber eyes, rounded expressive beak and feathered arms ending in dexterous gloved hands",
+      "palette": "powder blue, dusty yellow, cream and soft gray",
+      "paths": [
+        {
+          "name": "Cloud navigation",
+          "specialist": "class-skyrider",
+          "final": "class-cloudway-navigator",
+          "types": [
+            "Wind",
+            "Spirit"
+          ],
+          "role": "Sustainer",
+          "purpose": "Advances the cloud board into guiding, scouting and protective air currents."
+        },
+        {
+          "name": "Storm lances",
+          "specialist": "class-cloud-lancer",
+          "final": "class-zephyr-captain",
+          "types": [
+            "Wind",
+            "Electric"
+          ],
+          "role": "Speedster",
+          "purpose": "Completes the lance-and-pennant sky captain route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-courier",
+          "to": "class-windrunner",
+          "level": 6
+        },
+        {
+          "from": "class-windrunner",
+          "to": "class-skyrider",
+          "level": 10,
+          "choice": true,
+          "path": "Cloud navigation"
+        },
+        {
+          "from": "class-skyrider",
+          "to": "class-cloudway-navigator",
+          "level": 24,
+          "path": "Cloud navigation"
+        },
+        {
+          "from": "class-windrunner",
+          "to": "class-cloud-lancer",
+          "level": 10,
+          "choice": true,
+          "path": "Storm lances"
+        },
+        {
+          "from": "class-cloud-lancer",
+          "to": "class-zephyr-captain",
+          "level": 24,
+          "path": "Storm lances"
+        }
+      ],
+      "number": "32",
+      "folk": "Birdfolk",
+      "units": [
+        "class-courier",
+        "class-windrunner",
+        "class-skyrider",
+        "class-cloudway-navigator",
+        "class-cloud-lancer",
+        "class-zephyr-captain"
+      ],
+      "types": [
+        "Wind",
+        "Spirit",
+        "Electric"
+      ],
+      "roles": [
+        "Sustainer",
+        "Speedster"
+      ]
+    },
+    {
+      "id": "line-33",
+      "title": "Lantern shrine",
+      "base": "class-shrine-tender",
+      "evolution": "class-talisman-scribe",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-seal-arbiter",
+      "identity": "pale East Asian woman with dark-blue twin braids and violet eyes",
+      "palette": "dusty red, indigo, ivory and old brass",
+      "paths": [
+        {
+          "name": "Protective seals",
+          "specialist": "class-exorcist",
+          "final": "class-seal-arbiter",
+          "types": [
+            "Spirit",
+            "Steel"
+          ],
+          "role": "Bulwark",
+          "purpose": "Develops ritual exorcism into a discipline of bells, protective seals and wards."
+        },
+        {
+          "name": "Lantern communion",
+          "specialist": "class-spirit-medium",
+          "final": "class-lantern-hierophant",
+          "types": [
+            "Spirit",
+            "Poison"
+          ],
+          "role": "Tactician",
+          "purpose": "Completes the lantern-bearing communication with spirits."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-shrine-tender",
+          "to": "class-talisman-scribe",
+          "level": 6
+        },
+        {
+          "from": "class-talisman-scribe",
+          "to": "class-exorcist",
+          "level": 10,
+          "choice": true,
+          "path": "Protective seals"
+        },
+        {
+          "from": "class-exorcist",
+          "to": "class-seal-arbiter",
+          "level": 24,
+          "path": "Protective seals"
+        },
+        {
+          "from": "class-talisman-scribe",
+          "to": "class-spirit-medium",
+          "level": 10,
+          "choice": true,
+          "path": "Lantern communion"
+        },
+        {
+          "from": "class-spirit-medium",
+          "to": "class-lantern-hierophant",
+          "level": 24,
+          "path": "Lantern communion"
+        }
+      ],
+      "number": "33",
+      "folk": "Human",
+      "units": [
+        "class-shrine-tender",
+        "class-talisman-scribe",
+        "class-exorcist",
+        "class-seal-arbiter",
+        "class-spirit-medium",
+        "class-lantern-hierophant"
+      ],
+      "types": [
+        "Spirit",
+        "Steel",
+        "Poison"
+      ],
+      "roles": [
+        "Bulwark",
+        "Tactician"
+      ]
+    },
+    {
+      "id": "line-34",
+      "title": "Wild kin",
+      "base": "class-beast-tender",
+      "evolution": "class-beastmaster",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-aerie-keeper",
+      "identity": "olive-skinned adult with fluffy rust hair, fox ears, round amber eyes and a small fox tail",
+      "palette": "moss, dusty rust, oatmeal and soft brown",
+      "paths": [
+        {
+          "name": "Aerie guardians",
+          "specialist": "class-flock-warden",
+          "final": "class-aerie-keeper",
+          "types": [
+            "Wind",
+            "Grass"
+          ],
+          "role": "Speedster",
+          "purpose": "Builds the feathered crook and flock bond into aerial beastkeeping."
+        },
+        {
+          "name": "Wild sovereignty",
+          "specialist": "class-chimera-tamer",
+          "final": "class-wild-sovereign",
+          "types": [
+            "Grass",
+            "Rock"
+          ],
+          "role": "All-rounder",
+          "purpose": "Completes the chimera-charms and great wilderness guardian path."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-beast-tender",
+          "to": "class-beastmaster",
+          "level": 6
+        },
+        {
+          "from": "class-beastmaster",
+          "to": "class-flock-warden",
+          "level": 10,
+          "choice": true,
+          "path": "Aerie guardians"
+        },
+        {
+          "from": "class-flock-warden",
+          "to": "class-aerie-keeper",
+          "level": 24,
+          "path": "Aerie guardians"
+        },
+        {
+          "from": "class-beastmaster",
+          "to": "class-chimera-tamer",
+          "level": 10,
+          "choice": true,
+          "path": "Wild sovereignty"
+        },
+        {
+          "from": "class-chimera-tamer",
+          "to": "class-wild-sovereign",
+          "level": 24,
+          "path": "Wild sovereignty"
+        }
+      ],
+      "number": "34",
+      "folk": "Foxfolk",
+      "units": [
+        "class-beast-tender",
+        "class-beastmaster",
+        "class-flock-warden",
+        "class-aerie-keeper",
+        "class-chimera-tamer",
+        "class-wild-sovereign"
+      ],
+      "types": [
+        "Wind",
+        "Grass",
+        "Rock"
+      ],
+      "roles": [
+        "Speedster",
+        "All-rounder"
+      ]
+    },
+    {
+      "id": "line-35",
+      "title": "Ink covenant",
+      "base": "class-ink-student",
+      "evolution": "class-calligrapher",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-runic-illuminator",
+      "identity": "upright ink-black rabbitfolk young adult man with long floppy bunny ears, cream-white curly forelock, gold eyes, soft rounded muzzle, small fluffy tail and ink-stained pawlike hands",
+      "palette": "faded indigo, dusty peach, parchment and dark ink",
+      "paths": [
+        {
+          "name": "Illuminated runes",
+          "specialist": "class-rune-scribe",
+          "final": "class-runic-illuminator",
+          "types": [
+            "Spirit",
+            "Fire"
+          ],
+          "role": "Bruiser",
+          "purpose": "Grows the writing brush into luminous, flowing rune sorcery."
+        },
+        {
+          "name": "Living bindings",
+          "specialist": "class-glyph-binder",
+          "final": "class-living-manuscript",
+          "types": [
+            "Spirit",
+            "Steel"
+          ],
+          "role": "Tactician",
+          "purpose": "Completes the geometric paper seals and living scroll route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-ink-student",
+          "to": "class-calligrapher",
+          "level": 6
+        },
+        {
+          "from": "class-calligrapher",
+          "to": "class-rune-scribe",
+          "level": 10,
+          "choice": true,
+          "path": "Illuminated runes"
+        },
+        {
+          "from": "class-rune-scribe",
+          "to": "class-runic-illuminator",
+          "level": 24,
+          "path": "Illuminated runes"
+        },
+        {
+          "from": "class-calligrapher",
+          "to": "class-glyph-binder",
+          "level": 10,
+          "choice": true,
+          "path": "Living bindings"
+        },
+        {
+          "from": "class-glyph-binder",
+          "to": "class-living-manuscript",
+          "level": 24,
+          "path": "Living bindings"
+        }
+      ],
+      "number": "35",
+      "folk": "Bunnyfolk",
+      "units": [
+        "class-ink-student",
+        "class-calligrapher",
+        "class-rune-scribe",
+        "class-runic-illuminator",
+        "class-glyph-binder",
+        "class-living-manuscript"
+      ],
+      "types": [
+        "Spirit",
+        "Fire",
+        "Steel"
+      ],
+      "roles": [
+        "Bruiser",
+        "Tactician"
+      ]
+    },
+    {
+      "id": "line-36",
+      "title": "Little sun",
+      "base": "class-candle-novice",
+      "evolution": "class-lantern-bearer",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-ember-custodian",
+      "identity": "warm brown-skinned man with wavy honey hair, green eyes and soft freckles",
+      "palette": "buttercream, dusty saffron, faded rose and bronze",
+      "paths": [
+        {
+          "name": "Banked embers",
+          "specialist": "class-flame-keeper",
+          "final": "class-ember-custodian",
+          "types": [
+            "Fire",
+            "Rock"
+          ],
+          "role": "Bulwark",
+          "purpose": "Builds the brazier staff into grounded protection and enduring hearth embers."
+        },
+        {
+          "name": "Solar devotion",
+          "specialist": "class-solar-priest",
+          "final": "class-sun-hierophant",
+          "types": [
+            "Fire",
+            "Spirit"
+          ],
+          "role": "Sustainer",
+          "purpose": "Completes the solar robes and dawn-lantern blessing route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-candle-novice",
+          "to": "class-lantern-bearer",
+          "level": 6
+        },
+        {
+          "from": "class-lantern-bearer",
+          "to": "class-flame-keeper",
+          "level": 10,
+          "choice": true,
+          "path": "Banked embers"
+        },
+        {
+          "from": "class-flame-keeper",
+          "to": "class-ember-custodian",
+          "level": 24,
+          "path": "Banked embers"
+        },
+        {
+          "from": "class-lantern-bearer",
+          "to": "class-solar-priest",
+          "level": 10,
+          "choice": true,
+          "path": "Solar devotion"
+        },
+        {
+          "from": "class-solar-priest",
+          "to": "class-sun-hierophant",
+          "level": 24,
+          "path": "Solar devotion"
+        }
+      ],
+      "number": "36",
+      "folk": "Human",
+      "units": [
+        "class-candle-novice",
+        "class-lantern-bearer",
+        "class-flame-keeper",
+        "class-ember-custodian",
+        "class-solar-priest",
+        "class-sun-hierophant"
+      ],
+      "types": [
+        "Fire",
+        "Rock",
+        "Spirit"
+      ],
+      "roles": [
+        "Bulwark",
+        "Sustainer"
+      ]
+    },
+    {
+      "id": "line-37",
+      "title": "Rose road",
+      "base": "class-pilgrim",
+      "evolution": "class-duelist",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-roseblade-regent",
+      "identity": "fair-skinned androgynous elf with long wavy auburn hair and teal eyes",
+      "palette": "dusty crimson, faded teal, ivory and silver",
+      "paths": [
+        {
+          "name": "Dual-element virtuosity",
+          "specialist": "class-red-mage",
+          "final": "class-crimson-virtuoso",
+          "types": [
+            "Fire",
+            "Water"
+          ],
+          "role": "All-rounder",
+          "purpose": "Completes the red mage through alternating fire-and-water spell fencing."
+        },
+        {
+          "name": "Rosethorn fencing",
+          "specialist": "class-rose-magus",
+          "final": "class-roseblade-regent",
+          "types": [
+            "Steel",
+            "Grass"
+          ],
+          "role": "Bulwark",
+          "purpose": "Develops the rose guard and rapier into a defensive thorn-and-blade court style."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-pilgrim",
+          "to": "class-duelist",
+          "level": 6
+        },
+        {
+          "from": "class-duelist",
+          "to": "class-red-mage",
+          "level": 10,
+          "choice": true,
+          "path": "Dual-element virtuosity"
+        },
+        {
+          "from": "class-red-mage",
+          "to": "class-crimson-virtuoso",
+          "level": 24,
+          "path": "Dual-element virtuosity"
+        },
+        {
+          "from": "class-duelist",
+          "to": "class-rose-magus",
+          "level": 10,
+          "choice": true,
+          "path": "Rosethorn fencing"
+        },
+        {
+          "from": "class-rose-magus",
+          "to": "class-roseblade-regent",
+          "level": 24,
+          "path": "Rosethorn fencing"
+        }
+      ],
+      "number": "37",
+      "folk": "Elf",
+      "units": [
+        "class-pilgrim",
+        "class-duelist",
+        "class-red-mage",
+        "class-crimson-virtuoso",
+        "class-rose-magus",
+        "class-roseblade-regent"
+      ],
+      "types": [
+        "Fire",
+        "Water",
+        "Steel",
+        "Grass"
+      ],
+      "roles": [
+        "All-rounder",
+        "Bulwark"
+      ]
+    },
+    {
+      "id": "line-38",
+      "title": "Mirror oath",
+      "base": "class-shieldbearer",
+      "evolution": "class-warden",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-prismatic-bastion",
+      "identity": "young adult lizardfolk woman with a mostly human-shaped expressive face, warm brown skin, subtle pearly blue scales at her cheeks and neck, small delicate ear fins, a slim blue-silver lizard tail, short white hair, ice-blue eyes with narrow pupils and a softly squared jaw",
+      "palette": "faded periwinkle, pearl, dusty gray and silver",
+      "paths": [
+        {
+          "name": "Spell reflection",
+          "specialist": "class-spellguard",
+          "final": "class-prismatic-bastion",
+          "types": [
+            "Ice",
+            "Spirit"
+          ],
+          "role": "Tactician",
+          "purpose": "Develops the crystal lens shield into controlled spell reflection and refracted wards."
+        },
+        {
+          "name": "Mirror oath",
+          "specialist": "class-oathkeeper",
+          "final": "class-mirror-aegis",
+          "types": [
+            "Ice",
+            "Steel"
+          ],
+          "role": "Bulwark",
+          "purpose": "Completes the armored greatshield and mirror-oath guardian route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-shieldbearer",
+          "to": "class-warden",
+          "level": 6
+        },
+        {
+          "from": "class-warden",
+          "to": "class-spellguard",
+          "level": 10,
+          "choice": true,
+          "path": "Spell reflection"
+        },
+        {
+          "from": "class-spellguard",
+          "to": "class-prismatic-bastion",
+          "level": 24,
+          "path": "Spell reflection"
+        },
+        {
+          "from": "class-warden",
+          "to": "class-oathkeeper",
+          "level": 10,
+          "choice": true,
+          "path": "Mirror oath"
+        },
+        {
+          "from": "class-oathkeeper",
+          "to": "class-mirror-aegis",
+          "level": 24,
+          "path": "Mirror oath"
+        }
+      ],
+      "number": "38",
+      "folk": "Lizardfolk",
+      "units": [
+        "class-shieldbearer",
+        "class-warden",
+        "class-spellguard",
+        "class-prismatic-bastion",
+        "class-oathkeeper",
+        "class-mirror-aegis"
+      ],
+      "types": [
+        "Ice",
+        "Spirit",
+        "Steel"
+      ],
+      "roles": [
+        "Tactician",
+        "Bulwark"
+      ]
+    },
+    {
+      "id": "line-39",
+      "title": "Thread of fate",
+      "base": "class-silk-spinner",
+      "evolution": "class-threadwitch",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-knotbinder-matron",
+      "identity": "cream-furred bunny woman with long upright soft rabbit ears, a small fluffy tail, a warm tan humanlike expressive face with a tiny bunny nose, long plum-gray braid, golden eyes and round rose spectacles",
+      "palette": "dusty mauve, sage, oatmeal and rose gold",
+      "paths": [
+        {
+          "name": "Binding knots",
+          "specialist": "class-fate-stitcher",
+          "final": "class-knotbinder-matron",
+          "types": [
+            "Grass",
+            "Steel"
+          ],
+          "role": "Bulwark",
+          "purpose": "Builds the thimble gloves and bobbins into physical binding threads and woven wards."
+        },
+        {
+          "name": "Destiny tapestry",
+          "specialist": "class-tapestry-sage",
+          "final": "class-destiny-loom",
+          "types": [
+            "Grass",
+            "Spirit"
+          ],
+          "role": "Tactician",
+          "purpose": "Completes the floating tapestry and prophetic loom route."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-silk-spinner",
+          "to": "class-threadwitch",
+          "level": 6
+        },
+        {
+          "from": "class-threadwitch",
+          "to": "class-fate-stitcher",
+          "level": 10,
+          "choice": true,
+          "path": "Binding knots"
+        },
+        {
+          "from": "class-fate-stitcher",
+          "to": "class-knotbinder-matron",
+          "level": 24,
+          "path": "Binding knots"
+        },
+        {
+          "from": "class-threadwitch",
+          "to": "class-tapestry-sage",
+          "level": 10,
+          "choice": true,
+          "path": "Destiny tapestry"
+        },
+        {
+          "from": "class-tapestry-sage",
+          "to": "class-destiny-loom",
+          "level": 24,
+          "path": "Destiny tapestry"
+        }
+      ],
+      "number": "39",
+      "folk": "Bunnyfolk",
+      "units": [
+        "class-silk-spinner",
+        "class-threadwitch",
+        "class-fate-stitcher",
+        "class-knotbinder-matron",
+        "class-tapestry-sage",
+        "class-destiny-loom"
+      ],
+      "types": [
+        "Grass",
+        "Steel",
+        "Spirit"
+      ],
+      "roles": [
+        "Bulwark",
+        "Tactician"
+      ]
+    },
+    {
+      "id": "line-40",
+      "title": "Forgotten wonders",
+      "base": "class-treasure-seeker",
+      "evolution": "class-relic-hunter",
+      "choiceLevel": 10,
+      "finalLevel": 24,
+      "newClass": "class-relic-juggernaut",
+      "identity": "dark-skinned man with tousled teal-black hair, amber eyes and round copper goggles",
+      "palette": "dusty turquoise, warm sandstone, coral and old bronze",
+      "paths": [
+        {
+          "name": "Relic scholarship",
+          "specialist": "class-archaeomancer",
+          "final": "class-myth-curator",
+          "types": [
+            "Rock",
+            "Spirit"
+          ],
+          "role": "Tactician",
+          "purpose": "Completes the ancient tablets and orbiting relic rings as a learned curator."
+        },
+        {
+          "name": "Artifact armor",
+          "specialist": "class-artifact-knight",
+          "final": "class-relic-juggernaut",
+          "types": [
+            "Steel",
+            "Rock"
+          ],
+          "role": "Bulwark",
+          "purpose": "Builds the bronze relic armor into a sturdy artifact-powered frontline guardian."
+        }
+      ],
+      "edges": [
+        {
+          "from": "class-treasure-seeker",
+          "to": "class-relic-hunter",
+          "level": 6
+        },
+        {
+          "from": "class-relic-hunter",
+          "to": "class-archaeomancer",
+          "level": 10,
+          "choice": true,
+          "path": "Relic scholarship"
+        },
+        {
+          "from": "class-archaeomancer",
+          "to": "class-myth-curator",
+          "level": 24,
+          "path": "Relic scholarship"
+        },
+        {
+          "from": "class-relic-hunter",
+          "to": "class-artifact-knight",
+          "level": 10,
+          "choice": true,
+          "path": "Artifact armor"
+        },
+        {
+          "from": "class-artifact-knight",
+          "to": "class-relic-juggernaut",
+          "level": 24,
+          "path": "Artifact armor"
+        }
+      ],
+      "number": "40",
+      "folk": "Human",
+      "units": [
+        "class-treasure-seeker",
+        "class-relic-hunter",
+        "class-archaeomancer",
+        "class-myth-curator",
+        "class-artifact-knight",
+        "class-relic-juggernaut"
+      ],
+      "types": [
+        "Rock",
+        "Spirit",
+        "Steel"
+      ],
+      "roles": [
+        "Tactician",
+        "Bulwark"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "class-squire",
+      "to": "class-knight",
+      "level": 6
+    },
+    {
+      "from": "class-knight",
+      "to": "class-banneret",
+      "level": 10,
+      "choice": true,
+      "path": "Banner command"
+    },
+    {
+      "from": "class-banneret",
+      "to": "class-dawnmarshal",
+      "level": 24,
+      "path": "Banner command"
+    },
+    {
+      "from": "class-knight",
+      "to": "class-paladin",
+      "level": 10,
+      "choice": true,
+      "path": "Sacred bulwark"
+    },
+    {
+      "from": "class-paladin",
+      "to": "class-dawn-templar",
+      "level": 24,
+      "path": "Sacred bulwark"
+    },
+    {
+      "from": "class-recruit",
+      "to": "class-soldier",
+      "level": 6
+    },
+    {
+      "from": "class-soldier",
+      "to": "class-halberdier",
+      "level": 10,
+      "choice": true,
+      "path": "Polearm pursuit"
+    },
+    {
+      "from": "class-halberdier",
+      "to": "class-iron-partisan",
+      "level": 24,
+      "path": "Polearm pursuit"
+    },
+    {
+      "from": "class-soldier",
+      "to": "class-sentinel",
+      "level": 10,
+      "choice": true,
+      "path": "Fortress defense"
+    },
+    {
+      "from": "class-sentinel",
+      "to": "class-citadel-general",
+      "level": 24,
+      "path": "Fortress defense"
+    },
+    {
+      "from": "class-lancer",
+      "to": "class-dragoon",
+      "level": 6
+    },
+    {
+      "from": "class-dragoon",
+      "to": "class-sky-lancer",
+      "level": 10,
+      "choice": true,
+      "path": "Comet spear"
+    },
+    {
+      "from": "class-sky-lancer",
+      "to": "class-starfall-dragoon",
+      "level": 24,
+      "path": "Comet spear"
+    },
+    {
+      "from": "class-dragoon",
+      "to": "class-wyvern-cavalier",
+      "level": 10,
+      "choice": true,
+      "path": "Wyvern command"
+    },
+    {
+      "from": "class-wyvern-cavalier",
+      "to": "class-wyvern-regent",
+      "level": 24,
+      "path": "Wyvern command"
+    },
+    {
+      "from": "class-cavalier",
+      "to": "class-outrider",
+      "level": 6
+    },
+    {
+      "from": "class-outrider",
+      "to": "class-chevalier",
+      "level": 10,
+      "choice": true,
+      "path": "Ground cavalry"
+    },
+    {
+      "from": "class-chevalier",
+      "to": "class-lance-commander",
+      "level": 24,
+      "path": "Ground cavalry"
+    },
+    {
+      "from": "class-outrider",
+      "to": "class-gryphon-rider",
+      "level": 10,
+      "choice": true,
+      "path": "Gryphon cavalry"
+    },
+    {
+      "from": "class-gryphon-rider",
+      "to": "class-gryphon-marshal",
+      "level": 24,
+      "path": "Gryphon cavalry"
+    },
+    {
+      "from": "class-page",
+      "to": "class-myrmidon",
+      "level": 6
+    },
+    {
+      "from": "class-myrmidon",
+      "to": "class-swordmaster",
+      "level": 10,
+      "choice": true,
+      "path": "Twin sword mastery"
+    },
+    {
+      "from": "class-swordmaster",
+      "to": "class-dusk-ronin",
+      "level": 24,
+      "path": "Twin sword mastery"
+    },
+    {
+      "from": "class-myrmidon",
+      "to": "class-spellblade",
+      "level": 10,
+      "choice": true,
+      "path": "Moon enchantment"
+    },
+    {
+      "from": "class-spellblade",
+      "to": "class-moonblade",
+      "level": 24,
+      "path": "Moon enchantment"
+    },
+    {
+      "from": "class-brawler",
+      "to": "class-monk",
+      "level": 6
+    },
+    {
+      "from": "class-monk",
+      "to": "class-pugilist",
+      "level": 10,
+      "choice": true,
+      "path": "Iron body"
+    },
+    {
+      "from": "class-pugilist",
+      "to": "class-iron-knuckle",
+      "level": 24,
+      "path": "Iron body"
+    },
+    {
+      "from": "class-monk",
+      "to": "class-aura-adept",
+      "level": 10,
+      "choice": true,
+      "path": "Celestial aura"
+    },
+    {
+      "from": "class-aura-adept",
+      "to": "class-celestial-fist",
+      "level": 24,
+      "path": "Celestial aura"
+    },
+    {
+      "from": "class-brigand",
+      "to": "class-berserker",
+      "level": 6
+    },
+    {
+      "from": "class-berserker",
+      "to": "class-warlord",
+      "level": 10,
+      "choice": true,
+      "path": "Conquest banner"
+    },
+    {
+      "from": "class-warlord",
+      "to": "class-ember-conqueror",
+      "level": 24,
+      "path": "Conquest banner"
+    },
+    {
+      "from": "class-berserker",
+      "to": "class-runebreaker",
+      "level": 10,
+      "choice": true,
+      "path": "Rune shattering"
+    },
+    {
+      "from": "class-runebreaker",
+      "to": "class-titan-vanguard",
+      "level": 24,
+      "path": "Rune shattering"
+    },
+    {
+      "from": "class-rogue",
+      "to": "class-thief",
+      "level": 6
+    },
+    {
+      "from": "class-thief",
+      "to": "class-trickster",
+      "level": 10,
+      "choice": true,
+      "path": "Fortune tricks"
+    },
+    {
+      "from": "class-trickster",
+      "to": "class-luckweaver",
+      "level": 24,
+      "path": "Fortune tricks"
+    },
+    {
+      "from": "class-thief",
+      "to": "class-shadowdancer",
+      "level": 10,
+      "choice": true,
+      "path": "Phantom blades"
+    },
+    {
+      "from": "class-shadowdancer",
+      "to": "class-phantom-blade",
+      "level": 24,
+      "path": "Phantom blades"
+    },
+    {
+      "from": "class-scout",
+      "to": "class-archer",
+      "level": 6
+    },
+    {
+      "from": "class-archer",
+      "to": "class-ranger",
+      "level": 10,
+      "choice": true,
+      "path": "Patient longbow"
+    },
+    {
+      "from": "class-ranger",
+      "to": "class-verdant-sniper",
+      "level": 24,
+      "path": "Patient longbow"
+    },
+    {
+      "from": "class-archer",
+      "to": "class-falconer",
+      "level": 10,
+      "choice": true,
+      "path": "Falcon bond"
+    },
+    {
+      "from": "class-falconer",
+      "to": "class-horizon-warden",
+      "level": 24,
+      "path": "Falcon bond"
+    },
+    {
+      "from": "class-huntsman",
+      "to": "class-crossbowman",
+      "level": 6
+    },
+    {
+      "from": "class-crossbowman",
+      "to": "class-arbalist",
+      "level": 10,
+      "choice": true,
+      "path": "Heavy ballista"
+    },
+    {
+      "from": "class-arbalist",
+      "to": "class-ballista-lord",
+      "level": 24,
+      "path": "Heavy ballista"
+    },
+    {
+      "from": "class-crossbowman",
+      "to": "class-siege-ranger",
+      "level": 10,
+      "choice": true,
+      "path": "Mobile siegecraft"
+    },
+    {
+      "from": "class-siege-ranger",
+      "to": "class-gale-arbalester",
+      "level": 24,
+      "path": "Mobile siegecraft"
+    },
+    {
+      "from": "class-pirate",
+      "to": "class-corsair",
+      "level": 6
+    },
+    {
+      "from": "class-corsair",
+      "to": "class-buccaneer",
+      "level": 10,
+      "choice": true,
+      "path": "Privateer powder"
+    },
+    {
+      "from": "class-buccaneer",
+      "to": "class-privateer-captain",
+      "level": 24,
+      "path": "Privateer powder"
+    },
+    {
+      "from": "class-corsair",
+      "to": "class-tide-reaver",
+      "level": 10,
+      "choice": true,
+      "path": "Tidal command"
+    },
+    {
+      "from": "class-tide-reaver",
+      "to": "class-admiral",
+      "level": 24,
+      "path": "Tidal command"
+    },
+    {
+      "from": "class-gunner",
+      "to": "class-musketeer",
+      "level": 6
+    },
+    {
+      "from": "class-musketeer",
+      "to": "class-fusilier",
+      "level": 10,
+      "choice": true,
+      "path": "Runelock barrage"
+    },
+    {
+      "from": "class-fusilier",
+      "to": "class-runelock-artillerist",
+      "level": 24,
+      "path": "Runelock barrage"
+    },
+    {
+      "from": "class-musketeer",
+      "to": "class-deadeye",
+      "level": 10,
+      "choice": true,
+      "path": "Celestial precision"
+    },
+    {
+      "from": "class-deadeye",
+      "to": "class-starlock-marshal",
+      "level": 24,
+      "path": "Celestial precision"
+    },
+    {
+      "from": "class-tinkerer",
+      "to": "class-machinist",
+      "level": 6
+    },
+    {
+      "from": "class-machinist",
+      "to": "class-engineer",
+      "level": 10,
+      "choice": true,
+      "path": "Mechanical siege"
+    },
+    {
+      "from": "class-engineer",
+      "to": "class-siege-mechanist",
+      "level": 24,
+      "path": "Mechanical siege"
+    },
+    {
+      "from": "class-machinist",
+      "to": "class-artificer",
+      "level": 10,
+      "choice": true,
+      "path": "Arcane clockwork"
+    },
+    {
+      "from": "class-artificer",
+      "to": "class-clockwork-savant",
+      "level": 24,
+      "path": "Arcane clockwork"
+    },
+    {
+      "from": "class-chemist",
+      "to": "class-apothecary",
+      "level": 6
+    },
+    {
+      "from": "class-apothecary",
+      "to": "class-alchemist",
+      "level": 10,
+      "choice": true,
+      "path": "Transmutation"
+    },
+    {
+      "from": "class-alchemist",
+      "to": "class-philosopher",
+      "level": 24,
+      "path": "Transmutation"
+    },
+    {
+      "from": "class-apothecary",
+      "to": "class-plague-doctor",
+      "level": 10,
+      "choice": true,
+      "path": "Medicinal miasma"
+    },
+    {
+      "from": "class-plague-doctor",
+      "to": "class-miasma-physician",
+      "level": 24,
+      "path": "Medicinal miasma"
+    },
+    {
+      "from": "class-mage",
+      "to": "class-black-mage",
+      "level": 6
+    },
+    {
+      "from": "class-black-mage",
+      "to": "class-evoker",
+      "level": 10,
+      "choice": true,
+      "path": "Flame familiars"
+    },
+    {
+      "from": "class-evoker",
+      "to": "class-phoenix-invoker",
+      "level": 24,
+      "path": "Flame familiars"
+    },
+    {
+      "from": "class-black-mage",
+      "to": "class-war-mage",
+      "level": 10,
+      "choice": true,
+      "path": "Battle sorcery"
+    },
+    {
+      "from": "class-war-mage",
+      "to": "class-archmage",
+      "level": 24,
+      "path": "Battle sorcery"
+    },
+    {
+      "from": "class-acolyte",
+      "to": "class-white-mage",
+      "level": 6
+    },
+    {
+      "from": "class-white-mage",
+      "to": "class-cleric",
+      "level": 10,
+      "choice": true,
+      "path": "Armored sanctuary"
+    },
+    {
+      "from": "class-cleric",
+      "to": "class-sanctuary-warden",
+      "level": 24,
+      "path": "Armored sanctuary"
+    },
+    {
+      "from": "class-white-mage",
+      "to": "class-bishop",
+      "level": 10,
+      "choice": true,
+      "path": "Merciful blessing"
+    },
+    {
+      "from": "class-bishop",
+      "to": "class-hierophant",
+      "level": 24,
+      "path": "Merciful blessing"
+    },
+    {
+      "from": "class-hedgewitch",
+      "to": "class-herbalist",
+      "level": 6
+    },
+    {
+      "from": "class-herbalist",
+      "to": "class-druid",
+      "level": 10,
+      "choice": true,
+      "path": "Living thorns"
+    },
+    {
+      "from": "class-druid",
+      "to": "class-thorn-shepherd",
+      "level": 24,
+      "path": "Living thorns"
+    },
+    {
+      "from": "class-herbalist",
+      "to": "class-grove-sage",
+      "level": 10,
+      "choice": true,
+      "path": "Grove prophecy"
+    },
+    {
+      "from": "class-grove-sage",
+      "to": "class-verdant-oracle",
+      "level": 24,
+      "path": "Grove prophecy"
+    },
+    {
+      "from": "class-tidecaller",
+      "to": "class-aquamancer",
+      "level": 6
+    },
+    {
+      "from": "class-aquamancer",
+      "to": "class-pearl-mystic",
+      "level": 10,
+      "choice": true,
+      "path": "Pearl wards"
+    },
+    {
+      "from": "class-pearl-mystic",
+      "to": "class-nacre-theurge",
+      "level": 24,
+      "path": "Pearl wards"
+    },
+    {
+      "from": "class-aquamancer",
+      "to": "class-sea-oracle",
+      "level": 10,
+      "choice": true,
+      "path": "Deep sea visions"
+    },
+    {
+      "from": "class-sea-oracle",
+      "to": "class-abyss-magus",
+      "level": 24,
+      "path": "Deep sea visions"
+    },
+    {
+      "from": "class-sparkhand",
+      "to": "class-thunder-mage",
+      "level": 6
+    },
+    {
+      "from": "class-thunder-mage",
+      "to": "class-stormcaller",
+      "level": 10,
+      "choice": true,
+      "path": "Storm resonance"
+    },
+    {
+      "from": "class-stormcaller",
+      "to": "class-stormheart-conductor",
+      "level": 24,
+      "path": "Storm resonance"
+    },
+    {
+      "from": "class-thunder-mage",
+      "to": "class-tempest-sage",
+      "level": 10,
+      "choice": true,
+      "path": "Tempest speed"
+    },
+    {
+      "from": "class-tempest-sage",
+      "to": "class-fulgurant",
+      "level": 24,
+      "path": "Tempest speed"
+    },
+    {
+      "from": "class-frost-novice",
+      "to": "class-ice-mage",
+      "level": 6
+    },
+    {
+      "from": "class-ice-mage",
+      "to": "class-snow-witch",
+      "level": 10,
+      "choice": true,
+      "path": "Winter hexes"
+    },
+    {
+      "from": "class-snow-witch",
+      "to": "class-hoarfrost-hexer",
+      "level": 24,
+      "path": "Winter hexes"
+    },
+    {
+      "from": "class-ice-mage",
+      "to": "class-glacier-seer",
+      "level": 10,
+      "choice": true,
+      "path": "Glacier foresight"
+    },
+    {
+      "from": "class-glacier-seer",
+      "to": "class-winter-archon",
+      "level": 24,
+      "path": "Glacier foresight"
+    },
+    {
+      "from": "class-gravedigger",
+      "to": "class-bonecaller",
+      "level": 6
+    },
+    {
+      "from": "class-bonecaller",
+      "to": "class-necromancer",
+      "level": 10,
+      "choice": true,
+      "path": "Bonecraft"
+    },
+    {
+      "from": "class-necromancer",
+      "to": "class-ossuary-sovereign",
+      "level": 24,
+      "path": "Bonecraft"
+    },
+    {
+      "from": "class-bonecaller",
+      "to": "class-soul-weaver",
+      "level": 10,
+      "choice": true,
+      "path": "Soul weaving"
+    },
+    {
+      "from": "class-soul-weaver",
+      "to": "class-grave-hierarch",
+      "level": 24,
+      "path": "Soul weaving"
+    },
+    {
+      "from": "class-dreamer",
+      "to": "class-illusionist",
+      "level": 6
+    },
+    {
+      "from": "class-illusionist",
+      "to": "class-mirage-dancer",
+      "level": 10,
+      "choice": true,
+      "path": "Prismatic performance"
+    },
+    {
+      "from": "class-mirage-dancer",
+      "to": "class-prism-harlequin",
+      "level": 24,
+      "path": "Prismatic performance"
+    },
+    {
+      "from": "class-illusionist",
+      "to": "class-dreamweaver",
+      "level": 10,
+      "choice": true,
+      "path": "Dream shaping"
+    },
+    {
+      "from": "class-dreamweaver",
+      "to": "class-oneiromancer",
+      "level": 24,
+      "path": "Dream shaping"
+    },
+    {
+      "from": "class-apprentice",
+      "to": "class-summoner",
+      "level": 6
+    },
+    {
+      "from": "class-summoner",
+      "to": "class-pact-keeper",
+      "level": 10,
+      "choice": true,
+      "path": "Wild covenant"
+    },
+    {
+      "from": "class-pact-keeper",
+      "to": "class-wild-pact-archon",
+      "level": 24,
+      "path": "Wild covenant"
+    },
+    {
+      "from": "class-summoner",
+      "to": "class-eidolon-speaker",
+      "level": 10,
+      "choice": true,
+      "path": "Astral invocation"
+    },
+    {
+      "from": "class-eidolon-speaker",
+      "to": "class-astral-convoker",
+      "level": 24,
+      "path": "Astral invocation"
+    },
+    {
+      "from": "class-astrologer",
+      "to": "class-diviner",
+      "level": 6
+    },
+    {
+      "from": "class-diviner",
+      "to": "class-chronomancer",
+      "level": 10,
+      "choice": true,
+      "path": "Clockwork time"
+    },
+    {
+      "from": "class-chronomancer",
+      "to": "class-aeon-keeper",
+      "level": 24,
+      "path": "Clockwork time"
+    },
+    {
+      "from": "class-diviner",
+      "to": "class-time-sage",
+      "level": 10,
+      "choice": true,
+      "path": "Frozen moments"
+    },
+    {
+      "from": "class-time-sage",
+      "to": "class-epoch-oracle",
+      "level": 24,
+      "path": "Frozen moments"
+    },
+    {
+      "from": "class-geomancer",
+      "to": "class-earthspeaker",
+      "level": 6
+    },
+    {
+      "from": "class-earthspeaker",
+      "to": "class-crystal-sage",
+      "level": 10,
+      "choice": true,
+      "path": "Crystal shaping"
+    },
+    {
+      "from": "class-crystal-sage",
+      "to": "class-prism-geomancer",
+      "level": 24,
+      "path": "Crystal shaping"
+    },
+    {
+      "from": "class-earthspeaker",
+      "to": "class-fault-shaper",
+      "level": 10,
+      "choice": true,
+      "path": "Living landscapes"
+    },
+    {
+      "from": "class-fault-shaper",
+      "to": "class-world-sculptor",
+      "level": 24,
+      "path": "Living landscapes"
+    },
+    {
+      "from": "class-bard",
+      "to": "class-minstrel",
+      "level": 6
+    },
+    {
+      "from": "class-minstrel",
+      "to": "class-troubadour",
+      "level": 10,
+      "choice": true,
+      "path": "Heroic saga"
+    },
+    {
+      "from": "class-troubadour",
+      "to": "class-saga-cantor",
+      "level": 24,
+      "path": "Heroic saga"
+    },
+    {
+      "from": "class-minstrel",
+      "to": "class-anthem-weaver",
+      "level": 10,
+      "choice": true,
+      "path": "Harmonic inspiration"
+    },
+    {
+      "from": "class-anthem-weaver",
+      "to": "class-laureate",
+      "level": 24,
+      "path": "Harmonic inspiration"
+    },
+    {
+      "from": "class-dancer",
+      "to": "class-veil-dancer",
+      "level": 6
+    },
+    {
+      "from": "class-veil-dancer",
+      "to": "class-ribbonblade",
+      "level": 10,
+      "choice": true,
+      "path": "Ribbon fencing"
+    },
+    {
+      "from": "class-ribbonblade",
+      "to": "class-petal-duelist",
+      "level": 24,
+      "path": "Ribbon fencing"
+    },
+    {
+      "from": "class-veil-dancer",
+      "to": "class-muse",
+      "level": 10,
+      "choice": true,
+      "path": "Celestial muse"
+    },
+    {
+      "from": "class-muse",
+      "to": "class-luminary",
+      "level": 24,
+      "path": "Celestial muse"
+    },
+    {
+      "from": "class-villager",
+      "to": "class-quartermaster",
+      "level": 6
+    },
+    {
+      "from": "class-quartermaster",
+      "to": "class-tactician",
+      "level": 10,
+      "choice": true,
+      "path": "Field formations"
+    },
+    {
+      "from": "class-tactician",
+      "to": "class-warboard-marshal",
+      "level": 24,
+      "path": "Field formations"
+    },
+    {
+      "from": "class-quartermaster",
+      "to": "class-strategist",
+      "level": 10,
+      "choice": true,
+      "path": "Grand strategy"
+    },
+    {
+      "from": "class-strategist",
+      "to": "class-grand-strategist",
+      "level": 24,
+      "path": "Grand strategy"
+    },
+    {
+      "from": "class-cook",
+      "to": "class-field-chef",
+      "level": 6
+    },
+    {
+      "from": "class-field-chef",
+      "to": "class-battle-baker",
+      "level": 10,
+      "choice": true,
+      "path": "Battle baking"
+    },
+    {
+      "from": "class-battle-baker",
+      "to": "class-oven-crusader",
+      "level": 24,
+      "path": "Battle baking"
+    },
+    {
+      "from": "class-field-chef",
+      "to": "class-feast-keeper",
+      "level": 10,
+      "choice": true,
+      "path": "Restorative feasts"
+    },
+    {
+      "from": "class-feast-keeper",
+      "to": "class-hearth-saint",
+      "level": 24,
+      "path": "Restorative feasts"
+    },
+    {
+      "from": "class-mason",
+      "to": "class-sapper",
+      "level": 6
+    },
+    {
+      "from": "class-sapper",
+      "to": "class-miner",
+      "level": 10,
+      "choice": true,
+      "path": "Deep excavation"
+    },
+    {
+      "from": "class-miner",
+      "to": "class-deepdelve-foreman",
+      "level": 24,
+      "path": "Deep excavation"
+    },
+    {
+      "from": "class-sapper",
+      "to": "class-runesmith",
+      "level": 10,
+      "choice": true,
+      "path": "Runic construction"
+    },
+    {
+      "from": "class-runesmith",
+      "to": "class-citadel-crafter",
+      "level": 24,
+      "path": "Runic construction"
+    },
+    {
+      "from": "class-fisherman",
+      "to": "class-netcaster",
+      "level": 6
+    },
+    {
+      "from": "class-netcaster",
+      "to": "class-trident-guard",
+      "level": 10,
+      "choice": true,
+      "path": "Coral phalanx"
+    },
+    {
+      "from": "class-trident-guard",
+      "to": "class-coral-hoplite",
+      "level": 24,
+      "path": "Coral phalanx"
+    },
+    {
+      "from": "class-netcaster",
+      "to": "class-leviathan-hunter",
+      "level": 10,
+      "choice": true,
+      "path": "Leviathan pursuit"
+    },
+    {
+      "from": "class-leviathan-hunter",
+      "to": "class-reef-guardian",
+      "level": 24,
+      "path": "Leviathan pursuit"
+    },
+    {
+      "from": "class-courier",
+      "to": "class-windrunner",
+      "level": 6
+    },
+    {
+      "from": "class-windrunner",
+      "to": "class-skyrider",
+      "level": 10,
+      "choice": true,
+      "path": "Cloud navigation"
+    },
+    {
+      "from": "class-skyrider",
+      "to": "class-cloudway-navigator",
+      "level": 24,
+      "path": "Cloud navigation"
+    },
+    {
+      "from": "class-windrunner",
+      "to": "class-cloud-lancer",
+      "level": 10,
+      "choice": true,
+      "path": "Storm lances"
+    },
+    {
+      "from": "class-cloud-lancer",
+      "to": "class-zephyr-captain",
+      "level": 24,
+      "path": "Storm lances"
+    },
+    {
+      "from": "class-shrine-tender",
+      "to": "class-talisman-scribe",
+      "level": 6
+    },
+    {
+      "from": "class-talisman-scribe",
+      "to": "class-exorcist",
+      "level": 10,
+      "choice": true,
+      "path": "Protective seals"
+    },
+    {
+      "from": "class-exorcist",
+      "to": "class-seal-arbiter",
+      "level": 24,
+      "path": "Protective seals"
+    },
+    {
+      "from": "class-talisman-scribe",
+      "to": "class-spirit-medium",
+      "level": 10,
+      "choice": true,
+      "path": "Lantern communion"
+    },
+    {
+      "from": "class-spirit-medium",
+      "to": "class-lantern-hierophant",
+      "level": 24,
+      "path": "Lantern communion"
+    },
+    {
+      "from": "class-beast-tender",
+      "to": "class-beastmaster",
+      "level": 6
+    },
+    {
+      "from": "class-beastmaster",
+      "to": "class-flock-warden",
+      "level": 10,
+      "choice": true,
+      "path": "Aerie guardians"
+    },
+    {
+      "from": "class-flock-warden",
+      "to": "class-aerie-keeper",
+      "level": 24,
+      "path": "Aerie guardians"
+    },
+    {
+      "from": "class-beastmaster",
+      "to": "class-chimera-tamer",
+      "level": 10,
+      "choice": true,
+      "path": "Wild sovereignty"
+    },
+    {
+      "from": "class-chimera-tamer",
+      "to": "class-wild-sovereign",
+      "level": 24,
+      "path": "Wild sovereignty"
+    },
+    {
+      "from": "class-ink-student",
+      "to": "class-calligrapher",
+      "level": 6
+    },
+    {
+      "from": "class-calligrapher",
+      "to": "class-rune-scribe",
+      "level": 10,
+      "choice": true,
+      "path": "Illuminated runes"
+    },
+    {
+      "from": "class-rune-scribe",
+      "to": "class-runic-illuminator",
+      "level": 24,
+      "path": "Illuminated runes"
+    },
+    {
+      "from": "class-calligrapher",
+      "to": "class-glyph-binder",
+      "level": 10,
+      "choice": true,
+      "path": "Living bindings"
+    },
+    {
+      "from": "class-glyph-binder",
+      "to": "class-living-manuscript",
+      "level": 24,
+      "path": "Living bindings"
+    },
+    {
+      "from": "class-candle-novice",
+      "to": "class-lantern-bearer",
+      "level": 6
+    },
+    {
+      "from": "class-lantern-bearer",
+      "to": "class-flame-keeper",
+      "level": 10,
+      "choice": true,
+      "path": "Banked embers"
+    },
+    {
+      "from": "class-flame-keeper",
+      "to": "class-ember-custodian",
+      "level": 24,
+      "path": "Banked embers"
+    },
+    {
+      "from": "class-lantern-bearer",
+      "to": "class-solar-priest",
+      "level": 10,
+      "choice": true,
+      "path": "Solar devotion"
+    },
+    {
+      "from": "class-solar-priest",
+      "to": "class-sun-hierophant",
+      "level": 24,
+      "path": "Solar devotion"
+    },
+    {
+      "from": "class-pilgrim",
+      "to": "class-duelist",
+      "level": 6
+    },
+    {
+      "from": "class-duelist",
+      "to": "class-red-mage",
+      "level": 10,
+      "choice": true,
+      "path": "Dual-element virtuosity"
+    },
+    {
+      "from": "class-red-mage",
+      "to": "class-crimson-virtuoso",
+      "level": 24,
+      "path": "Dual-element virtuosity"
+    },
+    {
+      "from": "class-duelist",
+      "to": "class-rose-magus",
+      "level": 10,
+      "choice": true,
+      "path": "Rosethorn fencing"
+    },
+    {
+      "from": "class-rose-magus",
+      "to": "class-roseblade-regent",
+      "level": 24,
+      "path": "Rosethorn fencing"
+    },
+    {
+      "from": "class-shieldbearer",
+      "to": "class-warden",
+      "level": 6
+    },
+    {
+      "from": "class-warden",
+      "to": "class-spellguard",
+      "level": 10,
+      "choice": true,
+      "path": "Spell reflection"
+    },
+    {
+      "from": "class-spellguard",
+      "to": "class-prismatic-bastion",
+      "level": 24,
+      "path": "Spell reflection"
+    },
+    {
+      "from": "class-warden",
+      "to": "class-oathkeeper",
+      "level": 10,
+      "choice": true,
+      "path": "Mirror oath"
+    },
+    {
+      "from": "class-oathkeeper",
+      "to": "class-mirror-aegis",
+      "level": 24,
+      "path": "Mirror oath"
+    },
+    {
+      "from": "class-silk-spinner",
+      "to": "class-threadwitch",
+      "level": 6
+    },
+    {
+      "from": "class-threadwitch",
+      "to": "class-fate-stitcher",
+      "level": 10,
+      "choice": true,
+      "path": "Binding knots"
+    },
+    {
+      "from": "class-fate-stitcher",
+      "to": "class-knotbinder-matron",
+      "level": 24,
+      "path": "Binding knots"
+    },
+    {
+      "from": "class-threadwitch",
+      "to": "class-tapestry-sage",
+      "level": 10,
+      "choice": true,
+      "path": "Destiny tapestry"
+    },
+    {
+      "from": "class-tapestry-sage",
+      "to": "class-destiny-loom",
+      "level": 24,
+      "path": "Destiny tapestry"
+    },
+    {
+      "from": "class-treasure-seeker",
+      "to": "class-relic-hunter",
+      "level": 6
+    },
+    {
+      "from": "class-relic-hunter",
+      "to": "class-archaeomancer",
+      "level": 10,
+      "choice": true,
+      "path": "Relic scholarship"
+    },
+    {
+      "from": "class-archaeomancer",
+      "to": "class-myth-curator",
+      "level": 24,
+      "path": "Relic scholarship"
+    },
+    {
+      "from": "class-relic-hunter",
+      "to": "class-artifact-knight",
+      "level": 10,
+      "choice": true,
+      "path": "Artifact armor"
+    },
+    {
+      "from": "class-artifact-knight",
+      "to": "class-relic-juggernaut",
+      "level": 24,
+      "path": "Artifact armor"
+    }
+  ],
+  "fusionRecipes": []
+}

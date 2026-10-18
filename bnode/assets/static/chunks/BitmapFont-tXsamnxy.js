@@ -1,1 +1,0 @@
-import{t as e}from"./game-renderer-CjriDN51.js";export{e as BitmapFont};

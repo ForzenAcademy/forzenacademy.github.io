@@ -1,0 +1,1 @@
+import{r as e}from"./game-renderer-BNs8rTv9.js";export{e as WebGLRenderer};

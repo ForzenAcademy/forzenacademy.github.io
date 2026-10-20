@@ -1,1 +1,0 @@
-import{n as e}from"./game-renderer-CZPgHdof.js";export{e as WebGPURenderer};

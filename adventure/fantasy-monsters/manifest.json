@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "count": 150,
+  "count": 200,
   "poses": [
     "idle",
     "hurt",
@@ -6156,6 +6156,2206 @@
         },
         "back-attack": {
           "file": "foe-dusk-elemental-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-sewer-rat": {
+      "number": 151,
+      "name": "Sewer Rat",
+      "family": "Vermin and Burrowers",
+      "design": "low plump brown rat with oversized round ears, cream muzzle, amber eyes, pink paws and a curled bare tail",
+      "attack": "a low snapping bite",
+      "role": "Fast scavenger",
+      "habitat": "Sewers",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-sewer-rat-sheet.png",
+      "sourceSha256": "0658b27468265018611a7c85f6a1eff4d8ea0ba9da5b417a32fc581346c92a0c",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-sewer-rat-front.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-sewer-rat-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-sewer-rat-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-sewer-rat-back.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-sewer-rat-back-hurt.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-sewer-rat-back-attack.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-quillback-rat": {
+      "number": 152,
+      "name": "Quillback Rat",
+      "family": "Vermin and Burrowers",
+      "design": "squat charcoal rodent with ivory porcupine quills fanned across its back, small rounded ears and a blunt ochre nose",
+      "attack": "bracing sideways and thrusting its short quill fan",
+      "role": "Contact deterrent",
+      "habitat": "Scrubland",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-quillback-rat-sheet.png",
+      "sourceSha256": "030ab161151844ac901ac4e2b9afed6151a43df025afcbb884114173d12c2f32",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-quillback-rat-front.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-quillback-rat-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-quillback-rat-front-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-quillback-rat-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-quillback-rat-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-quillback-rat-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-tunnel-mole": {
+      "number": 153,
+      "name": "Tunnel Mole",
+      "family": "Vermin and Burrowers",
+      "design": "round velvet-brown mole with tiny cream eyes, a pink star-shaped nose, oversized ivory digging claws and a dirt-colored shoulder ruff",
+      "attack": "a double digging-claw scoop held close to its body",
+      "role": "Burrowing ambusher",
+      "habitat": "Caverns",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-tunnel-mole-sheet.png",
+      "sourceSha256": "fcede2a619fa3d28f4d1fe2cbc4306940eada18aac8a2dc44be2d22593c460cf",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-tunnel-mole-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-tunnel-mole-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-tunnel-mole-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-tunnel-mole-back.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-tunnel-mole-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-tunnel-mole-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-iron-centipede": {
+      "number": 154,
+      "name": "Iron Centipede",
+      "family": "Vermin and Burrowers",
+      "design": "short coiled copper-and-slate centipede with eight clearly paired short legs, broad overlapping shell segments, two short antennae and cream mandibles",
+      "attack": "a curved segmented-body lunge with mandibles open",
+      "role": "Low armored flanker",
+      "habitat": "Deep tunnels",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-iron-centipede-sheet.png",
+      "sourceSha256": "b7d1553a871cde7bb23e58b5c223d6fe8b0ae4b266617b7bb592cd3d83c3272e",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-iron-centipede-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-iron-centipede-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-iron-centipede-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-iron-centipede-back.webp",
+          "baseline": 0.933594,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-iron-centipede-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-iron-centipede-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-dune-worm": {
+      "number": 155,
+      "name": "Dune Worm",
+      "family": "Vermin and Burrowers",
+      "design": "compact upright sand-colored worm with a thick curved segmented body, ringed toothy mouth, ochre dorsal plates and no arms or legs",
+      "attack": "rearing and snapping its circular mouth in a tight forward arc",
+      "role": "Burrowing area threat",
+      "habitat": "Desert",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-dune-worm-sheet.png",
+      "sourceSha256": "a21e01fcf80bd4fa7c628362c25ed2c25b59ec46f1630558ca833f5f558d2376",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-dune-worm-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-dune-worm-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-dune-worm-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-dune-worm-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-dune-worm-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-dune-worm-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-antlion": {
+      "number": 156,
+      "name": "Antlion",
+      "family": "Vermin and Burrowers",
+      "design": "broad dusty ochre antlion larva with a low pear-shaped abdomen, six stubby legs, tiny amber eyes and two large curved ivory jaw sickles",
+      "attack": "closing its paired mandibles like a short spring trap",
+      "role": "Pit ambusher",
+      "habitat": "Desert",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-antlion-sheet.png",
+      "sourceSha256": "137cc104d787e28b8781afa884522f09d132e3b8b0016325e96a974fa5d45191",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-antlion-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-antlion-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-antlion-front-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-antlion-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-antlion-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-antlion-back-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-tide-jelly": {
+      "number": 157,
+      "name": "Tide Jelly",
+      "family": "Deepsea Horrors",
+      "design": "floating rounded lavender jellyfish with a translucent bell, two expressive gold eyes beneath the rim and six thick short curling tentacles",
+      "attack": "pulsing its bell and curling its tentacles forward with a small violet spark",
+      "role": "Pulsing hazard",
+      "habitat": "Sunken ruins",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-tide-jelly-sheet.png",
+      "sourceSha256": "e19736efe0f905a41d9b876a248a886380ef5f1c6eab901c8ba15a412c7a8101",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-tide-jelly-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-tide-jelly-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-tide-jelly-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-tide-jelly-back.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-tide-jelly-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-tide-jelly-back-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-ink-krakenling": {
+      "number": 158,
+      "name": "Ink Krakenling",
+      "family": "Deepsea Horrors",
+      "design": "round plum-purple octopus with eight thick curled arms, pale cream suckers, a large expressive gold-eyed head and a small shell helmet",
+      "attack": "a braced tentacle lash with a tiny contained ink puff",
+      "role": "Grappler",
+      "habitat": "Shipwrecks",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-ink-krakenling-sheet.png",
+      "sourceSha256": "e559ab8b9a9f895c9937e71c42d5db677dee77046af2e07bf77f718febb4035a",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-ink-krakenling-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-ink-krakenling-front-hurt.webp",
+          "baseline": 0.933594,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-ink-krakenling-front-attack.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-ink-krakenling-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-ink-krakenling-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-ink-krakenling-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-shell-nautiloid": {
+      "number": 159,
+      "name": "Shell Nautiloid",
+      "family": "Deepsea Horrors",
+      "design": "small floating nautilus with a large ivory spiral shell striped russet, a blue-gray hooded face, expressive amber eyes and short clustered cream tentacles",
+      "attack": "thrusting its clustered tentacles from its protective spiral shell",
+      "role": "Shelled ranged creature",
+      "habitat": "Reefs",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-shell-nautiloid-sheet.png",
+      "sourceSha256": "f6f369347b9b135870ee490bd234a945e22054140c5f0c6d367cfa007b445ae1",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-shell-nautiloid-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-shell-nautiloid-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-shell-nautiloid-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-shell-nautiloid-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-shell-nautiloid-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-shell-nautiloid-back-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-abyss-eel": {
+      "number": 160,
+      "name": "Abyss Eel",
+      "family": "Deepsea Horrors",
+      "design": "thick short dark teal eel curled into an S, cream throat, gold eyes, jagged lavender dorsal fin and a broad toothy jaw",
+      "attack": "a coiled springing bite with fins flared",
+      "role": "Coiled striker",
+      "habitat": "Abyss",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-abyss-eel-sheet.png",
+      "sourceSha256": "6955809ba3695c42fc10daa088994d72e05ee4276e0d29feefc6c3f2da4ee096",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-abyss-eel-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-abyss-eel-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-abyss-eel-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-abyss-eel-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-abyss-eel-back-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-abyss-eel-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-lantern-cuttle": {
+      "number": 161,
+      "name": "Lantern Cuttle",
+      "family": "Deepsea Horrors",
+      "design": "round rust-and-cream cuttlefish with a broad ruffled mantle fin, two large amber eyes and six short curled arms around a glowing pearl lure",
+      "attack": "fanning its mantle and flashing its little pearl lure",
+      "role": "Lure and disorient",
+      "habitat": "Sea caves",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-lantern-cuttle-sheet.png",
+      "sourceSha256": "429122ee5aa969c8b19908cfa5c1c91ff56d6e4bc9c2bdd7af47e21571c6a4ad",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-lantern-cuttle-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-lantern-cuttle-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-lantern-cuttle-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-lantern-cuttle-back.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-lantern-cuttle-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-lantern-cuttle-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-gazer-orb": {
+      "number": 162,
+      "name": "Gazer Orb",
+      "family": "Aberrations",
+      "design": "floating moss-violet round creature with one huge expressive golden eye, four small curled hornlike eyestalks, a tiny fanged lower mouth and a pebbled back",
+      "attack": "focusing a short amber eye beam with its small eyestalks tucked close",
+      "role": "Gaze controller",
+      "habitat": "Arcane ruins",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-gazer-orb-sheet.png",
+      "sourceSha256": "247d84e11075fc931eb203a9ee73bbb5c9b2aae8f27d44727baee24e27593e7c",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-gazer-orb-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-gazer-orb-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-gazer-orb-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-gazer-orb-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-gazer-orb-back-hurt.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-gazer-orb-back-attack.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-mind-leech": {
+      "number": 163,
+      "name": "Mind Leech",
+      "family": "Aberrations",
+      "design": "plump mauve leech with a curled tapering body, pale ribbed underside, two tiny gold eyes and a cream four-lobed mouth",
+      "attack": "arching and opening its four-lobed mouth around a small violet ring",
+      "role": "Draining parasite",
+      "habitat": "Forgotten laboratories",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-mind-leech-sheet.png",
+      "sourceSha256": "295c847caa6ced027b14fe8367a682e448df4dac29d9a5a100dd37798e6ce39c",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-mind-leech-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-mind-leech-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-mind-leech-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-mind-leech-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-mind-leech-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-mind-leech-back-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-rift-anemone": {
+      "number": 164,
+      "name": "Rift Anemone",
+      "family": "Aberrations",
+      "design": "squat indigo anemone creature with a fluted cream pedestal foot, a coral-pink crown of thick short tentacles and a small expressive eye at its center",
+      "attack": "closing its short tentacle crown around a compact violet glow",
+      "role": "Stationary zone threat",
+      "habitat": "Rift caverns",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-rift-anemone-sheet.png",
+      "sourceSha256": "eb5b6901c1110e31748fe0c4840d16b14d237b89a84d9f289642754ecc41d66a",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-rift-anemone-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-rift-anemone-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-rift-anemone-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-rift-anemone-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-rift-anemone-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-rift-anemone-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-maw-stalker": {
+      "number": 165,
+      "name": "Maw Stalker",
+      "family": "Aberrations",
+      "design": "round slate-blue creature made mostly of one broad toothed mouth, two long bent birdlike legs, tiny side eyes and a tufted short tail, no arms",
+      "attack": "a hopping forward bite with its two feet tucked beneath",
+      "role": "Hopping skirmisher",
+      "habitat": "Shadow halls",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-maw-stalker-sheet.png",
+      "sourceSha256": "1ab58cbe656d54d44998075b75879256ae5f3ddeef3e8cc0515b5448702d9935",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-maw-stalker-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-maw-stalker-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-maw-stalker-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-maw-stalker-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-maw-stalker-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-maw-stalker-back-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-prism-ray": {
+      "number": 166,
+      "name": "Prism Ray",
+      "family": "Aberrations",
+      "design": "small floating diamond-shaped manta creature with pale lilac upper skin, a cream underside, golden eyes, blue crystal nodules and a short ribbon tail",
+      "attack": "folding its broad fins forward around a small crystal pulse",
+      "role": "Wide hovering caster",
+      "habitat": "Crystal caverns",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-prism-ray-sheet.png",
+      "sourceSha256": "85242ba58b7323ec8091afa9feb9a3bfb8def2ce0e6b7cc1b4afb3b344657387",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-prism-ray-front.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-prism-ray-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-prism-ray-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-prism-ray-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-prism-ray-back-hurt.webp",
+          "baseline": 0.923828,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-prism-ray-back-attack.webp",
+          "baseline": 0.923828,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-grimoire-mimic": {
+      "number": 167,
+      "name": "Grimoire Mimic",
+      "family": "Animated Curios",
+      "design": "small hovering burgundy leather spellbook with brass corners, expressive amber eyes above a toothy page-mouth, a short ribbon tongue and little paper-wing page fans",
+      "attack": "snapping its page-mouth and flicking its ribbon tongue close",
+      "role": "Library ambusher",
+      "habitat": "Libraries",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-grimoire-mimic-sheet.png",
+      "sourceSha256": "f5a1245819efffea2adaf9e145ae2f9fada5669f2eaaaecfdc756a6696f6b581",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-grimoire-mimic-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-grimoire-mimic-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-grimoire-mimic-front-attack.webp",
+          "baseline": 0.923828,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-grimoire-mimic-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-grimoire-mimic-back-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-grimoire-mimic-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-door-mimic": {
+      "number": 168,
+      "name": "Door Mimic",
+      "family": "Animated Curios",
+      "design": "compact upright crooked oak door creature with iron hinge shoulders, two wooden stump feet, amber knothole eyes and a toothy central keyhole mouth",
+      "attack": "swinging one thick hinged wooden arm in a short slam",
+      "role": "Passage blocker",
+      "habitat": "Abandoned keeps",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-door-mimic-sheet.png",
+      "sourceSha256": "f1d491bc650593595b77b47f16bafaa816534fbf080df259416a5e61c2bb11ac",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-door-mimic-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-door-mimic-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-door-mimic-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-door-mimic-back.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-door-mimic-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-door-mimic-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-rag-scarecrow": {
+      "number": 169,
+      "name": "Rag Scarecrow",
+      "family": "Animated Curios",
+      "design": "short straw scarecrow with a round stitched burlap head, warm amber button eyes, a floppy russet hat, tattered sage coat and bundled straw hands and feet",
+      "attack": "twisting its straw arms into a tight sweeping swipe",
+      "role": "Fear-themed sentinel",
+      "habitat": "Farmland",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-rag-scarecrow-sheet.png",
+      "sourceSha256": "c44943a095e67d91f55b619628a0a121d3f640451550b18035656c823e998432",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-rag-scarecrow-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-rag-scarecrow-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-rag-scarecrow-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-rag-scarecrow-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-rag-scarecrow-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-rag-scarecrow-back-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-porcelain-marionette": {
+      "number": 170,
+      "name": "Porcelain Marionette",
+      "family": "Animated Curios",
+      "design": "small ivory porcelain doll with expressive gold eyes, fine blue crack patterns, jointed limbs, a dusty mauve court outfit and a wooden crossbar attached directly behind its shoulders, no strings leaving the body",
+      "attack": "a sharp crooked jointed-arm jab",
+      "role": "Uncanny duelist",
+      "habitat": "Ruined theaters",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-porcelain-marionette-sheet.png",
+      "sourceSha256": "5eff4f88591a1316b4bd6bdcbe2f32dd6c9e5f5207ade0373520c06f55e94cce",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-porcelain-marionette-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-porcelain-marionette-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-porcelain-marionette-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-porcelain-marionette-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-porcelain-marionette-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-porcelain-marionette-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-clockwork-bombard": {
+      "number": 171,
+      "name": "Clockwork Bombard",
+      "family": "Animated Curios",
+      "design": "compact brass-and-iron living cannon on two broad wooden wheels with expressive amber eyes above its short barrel, a cream cloth fuse cap and riveted armor",
+      "attack": "recoiling on its wheels while firing one small contained smoke puff",
+      "role": "Wheeled artillery",
+      "habitat": "Workshops",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-clockwork-bombard-sheet.png",
+      "sourceSha256": "dc8ae732e34d346353ea52145e5d3f5ad91ca9461f8305d82244780b9c19248b",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-clockwork-bombard-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-clockwork-bombard-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-clockwork-bombard-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-clockwork-bombard-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-clockwork-bombard-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-clockwork-bombard-back-attack.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-candle-amalgam": {
+      "number": 172,
+      "name": "Candle Amalgam",
+      "family": "Animated Curios",
+      "design": "squat cream wax creature formed from three fused candles with a shared round expressive face, stubby dripping arms and feet, and three small amber flames on its head",
+      "attack": "thrusting a soft wax hand with a tiny ember spark",
+      "role": "Melting hazard",
+      "habitat": "Crypt altars",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-candle-amalgam-sheet.png",
+      "sourceSha256": "eddd977550b8f63e7d249e7225b53dccd82cb7abb9a5f037ef5d5a93cfc35831",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-candle-amalgam-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-candle-amalgam-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-candle-amalgam-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-candle-amalgam-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-candle-amalgam-back-hurt.webp",
+          "baseline": 0.923828,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-candle-amalgam-back-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-redcap": {
+      "number": 173,
+      "name": "Redcap",
+      "family": "Fair Folk",
+      "design": "small squat moss-gray faerie with a huge soft crimson mushroom-shaped cap, pointed ears, expressive amber eyes, heavy iron boots, patchwork brown coat and a short hooked sickle",
+      "attack": "a low boot-stomp with the hooked sickle tucked close",
+      "role": "Stomping bruiser",
+      "habitat": "Old bridges",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-redcap-sheet.png",
+      "sourceSha256": "bd229d51e7c5d762df2b8abafe16465bec50854000ad101356f1fcadcfd22996",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-redcap-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-redcap-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-redcap-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-redcap-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-redcap-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-redcap-back-attack.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-thorn-pixie": {
+      "number": 174,
+      "name": "Thorn Pixie",
+      "family": "Fair Folk",
+      "design": "tiny green-skinned winged faerie with large golden eyes, leaf-bud hair, four translucent dusty-rose insect wings, a closed leaf tunic and a thorn wand",
+      "attack": "a short thorn-wand jab with a contained leaf spark",
+      "role": "Flying harasser",
+      "habitat": "Thorn groves",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-thorn-pixie-sheet.png",
+      "sourceSha256": "58c7aaba06be8b4b3ef7e13278e8e766c380874bb1ac1206640d10fb78b5ea3c",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-thorn-pixie-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-thorn-pixie-front-hurt.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-thorn-pixie-front-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-thorn-pixie-back.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-thorn-pixie-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-thorn-pixie-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-hollow-boggart": {
+      "number": 175,
+      "name": "Hollow Boggart",
+      "family": "Fair Folk",
+      "design": "small hunchbacked soot-brown boggart with an oversized hollow wooden mask face, expressive gold eye holes, long mittenlike hands, short legs and a mossy hood",
+      "attack": "stretching one long hand into a compact grabbing swipe",
+      "role": "Grabbing trickster",
+      "habitat": "Hollow trees",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-hollow-boggart-sheet.png",
+      "sourceSha256": "364b2d0e1ff465f2f6b51945514e2bef02b6a92b9fd3bb0b0a3139245449e56a",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-hollow-boggart-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-hollow-boggart-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-hollow-boggart-front-attack.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-hollow-boggart-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-hollow-boggart-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-hollow-boggart-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-bell-gremlin": {
+      "number": 176,
+      "name": "Bell Gremlin",
+      "family": "Fair Folk",
+      "design": "small blue-gray gremlin with huge batlike ears, amber eyes, a rusty brass bell worn as a shell helmet, tiny cloth trousers and a padded bell-clapper mallet",
+      "attack": "striking its own bell helmet with the short mallet",
+      "role": "Alarm support",
+      "habitat": "Bell towers",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-bell-gremlin-sheet.png",
+      "sourceSha256": "36b9a4e51b73777c1aaded8827c7f3f0907a382ceda6c239df0ad90a060e80fd",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-bell-gremlin-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-bell-gremlin-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-bell-gremlin-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-bell-gremlin-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-bell-gremlin-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-bell-gremlin-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-mask-puck": {
+      "number": 177,
+      "name": "Mask Puck",
+      "family": "Fair Folk",
+      "design": "small cream-furred faerie with a long curled tail, gold eyes, swept leaflike ears, mauve scarf and two wooden masks fastened like a folding fan to one forearm",
+      "attack": "fanning its paired wooden masks with a small dust swirl",
+      "role": "Disorienting trickster",
+      "habitat": "Enchanted groves",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-mask-puck-sheet.png",
+      "sourceSha256": "e10051be996c7a177b5a7f3bc124095256aa5a49be8b6164981564e80fe02ddb",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-mask-puck-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-mask-puck-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-mask-puck-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-mask-puck-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-mask-puck-back-hurt.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-mask-puck-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-moonfang-werewolf": {
+      "number": 178,
+      "name": "Moonfang Werewolf",
+      "family": "Cursed Beings",
+      "design": "compact upright gray werewolf with cream chest fur, huge expressive amber eyes, long clawed arms, digitigrade legs, a ragged rust waistcloth and a short bushy tail",
+      "attack": "a braced double claw rake",
+      "role": "Transforming hunter",
+      "habitat": "Moonlit woods",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-moonfang-werewolf-sheet.png",
+      "sourceSha256": "67befcaed950a0e9ed4c635676302b75722f74b192c61c3bbc7adb0a00684550",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-moonfang-werewolf-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-moonfang-werewolf-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-moonfang-werewolf-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-moonfang-werewolf-back.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-moonfang-werewolf-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-moonfang-werewolf-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-vampire-noble": {
+      "number": 179,
+      "name": "Vampire Noble",
+      "family": "Cursed Beings",
+      "design": "small elegant pale vampire with pointed ears, amber-red eyes, two tiny fangs, swept silver hair, a high-collared wine cloak and ornate cream waistcoat, modest fully clothed",
+      "attack": "sweeping a clawed gloved hand with a tiny red mist curl",
+      "role": "Draining noble",
+      "habitat": "Castle crypts",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-vampire-noble-sheet.png",
+      "sourceSha256": "f3eedcab838048e413d1cefe8dd472a07f9d76ee7c43af0fd844b233913911a9",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-vampire-noble-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-vampire-noble-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-vampire-noble-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-vampire-noble-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-vampire-noble-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-vampire-noble-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-headless-rider": {
+      "number": 180,
+      "name": "Headless Rider",
+      "family": "Cursed Beings",
+      "design": "compact headless knight seated on a small dark pony, its hollow collar glowing amber, holding a small jack-o-lantern head close beneath one arm and a short rusty saber in the other",
+      "attack": "a compact mounted saber slash with the pumpkin head held safely close",
+      "role": "Mounted charger",
+      "habitat": "Haunted roads",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-headless-rider-sheet.png",
+      "sourceSha256": "693469c4c76731153e7c9a09aec8bed44ae796a491958bb2fd18dc6199fed7f2",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-headless-rider-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-headless-rider-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-headless-rider-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-headless-rider-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-headless-rider-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-headless-rider-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-patchwork-abomination": {
+      "number": 181,
+      "name": "Patchwork Abomination",
+      "family": "Cursed Beings",
+      "design": "broad squat stitched cloth-and-flesh fantasy construct with warm gray skin, mismatched thick arms, a gentle but angry gold-eyed face, blunt ivory teeth, linen bandages and a short brown apron, no wounds or gore",
+      "attack": "a heavy two-fisted downward slam",
+      "role": "Heavy stitched brute",
+      "habitat": "Forgotten laboratories",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-patchwork-abomination-sheet.png",
+      "sourceSha256": "40601f0657258fc4202cf68c3971a5993e42fbf416108dca6632b622cedd708d",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-patchwork-abomination-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-patchwork-abomination-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-patchwork-abomination-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-patchwork-abomination-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-patchwork-abomination-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-patchwork-abomination-back-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-living-cloak": {
+      "number": 182,
+      "name": "Living Cloak",
+      "family": "Cursed Beings",
+      "design": "small hovering empty dusty-blue cloak with a cream fur collar, two expressive amber lights inside its hood, broad folded cloth arms and a ragged curled hem, no visible body",
+      "attack": "wrapping one broad cloth arm forward like a short smothering wave",
+      "role": "Enveloping ambusher",
+      "habitat": "Wardrobes and crypts",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-living-cloak-sheet.png",
+      "sourceSha256": "a463434d9d520a22ac00abc2a6f93952f9908f44ce3dd709dd70c9d68b660293",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-living-cloak-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-living-cloak-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-living-cloak-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-living-cloak-back.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-living-cloak-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-living-cloak-back-attack.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-chain-devil": {
+      "number": 183,
+      "name": "Chain Devil",
+      "family": "Infernal Monsters",
+      "design": "compact horned mauve demon with expressive gold eyes, blunt cream horns, short thick legs, iron wrist cuffs and two short heavy chains coiled tightly around its forearms, no wings",
+      "attack": "a tightly contained looping chain lash",
+      "role": "Pulling controller",
+      "habitat": "Infernal prisons",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-chain-devil-sheet.png",
+      "sourceSha256": "b2556ddc2b59ef15d140000fdabcb909e6ed158bd90c5d067905fece030146b3",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-chain-devil-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-chain-devil-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-chain-devil-front-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-chain-devil-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-chain-devil-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-chain-devil-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-furnace-maw": {
+      "number": 184,
+      "name": "Furnace Maw",
+      "family": "Infernal Monsters",
+      "design": "low broad four-legged coal beast with a cream-toothed furnace mouth, amber eyes above the jaw, natural dark iron plates and glowing ochre cracks, no horns or wings",
+      "attack": "opening its furnace mouth for a short contained ember blast",
+      "role": "Cone-breath threat",
+      "habitat": "Foundries",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-furnace-maw-sheet.png",
+      "sourceSha256": "d53ebe5a6fd7df2314a0601279f0bf9f1d60584b2eb671c1a994ca624dcdeddd",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-furnace-maw-front.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-furnace-maw-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-furnace-maw-front-attack.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-furnace-maw-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-furnace-maw-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-furnace-maw-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-ash-fiend": {
+      "number": 185,
+      "name": "Ash Fiend",
+      "family": "Infernal Monsters",
+      "design": "broad squat charcoal demon with two swept ivory horns, dusty red bat wings folded close, thick clawed arms, amber eyes, cream belly markings and a short spade tail",
+      "attack": "a heavy claw slam with a tiny ash puff",
+      "role": "Infernal bruiser",
+      "habitat": "Ash wastes",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-ash-fiend-sheet.png",
+      "sourceSha256": "7e864a6589535e59f7f89b6c072c76270f0d1a578948e54f20178d8299643453",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-ash-fiend-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-ash-fiend-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-ash-fiend-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-ash-fiend-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-ash-fiend-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-ash-fiend-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-rift-gate": {
+      "number": 186,
+      "name": "Rift Gate",
+      "family": "Infernal Monsters",
+      "design": "small living oval portal frame of violet stone with a horned expressive stone face at its arch, gold eyes, two thick curved stone claw arms and two squat stone feet, its opening filled with contained lavender mist",
+      "attack": "closing its claw arms around a compact pulse within its oval opening",
+      "role": "Summoning anchor",
+      "habitat": "Rift shrines",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-rift-gate-sheet.png",
+      "sourceSha256": "a8979bb1355f5cfddbe50c1799ee5da75ebc08611a977eff0e40fbd5fcf957ed",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-rift-gate-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-rift-gate-front-hurt.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-rift-gate-front-attack.webp",
+          "baseline": 0.923828,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-rift-gate-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-rift-gate-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-rift-gate-back-attack.webp",
+          "baseline": 0.923828,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-cockatrice": {
+      "number": 187,
+      "name": "Cockatrice",
+      "family": "Avian Legends",
+      "design": "small upright russet rooster-dragon with a cream beak, amber eyes, moss-scaled neck, little feathered wings, two stout bird legs and a curled green snake tail",
+      "attack": "a short forward beak jab with tail braced behind",
+      "role": "Gaze-themed pecker",
+      "habitat": "Ruined farms",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-cockatrice-sheet.png",
+      "sourceSha256": "c1a8e6c1a4d22975331ec63d282891b374e1a73e232d0d03cdab0cd05fd55363",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-cockatrice-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-cockatrice-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-cockatrice-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-cockatrice-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-cockatrice-back-hurt.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-cockatrice-back-attack.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-phoenix": {
+      "number": 188,
+      "name": "Phoenix",
+      "family": "Avian Legends",
+      "design": "small broad copper-and-cream phoenix with expressive gold eyes, a swept feather crown, layered dusty-red wings and three short golden tail plumes with tiny contained ember tips",
+      "attack": "a tight wing sweep with a small curling ember feather",
+      "role": "Rebirth-themed flier",
+      "habitat": "Volcanic peaks",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-phoenix-sheet.png",
+      "sourceSha256": "a14247f509ec5a2d7a1de52702c1f9974ec189ff056edbcb752bc94216ff91db",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-phoenix-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-phoenix-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-phoenix-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-phoenix-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-phoenix-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-phoenix-back-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-great-roc": {
+      "number": 189,
+      "name": "Great Roc",
+      "family": "Avian Legends",
+      "design": "stocky enormous-looking tawny bird of prey rendered in compact chibi proportions, cream chest feathers, thick hooked ochre beak, huge feathered shoulders, gold eyes and two broad taloned feet",
+      "attack": "a short low talon-first wing-assisted pounce",
+      "role": "Aerial heavy hunter",
+      "habitat": "High cliffs",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-great-roc-sheet.png",
+      "sourceSha256": "1c43e7b956ae0f777aaf6a3c78e39225172be96a5e37f57f2cb9de6e1d3aa659",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-great-roc-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-great-roc-front-hurt.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-great-roc-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-great-roc-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-great-roc-back-hurt.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-great-roc-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-owlbear": {
+      "number": 190,
+      "name": "Owlbear",
+      "family": "Avian Legends",
+      "design": "broad compact brown bear-bodied beast with a round cream owl face, enormous amber eyes, small feathered ear tufts, thick feathered shoulders and four stout clawed paws, no wings",
+      "attack": "a braced forward double forepaw swipe",
+      "role": "Forest heavy hunter",
+      "habitat": "Old forests",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-owlbear-sheet.png",
+      "sourceSha256": "7b92925ab3c6321d4472b34a3a34a2540e03211d5f82f6b17ab63e43584b1f7f",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-owlbear-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-owlbear-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-owlbear-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-owlbear-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-owlbear-back-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-owlbear-back-attack.webp",
+          "baseline": 0.933594,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-bronze-heron": {
+      "number": 191,
+      "name": "Bronze Heron",
+      "family": "Avian Legends",
+      "design": "compact long-necked bronze-feathered heron with cream throat, gold eyes, two bent slate legs, a broad triangular beak and overlapping metallic wing feathers",
+      "attack": "a folded-neck springing beak thrust",
+      "role": "Reach striker",
+      "habitat": "Ancient wetlands",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-bronze-heron-sheet.png",
+      "sourceSha256": "8a845bf3487704ca7ad534a864aa4eb637a3ed587f8f93637c7b7dd860a349d2",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-bronze-heron-front.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-bronze-heron-front-hurt.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-bronze-heron-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-bronze-heron-back.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-bronze-heron-back-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-bronze-heron-back-attack.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-riddle-sphinx": {
+      "number": 192,
+      "name": "Riddle Sphinx",
+      "family": "Ancient Guardians",
+      "design": "compact tawny lion-bodied sphinx with a calm expressive gold-eyed feline face, cream mane, dusty-blue feathered wings, a simple ochre brow circlet and a curled lion tail",
+      "attack": "a planted forepaw strike with wings held close",
+      "role": "Guardian controller",
+      "habitat": "Desert temples",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-riddle-sphinx-sheet.png",
+      "sourceSha256": "8b7f2e4e16c22c1057f4114212adef9053865b99bc6050eaeb3c59b13f937259",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-riddle-sphinx-front.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-riddle-sphinx-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-riddle-sphinx-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-riddle-sphinx-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-riddle-sphinx-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-riddle-sphinx-back-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-mountain-yeti": {
+      "number": 193,
+      "name": "Mountain Yeti",
+      "family": "Ancient Guardians",
+      "design": "short broad white-furred yeti with a round blue-gray face, enormous amber eyes, thick cream shoulder fur, long heavy arms and two broad bare blue feet",
+      "attack": "a low double-fisted hammer strike",
+      "role": "Snowfield bruiser",
+      "habitat": "Alpine caves",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-mountain-yeti-sheet.png",
+      "sourceSha256": "153fc6154bc2b27499871c68d6874b12b164c4920e5eb7b517b172f2441dbec1",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-mountain-yeti-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-mountain-yeti-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-mountain-yeti-front-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-mountain-yeti-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-mountain-yeti-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-mountain-yeti-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-cyclops": {
+      "number": 194,
+      "name": "Cyclops",
+      "family": "Ancient Guardians",
+      "design": "squat warm-ochre one-eyed giant with one huge expressive amber eye, tousled dark hair, two short lower tusks, a moss shoulder pelt, brown waistcloth and a short stone club",
+      "attack": "a braced two-handed stone-club swing",
+      "role": "Single heavy hitter",
+      "habitat": "Mountain ruins",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-cyclops-sheet.png",
+      "sourceSha256": "31c73c43da87ed66f3e1608acf922ca904b16d4a37a8b36dbd1ef17336173c95",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-cyclops-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-cyclops-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-cyclops-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-cyclops-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-cyclops-back-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-cyclops-back-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-stone-scarab": {
+      "number": 195,
+      "name": "Stone Scarab",
+      "family": "Ancient Guardians",
+      "design": "broad low living sandstone scarab with engraved ochre shell plates, six short stone legs, gold eyes, a cream brow horn and a circular lapis jewel in its back",
+      "attack": "bracing its legs and thrusting its blunt brow horn",
+      "role": "Armored relic guard",
+      "habitat": "Buried tombs",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-stone-scarab-sheet.png",
+      "sourceSha256": "c20e5e23bd26ab8d554cc35615eb504d43c659d36a3082e27fcfd0275ee76487",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-stone-scarab-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-stone-scarab-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-stone-scarab-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-stone-scarab-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-stone-scarab-back-hurt.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-stone-scarab-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-chimera": {
+      "number": 196,
+      "name": "Chimera",
+      "family": "Ancient Guardians",
+      "design": "compact tawny lion-bodied chimera with one large expressive lion head and one smaller cream goat head side by side, four stout paws, a short snake tail, no wings, exactly two neck heads and one snake-tail head in every pose",
+      "attack": "a planted forepaw swipe with its two neck heads leaning together",
+      "role": "Multiheaded heavy beast",
+      "habitat": "Mountain lairs",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-chimera-sheet.png",
+      "sourceSha256": "92df29588551a71aa7d081d7969cacdd54cbe3741b7de624916c906ed36f4d2c",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-chimera-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-chimera-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-chimera-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-chimera-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-chimera-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-chimera-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-hive-queen": {
+      "number": 197,
+      "name": "Hive Queen",
+      "family": "Colony Monsters",
+      "design": "round amber ant queen with a large striped abdomen, six small jointed legs, two folded translucent wings, expressive gold eyes, short antennae and a cream crownlike head crest",
+      "attack": "raising its front legs and pulsing a tiny amber scent cloud",
+      "role": "Brood-command anchor",
+      "habitat": "Underground hives",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-hive-queen-sheet.png",
+      "sourceSha256": "b75aa0fbd36491826276e12f407b5e4d3f2532a301d83669f5efa79367f42f75",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-hive-queen-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-hive-queen-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-hive-queen-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-hive-queen-back.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-hive-queen-back-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-hive-queen-back-attack.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-wax-drone": {
+      "number": 198,
+      "name": "Wax Drone",
+      "family": "Colony Monsters",
+      "design": "stocky ochre bee creature with a cream fuzzy collar, dark brown abdomen bands, four tiny wings folded close, six short legs and two rounded wax-building foreclaws",
+      "attack": "pressing its broad wax foreclaws forward around a small honey-colored glob",
+      "role": "Builder and barrier support",
+      "habitat": "Wax hives",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-wax-drone-sheet.png",
+      "sourceSha256": "983dad50904416690cf39e7b4d970061b1d98211fe3f42e416cf86fd3ab4fbef",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-wax-drone-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-wax-drone-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-wax-drone-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-wax-drone-back.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-wax-drone-back-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-wax-drone-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-brood-tick": {
+      "number": 199,
+      "name": "Brood Tick",
+      "family": "Colony Monsters",
+      "design": "round dusty-red fantasy tick with a broad pear-shaped shell body, eight short hooked legs, tiny amber eyes, small cream mandibles and three pale shell nodules on its back",
+      "attack": "a low springing grapple with forelegs curled inward",
+      "role": "Clinging parasite",
+      "habitat": "Overgrown dens",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-brood-tick-sheet.png",
+      "sourceSha256": "65c28a4ab31b140de6039f5f88c30cbe5e7630720bb89a8a3423916e7fb8587b",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-brood-tick-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-brood-tick-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-brood-tick-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-brood-tick-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-brood-tick-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-brood-tick-back-attack.webp",
+          "baseline": 0.923828,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "foe-spore-parasite": {
+      "number": 200,
+      "name": "Spore Parasite",
+      "family": "Colony Monsters",
+      "design": "short curved moss-green grub carrying a single cream mushroom cap on its back, six stubby brown legs, expressive amber eyes, soft ivory mouthparts and little ochre spore sacs at its sides",
+      "attack": "arching and puffing one small contained ochre spore cloud",
+      "role": "Spore-carrying parasite",
+      "habitat": "Fungal warrens",
+      "collection": "Missing archetypes",
+      "source": "art/fantasy-monsters/source/foe-spore-parasite-sheet.png",
+      "sourceSha256": "0fb754b68363b06f131632ba8846c435ebaf9f9ac2a33c22320605b8f580e696",
+      "sprites": {
+        "front-idle": {
+          "file": "foe-spore-parasite-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "foe-spore-parasite-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "foe-spore-parasite-front-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "foe-spore-parasite-back.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "foe-spore-parasite-back-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "foe-spore-parasite-back-attack.webp",
           "baseline": 0.927734,
           "sourceBorderPixels": 0
         }

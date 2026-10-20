@@ -1,0 +1,1 @@
+import{r as e}from"./game-renderer-CZPgHdof.js";export{e as WebGLRenderer};

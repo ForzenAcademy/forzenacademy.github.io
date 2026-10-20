@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <meta name="color-scheme" content="dark" />
+    <title>Debug · magitower</title>
+    <style>
+      * { box-sizing: border-box; }
+      body { margin: 0; background: #101115; color: #e9e9ed; font: 16px/1.6 system-ui, sans-serif; }
+      main { max-width: 1040px; margin: auto; padding: 48px 24px 64px; }
+      header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; padding-bottom: 32px; border-bottom: 1px solid #34343d; }
+      .eyebrow { margin: 0; color: #c4ac73; font-size: 11px; font-weight: 700; letter-spacing: .16em; }
+      h1 { margin: 4px 0 8px; font-size: clamp(32px, 6vw, 44px); line-height: 1.15; }
+      header p:last-child { margin: 0; color: #b2b2be; }
+      a { color: #ecd69e; }
+      .back { padding: 9px 14px; border: 1px solid #45434f; border-radius: 6px; text-decoration: none; }
+      section { margin-top: 32px; }
+      h2 { margin: 0 0 14px; color: #c4ac73; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; }
+      ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 0; padding: 0; list-style: none; }
+      li { display: flex; min-width: 0; }
+      .card { display: block; width: 100%; padding: 22px; border: 1px solid #373640; border-radius: 10px; background: #1b1c23; text-decoration: none; }
+      .card:hover, .back:hover { border-color: #c4ac73; background: #25242a; }
+      a:focus-visible { outline: 2px solid #ecd69e; outline-offset: 4px; }
+      .card-title { display: flex; justify-content: space-between; gap: 16px; font-size: 18px; font-weight: 700; }
+      .card p { margin: 8px 0 12px; color: #b2b2be; font-size: 14px; }
+      .card code { color: #9998a5; font-size: 11px; overflow-wrap: anywhere; }
+      @media (max-width: 600px) {
+        main { padding: 28px 16px 40px; }
+        ul { grid-template-columns: minmax(0, 1fr); }
+        .card { padding: 18px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div>
+          <p class="eyebrow">MAGITOWER / DEBUG</p>
+          <h1>Debug</h1>
+          <p>Galleries, previews, and copy editors in one place.</p>
+        </div>
+        <a class="back" href="./">Back to game</a>
+      </header>
+      <nav aria-label="Debug pages">
+        <section aria-labelledby="galleries-title">
+          <h2 id="galleries-title">Galleries &amp; previews</h2>
+          <ul>
+            <li><a class="card" href="./debug_nodes.html">
+              <span class="card-title">Node gallery <span aria-hidden="true">↗</span></span>
+              <p>Browse every node, compare artwork and rarities, and preview connections and live values.</p>
+              <code>debug_nodes.html</code>
+            </a></li>
+            <li><a class="card" href="./debug_nodes_levelup.html">
+              <span class="card-title">Level-up rewards <span aria-hidden="true">↗</span></span>
+              <p>Preview reward choices, fusion highlights, board bonuses, and banish states.</p>
+              <code>debug_nodes_levelup.html</code>
+            </a></li>
+            <li><a class="card" href="./debug_node_modals.html">
+              <span class="card-title">Node modals <span aria-hidden="true">↗</span></span>
+              <p>Inspect the in-game node detail dialogs with sample combat stats and effects.</p>
+              <code>debug_node_modals.html</code>
+            </a></li>
+            <li><a class="card" href="./debug_enemy_modals.html">
+              <span class="card-title">Enemy modals <span aria-hidden="true">↗</span></span>
+              <p>Inspect enemies, elites, bosses, alternate forms, and boss phases.</p>
+              <code>debug_enemy_modals.html</code>
+            </a></li>
+          </ul>
+        </section>
+        <section aria-labelledby="editors-title">
+          <h2 id="editors-title">Copy editors</h2>
+          <ul>
+            <li><a class="card" href="./debug_node_descriptions.html">
+              <span class="card-title">Node descriptions <span aria-hidden="true">↗</span></span>
+              <p>Edit English node descriptions for detail dialogs and level-up rewards, with live previews.</p>
+              <code>debug_node_descriptions.html</code>
+            </a></li>
+            <li><a class="card" href="./debug_enemy_passives.html">
+              <span class="card-title">Enemy passives <span aria-hidden="true">↗</span></span>
+              <p>Edit English passive names and descriptions with previews of the actual enemy dialogs.</p>
+              <code>debug_enemy_passives.html</code>
+            </a></li>
+          </ul>
+        </section>
+      </nav>
+    </main>
+  </body>
+</html>

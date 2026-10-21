@@ -2,17 +2,24 @@ const $=id=>document.getElementById(id);
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const keys=['front-idle','front-hurt','front-attack','back-idle','back-hurt','back-attack'];
 let monsters=[];
+function matchesCollection(monster,collection){
+ if(collection==='bosses')return monster.tier==='boss';
+ if(collection==='new')return monster.number>150&&monster.number<=200;
+ if(collection==='original')return monster.number<=150;
+ return !collection;
+}
 function show(id){
  const monster=monsters.find(m=>m.id===id);if(!monster)return;
- $('detail-content').innerHTML=`<span class="family">${escape(monster.family)} · ${String(monster.number).padStart(3,'0')}</span><h2 id="detail-title">${escape(monster.name)}</h2>${monster.role?`<p class="concept">${escape(monster.habitat)} · Design role: ${escape(monster.role)}</p>`:''}<p>${escape(monster.design)}.</p><div class="poses">${keys.map(key=>`<figure><img src="${escape(monster.sprites[key].file)}" alt="${escape(monster.name)} ${key.replace('-',' ')}" width="512" height="512"><figcaption>${key.startsWith('front')?'Front':'Rear'} · ${key.split('-')[1]}</figcaption></figure>`).join('')}</div><p>Attack pose: ${escape(monster.attack)}.</p>`;
+ $('detail-content').innerHTML=`<span class="family">${monster.tier==='boss'?'Epic boss · ':''}${escape(monster.family)} · ${String(monster.number).padStart(3,'0')}</span><h2 id="detail-title">${escape(monster.name)}</h2>${monster.role?`<p class="concept">${escape(monster.habitat)} · Design role: ${escape(monster.role)}</p>`:''}<p>${escape(monster.design)}.</p><div class="poses">${keys.map(key=>`<figure><img src="${escape(monster.sprites[key].file)}" alt="${escape(monster.name)} ${key.replace('-',' ')}" width="512" height="512"><figcaption>${key.startsWith('front')?'Front':'Rear'} · ${key.split('-')[1]}</figcaption></figure>`).join('')}</div><p>Attack pose: ${escape(monster.attack)}.</p>`;
  $('detail').showModal();
 }
 function render(){
  const query=$('search').value.trim().toLowerCase(),family=$('family').value,collection=$('collection').value,key=`${$('view').value}-${$('pose').value}`;
- const shown=monsters.filter(m=>(!collection||(collection==='new'?m.number>150:m.number<=150))&&(!family||m.family===family)&&(!query||`${m.name} ${m.family} ${m.design} ${m.role||''} ${m.habitat||''}`.toLowerCase().includes(query)));
+ const shown=monsters.filter(m=>matchesCollection(m,collection)&&(!family||m.family===family)&&(!query||`${m.name} ${m.family} ${m.design} ${m.role||''} ${m.habitat||''}`.toLowerCase().includes(query)));
  $('count').textContent=`${shown.length} of ${monsters.length} creatures · select a monster to see all six poses`;
  $('empty').hidden=shown.length>0;
- $('creatures').innerHTML=shown.map(m=>`<button class="creature" data-id="${escape(m.id)}" aria-label="View all poses of ${escape(m.name)}"><span class="art"><img src="${escape(m.sprites[key].file)}" alt="${escape(m.name)}" width="512" height="512" loading="lazy" decoding="async"></span><span class="creature-info"><span class="number">${String(m.number).padStart(3,'0')}</span><span class="family">${escape(m.family)}</span><span class="name">${escape(m.name)}</span></span></button>`).join('');
+ $('creatures').classList.toggle('boss-collection',collection==='bosses');
+ $('creatures').innerHTML=shown.map(m=>`<button class="creature${m.tier==='boss'?' boss':''}" data-id="${escape(m.id)}" aria-label="View all poses of ${escape(m.name)}"><span class="art">${m.tier==='boss'?'<span class="boss-tag">Epic boss</span>':''}<img src="${escape(m.sprites[key].file)}" alt="${escape(m.name)}" width="512" height="512" loading="lazy" decoding="async"></span><span class="creature-info"><span class="number">${String(m.number).padStart(3,'0')}</span><span class="family">${escape(m.family)}</span><span class="name">${escape(m.name)}</span></span></button>`).join('');
 }
 $('creatures').addEventListener('click',e=>{const card=e.target.closest('[data-id]');if(card)show(card.dataset.id);});
 for(const id of ['search','collection','family','view','pose'])$(id).addEventListener(id==='search'?'input':'change',render);
@@ -26,6 +33,6 @@ try{
  $('pose-total').textContent=`${(monsters.length*6).toLocaleString('en-US')} transparent poses`;
  for(const family of [...new Set(monsters.map(m=>m.family))])$('family').add(new Option(family,family));
  const collection=new URLSearchParams(location.search).get('collection');
- if(collection==='new'||collection==='original')$('collection').value=collection;
+ if(['new','original','bosses'].includes(collection))$('collection').value=collection;
  render();
 }catch(e){$('count').textContent='The bestiary could not be loaded. Please refresh to try again.';console.error(e);}

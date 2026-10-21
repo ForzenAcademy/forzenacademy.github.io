@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "count": 200,
+  "count": 230,
   "poses": [
     "idle",
     "hurt",
@@ -8356,6 +8356,1356 @@
         },
         "back-attack": {
           "file": "foe-spore-parasite-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-ashcrown-worldbreaker": {
+      "number": 201,
+      "name": "Ashcrown Worldbreaker",
+      "family": "Ancient Sovereigns",
+      "design": "an imposing ancient copper-black dragon with exactly four massive clawed legs and two folded bat wings, a broad armored chest, an ivory crown of jagged backward horns, molten amber throat scales, bronze volcanic shoulder plates and a thick spiked tail; regal threatening expression and richly layered scales",
+      "attack": "a planted claw slam while exhaling a short tightly contained molten breath",
+      "role": "Volcanic dragon sovereign",
+      "habitat": "Caldera throne",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-ashcrown-worldbreaker-sheet.png",
+      "sourceSha256": "33ed3a98e89151ac999510839c682db4035b904d309f729caa3ba7361bd5e330",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-ashcrown-worldbreaker-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-ashcrown-worldbreaker-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-ashcrown-worldbreaker-front-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-ashcrown-worldbreaker-back.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-ashcrown-worldbreaker-back-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-ashcrown-worldbreaker-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-glacial-crown-leviathan": {
+      "number": 202,
+      "name": "Glacial Crown Leviathan",
+      "family": "Ancient Sovereigns",
+      "design": "an immense coiled midnight-blue sea serpent with a broad ivory ice crown, six short icy side fins, a cream armored underside, two gold eyes beneath heavy brows, a flowing pale-blue neck frill and a thick forked tail, no legs; monumental curved body and ancient ice armor",
+      "attack": "arching its thick neck and snapping its great jaw around a small ice vortex",
+      "role": "Armored ocean leviathan",
+      "habitat": "Frozen abyss",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-glacial-crown-leviathan-sheet.png",
+      "sourceSha256": "8066b302e2a42864c5c9376f08b2fe3c9c5baec052cdedd093566e1eedeb89c4",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-glacial-crown-leviathan-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-glacial-crown-leviathan-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-glacial-crown-leviathan-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-glacial-crown-leviathan-back.webp",
+          "baseline": 0.923828,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-glacial-crown-leviathan-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-glacial-crown-leviathan-back-attack.webp",
+          "baseline": 0.923828,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-briarheart-titan": {
+      "number": 203,
+      "name": "Briarheart Titan",
+      "family": "Ancient Sovereigns",
+      "design": "a towering broad treant monarch with massive root legs, two enormous gnarled arms, a hollow gold-lit heart in its trunk, ancient bark armor, a huge interlocking stag-antler canopy of branches, moss beard and deep expressive amber eyes; its canopy remains attached to its body",
+      "attack": "slamming one enormous root fist as its glowing heart flares with a small leaf spiral",
+      "role": "Ancient woodland titan",
+      "habitat": "Heartwood sanctuary",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-briarheart-titan-sheet.png",
+      "sourceSha256": "c57c268eb9e513152296985faf6e87aad1d61826e1f4a82a5db2691dbd1fe3e2",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-briarheart-titan-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-briarheart-titan-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-briarheart-titan-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-briarheart-titan-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-briarheart-titan-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-briarheart-titan-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-starfall-behemoth": {
+      "number": 204,
+      "name": "Starfall Behemoth",
+      "family": "Ancient Sovereigns",
+      "design": "a colossal low six-legged rhinoceros beast with midnight-indigo stone hide, a single huge swept ivory brow horn, layered meteor-crystal shoulder plates, cream jaw armor and a short thick tail; gold constellation-like cracks glow subtly between its dark armored plates",
+      "attack": "bracing all six legs for a short horn-led meteor shoulder ram",
+      "role": "Meteor-armored behemoth",
+      "habitat": "Starfall crater",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-starfall-behemoth-sheet.png",
+      "sourceSha256": "56381338aad6407c385969a7356720f1f1c6e349caef6ab25927ac86eab12da2",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-starfall-behemoth-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-starfall-behemoth-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-starfall-behemoth-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-starfall-behemoth-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-starfall-behemoth-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-starfall-behemoth-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-sunken-cathedral-turtle": {
+      "number": 205,
+      "name": "Sunken Cathedral Turtle",
+      "family": "Ancient Sovereigns",
+      "design": "a vast ancient sea turtle with four thick flipper legs, a wise fierce gold-eyed face, an ivory beak and a broad slate shell fused with a compact ruined coral cathedral, one squat central bell tower and small coral buttresses; the entire ruined cathedral is physically attached to the shell",
+      "attack": "a heavy foreflipper slam with a restrained turquoise wave curling around its shell",
+      "role": "Walking cathedral guardian",
+      "habitat": "Drowned cathedral",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-sunken-cathedral-turtle-sheet.png",
+      "sourceSha256": "81842d3b980d58896d8a8c3f33cccc8ec1919184f03cd58d4443d5d2866c48ea",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-sunken-cathedral-turtle-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-sunken-cathedral-turtle-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-sunken-cathedral-turtle-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-sunken-cathedral-turtle-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-sunken-cathedral-turtle-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-sunken-cathedral-turtle-back-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-mawking-the-devourer": {
+      "number": 206,
+      "name": "Mawking the Devourer",
+      "family": "Throne Tyrants",
+      "design": "a monstrous broad ogre king with slate-green skin, a gigantic square lower jaw and four blunt ivory tusks, tiny fierce amber eyes, a broken bronze crown, a wine-red fur mantle, layered scrap-iron belly armor and a short enormous cleaver; intimidating rounded heavy proportions",
+      "attack": "a two-handed cleaver slam with its giant jaw roaring wide",
+      "role": "Devouring ogre tyrant",
+      "habitat": "Feasting fortress",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-mawking-the-devourer-sheet.png",
+      "sourceSha256": "76ad3a539e1ba6c23fabeab45ce2117406bfea08a68faf693a203c1dfdb3b42e",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-mawking-the-devourer-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-mawking-the-devourer-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-mawking-the-devourer-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-mawking-the-devourer-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-mawking-the-devourer-back-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-mawking-the-devourer-back-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-obsidian-horn-emperor": {
+      "number": 207,
+      "name": "Obsidian Horn Emperor",
+      "family": "Throne Tyrants",
+      "design": "a massive black-furred minotaur emperor with enormous sweeping ivory bull horns, an ornate dark bronze mask framing expressive gold eyes, tiered obsidian shoulder armor, cream mane, dusty crimson waistcloth and a huge short double-headed axe",
+      "attack": "planting its hooves and cleaving a tight brutal axe arc",
+      "role": "Armored minotaur emperor",
+      "habitat": "Obsidian labyrinth",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-obsidian-horn-emperor-sheet.png",
+      "sourceSha256": "fadecad01678a5687d13df7b25de9fce50ba52a4418b25405b9cdb412fcd3464",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-obsidian-horn-emperor-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-obsidian-horn-emperor-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-obsidian-horn-emperor-front-attack.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-obsidian-horn-emperor-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-obsidian-horn-emperor-back-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-obsidian-horn-emperor-back-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-vermilion-brood-matriarch": {
+      "number": 208,
+      "name": "Vermilion Brood Matriarch",
+      "family": "Throne Tyrants",
+      "design": "a huge fully arachnid spider queen with eight thick dark-red plated legs, a broad crimson-and-ivory armored abdomen, a regal thorn-shaped ivory carapace crown, two large expressive gold main eyes and six tiny side eyes; clustered pale egg-like natural shell nodules sit on its back, no humanoid torso",
+      "attack": "rearing its two front legs and casting a small dense silk knot close to its jaws",
+      "role": "Spider brood matriarch",
+      "habitat": "Silken throne",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-vermilion-brood-matriarch-sheet.png",
+      "sourceSha256": "70b55805a0674e52acac4e3e9567f98f29c0f34d7ce2fb77d5a0590124c19fbb",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-vermilion-brood-matriarch-front.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-vermilion-brood-matriarch-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-vermilion-brood-matriarch-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-vermilion-brood-matriarch-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-vermilion-brood-matriarch-back-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-vermilion-brood-matriarch-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-carrion-roc-regent": {
+      "number": 209,
+      "name": "Carrion Roc Regent",
+      "family": "Throne Tyrants",
+      "design": "a colossal hunched ivory-headed vulture roc with a heavy hooked bronze beak, fierce amber eyes, a deep wine feather ruff like a royal mantle, huge folded charcoal wings, bone-colored armored talons and a fan of short layered tail feathers; an ancient bone diadem is fixed to its brow",
+      "attack": "a low talon-first wing slam with a small dusty feather gust",
+      "role": "Carrion sky sovereign",
+      "habitat": "Carrion pinnacles",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-carrion-roc-regent-sheet.png",
+      "sourceSha256": "68628d6719213b52ed862fd1f8207c91971f25520e4afc01e44ce114f6a8955d",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-carrion-roc-regent-front.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-carrion-roc-regent-front-hurt.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-carrion-roc-regent-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-carrion-roc-regent-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-carrion-roc-regent-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-carrion-roc-regent-back-attack.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-rat-king-of-rust": {
+      "number": 210,
+      "name": "Rat King of Rust",
+      "family": "Throne Tyrants",
+      "design": "a giant single-bodied rat tyrant with dark russet fur, six short bare tails knotted together behind its back, a scarred bronze crown, fierce gold eyes, enormous ivory incisors, a thick rusted gear collar, scrap-metal shoulder armor and broad clawed paws; no other rats or attendants",
+      "attack": "lunging low with both broad claws while its knotted tails brace behind",
+      "role": "Vermin scrap tyrant",
+      "habitat": "Rustwater sewers",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-rat-king-of-rust-sheet.png",
+      "sourceSha256": "ca63cb22df28ba85d8546a88a3f6743aa3ca58d09266ada89ad79a6f03ff5dd2",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-rat-king-of-rust-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-rat-king-of-rust-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-rat-king-of-rust-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-rat-king-of-rust-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-rat-king-of-rust-back-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-rat-king-of-rust-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-sepulcher-lich": {
+      "number": 211,
+      "name": "Sepulcher Lich",
+      "family": "Deathbound Monarchs",
+      "design": "an imposing floating ivory skeleton monarch with a tall jagged gold-and-bone crown, expressive gold eye sockets, a broad collar of riblike ivory arches attached to its shoulders, layered charcoal and dusty-violet royal robes and a heavy short staff containing a glowing violet reliquary; no companions",
+      "attack": "raising its short reliquary staff as one compact spectral claw curls around it",
+      "role": "Undead spell sovereign",
+      "habitat": "Royal necropolis",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-sepulcher-lich-sheet.png",
+      "sourceSha256": "8ac7e672e29f9de2a32d577cd05c0ee6541ab3e0343d5ca37b3a5a277f75dd41",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-sepulcher-lich-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-sepulcher-lich-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-sepulcher-lich-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-sepulcher-lich-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-sepulcher-lich-back-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-sepulcher-lich-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-ossuary-dreadnought": {
+      "number": 212,
+      "name": "Ossuary Dreadnought",
+      "family": "Deathbound Monarchs",
+      "design": "a colossal squat four-armed skeleton giant made from interlocking oversized ivory bones, a huge skull with gold eye sockets, a broad ribcage fortress torso, two heavy bone-plated legs and four thick articulated arms, each ending in a massive bony fist; exactly four arms in every view, no weapons",
+      "attack": "bringing its upper pair of bone fists downward while its lower pair brace its ribs",
+      "role": "Four-armed bone juggernaut",
+      "habitat": "Ossuary depths",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-ossuary-dreadnought-sheet-v2.png",
+      "sourceSha256": "f6724910cee8881dc7b9783a3d4894a87268917f5ae8e12e17d190a23fd95682",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-ossuary-dreadnought-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-ossuary-dreadnought-front-hurt.webp",
+          "baseline": 0.923828,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-ossuary-dreadnought-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-ossuary-dreadnought-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-ossuary-dreadnought-back-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-ossuary-dreadnought-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-bellgrave-colossus": {
+      "number": 213,
+      "name": "Bellgrave Colossus",
+      "family": "Deathbound Monarchs",
+      "design": "an enormous living tarnished-bronze funeral bell with a fierce expressive gold-eyed carved face, two massive chained stone arms, squat tombstone legs and a cracked ivory arch crowning the bell; spectral lavender light glows only inside its bell opening, chains stay coiled close to its body",
+      "attack": "swinging one stone fist as a compact spectral bell pulse emerges from its rim",
+      "role": "Funeral bell colossus",
+      "habitat": "Silent belfry",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-bellgrave-colossus-sheet.png",
+      "sourceSha256": "959a55e58a5cf10918d5aeca2cf1284d55d5d19950a497e5edef38d7be32f1f4",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-bellgrave-colossus-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-bellgrave-colossus-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-bellgrave-colossus-front-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-bellgrave-colossus-back.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-bellgrave-colossus-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-bellgrave-colossus-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-widow-of-blackglass": {
+      "number": 214,
+      "name": "Widow of Blackglass",
+      "family": "Deathbound Monarchs",
+      "design": "a regal eerie spectral widow with a pale porcelain mask face and expressive amber eyes, a tall blackglass fan-shaped crown, a broad dark violet veil, two long gloved arms and a layered floating obsidian wedding-gown silhouette edged with angular spiderweb glass; fully clothed and no exposed body",
+      "attack": "drawing one long gloved hand forward through a restrained fan of violet glass shards",
+      "role": "Blackglass curse queen",
+      "habitat": "Shattered chapel",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-widow-of-blackglass-sheet.png",
+      "sourceSha256": "d527f3e736db0687d3f19938ba7253d2abe6243dbc5446a9abe23551e6104918",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-widow-of-blackglass-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-widow-of-blackglass-front-hurt.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-widow-of-blackglass-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-widow-of-blackglass-back.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-widow-of-blackglass-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-widow-of-blackglass-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-coffin-engine": {
+      "number": 215,
+      "name": "Coffin Engine",
+      "family": "Deathbound Monarchs",
+      "design": "a massive upright engraved ivory-and-charcoal sarcophagus monster with a stern gold-eyed funerary mask, two enormous skeletal claw arms, two thick stone feet, a bronze crown-like lid arch and tight iron chains wrapped across its ribbed chest; its hinged lid forms one toothy mouth, no separate corpses",
+      "attack": "opening its sarcophagus jaws slightly while slamming one giant skeletal claw",
+      "role": "Sarcophagus siege horror",
+      "habitat": "Sealed royal tomb",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-coffin-engine-sheet.png",
+      "sourceSha256": "b3b5b9578d730439aa79bdd0ae271520031131d247e72a7cc0b31c52f982c9d4",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-coffin-engine-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-coffin-engine-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-coffin-engine-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-coffin-engine-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-coffin-engine-back-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-coffin-engine-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-astral-maw": {
+      "number": 216,
+      "name": "Astral Maw",
+      "family": "Rift Overlords",
+      "design": "a monumental floating circular mouth creature with two concentric rings of ivory teeth, one central violet star-like core instead of a face, six thick curling indigo tentacles arranged tightly around its rim, and jagged gold-edged shell plates forming an eclipse crown; no human anatomy",
+      "attack": "contracting its circular tooth rings around a compact violet gravitational pulse",
+      "role": "Devouring rift horror",
+      "habitat": "Astral breach",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-astral-maw-sheet.png",
+      "sourceSha256": "4633b7e3008fa464bf1a1e59d9823b784a39f06fb31af59f462921f50922e4c3",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-astral-maw-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-astral-maw-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-astral-maw-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-astral-maw-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-astral-maw-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-astral-maw-back-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-prism-eye-hierophant": {
+      "number": 217,
+      "name": "Prism Eye Hierophant",
+      "family": "Rift Overlords",
+      "design": "a huge hovering single golden eye in an ornate violet crystalline shell, with a tall radial crown of five attached crystal spires, two heavy segmented crystal claw arms and a tapered lower shell; all crown pieces remain physically attached, no floating minion eyes",
+      "attack": "focusing a short golden eye ray while folding its two crystal claws inward",
+      "role": "Crystalline gaze overlord",
+      "habitat": "Prismatic sanctum",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-prism-eye-hierophant-sheet.png",
+      "sourceSha256": "7d2bab788747d68adca32b28a56483d1f1d27734444537511b173be4fe8ed542",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-prism-eye-hierophant-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-prism-eye-hierophant-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-prism-eye-hierophant-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-prism-eye-hierophant-back.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-prism-eye-hierophant-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-prism-eye-hierophant-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-infernal-crown-archon": {
+      "number": 218,
+      "name": "Infernal Crown Archon",
+      "family": "Rift Overlords",
+      "design": "an imposing broad crimson-black demon archon with a regal cream horn crown, two enormous folded dark-red wings, ornate black-and-bronze shoulder plates, fierce expressive gold eyes, thick clawed feet and a short blazing sword held close; ancient monstrous face and a heavy spade tail",
+      "attack": "a planted short blazing-sword cleave with its wings tightly folded",
+      "role": "Winged infernal monarch",
+      "habitat": "Cinder court",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-infernal-crown-archon-sheet.png",
+      "sourceSha256": "11d63b38c162bc000c7bd12f56e38195125675e7c683058f6e33cb7c0830c40a",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-infernal-crown-archon-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-infernal-crown-archon-front-hurt.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-infernal-crown-archon-front-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-infernal-crown-archon-back.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-infernal-crown-archon-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-infernal-crown-archon-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-chainbound-hellforge": {
+      "number": 219,
+      "name": "Chainbound Hellforge",
+      "family": "Rift Overlords",
+      "design": "an immense low six-legged iron furnace demon with a huge glowing amber forge-mouth, dark bronze overlapping armor, two enormous foreclaws, short smokestack-like horns on its back and heavy iron chains wound tightly around its barrel torso; all six legs visible across the views",
+      "attack": "bracing its six legs and thrusting both foreclaws around a short contained forge blast",
+      "role": "Infernal siege engine",
+      "habitat": "Chain foundry",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-chainbound-hellforge-sheet.png",
+      "sourceSha256": "67ba85874b2d4baeae5adc8c917f0cde36551c3af34cf7086a4952bde8567d55",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-chainbound-hellforge-front.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-chainbound-hellforge-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-chainbound-hellforge-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-chainbound-hellforge-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-chainbound-hellforge-back-hurt.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-chainbound-hellforge-back-attack.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-moon-eater": {
+      "number": 220,
+      "name": "Moon-Eater",
+      "family": "Rift Overlords",
+      "design": "a colossal crouching midnight-blue fox-moth chimera with a broad cream fox mask face, fierce amber eyes, four strong clawed legs, two folded velvet moth wings with ivory crescent markings, enormous swept ear tufts and one thick curled tail with star-speckled fur; moon-shaped bone horns frame its brow",
+      "attack": "a low double-claw pounce with a tight pale crescent of lunar mist",
+      "role": "Lunar dream predator",
+      "habitat": "Eclipse hollow",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-moon-eater-sheet.png",
+      "sourceSha256": "310945b4b046707c51eac92588941f5c99dff01a7f8516cc7d559ee79efb7d8f",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-moon-eater-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-moon-eater-front-hurt.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-moon-eater-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-moon-eater-back.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-moon-eater-back-hurt.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-moon-eater-back-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-tempest-antlerwyrm": {
+      "number": 221,
+      "name": "Tempest Antlerwyrm",
+      "family": "Primal Cataclysms",
+      "design": "an ancient long-necked storm dragon with four massive teal clawed legs, no wings, huge branching ivory antlers, a flowing cream mane, bronze storm-plate shoulders and a thick curled serpent tail; expressive gold eyes and a small storm pearl fixed into its chest armor",
+      "attack": "a braced antler-led lunge with a short blue lightning curl around its chest pearl",
+      "role": "Storm-antler dragon",
+      "habitat": "Thunder summit",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-tempest-antlerwyrm-sheet.png",
+      "sourceSha256": "afb80b9936f6db79f16eb2ca54a8b5b02e8d0709ceab0210349b89e096119e80",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-tempest-antlerwyrm-front.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-tempest-antlerwyrm-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-tempest-antlerwyrm-front-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-tempest-antlerwyrm-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-tempest-antlerwyrm-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-tempest-antlerwyrm-back-attack.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-magma-carapace": {
+      "number": 222,
+      "name": "Magma Carapace",
+      "family": "Primal Cataclysms",
+      "design": "a colossal volcanic crab with six short dark stone walking legs, two enormous uneven magma-plated pincers, expressive gold eyes on short protected stalks and a broad layered black basalt shell crowned by a small contained glowing caldera; cream mineral edges and molten orange seams",
+      "attack": "slamming its larger pincer while its small shell caldera gives one restrained ember puff",
+      "role": "Volcanic armored crusher",
+      "habitat": "Magma shoreline",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-magma-carapace-sheet.png",
+      "sourceSha256": "555057136bef3eb4eec525c4f617c4f856a5d0f8e71e536957277d69440e54df",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-magma-carapace-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-magma-carapace-front-hurt.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-magma-carapace-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-magma-carapace-back.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-magma-carapace-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-magma-carapace-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-winterthorn-queen": {
+      "number": 223,
+      "name": "Winterthorn Queen",
+      "family": "Primal Cataclysms",
+      "design": "a towering monstrous ice-and-root queen with a fierce pale-blue wooden mask face, gold eyes, a huge crown of branching ivory frost antlers, broad ice-crystal shoulder petals, two long branch claw arms and a flared lower body of six thick twisted frozen roots; no human legs or exposed skin",
+      "attack": "sweeping one branch claw across a small tightly contained fan of ice thorns",
+      "role": "Frozen root sovereign",
+      "habitat": "Winterthorn grove",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-winterthorn-queen-sheet.png",
+      "sourceSha256": "c08e0b0e14448605b35187e6314a67934ae46e6c55a2f3ee06f7502b3ef0926e",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-winterthorn-queen-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-winterthorn-queen-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-winterthorn-queen-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-winterthorn-queen-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-winterthorn-queen-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-winterthorn-queen-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-dunespire-sandwyrm": {
+      "number": 224,
+      "name": "Dunespire Sandwyrm",
+      "family": "Primal Cataclysms",
+      "design": "a gigantic thick coiled desert worm with one immense circular ivory-toothed mouth, tiered sandstone plates along its broad back like a ruined fortress, a short blunt spade tail and glowing amber seams beneath its ochre armor; no arms or legs and no extra heads",
+      "attack": "rearing its huge ring mouth and snapping forward through a short compact sand spiral",
+      "role": "Fortress-armored burrower",
+      "habitat": "Buried dunespire",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-dunespire-sandwyrm-sheet.png",
+      "sourceSha256": "43955879d8655c5dc0f461d49b4f6cde7236ec0d37be67867bd46daaee8c7233",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-dunespire-sandwyrm-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-dunespire-sandwyrm-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-dunespire-sandwyrm-front-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-dunespire-sandwyrm-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-dunespire-sandwyrm-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-dunespire-sandwyrm-back-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-abyssal-kraken-sovereign": {
+      "number": 225,
+      "name": "Abyssal Kraken Sovereign",
+      "family": "Primal Cataclysms",
+      "design": "an immense dark teal kraken with one broad stern gold-eyed head, an attached crown of ivory coral antlers, eight enormous thick curling tentacles with cream suckers, bronze shell armor across its mantle and a compact regal silhouette; exactly one creature and no ship or scenery",
+      "attack": "raising two great tentacles into a tight crushing lash with a small turquoise surge",
+      "role": "Abyssal tentacle sovereign",
+      "habitat": "Drowned trench",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-abyssal-kraken-sovereign-sheet.png",
+      "sourceSha256": "da7fb8af3b083682ad59c2be35a6d962f575ad3341a1753175e3b15c009eafd6",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-abyssal-kraken-sovereign-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-abyssal-kraken-sovereign-front-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-abyssal-kraken-sovereign-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-abyssal-kraken-sovereign-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-abyssal-kraken-sovereign-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-abyssal-kraken-sovereign-back-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-gilded-reliquary": {
+      "number": 226,
+      "name": "Gilded Reliquary",
+      "family": "Relic Nightmares",
+      "design": "a huge ornate cathedral-shaped treasure reliquary mimic with a hinged toothy brass-and-ivory lid, two fierce amber eyes, a broad dark oak chest body, four squat lion-claw wooden feet, attached miniature buttresses and a thick crimson ribbon tongue; all ornaments fixed to its body",
+      "attack": "snapping its great gilded lid while curling its short crimson tongue inward",
+      "role": "Royal treasure ambusher",
+      "habitat": "Gilded vault",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-gilded-reliquary-sheet.png",
+      "sourceSha256": "c49bab9719f4e139d0967bbf28a8b745ac7a6669fe683d3ac7907e9bb80a9698",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-gilded-reliquary-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-gilded-reliquary-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-gilded-reliquary-front-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-gilded-reliquary-back.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-gilded-reliquary-back-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-gilded-reliquary-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-ironroot-siege-engine": {
+      "number": 227,
+      "name": "Ironroot Siege Engine",
+      "family": "Relic Nightmares",
+      "design": "a monumental walking siege creature made of gnarled roots and dark iron plates, with four thick root legs, a fierce gold-eyed trunk face, a compact heavy ballista physically mounted across its shoulders, broad bronze chest braces and a crown of broken fortress stakes; no crew or extra characters",
+      "attack": "bracing its four root legs and releasing one short contained bolt flash from its shoulder ballista",
+      "role": "Living woodland artillery",
+      "habitat": "Ironroot battlements",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-ironroot-siege-engine-sheet.png",
+      "sourceSha256": "bbd8f44e2f66c0a7e18fd7d56bc8994f5bdc51731c083b1ce77c5bea6fa8ee38",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-ironroot-siege-engine-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-ironroot-siege-engine-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-ironroot-siege-engine-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-ironroot-siege-engine-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-ironroot-siege-engine-back-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-ironroot-siege-engine-back-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-dreamweaver-moth-oracle": {
+      "number": 228,
+      "name": "Dreamweaver Moth Oracle",
+      "family": "Relic Nightmares",
+      "design": "an enormous regal lavender moth with a cream expressive gold-eyed face, a broad furry chest, four short curled legs, two huge layered dusty-violet wings patterned with ivory eye spots, tall fanlike golden antennae and a crescent-shaped attached brow crest; wings partly folded inside its silhouette",
+      "attack": "flaring its close-folded wings and releasing one tight spiral of violet dream dust",
+      "role": "Dream-wing oracle",
+      "habitat": "Slumbering shrine",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-dreamweaver-moth-oracle-sheet-v2.png",
+      "sourceSha256": "82b75a1a2993b3a09cf4675c8271d79b202be81a7a536ea96f4d09a2cbffbd7a",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-dreamweaver-moth-oracle-front.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-dreamweaver-moth-oracle-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-dreamweaver-moth-oracle-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-dreamweaver-moth-oracle-back.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-dreamweaver-moth-oracle-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-dreamweaver-moth-oracle-back-attack.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-porcelain-masquerade": {
+      "number": 229,
+      "name": "Porcelain Masquerade",
+      "family": "Relic Nightmares",
+      "design": "a towering ornate four-armed ivory porcelain puppet monarch with an expressive cracked gold-eyed mask face, a broad fan-shaped crown of attached ivory theater masks, exactly four jointed arms, a dark mauve embroidered court mantle, short sturdy jointed legs and a gold mechanical heart visible in its chest; no strings leaving its body",
+      "attack": "crossing its lower two arms protectively while its upper two arms make a sharp fan-shaped claw sweep",
+      "role": "Four-armed puppet sovereign",
+      "habitat": "Abandoned royal theater",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-porcelain-masquerade-sheet.png",
+      "sourceSha256": "fe2a088884feafe22182dd8c2fea8c9ea9810ed79c8301b1f968db3e4b2e13cd",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-porcelain-masquerade-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-porcelain-masquerade-front-hurt.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-porcelain-masquerade-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-porcelain-masquerade-back.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-porcelain-masquerade-back-hurt.webp",
+          "baseline": 0.931641,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-porcelain-masquerade-back-attack.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        }
+      }
+    },
+    "boss-thousand-petal-devourer": {
+      "number": 230,
+      "name": "Thousand-Petal Devourer",
+      "family": "Relic Nightmares",
+      "design": "a monumental monstrous flower rooted on six thick olive tendrils, with a giant central circular cream-toothed maw, layers of broad wine-red petals forming a regal mane, two heavy thorn-vine claw arms and gold eye-like markings beneath its upper petals; one coherent plant creature and no separate blooms",
+      "attack": "closing its huge petal maw while sweeping one thick thorn-vine arm close to its roots",
+      "role": "Carnivorous blossom titan",
+      "habitat": "Forbidden glasshouse",
+      "collection": "Epic bosses",
+      "tier": "boss",
+      "source": "art/fantasy-monsters/source/boss-thousand-petal-devourer-sheet.png",
+      "sourceSha256": "72f0c50dc3a446770f1fbc6f2601a2458658b78003f401ae177c0563fd7e7751",
+      "sprites": {
+        "front-idle": {
+          "file": "boss-thousand-petal-devourer-front.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-hurt": {
+          "file": "boss-thousand-petal-devourer-front-hurt.webp",
+          "baseline": 0.927734,
+          "sourceBorderPixels": 0
+        },
+        "front-attack": {
+          "file": "boss-thousand-petal-devourer-front-attack.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-idle": {
+          "file": "boss-thousand-petal-devourer-back.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-hurt": {
+          "file": "boss-thousand-petal-devourer-back-hurt.webp",
+          "baseline": 0.925781,
+          "sourceBorderPixels": 0
+        },
+        "back-attack": {
+          "file": "boss-thousand-petal-devourer-back-attack.webp",
           "baseline": 0.927734,
           "sourceBorderPixels": 0
         }

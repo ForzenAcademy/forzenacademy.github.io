@@ -17,30 +17,6 @@
       "newClass": "class-dawn-templar",
       "identity": "brown-skinned woman with short fluffy chestnut curls and hazel eyes",
       "palette": "dusty sage, cream, rose scarf and warm iron",
-      "paths": [
-        {
-          "name": "Banner command",
-          "specialist": "class-banneret",
-          "final": "class-dawnmarshal",
-          "types": [
-            "Steel",
-            "Wind"
-          ],
-          "role": "Tactician",
-          "purpose": "Leads formations and rallies allies with banner-driven attacks."
-        },
-        {
-          "name": "Sacred bulwark",
-          "specialist": "class-paladin",
-          "final": "class-dawn-templar",
-          "types": [
-            "Steel",
-            "Spirit"
-          ],
-          "role": "Sustainer",
-          "purpose": "Turns the holy sword-and-shield tradition toward wards and recovery."
-        }
-      ],
       "edges": [
         {
           "from": "class-squire",
@@ -84,14 +60,25 @@
         "class-paladin",
         "class-dawn-templar"
       ],
-      "types": [
-        "Steel",
-        "Wind",
-        "Spirit"
-      ],
       "roles": [
         "Tactician",
         "Sustainer"
+      ],
+      "paths": [
+        {
+          "name": "Banner command",
+          "specialist": "class-banneret",
+          "final": "class-dawnmarshal",
+          "role": "Tactician",
+          "purpose": "Leads formations and rallies allies with banner-driven attacks."
+        },
+        {
+          "name": "Sacred bulwark",
+          "specialist": "class-paladin",
+          "final": "class-dawn-templar",
+          "role": "Sustainer",
+          "purpose": "Turns the holy sword-and-shield tradition toward wards and recovery."
+        }
       ]
     },
     {
@@ -104,30 +91,6 @@
       "newClass": "class-iron-partisan",
       "identity": "stocky dark-skinned man with a shaved head, warm brown eyes and a tiny neat beard",
       "palette": "slate blue, ochre, pewter and ivory",
-      "paths": [
-        {
-          "name": "Polearm pursuit",
-          "specialist": "class-halberdier",
-          "final": "class-iron-partisan",
-          "types": [
-            "Steel",
-            "Wind"
-          ],
-          "role": "Bruiser",
-          "purpose": "Extends the halberd into a mobile, long-reach offensive style."
-        },
-        {
-          "name": "Fortress defense",
-          "specialist": "class-sentinel",
-          "final": "class-citadel-general",
-          "types": [
-            "Steel",
-            "Rock"
-          ],
-          "role": "Bulwark",
-          "purpose": "Builds on the tower shield and hammer as the immovable defensive option."
-        }
-      ],
       "edges": [
         {
           "from": "class-recruit",
@@ -171,14 +134,25 @@
         "class-sentinel",
         "class-citadel-general"
       ],
-      "types": [
-        "Steel",
-        "Wind",
-        "Rock"
-      ],
       "roles": [
         "Bruiser",
         "Bulwark"
+      ],
+      "paths": [
+        {
+          "name": "Polearm pursuit",
+          "specialist": "class-halberdier",
+          "final": "class-iron-partisan",
+          "role": "Bruiser",
+          "purpose": "Extends the halberd into a mobile, long-reach offensive style."
+        },
+        {
+          "name": "Fortress defense",
+          "specialist": "class-sentinel",
+          "final": "class-citadel-general",
+          "role": "Bulwark",
+          "purpose": "Builds on the tower shield and hammer as the immovable defensive option."
+        }
       ]
     },
     {
@@ -191,30 +165,6 @@
       "newClass": "class-wyvern-regent",
       "identity": "copper-skinned elf woman with white braided hair and sea-green eyes",
       "palette": "seafoam, dusty indigo, silver and pale coral",
-      "paths": [
-        {
-          "name": "Comet spear",
-          "specialist": "class-sky-lancer",
-          "final": "class-starfall-dragoon",
-          "types": [
-            "Wind",
-            "Steel"
-          ],
-          "role": "Speedster",
-          "purpose": "Keeps the lancer on foot for aerial leaps and precise meteor-like strikes."
-        },
-        {
-          "name": "Wyvern command",
-          "specialist": "class-wyvern-cavalier",
-          "final": "class-wyvern-regent",
-          "types": [
-            "Wind",
-            "Fire"
-          ],
-          "role": "All-rounder",
-          "purpose": "Develops the established wyvern mount into a coordinated rider-and-dragon style."
-        }
-      ],
       "edges": [
         {
           "from": "class-lancer",
@@ -258,14 +208,25 @@
         "class-wyvern-cavalier",
         "class-wyvern-regent"
       ],
-      "types": [
-        "Wind",
-        "Steel",
-        "Fire"
-      ],
       "roles": [
         "Speedster",
         "All-rounder"
+      ],
+      "paths": [
+        {
+          "name": "Comet spear",
+          "specialist": "class-sky-lancer",
+          "final": "class-starfall-dragoon",
+          "role": "Speedster",
+          "purpose": "Keeps the lancer on foot for aerial leaps and precise meteor-like strikes."
+        },
+        {
+          "name": "Wyvern command",
+          "specialist": "class-wyvern-cavalier",
+          "final": "class-wyvern-regent",
+          "role": "All-rounder",
+          "purpose": "Develops the established wyvern mount into a coordinated rider-and-dragon style."
+        }
       ]
     },
     {
@@ -278,30 +239,6 @@
       "newClass": "class-lance-commander",
       "identity": "freckled fair-skinned man with wavy ginger hair and blue eyes",
       "palette": "buttercream, soft rust, sky blue and brushed bronze",
-      "paths": [
-        {
-          "name": "Ground cavalry",
-          "specialist": "class-chevalier",
-          "final": "class-lance-commander",
-          "types": [
-            "Steel",
-            "Rock"
-          ],
-          "role": "Bulwark",
-          "purpose": "Keeps the existing cream horse and specializes in a disciplined armored charge."
-        },
-        {
-          "name": "Gryphon cavalry",
-          "specialist": "class-gryphon-rider",
-          "final": "class-gryphon-marshal",
-          "types": [
-            "Wind",
-            "Steel"
-          ],
-          "role": "All-rounder",
-          "purpose": "Develops the gryphon rider into the airborne command path."
-        }
-      ],
       "edges": [
         {
           "from": "class-cavalier",
@@ -345,14 +282,25 @@
         "class-gryphon-rider",
         "class-gryphon-marshal"
       ],
-      "types": [
-        "Steel",
-        "Rock",
-        "Wind"
-      ],
       "roles": [
         "Bulwark",
         "All-rounder"
+      ],
+      "paths": [
+        {
+          "name": "Ground cavalry",
+          "specialist": "class-chevalier",
+          "final": "class-lance-commander",
+          "role": "Bulwark",
+          "purpose": "Keeps the existing cream horse and specializes in a disciplined armored charge."
+        },
+        {
+          "name": "Gryphon cavalry",
+          "specialist": "class-gryphon-rider",
+          "final": "class-gryphon-marshal",
+          "role": "All-rounder",
+          "purpose": "Develops the gryphon rider into the airborne command path."
+        }
       ]
     },
     {
@@ -365,30 +313,6 @@
       "newClass": "class-dusk-ronin",
       "identity": "olive-skinned androgynous adult with straight ink-black bob and lavender eyes",
       "palette": "muted plum, dusty teal, pearl and tarnished silver",
-      "paths": [
-        {
-          "name": "Twin sword mastery",
-          "specialist": "class-swordmaster",
-          "final": "class-dusk-ronin",
-          "types": [
-            "Steel",
-            "Wind"
-          ],
-          "role": "Speedster",
-          "purpose": "Perfects the physical two-sword discipline with fast draw cuts."
-        },
-        {
-          "name": "Moon enchantment",
-          "specialist": "class-spellblade",
-          "final": "class-moonblade",
-          "types": [
-            "Spirit",
-            "Steel"
-          ],
-          "role": "Tactician",
-          "purpose": "Grows the rune saber into a crescent-magic sword style."
-        }
-      ],
       "edges": [
         {
           "from": "class-page",
@@ -432,14 +356,25 @@
         "class-spellblade",
         "class-moonblade"
       ],
-      "types": [
-        "Steel",
-        "Wind",
-        "Spirit"
-      ],
       "roles": [
         "Speedster",
         "Tactician"
+      ],
+      "paths": [
+        {
+          "name": "Twin sword mastery",
+          "specialist": "class-swordmaster",
+          "final": "class-dusk-ronin",
+          "role": "Speedster",
+          "purpose": "Perfects the physical two-sword discipline with fast draw cuts."
+        },
+        {
+          "name": "Moon enchantment",
+          "specialist": "class-spellblade",
+          "final": "class-moonblade",
+          "role": "Tactician",
+          "purpose": "Grows the rune saber into a crescent-magic sword style."
+        }
       ]
     },
     {
@@ -452,30 +387,6 @@
       "newClass": "class-iron-knuckle",
       "identity": "broad-shouldered tan woman with black hair in two small buns and amber eyes",
       "palette": "terracotta, dusty jade, cream and brass",
-      "paths": [
-        {
-          "name": "Iron body",
-          "specialist": "class-pugilist",
-          "final": "class-iron-knuckle",
-          "types": [
-            "Rock",
-            "Steel"
-          ],
-          "role": "Bruiser",
-          "purpose": "Advances wrapped-fist boxing into a close-range armored striking discipline."
-        },
-        {
-          "name": "Celestial aura",
-          "specialist": "class-aura-adept",
-          "final": "class-celestial-fist",
-          "types": [
-            "Spirit",
-            "Rock"
-          ],
-          "role": "Sustainer",
-          "purpose": "Develops prayer beads and palm energy into protective celestial martial arts."
-        }
-      ],
       "edges": [
         {
           "from": "class-brawler",
@@ -519,14 +430,25 @@
         "class-aura-adept",
         "class-celestial-fist"
       ],
-      "types": [
-        "Rock",
-        "Steel",
-        "Spirit"
-      ],
       "roles": [
         "Bruiser",
         "Sustainer"
+      ],
+      "paths": [
+        {
+          "name": "Iron body",
+          "specialist": "class-pugilist",
+          "final": "class-iron-knuckle",
+          "role": "Bruiser",
+          "purpose": "Advances wrapped-fist boxing into a close-range armored striking discipline."
+        },
+        {
+          "name": "Celestial aura",
+          "specialist": "class-aura-adept",
+          "final": "class-celestial-fist",
+          "role": "Sustainer",
+          "purpose": "Develops prayer beads and palm energy into protective celestial martial arts."
+        }
       ]
     },
     {
@@ -539,30 +461,6 @@
       "newClass": "class-ember-conqueror",
       "identity": "muscular dark-skinned dwarf woman with a long copper braid and cheerful brown eyes",
       "palette": "dusty brick red, warm gray, honey and dark leather",
-      "paths": [
-        {
-          "name": "Conquest banner",
-          "specialist": "class-warlord",
-          "final": "class-ember-conqueror",
-          "types": [
-            "Fire",
-            "Steel"
-          ],
-          "role": "Bruiser",
-          "purpose": "Builds a commanding martial path around the war axe and ember-forged armor."
-        },
-        {
-          "name": "Rune shattering",
-          "specialist": "class-runebreaker",
-          "final": "class-titan-vanguard",
-          "types": [
-            "Rock",
-            "Fire"
-          ],
-          "role": "Bulwark",
-          "purpose": "Completes the stone-rune greataxe route as a heavy siege fighter."
-        }
-      ],
       "edges": [
         {
           "from": "class-brigand",
@@ -606,14 +504,25 @@
         "class-runebreaker",
         "class-titan-vanguard"
       ],
-      "types": [
-        "Fire",
-        "Steel",
-        "Rock"
-      ],
       "roles": [
         "Bruiser",
         "Bulwark"
+      ],
+      "paths": [
+        {
+          "name": "Conquest banner",
+          "specialist": "class-warlord",
+          "final": "class-ember-conqueror",
+          "role": "Bruiser",
+          "purpose": "Builds a commanding martial path around the war axe and ember-forged armor."
+        },
+        {
+          "name": "Rune shattering",
+          "specialist": "class-runebreaker",
+          "final": "class-titan-vanguard",
+          "role": "Bulwark",
+          "purpose": "Completes the stone-rune greataxe route as a heavy siege fighter."
+        }
       ]
     },
     {
@@ -626,30 +535,6 @@
       "newClass": "class-luckweaver",
       "identity": "small upright midnight-purple catfolk adult with huge triangular ears, tousled silver forelock, moss-green eyes, soft rounded muzzle and expressive gloved hands",
       "palette": "dusty violet, charcoal, sage and muted gold",
-      "paths": [
-        {
-          "name": "Fortune tricks",
-          "specialist": "class-trickster",
-          "final": "class-luckweaver",
-          "types": [
-            "Spirit",
-            "Poison"
-          ],
-          "role": "Tactician",
-          "purpose": "Evolves enchanted cards and sleight of hand into luck manipulation."
-        },
-        {
-          "name": "Phantom blades",
-          "specialist": "class-shadowdancer",
-          "final": "class-phantom-blade",
-          "types": [
-            "Poison",
-            "Wind"
-          ],
-          "role": "Speedster",
-          "purpose": "Finishes the flowing scarf and spectral dagger path."
-        }
-      ],
       "edges": [
         {
           "from": "class-rogue",
@@ -693,14 +578,25 @@
         "class-shadowdancer",
         "class-phantom-blade"
       ],
-      "types": [
-        "Spirit",
-        "Poison",
-        "Wind"
-      ],
       "roles": [
         "Tactician",
         "Speedster"
+      ],
+      "paths": [
+        {
+          "name": "Fortune tricks",
+          "specialist": "class-trickster",
+          "final": "class-luckweaver",
+          "role": "Tactician",
+          "purpose": "Evolves enchanted cards and sleight of hand into luck manipulation."
+        },
+        {
+          "name": "Phantom blades",
+          "specialist": "class-shadowdancer",
+          "final": "class-phantom-blade",
+          "role": "Speedster",
+          "purpose": "Finishes the flowing scarf and spectral dagger path."
+        }
       ]
     },
     {
@@ -713,30 +609,6 @@
       "newClass": "class-verdant-sniper",
       "identity": "warm brown-skinned woman with a long dark braid, green eyes and freckles",
       "palette": "moss green, dusty apricot, oatmeal and walnut",
-      "paths": [
-        {
-          "name": "Patient longbow",
-          "specialist": "class-ranger",
-          "final": "class-verdant-sniper",
-          "types": [
-            "Grass",
-            "Steel"
-          ],
-          "role": "Bruiser",
-          "purpose": "Advances the ranger into a grounded precision archer with a great longbow."
-        },
-        {
-          "name": "Falcon bond",
-          "specialist": "class-falconer",
-          "final": "class-horizon-warden",
-          "types": [
-            "Wind",
-            "Grass"
-          ],
-          "role": "Speedster",
-          "purpose": "Develops the bird companion and feather mantle into the aerial scouting route."
-        }
-      ],
       "edges": [
         {
           "from": "class-scout",
@@ -780,14 +652,25 @@
         "class-falconer",
         "class-horizon-warden"
       ],
-      "types": [
-        "Grass",
-        "Steel",
-        "Wind"
-      ],
       "roles": [
         "Bruiser",
         "Speedster"
+      ],
+      "paths": [
+        {
+          "name": "Patient longbow",
+          "specialist": "class-ranger",
+          "final": "class-verdant-sniper",
+          "role": "Bruiser",
+          "purpose": "Advances the ranger into a grounded precision archer with a great longbow."
+        },
+        {
+          "name": "Falcon bond",
+          "specialist": "class-falconer",
+          "final": "class-horizon-warden",
+          "role": "Speedster",
+          "purpose": "Develops the bird companion and feather mantle into the aerial scouting route."
+        }
       ]
     },
     {
@@ -800,30 +683,6 @@
       "newClass": "class-gale-arbalester",
       "identity": "stocky upright badgerfolk man with cream-and-ash facial stripes, a wide blond moustache, round glasses, blue eyes and expressive gloved hands",
       "palette": "dusty blue, mustard, cream and dark walnut",
-      "paths": [
-        {
-          "name": "Heavy ballista",
-          "specialist": "class-arbalist",
-          "final": "class-ballista-lord",
-          "types": [
-            "Steel",
-            "Rock"
-          ],
-          "role": "Bruiser",
-          "purpose": "Keeps the slow, powerful arbalest-to-ballista progression."
-        },
-        {
-          "name": "Mobile siegecraft",
-          "specialist": "class-siege-ranger",
-          "final": "class-gale-arbalester",
-          "types": [
-            "Wind",
-            "Steel"
-          ],
-          "role": "Speedster",
-          "purpose": "Turns the pavise and windlass weapon into a mobile cover-and-reposition style."
-        }
-      ],
       "edges": [
         {
           "from": "class-huntsman",
@@ -867,14 +726,25 @@
         "class-siege-ranger",
         "class-gale-arbalester"
       ],
-      "types": [
-        "Steel",
-        "Rock",
-        "Wind"
-      ],
       "roles": [
         "Bruiser",
         "Speedster"
+      ],
+      "paths": [
+        {
+          "name": "Heavy ballista",
+          "specialist": "class-arbalist",
+          "final": "class-ballista-lord",
+          "role": "Bruiser",
+          "purpose": "Keeps the slow, powerful arbalest-to-ballista progression."
+        },
+        {
+          "name": "Mobile siegecraft",
+          "specialist": "class-siege-ranger",
+          "final": "class-gale-arbalester",
+          "role": "Speedster",
+          "purpose": "Turns the pavise and windlass weapon into a mobile cover-and-reposition style."
+        }
       ]
     },
     {
@@ -887,30 +757,6 @@
       "newClass": "class-privateer-captain",
       "identity": "tan woman with auburn high ponytail, bright blue eyes and a mischievous grin",
       "palette": "faded navy, dusty coral, cream and weathered silver",
-      "paths": [
-        {
-          "name": "Privateer powder",
-          "specialist": "class-buccaneer",
-          "final": "class-privateer-captain",
-          "types": [
-            "Steel",
-            "Fire"
-          ],
-          "role": "Bruiser",
-          "purpose": "Develops the flintlock and tricorn into the powder-and-boarding route."
-        },
-        {
-          "name": "Tidal command",
-          "specialist": "class-tide-reaver",
-          "final": "class-admiral",
-          "types": [
-            "Water",
-            "Steel"
-          ],
-          "role": "All-rounder",
-          "purpose": "Completes the existing wave-saber officer route."
-        }
-      ],
       "edges": [
         {
           "from": "class-pirate",
@@ -954,14 +800,25 @@
         "class-tide-reaver",
         "class-admiral"
       ],
-      "types": [
-        "Steel",
-        "Fire",
-        "Water"
-      ],
       "roles": [
         "Bruiser",
         "All-rounder"
+      ],
+      "paths": [
+        {
+          "name": "Privateer powder",
+          "specialist": "class-buccaneer",
+          "final": "class-privateer-captain",
+          "role": "Bruiser",
+          "purpose": "Develops the flintlock and tricorn into the powder-and-boarding route."
+        },
+        {
+          "name": "Tidal command",
+          "specialist": "class-tide-reaver",
+          "final": "class-admiral",
+          "role": "All-rounder",
+          "purpose": "Completes the existing wave-saber officer route."
+        }
       ]
     },
     {
@@ -974,30 +831,6 @@
       "newClass": "class-runelock-artillerist",
       "identity": "East Asian man with short dark hair, round amber glasses and a calm smile",
       "palette": "dusty mauve, faded cobalt, ivory and brass",
-      "paths": [
-        {
-          "name": "Runelock barrage",
-          "specialist": "class-fusilier",
-          "final": "class-runelock-artillerist",
-          "types": [
-            "Electric",
-            "Steel"
-          ],
-          "role": "Bruiser",
-          "purpose": "Amplifies the arquebus into a compact rune-powered artillery discipline."
-        },
-        {
-          "name": "Celestial precision",
-          "specialist": "class-deadeye",
-          "final": "class-starlock-marshal",
-          "types": [
-            "Steel",
-            "Spirit"
-          ],
-          "role": "Speedster",
-          "purpose": "Carries the scoped marksman into a precise celestial gunfighter."
-        }
-      ],
       "edges": [
         {
           "from": "class-gunner",
@@ -1041,14 +874,25 @@
         "class-deadeye",
         "class-starlock-marshal"
       ],
-      "types": [
-        "Electric",
-        "Steel",
-        "Spirit"
-      ],
       "roles": [
         "Bruiser",
         "Speedster"
+      ],
+      "paths": [
+        {
+          "name": "Runelock barrage",
+          "specialist": "class-fusilier",
+          "final": "class-runelock-artillerist",
+          "role": "Bruiser",
+          "purpose": "Amplifies the arquebus into a compact rune-powered artillery discipline."
+        },
+        {
+          "name": "Celestial precision",
+          "specialist": "class-deadeye",
+          "final": "class-starlock-marshal",
+          "role": "Speedster",
+          "purpose": "Carries the scoped marksman into a precise celestial gunfighter."
+        }
       ]
     },
     {
@@ -1061,30 +905,6 @@
       "newClass": "class-siege-mechanist",
       "identity": "tiny upright dark-furred mousefolk adult with oversized round ears, fluffy mint forelock, copper goggles, violet eyes, expressive tiny hands and a curled tail",
       "palette": "dusty mint, peach, linen and copper",
-      "paths": [
-        {
-          "name": "Mechanical siege",
-          "specialist": "class-engineer",
-          "final": "class-siege-mechanist",
-          "types": [
-            "Steel",
-            "Rock"
-          ],
-          "role": "Bulwark",
-          "purpose": "Builds the bolt launcher into a wearable construction-and-siege rig."
-        },
-        {
-          "name": "Arcane clockwork",
-          "specialist": "class-artificer",
-          "final": "class-clockwork-savant",
-          "types": [
-            "Electric",
-            "Spirit"
-          ],
-          "role": "Tactician",
-          "purpose": "Develops floating gear magic and clockwork satellites."
-        }
-      ],
       "edges": [
         {
           "from": "class-tinkerer",
@@ -1128,15 +948,25 @@
         "class-artificer",
         "class-clockwork-savant"
       ],
-      "types": [
-        "Steel",
-        "Rock",
-        "Electric",
-        "Spirit"
-      ],
       "roles": [
         "Bulwark",
         "Tactician"
+      ],
+      "paths": [
+        {
+          "name": "Mechanical siege",
+          "specialist": "class-engineer",
+          "final": "class-siege-mechanist",
+          "role": "Bulwark",
+          "purpose": "Builds the bolt launcher into a wearable construction-and-siege rig."
+        },
+        {
+          "name": "Arcane clockwork",
+          "specialist": "class-artificer",
+          "final": "class-clockwork-savant",
+          "role": "Tactician",
+          "purpose": "Develops floating gear magic and clockwork satellites."
+        }
       ]
     },
     {
@@ -1149,30 +979,6 @@
       "newClass": "class-miasma-physician",
       "identity": "warm olive-skinned man with curly dark hair, round lavender goggles and gentle brown eyes",
       "palette": "muted aubergine, sage, cream and antique copper",
-      "paths": [
-        {
-          "name": "Transmutation",
-          "specialist": "class-alchemist",
-          "final": "class-philosopher",
-          "types": [
-            "Spirit",
-            "Steel"
-          ],
-          "role": "Tactician",
-          "purpose": "Completes the philosopher-stone and transmutation route."
-        },
-        {
-          "name": "Medicinal miasma",
-          "specialist": "class-plague-doctor",
-          "final": "class-miasma-physician",
-          "types": [
-            "Poison",
-            "Grass"
-          ],
-          "role": "Sustainer",
-          "purpose": "Develops the beaked mask and potion belt into herbal antidotes and controlled mist."
-        }
-      ],
       "edges": [
         {
           "from": "class-chemist",
@@ -1216,15 +1022,25 @@
         "class-plague-doctor",
         "class-miasma-physician"
       ],
-      "types": [
-        "Spirit",
-        "Steel",
-        "Poison",
-        "Grass"
-      ],
       "roles": [
         "Tactician",
         "Sustainer"
+      ],
+      "paths": [
+        {
+          "name": "Transmutation",
+          "specialist": "class-alchemist",
+          "final": "class-philosopher",
+          "role": "Tactician",
+          "purpose": "Completes the philosopher-stone and transmutation route."
+        },
+        {
+          "name": "Medicinal miasma",
+          "specialist": "class-plague-doctor",
+          "final": "class-miasma-physician",
+          "role": "Sustainer",
+          "purpose": "Develops the beaked mask and potion belt into herbal antidotes and controlled mist."
+        }
       ]
     },
     {
@@ -1237,30 +1053,6 @@
       "newClass": "class-phoenix-invoker",
       "identity": "fair-skinned woman with softly curled blonde hair, round spectacles and luminous violet eyes",
       "palette": "dusty cobalt, muted rose, buttercream and warm gold",
-      "paths": [
-        {
-          "name": "Flame familiars",
-          "specialist": "class-evoker",
-          "final": "class-phoenix-invoker",
-          "types": [
-            "Fire",
-            "Wind"
-          ],
-          "role": "Speedster",
-          "purpose": "Develops the existing little flame bird into a phoenix-familiar specialty."
-        },
-        {
-          "name": "Battle sorcery",
-          "specialist": "class-war-mage",
-          "final": "class-archmage",
-          "types": [
-            "Fire",
-            "Spirit"
-          ],
-          "role": "Bruiser",
-          "purpose": "Finishes the staff-and-grimoire battle-magic tradition."
-        }
-      ],
       "edges": [
         {
           "from": "class-mage",
@@ -1304,14 +1096,25 @@
         "class-war-mage",
         "class-archmage"
       ],
-      "types": [
-        "Fire",
-        "Wind",
-        "Spirit"
-      ],
       "roles": [
         "Speedster",
         "Bruiser"
+      ],
+      "paths": [
+        {
+          "name": "Flame familiars",
+          "specialist": "class-evoker",
+          "final": "class-phoenix-invoker",
+          "role": "Speedster",
+          "purpose": "Develops the existing little flame bird into a phoenix-familiar specialty."
+        },
+        {
+          "name": "Battle sorcery",
+          "specialist": "class-war-mage",
+          "final": "class-archmage",
+          "role": "Bruiser",
+          "purpose": "Finishes the staff-and-grimoire battle-magic tradition."
+        }
       ]
     },
     {
@@ -1324,30 +1127,6 @@
       "newClass": "class-sanctuary-warden",
       "identity": "brown-skinned woman with silver-gray shoulder-length curls and kind teal eyes",
       "palette": "ivory, faded lilac, powder blue and pale gold",
-      "paths": [
-        {
-          "name": "Armored sanctuary",
-          "specialist": "class-cleric",
-          "final": "class-sanctuary-warden",
-          "types": [
-            "Spirit",
-            "Steel"
-          ],
-          "role": "Bulwark",
-          "purpose": "Builds the censer mace and shoulder mantle into a defensive battle chaplain."
-        },
-        {
-          "name": "Merciful blessing",
-          "specialist": "class-bishop",
-          "final": "class-hierophant",
-          "types": [
-            "Spirit",
-            "Water"
-          ],
-          "role": "Sustainer",
-          "purpose": "Completes the bell-and-crozier healing route."
-        }
-      ],
       "edges": [
         {
           "from": "class-acolyte",
@@ -1391,14 +1170,25 @@
         "class-bishop",
         "class-hierophant"
       ],
-      "types": [
-        "Spirit",
-        "Steel",
-        "Water"
-      ],
       "roles": [
         "Bulwark",
         "Sustainer"
+      ],
+      "paths": [
+        {
+          "name": "Armored sanctuary",
+          "specialist": "class-cleric",
+          "final": "class-sanctuary-warden",
+          "role": "Bulwark",
+          "purpose": "Builds the censer mace and shoulder mantle into a defensive battle chaplain."
+        },
+        {
+          "name": "Merciful blessing",
+          "specialist": "class-bishop",
+          "final": "class-hierophant",
+          "role": "Sustainer",
+          "purpose": "Completes the bell-and-crozier healing route."
+        }
       ]
     },
     {
@@ -1411,30 +1201,6 @@
       "newClass": "class-thorn-shepherd",
       "identity": "olive-skinned elf man with long sage-green hair, amber eyes and small round spectacles",
       "palette": "sage, dusty rose, oatmeal and bark brown",
-      "paths": [
-        {
-          "name": "Living thorns",
-          "specialist": "class-druid",
-          "final": "class-thorn-shepherd",
-          "types": [
-            "Grass",
-            "Rock"
-          ],
-          "role": "Bulwark",
-          "purpose": "Grows the living oak staff and vines into a protective wilderness guardian."
-        },
-        {
-          "name": "Grove prophecy",
-          "specialist": "class-grove-sage",
-          "final": "class-verdant-oracle",
-          "types": [
-            "Grass",
-            "Spirit"
-          ],
-          "role": "Sustainer",
-          "purpose": "Completes the flowering canopy and nature-oracle path."
-        }
-      ],
       "edges": [
         {
           "from": "class-hedgewitch",
@@ -1478,14 +1244,25 @@
         "class-grove-sage",
         "class-verdant-oracle"
       ],
-      "types": [
-        "Grass",
-        "Rock",
-        "Spirit"
-      ],
       "roles": [
         "Bulwark",
         "Sustainer"
+      ],
+      "paths": [
+        {
+          "name": "Living thorns",
+          "specialist": "class-druid",
+          "final": "class-thorn-shepherd",
+          "role": "Bulwark",
+          "purpose": "Grows the living oak staff and vines into a protective wilderness guardian."
+        },
+        {
+          "name": "Grove prophecy",
+          "specialist": "class-grove-sage",
+          "final": "class-verdant-oracle",
+          "role": "Sustainer",
+          "purpose": "Completes the flowering canopy and nature-oracle path."
+        }
       ]
     },
     {
@@ -1498,30 +1275,6 @@
       "newClass": "class-nacre-theurge",
       "identity": "deep brown-skinned woman with seafoam braided hair, pearl earrings and blue eyes",
       "palette": "seafoam, powder blue, shell pink and pearl",
-      "paths": [
-        {
-          "name": "Pearl wards",
-          "specialist": "class-pearl-mystic",
-          "final": "class-nacre-theurge",
-          "types": [
-            "Water",
-            "Steel"
-          ],
-          "role": "Bulwark",
-          "purpose": "Develops the pearl focus into shell armor and defensive pearl sorcery."
-        },
-        {
-          "name": "Deep sea visions",
-          "specialist": "class-sea-oracle",
-          "final": "class-abyss-magus",
-          "types": [
-            "Water",
-            "Spirit"
-          ],
-          "role": "Tactician",
-          "purpose": "Completes the tidal mirror and deep-sea lantern route."
-        }
-      ],
       "edges": [
         {
           "from": "class-tidecaller",
@@ -1565,14 +1318,25 @@
         "class-sea-oracle",
         "class-abyss-magus"
       ],
-      "types": [
-        "Water",
-        "Steel",
-        "Spirit"
-      ],
       "roles": [
         "Bulwark",
         "Tactician"
+      ],
+      "paths": [
+        {
+          "name": "Pearl wards",
+          "specialist": "class-pearl-mystic",
+          "final": "class-nacre-theurge",
+          "role": "Bulwark",
+          "purpose": "Develops the pearl focus into shell armor and defensive pearl sorcery."
+        },
+        {
+          "name": "Deep sea visions",
+          "specialist": "class-sea-oracle",
+          "final": "class-abyss-magus",
+          "role": "Tactician",
+          "purpose": "Completes the tidal mirror and deep-sea lantern route."
+        }
       ]
     },
     {
@@ -1585,30 +1349,6 @@
       "newClass": "class-stormheart-conductor",
       "identity": "tan androgynous adult with tousled golden curls, gray eyes and a gap-toothed grin",
       "palette": "butter yellow, mist gray, faded teal and brass",
-      "paths": [
-        {
-          "name": "Storm resonance",
-          "specialist": "class-stormcaller",
-          "final": "class-stormheart-conductor",
-          "types": [
-            "Electric",
-            "Steel"
-          ],
-          "role": "Tactician",
-          "purpose": "Advances the storm bell into resonant lightning control with brass instruments."
-        },
-        {
-          "name": "Tempest speed",
-          "specialist": "class-tempest-sage",
-          "final": "class-fulgurant",
-          "types": [
-            "Electric",
-            "Wind"
-          ],
-          "role": "Speedster",
-          "purpose": "Completes the wind ribbons and rapid storm-casting route."
-        }
-      ],
       "edges": [
         {
           "from": "class-sparkhand",
@@ -1652,14 +1392,25 @@
         "class-tempest-sage",
         "class-fulgurant"
       ],
-      "types": [
-        "Electric",
-        "Steel",
-        "Wind"
-      ],
       "roles": [
         "Tactician",
         "Speedster"
+      ],
+      "paths": [
+        {
+          "name": "Storm resonance",
+          "specialist": "class-stormcaller",
+          "final": "class-stormheart-conductor",
+          "role": "Tactician",
+          "purpose": "Advances the storm bell into resonant lightning control with brass instruments."
+        },
+        {
+          "name": "Tempest speed",
+          "specialist": "class-tempest-sage",
+          "final": "class-fulgurant",
+          "role": "Speedster",
+          "purpose": "Completes the wind ribbons and rapid storm-casting route."
+        }
       ]
     },
     {
@@ -1672,30 +1423,6 @@
       "newClass": "class-hoarfrost-hexer",
       "identity": "fair-skinned woman with pale lavender bob, silver eyelashes and cool blue eyes",
       "palette": "powder blue, lilac, pearl white and frosted silver",
-      "paths": [
-        {
-          "name": "Winter hexes",
-          "specialist": "class-snow-witch",
-          "final": "class-hoarfrost-hexer",
-          "types": [
-            "Ice",
-            "Poison"
-          ],
-          "role": "Tactician",
-          "purpose": "Builds the witch specialty around frost curses and slowing ice petals."
-        },
-        {
-          "name": "Glacier foresight",
-          "specialist": "class-glacier-seer",
-          "final": "class-winter-archon",
-          "types": [
-            "Ice",
-            "Spirit"
-          ],
-          "role": "Bulwark",
-          "purpose": "Completes the ice-seer and protective winter-regalia path."
-        }
-      ],
       "edges": [
         {
           "from": "class-frost-novice",
@@ -1739,14 +1466,25 @@
         "class-glacier-seer",
         "class-winter-archon"
       ],
-      "types": [
-        "Ice",
-        "Poison",
-        "Spirit"
-      ],
       "roles": [
         "Tactician",
         "Bulwark"
+      ],
+      "paths": [
+        {
+          "name": "Winter hexes",
+          "specialist": "class-snow-witch",
+          "final": "class-hoarfrost-hexer",
+          "role": "Tactician",
+          "purpose": "Builds the witch specialty around frost curses and slowing ice petals."
+        },
+        {
+          "name": "Glacier foresight",
+          "specialist": "class-glacier-seer",
+          "final": "class-winter-archon",
+          "role": "Bulwark",
+          "purpose": "Completes the ice-seer and protective winter-regalia path."
+        }
       ]
     },
     {
@@ -1759,30 +1497,6 @@
       "newClass": "class-ossuary-sovereign",
       "identity": "pale lavender-skinned woman with straight midnight hair, blunt bangs, purple eyes and a stern little frown",
       "palette": "muted indigo, dusty lilac, faded black and antique silver",
-      "paths": [
-        {
-          "name": "Bonecraft",
-          "specialist": "class-necromancer",
-          "final": "class-ossuary-sovereign",
-          "types": [
-            "Poison",
-            "Rock"
-          ],
-          "role": "Bulwark",
-          "purpose": "Develops bonecalling into defensive skeletal constructs and ossuary regalia."
-        },
-        {
-          "name": "Soul weaving",
-          "specialist": "class-soul-weaver",
-          "final": "class-grave-hierarch",
-          "types": [
-            "Spirit",
-            "Poison"
-          ],
-          "role": "Tactician",
-          "purpose": "Completes the soul-thread and spiritual necromancy route."
-        }
-      ],
       "edges": [
         {
           "from": "class-gravedigger",
@@ -1826,14 +1540,25 @@
         "class-soul-weaver",
         "class-grave-hierarch"
       ],
-      "types": [
-        "Poison",
-        "Rock",
-        "Spirit"
-      ],
       "roles": [
         "Bulwark",
         "Tactician"
+      ],
+      "paths": [
+        {
+          "name": "Bonecraft",
+          "specialist": "class-necromancer",
+          "final": "class-ossuary-sovereign",
+          "role": "Bulwark",
+          "purpose": "Develops bonecalling into defensive skeletal constructs and ossuary regalia."
+        },
+        {
+          "name": "Soul weaving",
+          "specialist": "class-soul-weaver",
+          "final": "class-grave-hierarch",
+          "role": "Tactician",
+          "purpose": "Completes the soul-thread and spiritual necromancy route."
+        }
       ]
     },
     {
@@ -1846,30 +1571,6 @@
       "newClass": "class-prism-harlequin",
       "identity": "dark-skinned man with fluffy lavender hair, silver freckles and sleepy golden eyes",
       "palette": "dusty lavender, faded midnight blue, peach and pearl",
-      "paths": [
-        {
-          "name": "Prismatic performance",
-          "specialist": "class-mirage-dancer",
-          "final": "class-prism-harlequin",
-          "types": [
-            "Spirit",
-            "Fire"
-          ],
-          "role": "Speedster",
-          "purpose": "Develops stage mirages into a theatrical refraction-and-light trickster."
-        },
-        {
-          "name": "Dream shaping",
-          "specialist": "class-dreamweaver",
-          "final": "class-oneiromancer",
-          "types": [
-            "Spirit",
-            "Wind"
-          ],
-          "role": "Tactician",
-          "purpose": "Completes the dream-thread and sleeping-vision route."
-        }
-      ],
       "edges": [
         {
           "from": "class-dreamer",
@@ -1913,14 +1614,25 @@
         "class-dreamweaver",
         "class-oneiromancer"
       ],
-      "types": [
-        "Spirit",
-        "Fire",
-        "Wind"
-      ],
       "roles": [
         "Speedster",
         "Tactician"
+      ],
+      "paths": [
+        {
+          "name": "Prismatic performance",
+          "specialist": "class-mirage-dancer",
+          "final": "class-prism-harlequin",
+          "role": "Speedster",
+          "purpose": "Develops stage mirages into a theatrical refraction-and-light trickster."
+        },
+        {
+          "name": "Dream shaping",
+          "specialist": "class-dreamweaver",
+          "final": "class-oneiromancer",
+          "role": "Tactician",
+          "purpose": "Completes the dream-thread and sleeping-vision route."
+        }
       ]
     },
     {
@@ -1933,30 +1645,6 @@
       "newClass": "class-wild-pact-archon",
       "identity": "brown-skinned elf woman with copper-red curls, pointed ears and luminous teal eyes",
       "palette": "dusty coral, soft turquoise, cream and old gold",
-      "paths": [
-        {
-          "name": "Wild covenant",
-          "specialist": "class-pact-keeper",
-          "final": "class-wild-pact-archon",
-          "types": [
-            "Spirit",
-            "Grass"
-          ],
-          "role": "Sustainer",
-          "purpose": "Grows the keeper into a reciprocal pact with woodland guardians."
-        },
-        {
-          "name": "Astral invocation",
-          "specialist": "class-eidolon-speaker",
-          "final": "class-astral-convoker",
-          "types": [
-            "Spirit",
-            "Fire"
-          ],
-          "role": "Tactician",
-          "purpose": "Completes the eidolon-speaking and cosmic guardian route."
-        }
-      ],
       "edges": [
         {
           "from": "class-apprentice",
@@ -2000,14 +1688,25 @@
         "class-eidolon-speaker",
         "class-astral-convoker"
       ],
-      "types": [
-        "Spirit",
-        "Grass",
-        "Fire"
-      ],
       "roles": [
         "Sustainer",
         "Tactician"
+      ],
+      "paths": [
+        {
+          "name": "Wild covenant",
+          "specialist": "class-pact-keeper",
+          "final": "class-wild-pact-archon",
+          "role": "Sustainer",
+          "purpose": "Grows the keeper into a reciprocal pact with woodland guardians."
+        },
+        {
+          "name": "Astral invocation",
+          "specialist": "class-eidolon-speaker",
+          "final": "class-astral-convoker",
+          "role": "Tactician",
+          "purpose": "Completes the eidolon-speaking and cosmic guardian route."
+        }
       ]
     },
     {
@@ -2020,30 +1719,6 @@
       "newClass": "class-epoch-oracle",
       "identity": "elderly olive-skinned woman with a silver braid bun, round blue glasses and bright gray eyes",
       "palette": "faded indigo, pale gold, dusty peach and silver",
-      "paths": [
-        {
-          "name": "Clockwork time",
-          "specialist": "class-chronomancer",
-          "final": "class-aeon-keeper",
-          "types": [
-            "Spirit",
-            "Electric"
-          ],
-          "role": "Tactician",
-          "purpose": "Completes the chronomancer through clockwork rings and temporal acceleration."
-        },
-        {
-          "name": "Frozen moments",
-          "specialist": "class-time-sage",
-          "final": "class-epoch-oracle",
-          "types": [
-            "Spirit",
-            "Ice"
-          ],
-          "role": "Sustainer",
-          "purpose": "Turns the sage toward stillness, preservation and reading distant eras."
-        }
-      ],
       "edges": [
         {
           "from": "class-astrologer",
@@ -2087,14 +1762,25 @@
         "class-time-sage",
         "class-epoch-oracle"
       ],
-      "types": [
-        "Spirit",
-        "Electric",
-        "Ice"
-      ],
       "roles": [
         "Tactician",
         "Sustainer"
+      ],
+      "paths": [
+        {
+          "name": "Clockwork time",
+          "specialist": "class-chronomancer",
+          "final": "class-aeon-keeper",
+          "role": "Tactician",
+          "purpose": "Completes the chronomancer through clockwork rings and temporal acceleration."
+        },
+        {
+          "name": "Frozen moments",
+          "specialist": "class-time-sage",
+          "final": "class-epoch-oracle",
+          "role": "Sustainer",
+          "purpose": "Turns the sage toward stillness, preservation and reading distant eras."
+        }
       ]
     },
     {
@@ -2107,30 +1793,6 @@
       "newClass": "class-prism-geomancer",
       "identity": "young adult lizardfolk man with a mostly human-shaped expressive face, warm olive skin, subtle moss-jade scales at his cheeks and forearms, small ear fins, a slim lizard tail, thick dark locs and amber eyes with narrow pupils",
       "palette": "ochre, muted turquoise, clay pink and moss",
-      "paths": [
-        {
-          "name": "Crystal shaping",
-          "specialist": "class-crystal-sage",
-          "final": "class-prism-geomancer",
-          "types": [
-            "Rock",
-            "Ice"
-          ],
-          "role": "Tactician",
-          "purpose": "Develops the lizardfolk crystal specialist into faceted quartz and frost geometry."
-        },
-        {
-          "name": "Living landscapes",
-          "specialist": "class-fault-shaper",
-          "final": "class-world-sculptor",
-          "types": [
-            "Rock",
-            "Grass"
-          ],
-          "role": "Bulwark",
-          "purpose": "Completes the stone-and-landscape guardian route."
-        }
-      ],
       "edges": [
         {
           "from": "class-geomancer",
@@ -2174,14 +1836,25 @@
         "class-fault-shaper",
         "class-world-sculptor"
       ],
-      "types": [
-        "Rock",
-        "Ice",
-        "Grass"
-      ],
       "roles": [
         "Tactician",
         "Bulwark"
+      ],
+      "paths": [
+        {
+          "name": "Crystal shaping",
+          "specialist": "class-crystal-sage",
+          "final": "class-prism-geomancer",
+          "role": "Tactician",
+          "purpose": "Develops the lizardfolk crystal specialist into faceted quartz and frost geometry."
+        },
+        {
+          "name": "Living landscapes",
+          "specialist": "class-fault-shaper",
+          "final": "class-world-sculptor",
+          "role": "Bulwark",
+          "purpose": "Completes the stone-and-landscape guardian route."
+        }
       ]
     },
     {
@@ -2194,30 +1867,6 @@
       "newClass": "class-saga-cantor",
       "identity": "freckled fair-skinned elf man with shoulder-length chestnut hair and green eyes",
       "palette": "dusty burgundy, faded teal, oatmeal and brass",
-      "paths": [
-        {
-          "name": "Heroic saga",
-          "specialist": "class-troubadour",
-          "final": "class-saga-cantor",
-          "types": [
-            "Wind",
-            "Fire"
-          ],
-          "role": "Bruiser",
-          "purpose": "Builds the traveling lute tradition into stirring battle ballads and heroic recitals."
-        },
-        {
-          "name": "Harmonic inspiration",
-          "specialist": "class-anthem-weaver",
-          "final": "class-laureate",
-          "types": [
-            "Wind",
-            "Spirit"
-          ],
-          "role": "Sustainer",
-          "purpose": "Completes the chime-and-harp supportive performance route."
-        }
-      ],
       "edges": [
         {
           "from": "class-bard",
@@ -2261,14 +1910,25 @@
         "class-anthem-weaver",
         "class-laureate"
       ],
-      "types": [
-        "Wind",
-        "Fire",
-        "Spirit"
-      ],
       "roles": [
         "Bruiser",
         "Sustainer"
+      ],
+      "paths": [
+        {
+          "name": "Heroic saga",
+          "specialist": "class-troubadour",
+          "final": "class-saga-cantor",
+          "role": "Bruiser",
+          "purpose": "Builds the traveling lute tradition into stirring battle ballads and heroic recitals."
+        },
+        {
+          "name": "Harmonic inspiration",
+          "specialist": "class-anthem-weaver",
+          "final": "class-laureate",
+          "role": "Sustainer",
+          "purpose": "Completes the chime-and-harp supportive performance route."
+        }
       ]
     },
     {
@@ -2281,30 +1941,6 @@
       "newClass": "class-petal-duelist",
       "identity": "deep brown-skinned woman with black curls in a high bun and amber eyes",
       "palette": "dusty rose, plum, apricot and antique gold",
-      "paths": [
-        {
-          "name": "Ribbon fencing",
-          "specialist": "class-ribbonblade",
-          "final": "class-petal-duelist",
-          "types": [
-            "Steel",
-            "Grass"
-          ],
-          "role": "Speedster",
-          "purpose": "Turns the flexible blade and dance steps into precise petal-pattern fencing."
-        },
-        {
-          "name": "Celestial muse",
-          "specialist": "class-muse",
-          "final": "class-luminary",
-          "types": [
-            "Spirit",
-            "Fire"
-          ],
-          "role": "Sustainer",
-          "purpose": "Completes the radiant fan and inspiring celestial-dance route."
-        }
-      ],
       "edges": [
         {
           "from": "class-dancer",
@@ -2348,15 +1984,25 @@
         "class-muse",
         "class-luminary"
       ],
-      "types": [
-        "Steel",
-        "Grass",
-        "Spirit",
-        "Fire"
-      ],
       "roles": [
         "Speedster",
         "Sustainer"
+      ],
+      "paths": [
+        {
+          "name": "Ribbon fencing",
+          "specialist": "class-ribbonblade",
+          "final": "class-petal-duelist",
+          "role": "Speedster",
+          "purpose": "Turns the flexible blade and dance steps into precise petal-pattern fencing."
+        },
+        {
+          "name": "Celestial muse",
+          "specialist": "class-muse",
+          "final": "class-luminary",
+          "role": "Sustainer",
+          "purpose": "Completes the radiant fan and inspiring celestial-dance route."
+        }
       ]
     },
     {
@@ -2369,30 +2015,6 @@
       "newClass": "class-warboard-marshal",
       "identity": "East Asian woman with neat black ponytail, brown eyes and round wire glasses",
       "palette": "dusty navy, sage, cream and muted gold",
-      "paths": [
-        {
-          "name": "Field formations",
-          "specialist": "class-tactician",
-          "final": "class-warboard-marshal",
-          "types": [
-            "Steel",
-            "Rock"
-          ],
-          "role": "Bulwark",
-          "purpose": "Specializes the tactical map into physical cover, formations and terrain control."
-        },
-        {
-          "name": "Grand strategy",
-          "specialist": "class-strategist",
-          "final": "class-grand-strategist",
-          "types": [
-            "Spirit",
-            "Steel"
-          ],
-          "role": "Tactician",
-          "purpose": "Completes the broad command-and-forecasting route."
-        }
-      ],
       "edges": [
         {
           "from": "class-villager",
@@ -2436,14 +2058,25 @@
         "class-strategist",
         "class-grand-strategist"
       ],
-      "types": [
-        "Steel",
-        "Rock",
-        "Spirit"
-      ],
       "roles": [
         "Bulwark",
         "Tactician"
+      ],
+      "paths": [
+        {
+          "name": "Field formations",
+          "specialist": "class-tactician",
+          "final": "class-warboard-marshal",
+          "role": "Bulwark",
+          "purpose": "Specializes the tactical map into physical cover, formations and terrain control."
+        },
+        {
+          "name": "Grand strategy",
+          "specialist": "class-strategist",
+          "final": "class-grand-strategist",
+          "role": "Tactician",
+          "purpose": "Completes the broad command-and-forecasting route."
+        }
       ]
     },
     {
@@ -2456,30 +2089,6 @@
       "newClass": "class-oven-crusader",
       "identity": "round-bodied tan dwarf woman with curly cinnamon hair, hazel eyes and flour-dusted cheeks",
       "palette": "butter yellow, sage, dusty terracotta and cream",
-      "paths": [
-        {
-          "name": "Battle baking",
-          "specialist": "class-battle-baker",
-          "final": "class-oven-crusader",
-          "types": [
-            "Fire",
-            "Steel"
-          ],
-          "role": "Bruiser",
-          "purpose": "Builds the bread peel and baker cap into a sturdy, oven-armored frontline cook."
-        },
-        {
-          "name": "Restorative feasts",
-          "specialist": "class-feast-keeper",
-          "final": "class-hearth-saint",
-          "types": [
-            "Grass",
-            "Fire"
-          ],
-          "role": "Sustainer",
-          "purpose": "Completes the communal stockpot and healing hearth route."
-        }
-      ],
       "edges": [
         {
           "from": "class-cook",
@@ -2523,14 +2132,25 @@
         "class-feast-keeper",
         "class-hearth-saint"
       ],
-      "types": [
-        "Fire",
-        "Steel",
-        "Grass"
-      ],
       "roles": [
         "Bruiser",
         "Sustainer"
+      ],
+      "paths": [
+        {
+          "name": "Battle baking",
+          "specialist": "class-battle-baker",
+          "final": "class-oven-crusader",
+          "role": "Bruiser",
+          "purpose": "Builds the bread peel and baker cap into a sturdy, oven-armored frontline cook."
+        },
+        {
+          "name": "Restorative feasts",
+          "specialist": "class-feast-keeper",
+          "final": "class-hearth-saint",
+          "role": "Sustainer",
+          "purpose": "Completes the communal stockpot and healing hearth route."
+        }
       ]
     },
     {
@@ -2543,30 +2163,6 @@
       "newClass": "class-deepdelve-foreman",
       "identity": "dark-skinned dwarf man with thick salt-and-pepper beard and warm amber eyes",
       "palette": "dusty sandstone, faded teal, cream and iron",
-      "paths": [
-        {
-          "name": "Deep excavation",
-          "specialist": "class-miner",
-          "final": "class-deepdelve-foreman",
-          "types": [
-            "Rock",
-            "Fire"
-          ],
-          "role": "Bruiser",
-          "purpose": "Develops the lantern and pick into deep-earth excavation and geothermal force."
-        },
-        {
-          "name": "Runic construction",
-          "specialist": "class-runesmith",
-          "final": "class-citadel-crafter",
-          "types": [
-            "Rock",
-            "Steel"
-          ],
-          "role": "Bulwark",
-          "purpose": "Completes the rune hammer and stone-building route."
-        }
-      ],
       "edges": [
         {
           "from": "class-mason",
@@ -2610,14 +2206,25 @@
         "class-runesmith",
         "class-citadel-crafter"
       ],
-      "types": [
-        "Rock",
-        "Fire",
-        "Steel"
-      ],
       "roles": [
         "Bruiser",
         "Bulwark"
+      ],
+      "paths": [
+        {
+          "name": "Deep excavation",
+          "specialist": "class-miner",
+          "final": "class-deepdelve-foreman",
+          "role": "Bruiser",
+          "purpose": "Develops the lantern and pick into deep-earth excavation and geothermal force."
+        },
+        {
+          "name": "Runic construction",
+          "specialist": "class-runesmith",
+          "final": "class-citadel-crafter",
+          "role": "Bulwark",
+          "purpose": "Completes the rune hammer and stone-building route."
+        }
       ]
     },
     {
@@ -2630,30 +2237,6 @@
       "newClass": "class-coral-hoplite",
       "identity": "tan older man with silver moustache, sea-blue eyes and weathered cheeks",
       "palette": "dusty sea green, coral, oatmeal and dark driftwood",
-      "paths": [
-        {
-          "name": "Coral phalanx",
-          "specialist": "class-trident-guard",
-          "final": "class-coral-hoplite",
-          "types": [
-            "Water",
-            "Steel"
-          ],
-          "role": "Bulwark",
-          "purpose": "Builds the trident guard into a shield-bearing coastal defender."
-        },
-        {
-          "name": "Leviathan pursuit",
-          "specialist": "class-leviathan-hunter",
-          "final": "class-reef-guardian",
-          "types": [
-            "Water",
-            "Rock"
-          ],
-          "role": "Bruiser",
-          "purpose": "Completes the harpoon hunter and great reef-guardian route."
-        }
-      ],
       "edges": [
         {
           "from": "class-fisherman",
@@ -2697,14 +2280,25 @@
         "class-leviathan-hunter",
         "class-reef-guardian"
       ],
-      "types": [
-        "Water",
-        "Steel",
-        "Rock"
-      ],
       "roles": [
         "Bulwark",
         "Bruiser"
+      ],
+      "paths": [
+        {
+          "name": "Coral phalanx",
+          "specialist": "class-trident-guard",
+          "final": "class-coral-hoplite",
+          "role": "Bulwark",
+          "purpose": "Builds the trident guard into a shield-bearing coastal defender."
+        },
+        {
+          "name": "Leviathan pursuit",
+          "specialist": "class-leviathan-hunter",
+          "final": "class-reef-guardian",
+          "role": "Bruiser",
+          "purpose": "Completes the harpoon hunter and great reef-guardian route."
+        }
       ]
     },
     {
@@ -2717,30 +2311,6 @@
       "newClass": "class-cloudway-navigator",
       "identity": "small upright turquoise-and-cream birdfolk adult with a soft feather crest, bright amber eyes, rounded expressive beak and feathered arms ending in dexterous gloved hands",
       "palette": "powder blue, dusty yellow, cream and soft gray",
-      "paths": [
-        {
-          "name": "Cloud navigation",
-          "specialist": "class-skyrider",
-          "final": "class-cloudway-navigator",
-          "types": [
-            "Wind",
-            "Spirit"
-          ],
-          "role": "Sustainer",
-          "purpose": "Advances the cloud board into guiding, scouting and protective air currents."
-        },
-        {
-          "name": "Storm lances",
-          "specialist": "class-cloud-lancer",
-          "final": "class-zephyr-captain",
-          "types": [
-            "Wind",
-            "Electric"
-          ],
-          "role": "Speedster",
-          "purpose": "Completes the lance-and-pennant sky captain route."
-        }
-      ],
       "edges": [
         {
           "from": "class-courier",
@@ -2784,14 +2354,25 @@
         "class-cloud-lancer",
         "class-zephyr-captain"
       ],
-      "types": [
-        "Wind",
-        "Spirit",
-        "Electric"
-      ],
       "roles": [
         "Sustainer",
         "Speedster"
+      ],
+      "paths": [
+        {
+          "name": "Cloud navigation",
+          "specialist": "class-skyrider",
+          "final": "class-cloudway-navigator",
+          "role": "Sustainer",
+          "purpose": "Advances the cloud board into guiding, scouting and protective air currents."
+        },
+        {
+          "name": "Storm lances",
+          "specialist": "class-cloud-lancer",
+          "final": "class-zephyr-captain",
+          "role": "Speedster",
+          "purpose": "Completes the lance-and-pennant sky captain route."
+        }
       ]
     },
     {
@@ -2804,30 +2385,6 @@
       "newClass": "class-seal-arbiter",
       "identity": "pale East Asian woman with dark-blue twin braids and violet eyes",
       "palette": "dusty red, indigo, ivory and old brass",
-      "paths": [
-        {
-          "name": "Protective seals",
-          "specialist": "class-exorcist",
-          "final": "class-seal-arbiter",
-          "types": [
-            "Spirit",
-            "Steel"
-          ],
-          "role": "Bulwark",
-          "purpose": "Develops ritual exorcism into a discipline of bells, protective seals and wards."
-        },
-        {
-          "name": "Lantern communion",
-          "specialist": "class-spirit-medium",
-          "final": "class-lantern-hierophant",
-          "types": [
-            "Spirit",
-            "Poison"
-          ],
-          "role": "Tactician",
-          "purpose": "Completes the lantern-bearing communication with spirits."
-        }
-      ],
       "edges": [
         {
           "from": "class-shrine-tender",
@@ -2871,14 +2428,25 @@
         "class-spirit-medium",
         "class-lantern-hierophant"
       ],
-      "types": [
-        "Spirit",
-        "Steel",
-        "Poison"
-      ],
       "roles": [
         "Bulwark",
         "Tactician"
+      ],
+      "paths": [
+        {
+          "name": "Protective seals",
+          "specialist": "class-exorcist",
+          "final": "class-seal-arbiter",
+          "role": "Bulwark",
+          "purpose": "Develops ritual exorcism into a discipline of bells, protective seals and wards."
+        },
+        {
+          "name": "Lantern communion",
+          "specialist": "class-spirit-medium",
+          "final": "class-lantern-hierophant",
+          "role": "Tactician",
+          "purpose": "Completes the lantern-bearing communication with spirits."
+        }
       ]
     },
     {
@@ -2891,30 +2459,6 @@
       "newClass": "class-aerie-keeper",
       "identity": "olive-skinned adult with fluffy rust hair, fox ears, round amber eyes and a small fox tail",
       "palette": "moss, dusty rust, oatmeal and soft brown",
-      "paths": [
-        {
-          "name": "Aerie guardians",
-          "specialist": "class-flock-warden",
-          "final": "class-aerie-keeper",
-          "types": [
-            "Wind",
-            "Grass"
-          ],
-          "role": "Speedster",
-          "purpose": "Builds the feathered crook and flock bond into aerial beastkeeping."
-        },
-        {
-          "name": "Wild sovereignty",
-          "specialist": "class-chimera-tamer",
-          "final": "class-wild-sovereign",
-          "types": [
-            "Grass",
-            "Rock"
-          ],
-          "role": "All-rounder",
-          "purpose": "Completes the chimera-charms and great wilderness guardian path."
-        }
-      ],
       "edges": [
         {
           "from": "class-beast-tender",
@@ -2958,14 +2502,25 @@
         "class-chimera-tamer",
         "class-wild-sovereign"
       ],
-      "types": [
-        "Wind",
-        "Grass",
-        "Rock"
-      ],
       "roles": [
         "Speedster",
         "All-rounder"
+      ],
+      "paths": [
+        {
+          "name": "Aerie guardians",
+          "specialist": "class-flock-warden",
+          "final": "class-aerie-keeper",
+          "role": "Speedster",
+          "purpose": "Builds the feathered crook and flock bond into aerial beastkeeping."
+        },
+        {
+          "name": "Wild sovereignty",
+          "specialist": "class-chimera-tamer",
+          "final": "class-wild-sovereign",
+          "role": "All-rounder",
+          "purpose": "Completes the chimera-charms and great wilderness guardian path."
+        }
       ]
     },
     {
@@ -2978,30 +2533,6 @@
       "newClass": "class-runic-illuminator",
       "identity": "upright ink-black rabbitfolk young adult man with long floppy bunny ears, cream-white curly forelock, gold eyes, soft rounded muzzle, small fluffy tail and ink-stained pawlike hands",
       "palette": "faded indigo, dusty peach, parchment and dark ink",
-      "paths": [
-        {
-          "name": "Illuminated runes",
-          "specialist": "class-rune-scribe",
-          "final": "class-runic-illuminator",
-          "types": [
-            "Spirit",
-            "Fire"
-          ],
-          "role": "Bruiser",
-          "purpose": "Grows the writing brush into luminous, flowing rune sorcery."
-        },
-        {
-          "name": "Living bindings",
-          "specialist": "class-glyph-binder",
-          "final": "class-living-manuscript",
-          "types": [
-            "Spirit",
-            "Steel"
-          ],
-          "role": "Tactician",
-          "purpose": "Completes the geometric paper seals and living scroll route."
-        }
-      ],
       "edges": [
         {
           "from": "class-ink-student",
@@ -3045,14 +2576,25 @@
         "class-glyph-binder",
         "class-living-manuscript"
       ],
-      "types": [
-        "Spirit",
-        "Fire",
-        "Steel"
-      ],
       "roles": [
         "Bruiser",
         "Tactician"
+      ],
+      "paths": [
+        {
+          "name": "Illuminated runes",
+          "specialist": "class-rune-scribe",
+          "final": "class-runic-illuminator",
+          "role": "Bruiser",
+          "purpose": "Grows the writing brush into luminous, flowing rune sorcery."
+        },
+        {
+          "name": "Living bindings",
+          "specialist": "class-glyph-binder",
+          "final": "class-living-manuscript",
+          "role": "Tactician",
+          "purpose": "Completes the geometric paper seals and living scroll route."
+        }
       ]
     },
     {
@@ -3065,30 +2607,6 @@
       "newClass": "class-ember-custodian",
       "identity": "warm brown-skinned man with wavy honey hair, green eyes and soft freckles",
       "palette": "buttercream, dusty saffron, faded rose and bronze",
-      "paths": [
-        {
-          "name": "Banked embers",
-          "specialist": "class-flame-keeper",
-          "final": "class-ember-custodian",
-          "types": [
-            "Fire",
-            "Rock"
-          ],
-          "role": "Bulwark",
-          "purpose": "Builds the brazier staff into grounded protection and enduring hearth embers."
-        },
-        {
-          "name": "Solar devotion",
-          "specialist": "class-solar-priest",
-          "final": "class-sun-hierophant",
-          "types": [
-            "Fire",
-            "Spirit"
-          ],
-          "role": "Sustainer",
-          "purpose": "Completes the solar robes and dawn-lantern blessing route."
-        }
-      ],
       "edges": [
         {
           "from": "class-candle-novice",
@@ -3132,14 +2650,25 @@
         "class-solar-priest",
         "class-sun-hierophant"
       ],
-      "types": [
-        "Fire",
-        "Rock",
-        "Spirit"
-      ],
       "roles": [
         "Bulwark",
         "Sustainer"
+      ],
+      "paths": [
+        {
+          "name": "Banked embers",
+          "specialist": "class-flame-keeper",
+          "final": "class-ember-custodian",
+          "role": "Bulwark",
+          "purpose": "Builds the brazier staff into grounded protection and enduring hearth embers."
+        },
+        {
+          "name": "Solar devotion",
+          "specialist": "class-solar-priest",
+          "final": "class-sun-hierophant",
+          "role": "Sustainer",
+          "purpose": "Completes the solar robes and dawn-lantern blessing route."
+        }
       ]
     },
     {
@@ -3152,30 +2681,6 @@
       "newClass": "class-roseblade-regent",
       "identity": "fair-skinned androgynous elf with long wavy auburn hair and teal eyes",
       "palette": "dusty crimson, faded teal, ivory and silver",
-      "paths": [
-        {
-          "name": "Dual-element virtuosity",
-          "specialist": "class-red-mage",
-          "final": "class-crimson-virtuoso",
-          "types": [
-            "Fire",
-            "Water"
-          ],
-          "role": "All-rounder",
-          "purpose": "Completes the red mage through alternating fire-and-water spell fencing."
-        },
-        {
-          "name": "Rosethorn fencing",
-          "specialist": "class-rose-magus",
-          "final": "class-roseblade-regent",
-          "types": [
-            "Steel",
-            "Grass"
-          ],
-          "role": "Bulwark",
-          "purpose": "Develops the rose guard and rapier into a defensive thorn-and-blade court style."
-        }
-      ],
       "edges": [
         {
           "from": "class-pilgrim",
@@ -3219,15 +2724,25 @@
         "class-rose-magus",
         "class-roseblade-regent"
       ],
-      "types": [
-        "Fire",
-        "Water",
-        "Steel",
-        "Grass"
-      ],
       "roles": [
         "All-rounder",
         "Bulwark"
+      ],
+      "paths": [
+        {
+          "name": "Dual-element virtuosity",
+          "specialist": "class-red-mage",
+          "final": "class-crimson-virtuoso",
+          "role": "All-rounder",
+          "purpose": "Completes the red mage through alternating fire-and-water spell fencing."
+        },
+        {
+          "name": "Rosethorn fencing",
+          "specialist": "class-rose-magus",
+          "final": "class-roseblade-regent",
+          "role": "Bulwark",
+          "purpose": "Develops the rose guard and rapier into a defensive thorn-and-blade court style."
+        }
       ]
     },
     {
@@ -3240,30 +2755,6 @@
       "newClass": "class-prismatic-bastion",
       "identity": "young adult lizardfolk woman with a mostly human-shaped expressive face, warm brown skin, subtle pearly blue scales at her cheeks and neck, small delicate ear fins, a slim blue-silver lizard tail, short white hair, ice-blue eyes with narrow pupils and a softly squared jaw",
       "palette": "faded periwinkle, pearl, dusty gray and silver",
-      "paths": [
-        {
-          "name": "Spell reflection",
-          "specialist": "class-spellguard",
-          "final": "class-prismatic-bastion",
-          "types": [
-            "Ice",
-            "Spirit"
-          ],
-          "role": "Tactician",
-          "purpose": "Develops the crystal lens shield into controlled spell reflection and refracted wards."
-        },
-        {
-          "name": "Mirror oath",
-          "specialist": "class-oathkeeper",
-          "final": "class-mirror-aegis",
-          "types": [
-            "Ice",
-            "Steel"
-          ],
-          "role": "Bulwark",
-          "purpose": "Completes the armored greatshield and mirror-oath guardian route."
-        }
-      ],
       "edges": [
         {
           "from": "class-shieldbearer",
@@ -3307,14 +2798,25 @@
         "class-oathkeeper",
         "class-mirror-aegis"
       ],
-      "types": [
-        "Ice",
-        "Spirit",
-        "Steel"
-      ],
       "roles": [
         "Tactician",
         "Bulwark"
+      ],
+      "paths": [
+        {
+          "name": "Spell reflection",
+          "specialist": "class-spellguard",
+          "final": "class-prismatic-bastion",
+          "role": "Tactician",
+          "purpose": "Develops the crystal lens shield into controlled spell reflection and refracted wards."
+        },
+        {
+          "name": "Mirror oath",
+          "specialist": "class-oathkeeper",
+          "final": "class-mirror-aegis",
+          "role": "Bulwark",
+          "purpose": "Completes the armored greatshield and mirror-oath guardian route."
+        }
       ]
     },
     {
@@ -3327,30 +2829,6 @@
       "newClass": "class-knotbinder-matron",
       "identity": "cream-furred bunny woman with long upright soft rabbit ears, a small fluffy tail, a warm tan humanlike expressive face with a tiny bunny nose, long plum-gray braid, golden eyes and round rose spectacles",
       "palette": "dusty mauve, sage, oatmeal and rose gold",
-      "paths": [
-        {
-          "name": "Binding knots",
-          "specialist": "class-fate-stitcher",
-          "final": "class-knotbinder-matron",
-          "types": [
-            "Grass",
-            "Steel"
-          ],
-          "role": "Bulwark",
-          "purpose": "Builds the thimble gloves and bobbins into physical binding threads and woven wards."
-        },
-        {
-          "name": "Destiny tapestry",
-          "specialist": "class-tapestry-sage",
-          "final": "class-destiny-loom",
-          "types": [
-            "Grass",
-            "Spirit"
-          ],
-          "role": "Tactician",
-          "purpose": "Completes the floating tapestry and prophetic loom route."
-        }
-      ],
       "edges": [
         {
           "from": "class-silk-spinner",
@@ -3394,14 +2872,25 @@
         "class-tapestry-sage",
         "class-destiny-loom"
       ],
-      "types": [
-        "Grass",
-        "Steel",
-        "Spirit"
-      ],
       "roles": [
         "Bulwark",
         "Tactician"
+      ],
+      "paths": [
+        {
+          "name": "Binding knots",
+          "specialist": "class-fate-stitcher",
+          "final": "class-knotbinder-matron",
+          "role": "Bulwark",
+          "purpose": "Builds the thimble gloves and bobbins into physical binding threads and woven wards."
+        },
+        {
+          "name": "Destiny tapestry",
+          "specialist": "class-tapestry-sage",
+          "final": "class-destiny-loom",
+          "role": "Tactician",
+          "purpose": "Completes the floating tapestry and prophetic loom route."
+        }
       ]
     },
     {
@@ -3414,30 +2903,6 @@
       "newClass": "class-relic-juggernaut",
       "identity": "dark-skinned man with tousled teal-black hair, amber eyes and round copper goggles",
       "palette": "dusty turquoise, warm sandstone, coral and old bronze",
-      "paths": [
-        {
-          "name": "Relic scholarship",
-          "specialist": "class-archaeomancer",
-          "final": "class-myth-curator",
-          "types": [
-            "Rock",
-            "Spirit"
-          ],
-          "role": "Tactician",
-          "purpose": "Completes the ancient tablets and orbiting relic rings as a learned curator."
-        },
-        {
-          "name": "Artifact armor",
-          "specialist": "class-artifact-knight",
-          "final": "class-relic-juggernaut",
-          "types": [
-            "Steel",
-            "Rock"
-          ],
-          "role": "Bulwark",
-          "purpose": "Builds the bronze relic armor into a sturdy artifact-powered frontline guardian."
-        }
-      ],
       "edges": [
         {
           "from": "class-treasure-seeker",
@@ -3481,14 +2946,25 @@
         "class-artifact-knight",
         "class-relic-juggernaut"
       ],
-      "types": [
-        "Rock",
-        "Spirit",
-        "Steel"
-      ],
       "roles": [
         "Tactician",
         "Bulwark"
+      ],
+      "paths": [
+        {
+          "name": "Relic scholarship",
+          "specialist": "class-archaeomancer",
+          "final": "class-myth-curator",
+          "role": "Tactician",
+          "purpose": "Completes the ancient tablets and orbiting relic rings as a learned curator."
+        },
+        {
+          "name": "Artifact armor",
+          "specialist": "class-artifact-knight",
+          "final": "class-relic-juggernaut",
+          "role": "Bulwark",
+          "purpose": "Builds the bronze relic armor into a sturdy artifact-powered frontline guardian."
+        }
       ]
     }
   ],

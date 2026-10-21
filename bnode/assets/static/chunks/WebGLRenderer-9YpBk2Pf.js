@@ -1,0 +1,1 @@
+import{r as e}from"./game-renderer-BSPQMBey.js";export{e as WebGLRenderer};

@@ -1,0 +1,1 @@
+import{r as e}from"./game-renderer-TjH5d_B9.js";export{e as WebGLRenderer};

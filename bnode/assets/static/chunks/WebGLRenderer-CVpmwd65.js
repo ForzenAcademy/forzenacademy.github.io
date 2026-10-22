@@ -1,0 +1,1 @@
+import{r as e}from"./game-renderer-xza-PzWL.js";export{e as WebGLRenderer};

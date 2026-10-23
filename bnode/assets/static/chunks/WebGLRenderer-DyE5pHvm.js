@@ -1,0 +1,1 @@
+import{r as e}from"./game-renderer-BKqut_mo.js";export{e as WebGLRenderer};

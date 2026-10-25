@@ -1,1 +1,0 @@
-import{r as e}from"./framework-xWbE11K6.js";import{t}from"./game-load-recovery-BIPj_BRL.js";var n=e();function r({error:e}){return(0,n.jsx)(t,{error:e,source:`react-page-tree`})}export{r as default};

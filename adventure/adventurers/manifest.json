@@ -6272,6 +6272,26 @@
       "name": "Stormcaller",
       "source": "art/adventurers/source/class-stormcaller-sheet.png",
       "sprites": {
+        "front-cast": {
+          "file": "class-stormcaller-front-cast.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "back-cast": {
+          "file": "class-stormcaller-back-cast.webp",
+          "baseline": 0.929688,
+          "sourceBorderPixels": 0
+        },
+        "front-death": {
+          "file": "class-stormcaller-front-death.webp",
+          "baseline": 0.9296875,
+          "sourceBorderPixels": 0
+        },
+        "back-death": {
+          "file": "class-stormcaller-back-death.webp",
+          "baseline": 0.9296875,
+          "sourceBorderPixels": 0
+        },
         "front-idle": {
           "file": "class-stormcaller-front.webp",
           "baseline": 0.929688,
@@ -6301,39 +6321,19 @@
           "file": "class-stormcaller-back-attack.webp",
           "baseline": 0.927734,
           "sourceBorderPixels": 0
-        },
-        "front-cast": {
-          "file": "class-stormcaller-front-cast.webp",
-          "baseline": 0.929688,
-          "sourceBorderPixels": 0
-        },
-        "back-cast": {
-          "file": "class-stormcaller-back-cast.webp",
-          "baseline": 0.929688,
-          "sourceBorderPixels": 0
-        },
-        "front-death": {
-          "file": "class-stormcaller-front-death.webp",
-          "baseline": 0.9296875,
-          "sourceBorderPixels": 0
-        },
-        "back-death": {
-          "file": "class-stormcaller-back-death.webp",
-          "baseline": 0.9296875,
-          "sourceBorderPixels": 0
         }
       },
       "casting": {
         "source": "art/casting/source/class-stormcaller-cast.png",
-        "sourceSha256": "45a9dea7e330f02a6205bc2578c22ba5baf1504576cc6ffa91ee94ef23e79355",
+        "sourceSha256": "76e06f63d40a8cc7849e23921394830cb964a07bacb326ee408ee15b8be54499",
         "sheet": "art/casting/sheets/class-stormcaller-sheet.png",
-        "referenceSha256": "da7223e5cc989617004d09f0efd70105b3ddf0450e22ed6039ad0a361c4fca66"
+        "referenceSha256": "a3aefdb90b4e40831ee4e61a357c003ff3316b94f6531ad839d0a035a6be267c"
       },
       "death": {
         "source": "art/death/source/class-stormcaller-death.png",
-        "sourceSha256": "2a55fbc0807e571491b32e5b7ca82eacebfa564dd042a88c7b13c84e6f1fadde",
+        "sourceSha256": "7c9089b437bf6d6539733c3c23ef0660002ae452a03b6e971c38266a4e8b30b7",
         "sheet": "art/casting/sheets/class-stormcaller-sheet.png",
-        "referenceSha256": "da7223e5cc989617004d09f0efd70105b3ddf0450e22ed6039ad0a361c4fca66"
+        "referenceSha256": "a3aefdb90b4e40831ee4e61a357c003ff3316b94f6531ad839d0a035a6be267c"
       }
     },
     "class-tempest-sage": {

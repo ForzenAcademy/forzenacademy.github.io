@@ -814,113 +814,37 @@
                 "url": "../adventurers/class-soldier-front.webp",
                 "style": {
                   "--pr-foot-baseline": 0.927734,
-                  "--pr-art-scale": 1.2058,
+                  "--pr-art-scale": 1.0778812934829223,
                   "--pr-face-anchor": 0.42578125
                 },
-                "regions": [
-                  {
-                    "sourceY": 0,
-                    "sourceHeight": 260,
-                    "y": 32.25000000000001,
-                    "height": 260
-                  },
-                  {
-                    "sourceY": 260,
-                    "sourceHeight": 215,
-                    "y": 292.25,
-                    "height": 182.75
-                  },
-                  {
-                    "sourceY": 475,
-                    "sourceHeight": 37,
-                    "y": 475,
-                    "height": 37
-                  }
-                ]
+                "regions": null
               },
               "attack": {
                 "url": "../adventurers/class-soldier-front-attack.webp",
                 "style": {
                   "--pr-foot-baseline": 0.929688,
-                  "--pr-art-scale": 1.2058,
+                  "--pr-art-scale": 1.0778812934829223,
                   "--pr-face-anchor": 0.5234375
                 },
-                "regions": [
-                  {
-                    "sourceY": 0,
-                    "sourceHeight": 275,
-                    "y": 30.150000000000006,
-                    "height": 275
-                  },
-                  {
-                    "sourceY": 275,
-                    "sourceHeight": 201,
-                    "y": 305.15,
-                    "height": 170.85
-                  },
-                  {
-                    "sourceY": 476,
-                    "sourceHeight": 36,
-                    "y": 476,
-                    "height": 36
-                  }
-                ]
+                "regions": null
               },
               "hurt": {
                 "url": "../adventurers/class-soldier-front-hurt.webp",
                 "style": {
                   "--pr-foot-baseline": 0.927734,
-                  "--pr-art-scale": 1.2058,
+                  "--pr-art-scale": 1.0778812934829223,
                   "--pr-face-anchor": 0.61328125
                 },
-                "regions": [
-                  {
-                    "sourceY": 0,
-                    "sourceHeight": 290,
-                    "y": 27.750000000000004,
-                    "height": 290
-                  },
-                  {
-                    "sourceY": 290,
-                    "sourceHeight": 185,
-                    "y": 317.75,
-                    "height": 157.25
-                  },
-                  {
-                    "sourceY": 475,
-                    "sourceHeight": 37,
-                    "y": 475,
-                    "height": 37
-                  }
-                ]
+                "regions": null
               },
               "cast": {
                 "url": "../adventurers/class-soldier-front-cast.webp",
                 "style": {
                   "--pr-foot-baseline": 0.929688,
-                  "--pr-art-scale": 1.2058,
+                  "--pr-art-scale": 1.0778812934829223,
                   "--pr-face-anchor": 0.4140625
                 },
-                "regions": [
-                  {
-                    "sourceY": 0,
-                    "sourceHeight": 260,
-                    "y": 32.400000000000006,
-                    "height": 260
-                  },
-                  {
-                    "sourceY": 260,
-                    "sourceHeight": 216,
-                    "y": 292.4,
-                    "height": 183.6
-                  },
-                  {
-                    "sourceY": 476,
-                    "sourceHeight": 36,
-                    "y": 476,
-                    "height": 36
-                  }
-                ]
+                "regions": null
               },
               "death": {
                 "url": "../adventurers/class-soldier-front-death.webp",
@@ -935,29 +859,10 @@
                 "url": "../adventurers/class-soldier-front-celebrate.webp",
                 "style": {
                   "--pr-foot-baseline": 0.9296875,
-                  "--pr-art-scale": 1.2058,
+                  "--pr-art-scale": 1.0778812934829223,
                   "--pr-face-anchor": 0.5
                 },
-                "regions": [
-                  {
-                    "sourceY": 0,
-                    "sourceHeight": 260,
-                    "y": 32.400000000000006,
-                    "height": 260
-                  },
-                  {
-                    "sourceY": 260,
-                    "sourceHeight": 216,
-                    "y": 292.4,
-                    "height": 183.6
-                  },
-                  {
-                    "sourceY": 476,
-                    "sourceHeight": 36,
-                    "y": 476,
-                    "height": 36
-                  }
-                ]
+                "regions": null
               }
             },
             "back": {
@@ -965,113 +870,37 @@
                 "url": "../adventurers/class-soldier-back.webp",
                 "style": {
                   "--pr-foot-baseline": 0.927734,
-                  "--pr-art-scale": 1.2058,
+                  "--pr-art-scale": 1.0778812934829223,
                   "--pr-face-anchor": 0.53515625
                 },
-                "regions": [
-                  {
-                    "sourceY": 0,
-                    "sourceHeight": 260,
-                    "y": 32.25000000000001,
-                    "height": 260
-                  },
-                  {
-                    "sourceY": 260,
-                    "sourceHeight": 215,
-                    "y": 292.25,
-                    "height": 182.75
-                  },
-                  {
-                    "sourceY": 475,
-                    "sourceHeight": 37,
-                    "y": 475,
-                    "height": 37
-                  }
-                ]
+                "regions": null
               },
               "attack": {
                 "url": "../adventurers/class-soldier-back-attack.webp",
                 "style": {
                   "--pr-foot-baseline": 0.929688,
-                  "--pr-art-scale": 1.2058,
+                  "--pr-art-scale": 1.0778812934829223,
                   "--pr-face-anchor": 0.4765625
                 },
-                "regions": [
-                  {
-                    "sourceY": 0,
-                    "sourceHeight": 275,
-                    "y": 30.150000000000006,
-                    "height": 275
-                  },
-                  {
-                    "sourceY": 275,
-                    "sourceHeight": 201,
-                    "y": 305.15,
-                    "height": 170.85
-                  },
-                  {
-                    "sourceY": 476,
-                    "sourceHeight": 36,
-                    "y": 476,
-                    "height": 36
-                  }
-                ]
+                "regions": null
               },
               "hurt": {
                 "url": "../adventurers/class-soldier-back-hurt.webp",
                 "style": {
                   "--pr-foot-baseline": 0.927734,
-                  "--pr-art-scale": 1.2058,
+                  "--pr-art-scale": 1.0778812934829223,
                   "--pr-face-anchor": 0.4375
                 },
-                "regions": [
-                  {
-                    "sourceY": 0,
-                    "sourceHeight": 290,
-                    "y": 27.750000000000004,
-                    "height": 290
-                  },
-                  {
-                    "sourceY": 290,
-                    "sourceHeight": 185,
-                    "y": 317.75,
-                    "height": 157.25
-                  },
-                  {
-                    "sourceY": 475,
-                    "sourceHeight": 37,
-                    "y": 475,
-                    "height": 37
-                  }
-                ]
+                "regions": null
               },
               "cast": {
                 "url": "../adventurers/class-soldier-back-cast.webp",
                 "style": {
                   "--pr-foot-baseline": 0.929688,
-                  "--pr-art-scale": 1.2058,
+                  "--pr-art-scale": 1.0778812934829223,
                   "--pr-face-anchor": 0.52734375
                 },
-                "regions": [
-                  {
-                    "sourceY": 0,
-                    "sourceHeight": 260,
-                    "y": 32.400000000000006,
-                    "height": 260
-                  },
-                  {
-                    "sourceY": 260,
-                    "sourceHeight": 216,
-                    "y": 292.4,
-                    "height": 183.6
-                  },
-                  {
-                    "sourceY": 476,
-                    "sourceHeight": 36,
-                    "y": 476,
-                    "height": 36
-                  }
-                ]
+                "regions": null
               },
               "death": {
                 "url": "../adventurers/class-soldier-back-death.webp",
@@ -1086,29 +915,10 @@
                 "url": "../adventurers/class-soldier-front-celebrate.webp",
                 "style": {
                   "--pr-foot-baseline": 0.9296875,
-                  "--pr-art-scale": 1.2058,
+                  "--pr-art-scale": 1.0778812934829223,
                   "--pr-face-anchor": 0.5
                 },
-                "regions": [
-                  {
-                    "sourceY": 0,
-                    "sourceHeight": 260,
-                    "y": 32.400000000000006,
-                    "height": 260
-                  },
-                  {
-                    "sourceY": 260,
-                    "sourceHeight": 216,
-                    "y": 292.4,
-                    "height": 183.6
-                  },
-                  {
-                    "sourceY": 476,
-                    "sourceHeight": 36,
-                    "y": 476,
-                    "height": 36
-                  }
-                ]
+                "regions": null
               }
             }
           }
@@ -26749,7 +26559,7 @@
     "src/protocol/specializations.js": "6574449c2353fe73b5d5e683ba45818485504c2611526ec981bf9f073f96f40e",
     "src/protocol/rangePreview.js": "c23bbadcc9bd4950627269176b0331fae71d01a42e1d992526aef48e9ce2841d",
     "src/protocol/facing.js": "4e4b65e00996e4928c78991758977b93e96b03d6a0b4001b75cf3f82eeddce46",
-    "src/protocol/artPresentation.js": "1320df0c9f09b678446e9659d73ae9e9b65d6844fa29d483ad12f656997e576b"
+    "src/protocol/artPresentation.js": "eac81265bcb91f4accbe908fc96c67bb3fdff861e62650f699ade3fb65fcd438"
   },
-  "catalogHash": "d81e00f5d67c821c27e7fef6a8727809c816789f049863361fab3ba238566463"
+  "catalogHash": "12f07abd7e4aab7dfb78dbb741ecd1726ed88e3c7c0d47494601c7011c5c0689"
 }

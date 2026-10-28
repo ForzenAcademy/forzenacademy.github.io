@@ -13,6 +13,8 @@
       "addon": "aid",
       "traitId": "purchase",
       "trait": "When acquired: gain 1 stack for its core and add-on (2 when Elite).",
+      "strength": "Shields a nearby ally while holding two enemies.",
+      "weakness": "Short reach and modest damage; cannot heal.",
       "profile": {
         "name": "Vanguard",
         "melee": true,
@@ -545,6 +547,8 @@
       "addon": "resilient",
       "traitId": "skill",
       "trait": "Each ability activation: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Holds three enemies and reserves a large ward for itself.",
+      "weakness": "Cannot shield teammates; vulnerable to sustained Arts damage.",
       "profile": {
         "name": "Guardian",
         "melee": true,
@@ -607,19 +611,21 @@
       },
       "skill": {
         "name": "Hold the Line",
-        "target": "unwardedAlly",
+        "target": "unwardedSelf",
         "effect": "ward",
         "cooldown": 3,
         "power": 1,
         "school": "Martial",
         "castTime": 0,
         "id": "tradition-2-1",
-        "condition": "Ally without a ward",
-        "description": "Block 24% HP in damage (8s).",
+        "condition": "Self without a ward",
+        "description": "Shields itself for 32% max HP. Does not shield other allies.",
+        "wardRatio": 0.32,
         "icon": "../skill-icons/mobile-v2/tradition-2-1.webp",
         "execution": [
-          "Gives the target a ward of 24% max HP, capped at 50% max HP. It replaces a smaller ward; it does not add to it.",
-          "Current Stronghold wards have no expiration timer. The authored tooltip’s duration is not enforced."
+          "Gives the target a ward of 32% max HP, capped at 50% max HP. It replaces a smaller ward; it does not add to it.",
+          "Current Stronghold wards have no expiration timer. The authored tooltip’s duration is not enforced.",
+          "Self only; never targets a teammate."
         ]
       },
       "forms": [
@@ -1267,6 +1273,8 @@
       "addon": "swift",
       "traitId": "heal",
       "trait": "Each effective heal: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Reaches past the front line and slows one enemy.",
+      "weakness": "Single-target damage; cannot hit flying enemies.",
       "profile": {
         "name": "Reach guard",
         "melee": true,
@@ -1357,7 +1365,7 @@
         "icon": "../skill-icons/mobile-v2/tradition-3-1.webp",
         "execution": [
           "1.1 × current ATK as physical power before mitigation. Physical damage has a 5% minimum; Arts damage has a 5% minimum multiplier.",
-          "Then multiplies target cooldown recovery by 0.75 for 6 seconds."
+          "Movement is multiplied by 0.8 and cooldown recovery by 0.75 for 6 seconds."
         ]
       },
       "forms": [
@@ -2195,6 +2203,8 @@
       "addon": "aid",
       "traitId": "block",
       "trait": "Every ten received blocking hits: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Rapid frontline attacks and a stun against the toughest enemy.",
+      "weakness": "Only blocks two; has no healing or ward.",
       "profile": {
         "name": "Vanguard",
         "melee": true,
@@ -2727,6 +2737,8 @@
       "addon": "swift",
       "traitId": "hit",
       "trait": "Every five basic hits: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "A melee duelist that exposes one target for the whole team.",
+      "weakness": "Blocks only one; vulnerable to crowds.",
       "profile": {
         "name": "Duelist",
         "melee": true,
@@ -3259,6 +3271,8 @@
       "addon": "resilient",
       "traitId": "defeat",
       "trait": "When another core ally falls: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Very fast punches and an enemy damage reduction debuff.",
+      "weakness": "Blocks one; physical hits struggle against heavy armor.",
       "profile": {
         "name": "Duelist",
         "melee": true,
@@ -3791,6 +3805,8 @@
       "addon": "precision",
       "traitId": "purchase",
       "trait": "When acquired: gain 1 stack for its core and add-on (2 when Elite).",
+      "strength": "Boosts its own damage before delivering heavy melee hits.",
+      "weakness": "The damage buff helps only itself; needs healing.",
       "profile": {
         "name": "Guard",
         "melee": true,
@@ -3853,18 +3869,19 @@
       },
       "skill": {
         "name": "War Cry",
-        "target": "unfocusedAlly",
+        "target": "unfocusedSelf",
         "effect": "focus",
         "cooldown": 2.8,
         "power": 1,
         "school": "Martial",
         "castTime": 0,
         "id": "tradition-7-1",
-        "condition": "Ally without focus",
-        "description": "Damage +30% (7s).",
+        "condition": "Self without focus",
+        "description": "Gains +30% ATK and MAG for 7 seconds. Self only.",
         "icon": "../skill-icons/mobile-v2/tradition-7-1.webp",
         "execution": [
-          "Multiplies ATK and MAG by 1.3 for 7 combat seconds."
+          "Multiplies ATK and MAG by 1.3 for 7 combat seconds.",
+          "Self only; never targets a teammate."
         ]
       },
       "forms": [
@@ -4322,6 +4339,8 @@
       "addon": "foresight",
       "traitId": "skill",
       "trait": "Each ability activation: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Poisons durable ground enemies for damage over time.",
+      "weakness": "Fragile, blocks one, and cannot poison flying enemies.",
       "profile": {
         "name": "Duelist",
         "melee": true,
@@ -4854,6 +4873,8 @@
       "addon": "precision",
       "traitId": "heal",
       "trait": "Each effective heal: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Fast ranged attacks expose a priority target for allies.",
+      "weakness": "Physical damage loses effectiveness against heavy armor.",
       "profile": {
         "name": "Marksman",
         "melee": false,
@@ -5418,6 +5439,8 @@
       "addon": "precision",
       "traitId": "block",
       "trait": "Every ten received blocking hits: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Long-reach heavy bolts slow a single enemy.",
+      "weakness": "Long gaps between shots; no area damage.",
       "profile": {
         "name": "Sharpshooter",
         "melee": false,
@@ -5556,7 +5579,7 @@
         "icon": "../skill-icons/mobile-v2/tradition-10-1.webp",
         "execution": [
           "1.1 × current ATK as physical power before mitigation. Physical damage has a 5% minimum; Arts damage has a 5% minimum multiplier.",
-          "Then multiplies target cooldown recovery by 0.75 for 6 seconds."
+          "Movement is multiplied by 0.8 and cooldown recovery by 0.75 for 6 seconds."
         ]
       },
       "forms": [
@@ -6014,6 +6037,8 @@
       "addon": "foresight",
       "traitId": "hit",
       "trait": "Every five basic hits: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Boosts two nearby allies while holding the frontline.",
+      "weakness": "The short-range buff needs a compact formation.",
       "profile": {
         "name": "Vanguard",
         "melee": true,
@@ -6084,10 +6109,13 @@
         "castTime": 0,
         "id": "tradition-11-1",
         "condition": "Ally without focus",
-        "description": "Damage +30% (7s).",
+        "description": "Grants +30% ATK and MAG for 7 seconds to up to 2 nearby allies within 1.5 tiles of the first target.",
+        "targetCount": 2,
+        "areaRadius": 1.5,
         "icon": "../skill-icons/mobile-v2/tradition-11-1.webp",
         "execution": [
-          "Multiplies ATK and MAG by 1.3 for 7 combat seconds."
+          "Multiplies ATK and MAG by 1.3 for 7 combat seconds.",
+          "Affects up to 2 eligible allies within 1.5 Manhattan tiles of the primary target. Every recipient must also be in the caster’s range."
         ]
       },
       "forms": [
@@ -6545,6 +6573,8 @@
       "addon": "precision",
       "traitId": "defeat",
       "trait": "When another core ally falls: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Heavy long-range shots expose a target for concentrated fire.",
+      "weakness": "Slow single-target attacks are inefficient against swarms.",
       "profile": {
         "name": "Sharpshooter",
         "melee": false,
@@ -7141,6 +7171,8 @@
       "addon": "agile",
       "traitId": "purchase",
       "trait": "When acquired: gain 1 stack for its core and add-on (2 when Elite).",
+      "strength": "Heavy ranged fire with a ward for a nearby ally.",
+      "weakness": "Slow shots; its ward neither heals nor removes debuffs.",
       "profile": {
         "name": "Sharpshooter",
         "melee": false,
@@ -7737,6 +7769,8 @@
       "addon": "aid",
       "traitId": "skill",
       "trait": "Each ability activation: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Instant emergency healing also cures poison.",
+      "weakness": "Cannot remove other debuffs or heal groups.",
       "profile": {
         "name": "Medic",
         "melee": false,
@@ -7846,30 +7880,34 @@
         "name": "Healing",
         "effect": "heal",
         "target": "injuredAlly",
-        "healRatio": 0.13,
         "power": 1,
         "cooldown": 2.85,
         "castTime": 0,
         "basic": true,
         "kind": "Healing",
         "execution": [
-          "Each basic heal restores HP equal to the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
+          "Each basic heal restores HP equal to 100% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
         ]
       },
       "skill": {
         "name": "Restorative Draught",
         "target": "allyUnder50",
-        "effect": "heal",
+        "effect": "remedy",
         "cooldown": 3.8,
         "power": 1,
         "school": "Craft",
         "castTime": 0,
         "id": "tradition-14-2",
         "condition": "Ally below 50% HP",
-        "description": "Heal 34% HP.",
+        "description": "Instantly heals one ally for 28% max HP and removes poison.",
+        "healRatio": 0.28,
+        "cleanseStatuses": [
+          "poison"
+        ],
         "icon": "../skill-icons/mobile-v2/tradition-14-2.webp",
         "execution": [
-          "Restores 34% of the target’s max HP, before healing equipment, sealed reduction and overheal capping."
+          "Restores 28% of the target’s max HP, before healing equipment, sealed reduction and overheal capping.",
+          "Also removes poison."
         ]
       },
       "forms": [
@@ -8327,6 +8365,8 @@
       "addon": "arcane",
       "traitId": "heal",
       "trait": "Each effective heal: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Arts barrage hits up to four clustered enemies.",
+      "weakness": "Long cast and poor durability; magic-resistant enemies blunt it.",
       "profile": {
         "name": "Caster",
         "melee": false,
@@ -8433,7 +8473,7 @@
         "icon": "../skill-icons/mobile-v2/tradition-15-2.webp",
         "execution": [
           "1 × current MAG as Arts power before mitigation. Physical damage has a 5% minimum; Arts damage has a 5% minimum multiplier.",
-          "Hits up to 4 eligible targets within 1.5 Manhattan tiles of the primary target."
+          "Affects up to 4 eligible targets within 1.5 Manhattan tiles of the primary target. Every recipient must also be in the caster’s range."
         ]
       },
       "forms": [
@@ -9271,6 +9311,8 @@
       "addon": "aid",
       "traitId": "block",
       "trait": "Every ten received blocking hits: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Large single-target emergency heal for an injured ally.",
+      "weakness": "Needs cast time; cannot heal groups or remove debuffs.",
       "profile": {
         "name": "Medic",
         "melee": false,
@@ -9380,14 +9422,13 @@
         "name": "Healing",
         "effect": "heal",
         "target": "injuredAlly",
-        "healRatio": 0.13,
         "power": 1,
         "cooldown": 2.85,
         "castTime": 0,
         "basic": true,
         "kind": "Healing",
         "execution": [
-          "Each basic heal restores HP equal to the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
+          "Each basic heal restores HP equal to 100% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
         ]
       },
       "skill": {
@@ -10051,6 +10092,8 @@
       "addon": "aid",
       "traitId": "hit",
       "trait": "Every five basic hits: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Regeneration keeps restoring a wounded ally between actions.",
+      "weakness": "Delayed healing cannot rescue an ally from immediate burst damage.",
       "profile": {
         "name": "Medic",
         "melee": false,
@@ -10160,14 +10203,13 @@
         "name": "Healing",
         "effect": "heal",
         "target": "injuredAlly",
-        "healRatio": 0.13,
         "power": 1,
         "cooldown": 2.85,
         "castTime": 0,
         "basic": true,
         "kind": "Healing",
         "execution": [
-          "Each basic heal restores HP equal to the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
+          "Each basic heal restores HP equal to 100% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
         ]
       },
       "skill": {
@@ -10641,6 +10683,8 @@
       "addon": "resilient",
       "traitId": "defeat",
       "trait": "When another core ally falls: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Arts attacks backed by a protective ally ward.",
+      "weakness": "No healing or crowd control; magic resistance reduces its damage.",
       "profile": {
         "name": "Caster",
         "melee": false,
@@ -11205,6 +11249,8 @@
       "addon": "arcane",
       "traitId": "purchase",
       "trait": "When acquired: gain 1 stack for its core and add-on (2 when Elite).",
+      "strength": "A pulse damages and slows up to three clustered enemies.",
+      "weakness": "Lower damage per target; isolated enemies waste its area control.",
       "profile": {
         "name": "Caster",
         "melee": false,
@@ -11302,16 +11348,20 @@
         "target": "unboundEnemy",
         "effect": "slow",
         "cooldown": 2.8,
-        "power": 0.9,
+        "power": 0.65,
         "school": "Sorcery",
         "castTime": 1,
         "id": "tradition-19-1",
         "condition": "Enemy not slowed",
-        "description": "Damage; target cooldowns +30% (6s).",
+        "description": "Deals 65% MAG Arts damage and slows up to 3 enemies within 1.5 tiles of the first target for 6 seconds.",
+        "damageType": "arts",
+        "targetCount": 3,
+        "areaRadius": 1.5,
         "icon": "../skill-icons/mobile-v2/tradition-19-1.webp",
         "execution": [
-          "0.9 × current ATK as physical power before mitigation. Physical damage has a 5% minimum; Arts damage has a 5% minimum multiplier.",
-          "Then multiplies target cooldown recovery by 0.75 for 6 seconds."
+          "0.65 × current MAG as Arts power before mitigation. Physical damage has a 5% minimum; Arts damage has a 5% minimum multiplier.",
+          "Affects up to 3 eligible targets within 1.5 Manhattan tiles of the primary target. Every recipient must also be in the caster’s range.",
+          "Movement is multiplied by 0.8 and cooldown recovery by 0.75 for 6 seconds."
         ]
       },
       "forms": [
@@ -11769,6 +11819,8 @@
       "addon": "agile",
       "traitId": "skill",
       "trait": "Each ability activation: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Freezes one enemy without allies waking it by attacking.",
+      "weakness": "Shorter control against bosses; low burst and no area control.",
       "profile": {
         "name": "Caster",
         "melee": false,
@@ -11863,18 +11915,21 @@
       },
       "skill": {
         "name": "Stillness Hex",
-        "target": "awakeEnemy",
-        "effect": "sleep",
+        "target": "unfrozenEnemy",
+        "effect": "freeze",
         "cooldown": 3.7,
-        "power": 1,
+        "power": 0.5,
         "school": "Black magic",
         "castTime": 1.4,
         "id": "tradition-20-1",
-        "condition": "Enemy vulnerable to sleep",
-        "description": "Sleep 3s. Direct hits wake; 4s sleep protection after waking.",
+        "condition": "Enemy not frozen or protected from control",
+        "description": "Deals 50% MAG Arts damage and freezes one enemy for 2 seconds (0.8 on bosses). Damage does not break the freeze.",
+        "damageType": "arts",
+        "duration": 2,
         "icon": "../skill-icons/mobile-v2/tradition-20-1.webp",
         "execution": [
-          "Sleeps an ordinary enemy for 3 seconds, or a boss for 1.2 seconds. Damage wakes the target and grants 4 seconds of sleep protection."
+          "0.5 × current MAG as Arts power before mitigation. Physical damage has a 5% minimum; Arts damage has a 5% minimum multiplier.",
+          "Freezes for 2 seconds (0.8 on bosses), then retains 3 seconds of control protection. Damage does not wake a frozen target."
         ]
       },
       "forms": [
@@ -12522,6 +12577,8 @@
       "addon": "marvel",
       "traitId": "heal",
       "trait": "Each effective heal: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Ranged Arts poison wears down high-HP enemies.",
+      "weakness": "Damage takes time; bosses resist the poison tick.",
       "profile": {
         "name": "Caster",
         "melee": false,
@@ -13086,6 +13143,8 @@
       "addon": "marvel",
       "traitId": "block",
       "trait": "Every ten received blocking hits: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Puts up to three clustered enemies to sleep.",
+      "weakness": "Any damage wakes them; it cannot lock down a focus-fire target.",
       "profile": {
         "name": "Caster",
         "melee": false,
@@ -13188,10 +13247,13 @@
         "castTime": 1.4,
         "id": "tradition-22-1",
         "condition": "Enemy vulnerable to sleep",
-        "description": "Sleep 3s. Direct hits wake; 4s sleep protection after waking.",
+        "description": "Sleeps up to 3 enemies within 1.5 tiles of the first target for 3 seconds (1.2 on bosses). Damage wakes them.",
+        "targetCount": 3,
+        "areaRadius": 1.5,
         "icon": "../skill-icons/mobile-v2/tradition-22-1.webp",
         "execution": [
-          "Sleeps an ordinary enemy for 3 seconds, or a boss for 1.2 seconds. Damage wakes the target and grants 4 seconds of sleep protection."
+          "Sleeps an ordinary enemy for 3 seconds, or a boss for 1.2 seconds. Damage wakes the target and grants 4 seconds of sleep protection.",
+          "Affects up to 3 eligible targets within 1.5 Manhattan tiles of the primary target. Every recipient must also be in the caster’s range."
         ]
       },
       "forms": [
@@ -13649,6 +13711,8 @@
       "addon": "agile",
       "traitId": "hit",
       "trait": "Every five basic hits: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Cancels an enemy spell instantly from ranged positions.",
+      "weakness": "Its skill does nothing against enemies that are not casting.",
       "profile": {
         "name": "Caster",
         "melee": false,
@@ -13742,20 +13806,19 @@
         ]
       },
       "skill": {
-        "name": "Guardian Pact",
-        "target": "unwardedAlly",
-        "effect": "ward",
-        "cooldown": 3,
+        "name": "Pact Sever",
+        "target": "castingEnemy",
+        "effect": "counter",
+        "cooldown": 2.8,
         "power": 1,
         "school": "Sorcery",
-        "castTime": 1,
-        "id": "tradition-23-1",
-        "condition": "Ally without a ward",
-        "description": "Block 24% HP in damage (8s).",
-        "icon": "../skill-icons/mobile-v2/tradition-23-1.webp",
+        "castTime": 0,
+        "id": "tradition-23-2",
+        "condition": "Casting enemy",
+        "description": "Cancel spell.",
+        "icon": "../skill-icons/mobile-v2/tradition-23-2.webp",
         "execution": [
-          "Gives the target a ward of 24% max HP, capped at 50% max HP. It replaces a smaller ward; it does not add to it.",
-          "Current Stronghold wards have no expiration timer. The authored tooltip’s duration is not enforced."
+          "Interrupts the target’s active cast and delays its next action by 3 seconds. Does no damage."
         ]
       },
       "forms": [
@@ -13790,7 +13853,7 @@
               "resistance": 15
             }
           },
-          "sp": 12,
+          "sp": 11,
           "art": {
             "front": {
               "idle": {
@@ -14213,6 +14276,8 @@
       "addon": "foresight",
       "traitId": "defeat",
       "trait": "When another core ally falls: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Heals allies and accelerates one ally’s attacks.",
+      "weakness": "No burst heal, ward, or damage; benefits depend on its target.",
       "profile": {
         "name": "Medic",
         "melee": false,
@@ -14322,14 +14387,13 @@
         "name": "Healing",
         "effect": "heal",
         "target": "injuredAlly",
-        "healRatio": 0.13,
         "power": 1,
         "cooldown": 2.85,
         "castTime": 0,
         "basic": true,
         "kind": "Healing",
         "execution": [
-          "Each basic heal restores HP equal to the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
+          "Each basic heal restores HP equal to 100% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
         ]
       },
       "skill": {
@@ -15183,6 +15247,8 @@
       "addon": "resilient",
       "traitId": "purchase",
       "trait": "When acquired: gain 1 stack for its core and add-on (2 when Elite).",
+      "strength": "Blocks three and spreads small wards over a nearby group.",
+      "weakness": "Each ward is small; cannot restore lost HP.",
       "profile": {
         "name": "Guardian",
         "melee": true,
@@ -15253,11 +15319,15 @@
         "castTime": 1,
         "id": "tradition-25-1",
         "condition": "Ally without a ward",
-        "description": "Block 24% HP in damage (8s).",
+        "description": "Shields up to 3 allies within 1.5 tiles of the first target for 14% of each ally’s max HP.",
+        "wardRatio": 0.14,
+        "targetCount": 3,
+        "areaRadius": 1.5,
         "icon": "../skill-icons/mobile-v2/tradition-25-1.webp",
         "execution": [
-          "Gives the target a ward of 24% max HP, capped at 50% max HP. It replaces a smaller ward; it does not add to it.",
-          "Current Stronghold wards have no expiration timer. The authored tooltip’s duration is not enforced."
+          "Gives the target a ward of 14% max HP, capped at 50% max HP. It replaces a smaller ward; it does not add to it.",
+          "Current Stronghold wards have no expiration timer. The authored tooltip’s duration is not enforced.",
+          "Affects up to 3 eligible allies within 1.5 Manhattan tiles of the primary target. Every recipient must also be in the caster’s range."
         ]
       },
       "forms": [
@@ -15715,6 +15785,8 @@
       "addon": "agile",
       "traitId": "skill",
       "trait": "Each ability activation: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "A broad-range group heal helps a clustered wounded team.",
+      "weakness": "The small per-ally heal is poor against concentrated burst damage.",
       "profile": {
         "name": "Medic",
         "melee": false,
@@ -15824,14 +15896,13 @@
         "name": "Healing",
         "effect": "heal",
         "target": "injuredAlly",
-        "healRatio": 0.13,
         "power": 1,
         "cooldown": 2.85,
         "castTime": 0,
         "basic": true,
         "kind": "Healing",
         "execution": [
-          "Each basic heal restores HP equal to the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
+          "Each basic heal restores HP equal to 100% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
         ]
       },
       "skill": {
@@ -15848,7 +15919,7 @@
         "icon": "../skill-icons/mobile-v2/tradition-26-1.webp",
         "execution": [
           "Restores 12% of the target’s max HP, before healing equipment, sealed reduction and overheal capping.",
-          "Heals up to 4 eligible allies within 1.5 Manhattan tiles of the primary target."
+          "Heals up to 4 eligible allies within 1.5 Manhattan tiles of the primary target. Every recipient must also be in the caster’s range."
         ]
       },
       "forms": [
@@ -16686,6 +16757,8 @@
       "addon": "swift",
       "traitId": "heal",
       "trait": "Each effective heal: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Fast melee attacks and an attack-speed buff for a nearby ally.",
+      "weakness": "Blocks only one and must stand close to the fight.",
       "profile": {
         "name": "Duelist",
         "melee": true,
@@ -17217,6 +17290,8 @@
       "addon": "foresight",
       "traitId": "block",
       "trait": "Every ten received blocking hits: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Boosts one nearby ally’s damage while holding two enemies.",
+      "weakness": "Modest personal damage; no healing or emergency control.",
       "profile": {
         "name": "Vanguard",
         "melee": true,
@@ -17748,11 +17823,13 @@
       "addon": "aid",
       "traitId": "hit",
       "trait": "Every five basic hits: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Heals up to three nearby allies with every meal and skill.",
+      "weakness": "Short healing reach and weaker healing on one isolated ally.",
       "profile": {
         "name": "Medic",
         "melee": false,
         "block": 1,
-        "range": 2.5,
+        "range": 1.5,
         "cost": 12,
         "interval": 2.85,
         "hp": 1,
@@ -17764,27 +17841,11 @@
       "range": {
         "label": "Healing range",
         "support": true,
-        "radius": 2,
-        "reach": 2.5,
+        "radius": 1,
+        "reach": 1.5,
         "cells": [
           [
             -1,
-            -2
-          ],
-          [
-            0,
-            -2
-          ],
-          [
-            1,
-            -2
-          ],
-          [
-            -2,
-            -1
-          ],
-          [
-            -1,
             -1
           ],
           [
@@ -17794,14 +17855,6 @@
           [
             1,
             -1
-          ],
-          [
-            2,
-            -1
-          ],
-          [
-            -2,
-            0
           ],
           [
             -1,
@@ -17816,14 +17869,6 @@
             0
           ],
           [
-            2,
-            0
-          ],
-          [
-            -2,
-            1
-          ],
-          [
             -1,
             1
           ],
@@ -17834,22 +17879,6 @@
           [
             1,
             1
-          ],
-          [
-            2,
-            1
-          ],
-          [
-            -1,
-            2
-          ],
-          [
-            0,
-            2
-          ],
-          [
-            1,
-            2
           ]
         ]
       },
@@ -17857,30 +17886,37 @@
         "name": "Healing",
         "effect": "heal",
         "target": "injuredAlly",
-        "healRatio": 0.13,
         "power": 1,
+        "healPower": 0.55,
+        "targetCount": 3,
+        "areaRadius": 1.5,
         "cooldown": 2.85,
         "castTime": 0,
         "basic": true,
         "kind": "Healing",
         "execution": [
-          "Each basic heal restores HP equal to the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
+          "Each basic heal restores HP equal to 55% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time.",
+          "Heals up to 3 eligible allies within 1.5 Manhattan tiles of the primary target. Every recipient must also be in the caster’s range."
         ]
       },
       "skill": {
         "name": "Comfort Food",
-        "target": "allyUnder50",
-        "effect": "heal",
+        "target": "allyUnder75",
+        "effect": "rally",
         "cooldown": 3.6,
         "power": 1,
         "school": "Craft",
         "castTime": 0,
         "id": "tradition-29-1",
-        "condition": "Ally below 50% HP",
-        "description": "Heal 34% HP.",
+        "condition": "Ally below 75% HP",
+        "description": "Instantly heals up to 3 nearby allies for 20% max HP each. Healing radius is only 1.5 tiles.",
+        "healRatio": 0.2,
+        "targetCount": 3,
+        "areaRadius": 1.5,
         "icon": "../skill-icons/mobile-v2/tradition-29-1.webp",
         "execution": [
-          "Restores 34% of the target’s max HP, before healing equipment, sealed reduction and overheal capping."
+          "Restores 20% of the target’s max HP, before healing equipment, sealed reduction and overheal capping.",
+          "Heals up to 3 eligible allies within 1.5 Manhattan tiles of the primary target. Every recipient must also be in the caster’s range."
         ]
       },
       "forms": [
@@ -18718,6 +18754,8 @@
       "addon": "foresight",
       "traitId": "defeat",
       "trait": "When another core ally falls: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "A three-block physical tank that exposes an enemy for the team.",
+      "weakness": "No protective ward or healing; vulnerable to Arts damage.",
       "profile": {
         "name": "Guardian",
         "melee": true,
@@ -18779,20 +18817,20 @@
         ]
       },
       "skill": {
-        "name": "Mortar Bulwark",
-        "target": "unwardedAlly",
-        "effect": "ward",
-        "cooldown": 3,
+        "name": "Cracking Hammer",
+        "target": "unmarkedEnemy",
+        "effect": "expose",
+        "cooldown": 2.9,
         "power": 1,
         "school": "Craft",
         "castTime": 0,
-        "id": "tradition-30-1",
-        "condition": "Ally without a ward",
-        "description": "Block 24% HP in damage (8s).",
-        "icon": "../skill-icons/mobile-v2/tradition-30-1.webp",
+        "id": "tradition-30-2",
+        "condition": "Enemy not exposed",
+        "description": "Damage; target takes +25% damage (6s).",
+        "icon": "../skill-icons/mobile-v2/tradition-30-2.webp",
         "execution": [
-          "Gives the target a ward of 24% max HP, capped at 50% max HP. It replaces a smaller ward; it does not add to it.",
-          "Current Stronghold wards have no expiration timer. The authored tooltip’s duration is not enforced."
+          "1 × current ATK as physical power before mitigation. Physical damage has a 5% minimum; Arts damage has a 5% minimum multiplier.",
+          "Then makes the target take 25% more damage for 6 seconds."
         ]
       },
       "forms": [
@@ -19630,6 +19668,8 @@
       "addon": "precision",
       "traitId": "purchase",
       "trait": "When acquired: gain 1 stack for its core and add-on (2 when Elite).",
+      "strength": "Nets slow up to three enemies for the ranged line.",
+      "weakness": "Shorter reach than a sharpshooter; physical damage struggles with armor.",
       "profile": {
         "name": "Marksman",
         "melee": false,
@@ -19727,16 +19767,19 @@
         "target": "unboundEnemy",
         "effect": "slow",
         "cooldown": 2.6,
-        "power": 0.8,
+        "power": 0.6,
         "school": "Martial",
         "castTime": 0,
         "id": "tradition-31-1",
         "condition": "Enemy not slowed",
-        "description": "Damage; target cooldowns +30% (6s).",
+        "description": "Deals 60% ATK physical damage and slows up to 3 enemies within 1.5 tiles of the first target for 6 seconds.",
+        "targetCount": 3,
+        "areaRadius": 1.5,
         "icon": "../skill-icons/mobile-v2/tradition-31-1.webp",
         "execution": [
-          "0.8 × current ATK as physical power before mitigation. Physical damage has a 5% minimum; Arts damage has a 5% minimum multiplier.",
-          "Then multiplies target cooldown recovery by 0.75 for 6 seconds."
+          "0.6 × current ATK as physical power before mitigation. Physical damage has a 5% minimum; Arts damage has a 5% minimum multiplier.",
+          "Affects up to 3 eligible targets within 1.5 Manhattan tiles of the primary target. Every recipient must also be in the caster’s range.",
+          "Movement is multiplied by 0.8 and cooldown recovery by 0.75 for 6 seconds."
         ]
       },
       "forms": [
@@ -20194,6 +20237,8 @@
       "addon": "foresight",
       "traitId": "skill",
       "trait": "Each ability activation: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Quickly grants a nearby ally attack speed while holding two enemies.",
+      "weakness": "No burst damage, healing, or enemy crowd control.",
       "profile": {
         "name": "Vanguard",
         "melee": true,
@@ -20725,6 +20770,8 @@
       "addon": "resilient",
       "traitId": "heal",
       "trait": "Each effective heal: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Removes all harmful statuses and adds a small heal.",
+      "weakness": "Its skill waits for a debuff; weak emergency burst healing.",
       "profile": {
         "name": "Medic",
         "melee": false,
@@ -20834,14 +20881,13 @@
         "name": "Healing",
         "effect": "heal",
         "target": "injuredAlly",
-        "healRatio": 0.13,
         "power": 1,
         "cooldown": 2.85,
         "castTime": 0,
         "basic": true,
         "kind": "Healing",
         "execution": [
-          "Each basic heal restores HP equal to the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
+          "Each basic heal restores HP equal to 100% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
         ]
       },
       "skill": {
@@ -21316,6 +21362,8 @@
       "addon": "precision",
       "traitId": "block",
       "trait": "Every ten received blocking hits: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Long-reach heavy shots supported by an ally damage buff.",
+      "weakness": "Slow single-target attacks; cannot handle a swarm alone.",
       "profile": {
         "name": "Sharpshooter",
         "melee": false,
@@ -21911,6 +21959,8 @@
       "addon": "arcane",
       "traitId": "hit",
       "trait": "Every five basic hits: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Binding greatly slows one enemy’s movement.",
+      "weakness": "Low spell damage and no area control.",
       "profile": {
         "name": "Caster",
         "melee": false,
@@ -22008,16 +22058,19 @@
         "target": "unboundEnemy",
         "effect": "slow",
         "cooldown": 2.8,
-        "power": 0.85,
+        "power": 0.45,
         "school": "Sorcery",
         "castTime": 1,
         "id": "tradition-35-1",
         "condition": "Enemy not slowed",
-        "description": "Damage; target cooldowns +30% (6s).",
+        "description": "Deals 45% MAG Arts damage and reduces one enemy’s movement to 35% for 4 seconds. Also slows its attacks.",
+        "damageType": "arts",
+        "movementFactor": 0.35,
+        "duration": 4,
         "icon": "../skill-icons/mobile-v2/tradition-35-1.webp",
         "execution": [
-          "0.85 × current ATK as physical power before mitigation. Physical damage has a 5% minimum; Arts damage has a 5% minimum multiplier.",
-          "Then multiplies target cooldown recovery by 0.75 for 6 seconds."
+          "0.45 × current MAG as Arts power before mitigation. Physical damage has a 5% minimum; Arts damage has a 5% minimum multiplier.",
+          "Movement is multiplied by 0.35 and cooldown recovery by 0.75 for 4 seconds."
         ]
       },
       "forms": [
@@ -22475,6 +22528,8 @@
       "addon": "aid",
       "traitId": "defeat",
       "trait": "When another core ally falls: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Protects the highest-HP unwarded ally with a large shield.",
+      "weakness": "Single-target healing; its skill prevents damage but restores no HP.",
       "profile": {
         "name": "Medic",
         "melee": false,
@@ -22584,30 +22639,34 @@
         "name": "Healing",
         "effect": "heal",
         "target": "injuredAlly",
-        "healRatio": 0.13,
         "power": 1,
+        "healPower": 0.9,
         "cooldown": 2.85,
         "castTime": 0,
         "basic": true,
         "kind": "Healing",
         "execution": [
-          "Each basic heal restores HP equal to the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
+          "Each basic heal restores HP equal to 90% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
         ]
       },
       "skill": {
         "name": "Kindled Prayer",
-        "target": "allyUnder50",
-        "effect": "heal",
+        "target": "unwardedAlly",
+        "effect": "ward",
         "cooldown": 3.8,
         "power": 1,
         "school": "White magic",
         "castTime": 1.2,
         "id": "tradition-36-1",
-        "condition": "Ally below 50% HP",
-        "description": "Heal 34% HP.",
+        "condition": "Highest-max-HP ally without a ward",
+        "description": "Shields the highest-max-HP unwarded ally for 32% max HP. The ward does not heal.",
+        "priority": "maxHp",
+        "wardRatio": 0.32,
         "icon": "../skill-icons/mobile-v2/tradition-36-1.webp",
         "execution": [
-          "Restores 34% of the target’s max HP, before healing equipment, sealed reduction and overheal capping."
+          "Gives the target a ward of 32% max HP, capped at 50% max HP. It replaces a smaller ward; it does not add to it.",
+          "Current Stronghold wards have no expiration timer. The authored tooltip’s duration is not enforced.",
+          "Prioritizes the eligible ally with the highest max HP."
         ]
       },
       "forms": [
@@ -23445,6 +23504,8 @@
       "addon": "swift",
       "traitId": "purchase",
       "trait": "When acquired: gain 1 stack for its core and add-on (2 when Elite).",
+      "strength": "Reach attacks plus regeneration for a nearby wounded ally.",
+      "weakness": "Short support reach and no instant emergency heal.",
       "profile": {
         "name": "Reach guard",
         "melee": true,
@@ -24562,6 +24623,8 @@
       "addon": "resilient",
       "traitId": "skill",
       "trait": "Each ability activation: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Three-block anti-Arts tank that strips enemy wards and focus.",
+      "weakness": "Its skill requires a buffed enemy; cannot shield or heal allies.",
       "profile": {
         "name": "Guardian",
         "melee": true,
@@ -24623,20 +24686,20 @@
         ]
       },
       "skill": {
-        "name": "Mirror Ward",
-        "target": "unwardedAlly",
-        "effect": "ward",
-        "cooldown": 2.8,
-        "power": 1,
+        "name": "Shattering Reflection",
+        "target": "buffedEnemy",
+        "effect": "dispel",
+        "cooldown": 3,
+        "power": 1.1,
         "school": "Sorcery",
-        "castTime": 1,
-        "id": "tradition-38-1",
-        "condition": "Ally without a ward",
-        "description": "Block 24% HP in damage (8s).",
-        "icon": "../skill-icons/mobile-v2/tradition-38-1.webp",
+        "castTime": 0.9,
+        "id": "tradition-38-2",
+        "condition": "Buffed enemy",
+        "description": "Magic damage; remove buffs.",
+        "icon": "../skill-icons/mobile-v2/tradition-38-2.webp",
         "execution": [
-          "Gives the target a ward of 24% max HP, capped at 50% max HP. It replaces a smaller ward; it does not add to it.",
-          "Current Stronghold wards have no expiration timer. The authored tooltip’s duration is not enforced."
+          "1.1 × current MAG as Arts power before mitigation. Physical damage has a 5% minimum; Arts damage has a 5% minimum multiplier.",
+          "Also removes the target’s ward and focus status."
         ]
       },
       "forms": [
@@ -24671,7 +24734,7 @@
               "resistance": 25
             }
           },
-          "sp": 11,
+          "sp": 12,
           "art": {
             "front": {
               "idle": {
@@ -25094,6 +25157,8 @@
       "addon": "marvel",
       "traitId": "heal",
       "trait": "Each effective heal: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Quickly stitches two injured allies anywhere in healing range.",
+      "weakness": "Small individual heals cannot match a dedicated burst healer.",
       "profile": {
         "name": "Medic",
         "melee": false,
@@ -25203,30 +25268,32 @@
         "name": "Healing",
         "effect": "heal",
         "target": "injuredAlly",
-        "healRatio": 0.13,
         "power": 1,
         "cooldown": 2.85,
         "castTime": 0,
         "basic": true,
         "kind": "Healing",
         "execution": [
-          "Each basic heal restores HP equal to the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
+          "Each basic heal restores HP equal to 100% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
         ]
       },
       "skill": {
         "name": "Mending Stitch",
-        "target": "allyUnder50",
+        "target": "allyUnder75",
         "effect": "heal",
-        "cooldown": 3.8,
+        "cooldown": 2.4,
         "power": 1,
         "school": "Sorcery",
-        "castTime": 1.2,
+        "castTime": 0.4,
         "id": "tradition-39-2",
-        "condition": "Ally below 50% HP",
-        "description": "Heal 34% HP.",
+        "condition": "Ally below 75% HP",
+        "description": "Heals the two most injured eligible allies in range for 16% max HP each. No clustering required.",
+        "healRatio": 0.16,
+        "targetCount": 2,
         "icon": "../skill-icons/mobile-v2/tradition-39-2.webp",
         "execution": [
-          "Restores 34% of the target’s max HP, before healing equipment, sealed reduction and overheal capping."
+          "Restores 16% of the target’s max HP, before healing equipment, sealed reduction and overheal capping.",
+          "Heals up to 2 eligible allies anywhere in the caster’s range. Every recipient must also be in the caster’s range."
         ]
       },
       "forms": [
@@ -25261,7 +25328,7 @@
               "resistance": 10
             }
           },
-          "sp": 15,
+          "sp": 10,
           "art": {
             "front": {
               "idle": {
@@ -25408,7 +25475,7 @@
               "resistance": 15
             }
           },
-          "sp": 13,
+          "sp": 8,
           "art": {
             "front": {
               "idle": {
@@ -25555,7 +25622,7 @@
               "resistance": 20
             }
           },
-          "sp": 13,
+          "sp": 8,
           "art": {
             "front": {
               "idle": {
@@ -25684,6 +25751,8 @@
       "addon": "marvel",
       "traitId": "block",
       "trait": "Every ten received blocking hits: gain 1 core and add-on stack (2 when Elite).",
+      "strength": "Exposes an enemy from behind the front line.",
+      "weakness": "No healing or ward; cannot reach airborne enemies.",
       "profile": {
         "name": "Reach guard",
         "melee": true,
@@ -26664,22 +26733,23 @@
     "Stats are generated from the Stronghold model with no equipment, alliances, stacks, status effects or strategy bonuses. Standard includes its real +30% HP, ATK, MAG and DEF; Perilous uses the unbuffed values.",
     "Tier I–VI HP/ATK/MAG budgets scale by 1 / 1.2 / 1.5 / 1.85 / 2.3 / 2.8. Higher-tier classes use a common role budget with at most ±5% stat variation, and basic hit strength normalized within the branch. The original eight unmerged tier-I starters keep their original stats; relocated starters use the normalized tier-I role budget. These are local combat budgets, not native Arknights numbers.",
     "Normal / Elite / Elite II apply 1 / 1.45 / 2.1 to HP, ATK and MAG exactly once. DEF uses separate, gentler tier and fusion curves; RES gains +5 / +10 from fusion. RPG promotion artwork never adds another stat multiplier or lowers DEF.",
-    "One automatic class skill is fixed per identity at every fusion rank. The authored cooldown field sets the SP cost; it is not the actual interval between skill casts. Units gain 1 SP per combat second, begin at 0 SP and have a 3-second operation gap after a skill release.",
+    "One automatic class skill is fixed per identity at every fusion rank. The Stronghold skill’s cooldown field sets the SP cost; it is not the actual interval between skill casts. Units gain 1 SP per combat second, begin at 0 SP and have a 3-second operation gap after a skill release.",
     "Three matching Normal copies become an Elite. Three matching Elites become Elite II (nine originals). Elite II is the cap. Each fusion opens a free recruitment choice, preserves a deployed survivor and returns its equipment. Empty reward tiers fall back to the highest available tier at or below the reward within the run’s core pool.",
     "The ten former V/VI recruits now occupy tiers I–III and retain their existing stage 3/4 artwork. Their price and combat budget follow their new tiers. Elite II units already at final catalog art keep it with the Elite II aura and stats. Cosmetic RPG stages do not choose Stronghold skills, block, range or stat baselines.",
     "Friendly range highlights whole cells whose centers lie inside the branch radius. Enemies anywhere inside a highlighted square can be targeted. Facing is automatic and never gates friendly range.",
     "Fallen defenders normally return after 70 combat seconds if enough DP is available. Preparation restores the roster. Aid and equipment can shorten the timer; revive effects can return units sooner.",
-    "Authored tooltip text is shown separately from current Stronghold execution. This wiki documents the implementation and does not change combat or assume full numerical equivalence to Arknights."
+    "Stronghold tooltips and execution notes include the local class specializations. Original RPG definitions remain separate. This wiki documents the implementation without assuming full numerical equivalence to Arknights."
   ],
   "sources": {
-    "src/protocol/data.js": "e3682479f4bffd7f0037bf5fe688bf56338a27e2b5743313a2efaf078244a50b",
+    "src/protocol/data.js": "884955b53d707b5755852f8c53ff5ef4d4dd3724220353f16100dee243324008",
     "src/protocol/tierBalance.js": "8a1cec156078fda736e9e79bd0966f76d2a3369a99b788dca34963a1c9fd738e",
     "src/protocol/model.js": "c7dd1fb6e47cd622817b31aaea96482490ec1a37b5e361172138519c549ed6fc",
-    "src/protocol/simulation.js": "283921ab095335162c6f7312ae6b25dad1816ff1e6461320b9aa015e9e244fd5",
-    "src/protocol/classAbilities.js": "1b55b698137544045964ee478263344997460b64da028ee92721980fd9bd22c0",
+    "src/protocol/simulation.js": "25d817a37be44024e16aba0fcac9c92d5825b1503f8977033186745b35515a59",
+    "src/protocol/classAbilities.js": "dea6b92b1f973c6a89eadc6c852a586cd5f6299cbab421d267f3e5fbe99490e7",
+    "src/protocol/specializations.js": "6574449c2353fe73b5d5e683ba45818485504c2611526ec981bf9f073f96f40e",
     "src/protocol/rangePreview.js": "c23bbadcc9bd4950627269176b0331fae71d01a42e1d992526aef48e9ce2841d",
     "src/protocol/facing.js": "4e4b65e00996e4928c78991758977b93e96b03d6a0b4001b75cf3f82eeddce46",
     "src/protocol/artPresentation.js": "1320df0c9f09b678446e9659d73ae9e9b65d6844fa29d483ad12f656997e576b"
   },
-  "catalogHash": "7bfb3af655cfceea59f9da13e5930127f501c19a74771e4479d87f8da20999a4"
+  "catalogHash": "d81e00f5d67c821c27e7fef6a8727809c816789f049863361fab3ba238566463"
 }

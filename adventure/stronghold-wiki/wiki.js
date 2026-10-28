@@ -1,0 +1,71 @@
+(()=>{
+'use strict';
+const data=JSON.parse(document.getElementById('stronghold-data').textContent),byId=id=>document.getElementById(id),classes=new Map(data.classes.map(c=>[c.id,c]));
+const roman=['I','II','III','IV','V','VI'],esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const core=id=>data.cores.find(c=>c.id===id),addon=id=>data.addons.find(c=>c.id===id),round=value=>Math.round(value),n=value=>Number.isInteger(value)?value:Number(value.toFixed(3));
+let artCounter=0,visible=data.classes.slice(),view='front',pose='idle';
+const statBasis=()=>byId('basis').value,rank=()=>Number(byId('rank').value);
+function art(form,small=false){
+ const artView=small?'front':view,artPose=small?'idle':pose,frame=form.art[artView][artPose],id='wiki-paint-'+(++artCounter),style=Object.entries(frame.style).map(([k,v])=>k+':'+v).join(';');
+ const painting=frame.regions?`<svg class="frame" style="${style}" viewBox="0 0 512 512" aria-hidden="true"><defs><image id="${id}" href="${esc(frame.url)}" width="512" height="512"/></defs>${frame.regions.map(r=>`<svg x="0" y="${r.y}" width="512" height="${r.height}" viewBox="0 ${r.sourceY} 512 ${r.sourceHeight}" preserveAspectRatio="none" overflow="hidden"><use href="#${id}"/></svg>`).join('')}</svg>`:`<img class="frame" src="${esc(frame.url)}" style="${style}" alt="" decoding="async">`;
+ return `<div class="form-art ${small?'small':''} rank-${form.rank}" role="img" aria-label="${esc(form.name+' · '+form.label+' · '+artView+' '+artPose)}"><div class="art-square">${painting}</div></div>`;
+}
+function range(c){
+ const r=c.range.radius,cells=new Set(c.range.cells.map(p=>p.join(',')));let html='';
+ for(let y=-r;y<=r;y++)for(let x=-r;x<=r;x++)html+=`<i class="${cells.has(x+','+y)?'covered':''} ${!x&&!y?'origin':''}" aria-hidden="true"></i>`;
+ return `<div class="range-grid ${c.range.support?'healing':''}" style="--side:${r*2+1}" role="img" aria-label="${c.range.label}: ${c.range.cells.length} squares, radius ${c.range.reach} tiles">${html}</div>`;
+}
+const tag=(text,kind='')=>`<span class="tag ${kind}">${esc(text)}</span>`;
+const classLinks=ids=>ids.map(id=>`<a href="#${id}">${esc(classes.get(id).name)}</a>`).join('');
+function overview(){
+ const selectedRank=rank(),basis=statBasis(),sort=byId('sort').value;
+ const sorted=visible.slice().sort((a,b)=>sort==='tier'?a.tier-b.tier||a.name.localeCompare(b.name):sort==='name'?a.name.localeCompare(b.name):sort==='range'?b.range.reach-a.range.reach||a.name.localeCompare(b.name):b.forms[selectedRank].stats[basis][sort]-a.forms[selectedRank].stats[basis][sort]||a.name.localeCompare(b.name));
+ return `<section class="intro"><span class="eyebrow">STRONGHOLD / CLASS CATALOG</span><h2>Every defender, in detail.</h2><p>40 class identities. 110 artwork forms. Actual Stronghold stats, ranges and fixed skills.</p><div class="intro-links"><a href="#alliances">Read alliance effects →</a><a href="#rules">How these values work →</a><a href="../evolution-wiki/">Original RPG branch atlas ↗</a></div></section><div class="cards">${sorted.map(c=>{
+ const form=c.forms[selectedRank],s=form.stats[basis];
+ return `<a class="class-card" href="#${c.id}" data-class-card="${c.id}"><div class="card-top">${tag('TIER '+roman[c.tier-1])}${tag(c.profile.name)}${c.core==='iron'?tag('Ally sacrifice','danger'):''}</div>${art(form,true)}<h3>${esc(form.name)}</h3><p class="form-line">${c.forms.map(f=>esc(f.name)).join(' → ')}</p><div class="card-tags">${tag(core(c.core).name)}${tag(addon(c.addon).name)}</div><dl class="card-stats"><div><dt>HP</dt><dd>${round(s.hp)}</dd></div><div><dt>ATK</dt><dd>${round(s.attack)}</dd></div><div><dt>Block</dt><dd>${c.profile.block}</dd></div><div><dt>Radius</dt><dd>${c.range.reach}</dd></div></dl><p class="card-skill">${esc(c.skill.name)} <span>· ${form.sp} SP</span></p></a>`;
+ }).join('')}</div>${sorted.length?'':'<div class="empty"><h3>No matching classes</h3><p>Clear the filters or try another name.</p></div>'}`;
+}
+function classPage(c){
+ const s=statBasis();
+ return `<a class="back-link" href="#classes">← All classes</a><header class="class-heading"><div><span class="eyebrow">TIER ${roman[c.tier-1]} · ${esc(c.profile.name)}</span><h2>${esc(c.name)}</h2><p>${esc(c.baseName)} family <code>${c.id}</code></p></div><div class="class-meta">${tag(c.price+' funds · base price')}<a href="#alliance-${c.core}">${esc(core(c.core).name)} ↗</a><a href="#addon-${c.addon}">${esc(addon(c.addon).name)} ↗</a></div></header>
+ ${c.core==='iron'?`<aside class="warning"><strong>⚠ Ironbound can consume your allies</strong><p>${esc(core('iron').warning)}</p></aside>`:''}
+ <div class="art-toolbar"><h3>Forms & fusion</h3><div><label>View<select id="art-view"><option value="front" ${view==='front'?'selected':''}>Front</option><option value="back" ${view==='back'?'selected':''}>Rear</option></select></label><label>Pose<select id="art-pose">${[['idle','Idle'],['attack','Attack'],['hurt','Hurt'],['cast','Casting'],['death','Death'],['celebrate','Victory · front only']].map(([p,label])=>`<option value="${p}" ${pose===p?'selected':''}>${label}</option>`).join('')}</select></label></div></div>
+ <div class="form-cards">${c.forms.map(f=>`<article class="form-card" data-form-rank="${f.rank}"><div class="rank-heading">${tag(f.label)}<span>${f.copies} original ${f.copies===1?'copy':'copies'}</span></div>${art(f)}<h3>${esc(f.name)}</h3><p>Art stage ${f.stage}${f.sameArt?' · final art retained':''}</p><code>${f.species}</code><dl class="form-stats">${[['hp','HP'],['attack','ATK'],['magic','MAG'],['armor','DEF'],['resistance','RES']].map(([key,label])=>`<div><dt>${label}</dt><dd data-stat="${key}">${round(f.stats[s][key])}</dd></div>`).join('')}<div><dt>Skill SP</dt><dd>${f.sp}</dd></div></dl></article>`).join('')}</div>
+ <p class="muted">Three matching copies of the same rank fuse automatically. Elite II is the cap. Role, skill and range stay with the class identity.</p>
+ <div class="detail-columns"><section class="panel"><span class="eyebrow">PLACEMENT & COVERAGE</span><h3>${esc(c.range.label)}</h3><div class="range-row">${range(c)}<dl class="facts"><div><dt>Radius</dt><dd>${c.range.reach} tiles · ${c.range.cells.length} squares</dd></div><div><dt>Placement</dt><dd>${c.profile.melee?'Roads':'Roads or raised tiles'}</dd></div><div><dt>Block</dt><dd>${c.profile.block} on roads</dd></div><div><dt>Airborne enemies</dt><dd>${c.range.support?'Healing only':c.profile.melee?'Cannot target':'Can target'}</dd></div><div><dt>Return cost</dt><dd>${c.profile.cost} DP · initial placement free</dd></div></dl></div><p class="muted">Every highlighted square is covered in full. Facing is automatic.</p></section>
+ <section class="panel"><span class="eyebrow">AUTOMATIC BASIC ACTION</span><h3>${esc(c.basic.name)}</h3><div class="card-tags">${tag(c.basic.kind)}${tag(c.profile.interval+'s base interval')}${tag('No cast time')}</div>${c.basic.execution.map(x=>`<p>${esc(x)}</p>`).join('')}<p class="muted">No equipment or attack-speed bonuses are included. Targets normally sort by lowest HP percentage.</p></section></div>
+ <section class="panel ability"><div class="ability-title">${c.skill.icon?`<img src="${esc(c.skill.icon)}" alt="" width="52" height="52">`:''}<div><span class="eyebrow">FIXED CLASS SKILL · AUTO</span><h3>${esc(c.skill.name)}</h3></div>${tag(c.skill.castTime?c.skill.castTime+'s cast':'Instant')}</div><dl class="skill-meta"><div><dt>Condition</dt><dd>${esc(c.skill.condition)}</dd></div><div><dt>SP · Normal / Elite / Elite II</dt><dd>${c.forms.map(f=>f.sp).join(' / ')}</dd></div><div><dt>Effect / target</dt><dd><code>${esc(c.skill.effect)} / ${esc(c.skill.target)}</code></dd></div></dl><div class="execution"><h4>Current Stronghold execution</h4>${c.skill.execution.map(x=>`<p>${esc(x)}</p>`).join('')}</div><details><summary>Authored tooltip & raw skill data</summary><p>${esc(c.skill.description)}</p><p class="muted">The authored cooldown is ${c.skill.cooldown}s; Stronghold converts it to the SP costs above.</p><pre>${esc(JSON.stringify(Object.fromEntries(Object.entries(c.skill).filter(([key])=>!['execution','icon'].includes(key))),null,2))}</pre></details></section>
+ <div class="detail-columns"><section class="panel"><span class="eyebrow">CLASS TRAIT</span><h3>${esc(c.traitId)}</h3><p>${esc(c.trait)}</p><p class="muted">Elite II retains the Elite trait’s stack amount.</p></section><section class="panel"><span class="eyebrow">ALLIANCES</span><h3><a href="#alliance-${c.core}">${esc(core(c.core).name)}</a></h3><p>${esc(core(c.core).rule)}</p><h4><a href="#addon-${c.addon}">${esc(addon(c.addon).name)}</a></h4><p>${esc(addon(c.addon).rule)}</p></section></div>
+ <details class="panel"><summary>Raw class values & source fields</summary><p class="muted">Unrounded values. “base” and Perilous match; Standard adds the strategy’s fixed +30% to HP, ATK, MAG and DEF.</p><pre>${esc(JSON.stringify({id:c.id,tier:c.tier,profile:c.profile,basic:c.basic,forms:c.forms.map(({art,...f})=>f)},null,2))}</pre></details>`;
+}
+function alliancesPage(focus){
+ const cards=(list,type)=>list.map(a=>`<article class="panel alliance-card ${a.warning?'has-warning':''}" id="${type}-${a.id}"><span class="eyebrow">${type==='alliance'?'CORE ALLIANCE':'ADD-ON'}</span><h3>${esc(a.name)}</h3>${a.reference?`<p class="muted">Reference mapping: ${esc(a.reference)}</p>`:''}<p class="alliance-rule">${esc(a.rule)}</p>${a.warning?`<aside class="warning"><strong>Ally sacrifice · current implementation</strong><p>${esc(a.warning)}</p></aside>`:''}<div class="member-links">${classLinks(a.members)}</div></article>`).join('');
+ return `<header class="intro"><span class="eyebrow">MEMBERSHIP & EFFECTS</span><h2>Alliances</h2><p>Activation counts distinct class identities. Copies and fusion rank do not create extra members. Foresight and Marvel also count bench members.</p></header><h3 class="section-title">Core alliances</h3><div class="alliance-grid">${cards(data.cores,'alliance')}</div><h3 class="section-title">Add-on alliances</h3><div class="alliance-grid">${cards(data.addons,'addon')}</div>`;
+}
+function rulesPage(){return `<header class="intro"><span class="eyebrow">HOW TO READ THIS WIKI</span><h2>Rules & equipment</h2><p>Generated from this repository’s active Stronghold implementation. The RPG branch atlas has a separate progression and skill system.</p></header><section class="panel"><h3>Stat and mechanics notes</h3><ol class="notes">${data.notes.map(t=>`<li>${esc(t)}</li>`).join('')}</ol></section><section class="panel"><h3>Run limits</h3><dl class="facts"><div><dt>Deployed units</dt><dd>${data.limits.field}</dd></div><div><dt>Shared hand</dt><dd>${data.limits.hand} regular + ${data.limits.overflow} temporary slots</dd></div><div><dt>Equipment</dt><dd>2 slots per defender; locked when equipped</dd></div><div><dt>Fusion</dt><dd>1 → 3 → 9 original copies; free recruit on every fusion</dd></div></dl></section><h3 class="section-title">Equipment · two matching Normal pieces enhance</h3><div class="equipment-grid">${data.equipment.map(e=>`<article class="panel equipment"><img src="${e.art}" alt="" width="72" height="72"><div><span class="eyebrow">TIER ${roman[e.tier-1]} · ${e.price} FUNDS</span><h3>${esc(e.name)}</h3><p>${esc(e.normalEffect)}</p><p class="enhanced">✦ ${esc(e.enhancedEffect)}</p></div></article>`).join('')}</div><details class="panel"><summary>Source files & content hashes</summary><p>Catalog <code>${data.catalogHash}</code></p><pre>${esc(JSON.stringify(data.sources,null,2))}</pre><a href="./classes.json" download>Download all generated class data</a></details>`;}
+function render(){
+ const hash=decodeURIComponent(location.hash.slice(1)),c=classes.get(hash),alliance=hash.startsWith('alliance-')||hash.startsWith('addon-');
+ byId('rank-control').hidden=!!c||alliance||hash==='rules';byId('sort-control').hidden=byId('rank-control').hidden;
+ byId('page').innerHTML=c?classPage(c):alliance||hash==='alliances'?alliancesPage(hash):hash==='rules'?rulesPage():overview();
+ document.title=(c?c.name+' · ':alliance?'Alliances · ':hash==='rules'?'Rules · ':'')+'Stronghold debug wiki';
+ for(const a of byId('class-index').querySelectorAll('a'))a.setAttribute('aria-current',a.hash==='#'+hash?'page':'false');
+ if(c){byId('art-view').addEventListener('change',e=>{view=e.target.value;const top=byId('page').scrollTop;render();byId('page').scrollTop=top;byId('art-view').focus();});byId('art-pose').addEventListener('change',e=>{pose=e.target.value;const top=byId('page').scrollTop;render();byId('page').scrollTop=top;byId('art-pose').focus();});}
+ if(alliance)requestAnimationFrame(()=>byId(hash)?.scrollIntoView({block:'start'}));
+}
+function filter(){
+ const q=byId('search').value.trim().toLowerCase(),tier=byId('tier').value,role=byId('role').value,a=byId('alliance').value;
+ visible=data.classes.filter(c=>{
+ const text=[c.id,c.name,c.baseName,c.family,c.profile.name,core(c.core).name,addon(c.addon).name,c.skill.name,c.skill.effect,...c.forms.flatMap(f=>[f.name,f.species])].join(' ').toLowerCase();
+ return (!q||text.includes(q))&&(tier==='all'||c.tier===Number(tier))&&(role==='all'||c.profile.name===role)&&(a==='all'||a==='core:'+c.core||a==='addon:'+c.addon);
+ });
+ const ids=new Set(visible.map(c=>c.id));for(const li of byId('class-index').children)li.hidden=!ids.has(li.querySelector('a').hash.slice(1));
+ byId('result-count').textContent=visible.length+' '+(visible.length===1?'class':'classes');byId('no-results').hidden=!!visible.length;
+ if(!['','classes'].includes(location.hash.slice(1)))location.hash='classes';else render();
+}
+byId('search').addEventListener('input',filter);for(const id of ['tier','role','alliance'])byId(id).addEventListener('change',filter);
+byId('filters').addEventListener('reset',()=>requestAnimationFrame(filter));
+for(const id of ['basis','rank','sort'])byId(id).addEventListener('change',()=>{const top=byId('page').scrollTop;render();byId('page').scrollTop=top;});
+addEventListener('hashchange',()=>{render();byId('page').scrollTop=0;});
+addEventListener('keydown',e=>{if(e.key==='/'&&!/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)){e.preventDefault();byId('search').focus();}});
+render();
+})();

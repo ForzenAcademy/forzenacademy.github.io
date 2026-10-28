@@ -13643,8 +13643,8 @@
       "name": "Pact Keeper",
       "baseName": "Apprentice",
       "family": "Astral pact",
-      "tier": 5,
-      "price": 4,
+      "tier": 1,
+      "price": 2,
       "core": "wild",
       "addon": "agile",
       "traitId": "hit",
@@ -13769,24 +13769,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 765,
-              "attack": 163.875,
-              "magic": 173.05199999999996,
-              "armor": 49.59,
+              "hp": 333,
+              "attack": 71.25,
+              "magic": 75.24,
+              "armor": 34.2,
               "resistance": 15
             },
             "standard": {
-              "hp": 994.5,
-              "attack": 213.0375,
-              "magic": 224.96759999999995,
-              "armor": 64.46700000000001,
+              "hp": 432.90000000000003,
+              "attack": 92.625,
+              "magic": 97.812,
+              "armor": 44.46000000000001,
               "resistance": 15
             },
             "perilous": {
-              "hp": 765,
-              "attack": 163.875,
-              "magic": 173.05199999999996,
-              "armor": 49.59,
+              "hp": 333,
+              "attack": 71.25,
+              "magic": 75.24,
+              "armor": 34.2,
               "resistance": 15
             }
           },
@@ -13916,24 +13916,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 1109,
-              "attack": 237.61874999999998,
-              "magic": 250.92539999999994,
-              "armor": 55.54080000000001,
+              "hp": 482,
+              "attack": 103.3125,
+              "magic": 109.09799999999998,
+              "armor": 38.30400000000001,
               "resistance": 20
             },
             "standard": {
-              "hp": 1441.7,
-              "attack": 308.90437499999996,
-              "magic": 326.2030199999999,
-              "armor": 72.20304000000002,
+              "hp": 626.6,
+              "attack": 134.30625,
+              "magic": 141.82739999999998,
+              "armor": 49.795200000000015,
               "resistance": 20
             },
             "perilous": {
-              "hp": 1109,
-              "attack": 237.61874999999998,
-              "magic": 250.92539999999994,
-              "armor": 55.54080000000001,
+              "hp": 482,
+              "attack": 103.3125,
+              "magic": 109.09799999999998,
+              "armor": 38.30400000000001,
               "resistance": 20
             }
           },
@@ -14063,24 +14063,24 @@
           "sameArt": true,
           "stats": {
             "base": {
-              "hp": 1606,
-              "attack": 344.1375,
-              "magic": 363.4092,
-              "armor": 61.987500000000004,
+              "hp": 698,
+              "attack": 149.625,
+              "magic": 158.004,
+              "armor": 42.75,
               "resistance": 25
             },
             "standard": {
-              "hp": 2087.8,
-              "attack": 447.37875,
-              "magic": 472.43196,
-              "armor": 80.58375000000001,
+              "hp": 907.4,
+              "attack": 194.51250000000002,
+              "magic": 205.4052,
+              "armor": 55.575,
               "resistance": 25
             },
             "perilous": {
-              "hp": 1606,
-              "attack": 344.1375,
-              "magic": 363.4092,
-              "armor": 61.987500000000004,
+              "hp": 698,
+              "attack": 149.625,
+              "magic": 158.004,
+              "armor": 42.75,
               "resistance": 25
             }
           },
@@ -15709,8 +15709,8 @@
       "name": "Troubadour",
       "baseName": "Bard",
       "family": "Traveling song",
-      "tier": 5,
-      "price": 4,
+      "tier": 1,
+      "price": 2,
       "core": "hearth",
       "addon": "agile",
       "traitId": "skill",
@@ -15862,24 +15862,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 811,
-              "attack": 128.79999999999998,
-              "magic": 151.225,
-              "armor": 52.199999999999996,
+              "hp": 353,
+              "attack": 56,
+              "magic": 65.75,
+              "armor": 36,
               "resistance": 10
             },
             "standard": {
-              "hp": 1054.3,
-              "attack": 167.44,
-              "magic": 196.5925,
-              "armor": 67.86,
+              "hp": 458.90000000000003,
+              "attack": 72.8,
+              "magic": 85.47500000000001,
+              "armor": 46.800000000000004,
               "resistance": 10
             },
             "perilous": {
-              "hp": 811,
-              "attack": 128.79999999999998,
-              "magic": 151.225,
-              "armor": 52.199999999999996,
+              "hp": 353,
+              "attack": 56,
+              "magic": 65.75,
+              "armor": 36,
               "resistance": 10
             }
           },
@@ -16009,24 +16009,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 1176,
-              "attack": 186.75999999999996,
-              "magic": 219.27624999999998,
-              "armor": 58.464000000000006,
+              "hp": 511,
+              "attack": 81.2,
+              "magic": 95.33749999999999,
+              "armor": 40.32000000000001,
               "resistance": 15
             },
             "standard": {
-              "hp": 1528.8,
-              "attack": 242.78799999999995,
-              "magic": 285.059125,
-              "armor": 76.0032,
+              "hp": 664.3000000000001,
+              "attack": 105.56,
+              "magic": 123.93875,
+              "armor": 52.41600000000001,
               "resistance": 15
             },
             "perilous": {
-              "hp": 1176,
-              "attack": 186.75999999999996,
-              "magic": 219.27624999999998,
-              "armor": 58.464000000000006,
+              "hp": 511,
+              "attack": 81.2,
+              "magic": 95.33749999999999,
+              "armor": 40.32000000000001,
               "resistance": 15
             }
           },
@@ -16346,24 +16346,24 @@
           "sameArt": true,
           "stats": {
             "base": {
-              "hp": 1703,
-              "attack": 270.48,
-              "magic": 317.5725,
-              "armor": 65.25,
+              "hp": 740,
+              "attack": 117.60000000000001,
+              "magic": 138.07500000000002,
+              "armor": 45,
               "resistance": 20
             },
             "standard": {
-              "hp": 2213.9,
-              "attack": 351.624,
-              "magic": 412.84425,
-              "armor": 84.825,
+              "hp": 962,
+              "attack": 152.88000000000002,
+              "magic": 179.49750000000003,
+              "armor": 58.5,
               "resistance": 20
             },
             "perilous": {
-              "hp": 1703,
-              "attack": 270.48,
-              "magic": 317.5725,
-              "armor": 65.25,
+              "hp": 740,
+              "attack": 117.60000000000001,
+              "magic": 138.07500000000002,
+              "armor": 45,
               "resistance": 20
             }
           },
@@ -18712,8 +18712,8 @@
       "name": "Miner",
       "baseName": "Mason",
       "family": "Stone workshop",
-      "tier": 5,
-      "price": 4,
+      "tier": 2,
+      "price": 3,
       "core": "forge",
       "addon": "foresight",
       "traitId": "defeat",
@@ -18806,24 +18806,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 1330,
-              "attack": 75.50995833333334,
-              "magic": 85.66349999999998,
-              "armor": 121.568,
+              "hp": 694,
+              "attack": 39.3965,
+              "magic": 44.693999999999996,
+              "armor": 90.5472,
               "resistance": 10
             },
             "standard": {
-              "hp": 1729,
-              "attack": 98.16294583333335,
-              "magic": 111.36254999999998,
-              "armor": 158.0384,
+              "hp": 902.2,
+              "attack": 51.215450000000004,
+              "magic": 58.102199999999996,
+              "armor": 117.71136000000001,
               "resistance": 10
             },
             "perilous": {
-              "hp": 1330,
-              "attack": 75.50995833333334,
-              "magic": 85.66349999999998,
-              "armor": 121.568,
+              "hp": 694,
+              "attack": 39.3965,
+              "magic": 44.693999999999996,
+              "armor": 90.5472,
               "resistance": 10
             }
           },
@@ -18953,24 +18953,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 1929,
-              "attack": 109.48943958333334,
-              "magic": 124.21207499999997,
-              "armor": 136.15616000000003,
+              "hp": 1006,
+              "attack": 57.12492500000001,
+              "magic": 64.8063,
+              "armor": 101.41286400000003,
               "resistance": 15
             },
             "standard": {
-              "hp": 2507.7000000000003,
-              "attack": 142.33627145833333,
-              "magic": 161.47569749999997,
-              "armor": 177.00300800000005,
+              "hp": 1307.8,
+              "attack": 74.26240250000002,
+              "magic": 84.24819,
+              "armor": 131.83672320000005,
               "resistance": 15
             },
             "perilous": {
-              "hp": 1929,
-              "attack": 109.48943958333334,
-              "magic": 124.21207499999997,
-              "armor": 136.15616000000003,
+              "hp": 1006,
+              "attack": 57.12492500000001,
+              "magic": 64.8063,
+              "armor": 101.41286400000003,
               "resistance": 15
             }
           },
@@ -19290,24 +19290,24 @@
           "sameArt": true,
           "stats": {
             "base": {
-              "hp": 2794,
-              "attack": 158.57091250000002,
-              "magic": 179.89335,
-              "armor": 151.96,
+              "hp": 1458,
+              "attack": 82.73265,
+              "magic": 93.8574,
+              "armor": 113.18400000000001,
               "resistance": 20
             },
             "standard": {
-              "hp": 3632.2000000000003,
-              "attack": 206.14218625000004,
-              "magic": 233.861355,
-              "armor": 197.54800000000003,
+              "hp": 1895.4,
+              "attack": 107.552445,
+              "magic": 122.01462000000001,
+              "armor": 147.13920000000002,
               "resistance": 20
             },
             "perilous": {
-              "hp": 2794,
-              "attack": 158.57091250000002,
-              "magic": 179.89335,
-              "armor": 151.96,
+              "hp": 1458,
+              "attack": 82.73265,
+              "magic": 93.8574,
+              "armor": 113.18400000000001,
               "resistance": 20
             }
           },
@@ -20719,8 +20719,8 @@
       "name": "Exorcist",
       "baseName": "Shrine Tender",
       "family": "Lantern shrine",
-      "tier": 5,
-      "price": 4,
+      "tier": 2,
+      "price": 3,
       "core": "wild",
       "addon": "resilient",
       "traitId": "heal",
@@ -20872,24 +20872,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 765,
-              "attack": 132.825,
-              "magic": 156.975,
-              "armor": 50.11200000000001,
+              "hp": 399,
+              "attack": 69.3,
+              "magic": 81.89999999999999,
+              "armor": 37.32480000000001,
               "resistance": 10
             },
             "standard": {
-              "hp": 994.5,
-              "attack": 172.67249999999999,
-              "magic": 204.0675,
-              "armor": 65.14560000000002,
+              "hp": 518.7,
+              "attack": 90.09,
+              "magic": 106.47,
+              "armor": 48.52224000000002,
               "resistance": 10
             },
             "perilous": {
-              "hp": 765,
-              "attack": 132.825,
-              "magic": 156.975,
-              "armor": 50.11200000000001,
+              "hp": 399,
+              "attack": 69.3,
+              "magic": 81.89999999999999,
+              "armor": 37.32480000000001,
               "resistance": 10
             }
           },
@@ -21019,24 +21019,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 1109,
-              "attack": 192.59624999999997,
-              "magic": 227.61374999999995,
-              "armor": 56.12544000000002,
+              "hp": 579,
+              "attack": 100.485,
+              "magic": 118.755,
+              "armor": 41.80377600000002,
               "resistance": 15
             },
             "standard": {
-              "hp": 1441.7,
-              "attack": 250.37512499999997,
-              "magic": 295.89787499999994,
-              "armor": 72.96307200000003,
+              "hp": 752.7,
+              "attack": 130.6305,
+              "magic": 154.3815,
+              "armor": 54.34490880000003,
               "resistance": 15
             },
             "perilous": {
-              "hp": 1109,
-              "attack": 192.59624999999997,
-              "magic": 227.61374999999995,
-              "armor": 56.12544000000002,
+              "hp": 579,
+              "attack": 100.485,
+              "magic": 118.755,
+              "armor": 41.80377600000002,
               "resistance": 15
             }
           },
@@ -21166,24 +21166,24 @@
           "sameArt": true,
           "stats": {
             "base": {
-              "hp": 1606,
-              "attack": 278.9325,
-              "magic": 329.6475,
-              "armor": 62.640000000000015,
+              "hp": 838,
+              "attack": 145.53,
+              "magic": 171.99,
+              "armor": 46.65600000000001,
               "resistance": 20
             },
             "standard": {
-              "hp": 2087.8,
-              "attack": 362.61225,
-              "magic": 428.54175,
-              "armor": 81.43200000000002,
+              "hp": 1089.4,
+              "attack": 189.18900000000002,
+              "magic": 223.58700000000002,
+              "armor": 60.65280000000002,
               "resistance": 20
             },
             "perilous": {
-              "hp": 1606,
-              "attack": 278.9325,
-              "magic": 329.6475,
-              "armor": 62.640000000000015,
+              "hp": 838,
+              "attack": 145.53,
+              "magic": 171.99,
+              "armor": 46.65600000000001,
               "resistance": 20
             }
           },
@@ -21310,8 +21310,8 @@
       "name": "Flock Warden",
       "baseName": "Beast Tender",
       "family": "Wild kin",
-      "tier": 6,
-      "price": 4,
+      "tier": 1,
+      "price": 2,
       "core": "wild",
       "addon": "precision",
       "traitId": "block",
@@ -21467,24 +21467,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 941,
-              "attack": 486.5853658536585,
-              "magic": 319.2,
-              "armor": 48.51,
+              "hp": 336,
+              "attack": 173.78048780487805,
+              "magic": 114,
+              "armor": 29.400000000000002,
               "resistance": 0
             },
             "standard": {
-              "hp": 1223.3,
-              "attack": 632.560975609756,
-              "magic": 414.96,
-              "armor": 63.063,
+              "hp": 436.8,
+              "attack": 225.91463414634148,
+              "magic": 148.20000000000002,
+              "armor": 38.220000000000006,
               "resistance": 0
             },
             "perilous": {
-              "hp": 941,
-              "attack": 486.5853658536585,
-              "magic": 319.2,
-              "armor": 48.51,
+              "hp": 336,
+              "attack": 173.78048780487805,
+              "magic": 114,
+              "armor": 29.400000000000002,
               "resistance": 0
             }
           },
@@ -21614,24 +21614,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 1364,
-              "attack": 705.5487804878048,
-              "magic": 462.84,
-              "armor": 54.33120000000001,
+              "hp": 487,
+              "attack": 251.98170731707316,
+              "magic": 165.29999999999998,
+              "armor": 32.928000000000004,
               "resistance": 5
             },
             "standard": {
-              "hp": 1773.2,
-              "attack": 917.2134146341463,
-              "magic": 601.692,
-              "armor": 70.63056000000002,
+              "hp": 633.1,
+              "attack": 327.5762195121951,
+              "magic": 214.89,
+              "armor": 42.80640000000001,
               "resistance": 5
             },
             "perilous": {
-              "hp": 1364,
-              "attack": 705.5487804878048,
-              "magic": 462.84,
-              "armor": 54.33120000000001,
+              "hp": 487,
+              "attack": 251.98170731707316,
+              "magic": 165.29999999999998,
+              "armor": 32.928000000000004,
               "resistance": 5
             }
           },
@@ -21761,24 +21761,24 @@
           "sameArt": true,
           "stats": {
             "base": {
-              "hp": 1976,
-              "attack": 1021.829268292683,
-              "magic": 670.3199999999999,
-              "armor": 60.6375,
+              "hp": 706,
+              "attack": 364.9390243902439,
+              "magic": 239.4,
+              "armor": 36.75,
               "resistance": 10
             },
             "standard": {
-              "hp": 2568.8,
-              "attack": 1328.378048780488,
-              "magic": 871.4159999999999,
-              "armor": 78.82875,
+              "hp": 917.8000000000001,
+              "attack": 474.4207317073171,
+              "magic": 311.22,
+              "armor": 47.775,
               "resistance": 10
             },
             "perilous": {
-              "hp": 1976,
-              "attack": 1021.829268292683,
-              "magic": 670.3199999999999,
-              "armor": 60.6375,
+              "hp": 706,
+              "attack": 364.9390243902439,
+              "magic": 239.4,
+              "armor": 36.75,
               "resistance": 10
             }
           },
@@ -21905,8 +21905,8 @@
       "name": "Rune Scribe",
       "baseName": "Ink Student",
       "family": "Ink covenant",
-      "tier": 5,
-      "price": 4,
+      "tier": 2,
+      "price": 3,
       "core": "arcane",
       "addon": "arcane",
       "traitId": "hit",
@@ -22031,24 +22031,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 765,
-              "attack": 163.875,
-              "magic": 173.05199999999996,
-              "armor": 49.59,
+              "hp": 399,
+              "attack": 85.5,
+              "magic": 90.288,
+              "armor": 36.93600000000001,
               "resistance": 15
             },
             "standard": {
-              "hp": 994.5,
-              "attack": 213.0375,
-              "magic": 224.96759999999995,
-              "armor": 64.46700000000001,
+              "hp": 518.7,
+              "attack": 111.15,
+              "magic": 117.3744,
+              "armor": 48.01680000000001,
               "resistance": 15
             },
             "perilous": {
-              "hp": 765,
-              "attack": 163.875,
-              "magic": 173.05199999999996,
-              "armor": 49.59,
+              "hp": 399,
+              "attack": 85.5,
+              "magic": 90.288,
+              "armor": 36.93600000000001,
               "resistance": 15
             }
           },
@@ -22178,24 +22178,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 1109,
-              "attack": 237.61874999999998,
-              "magic": 250.92539999999994,
-              "armor": 55.54080000000001,
+              "hp": 579,
+              "attack": 123.975,
+              "magic": 130.9176,
+              "armor": 41.36832000000001,
               "resistance": 20
             },
             "standard": {
-              "hp": 1441.7,
-              "attack": 308.90437499999996,
-              "magic": 326.2030199999999,
-              "armor": 72.20304000000002,
+              "hp": 752.7,
+              "attack": 161.1675,
+              "magic": 170.19288,
+              "armor": 53.77881600000001,
               "resistance": 20
             },
             "perilous": {
-              "hp": 1109,
-              "attack": 237.61874999999998,
-              "magic": 250.92539999999994,
-              "armor": 55.54080000000001,
+              "hp": 579,
+              "attack": 123.975,
+              "magic": 130.9176,
+              "armor": 41.36832000000001,
               "resistance": 20
             }
           },
@@ -22325,24 +22325,24 @@
           "sameArt": true,
           "stats": {
             "base": {
-              "hp": 1606,
-              "attack": 344.1375,
-              "magic": 363.4092,
-              "armor": 61.987500000000004,
+              "hp": 838,
+              "attack": 179.55,
+              "magic": 189.60479999999998,
+              "armor": 46.17000000000001,
               "resistance": 25
             },
             "standard": {
-              "hp": 2087.8,
-              "attack": 447.37875,
-              "magic": 472.43196,
-              "armor": 80.58375000000001,
+              "hp": 1089.4,
+              "attack": 233.41500000000002,
+              "magic": 246.48623999999998,
+              "armor": 60.021000000000015,
               "resistance": 25
             },
             "perilous": {
-              "hp": 1606,
-              "attack": 344.1375,
-              "magic": 363.4092,
-              "armor": 61.987500000000004,
+              "hp": 838,
+              "attack": 179.55,
+              "magic": 189.60479999999998,
+              "armor": 46.17000000000001,
               "resistance": 25
             }
           },
@@ -23439,8 +23439,8 @@
       "name": "Red Mage",
       "baseName": "Pilgrim",
       "family": "Rose road",
-      "tier": 5,
-      "price": 4,
+      "tier": 3,
+      "price": 3,
       "core": "iron",
       "addon": "swift",
       "traitId": "purchase",
@@ -23548,24 +23548,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 966,
-              "attack": 155.37777777777777,
-              "magic": 133.28499999999997,
-              "armor": 63.162,
+              "hp": 630,
+              "attack": 101.33333333333334,
+              "magic": 86.925,
+              "armor": 51.4008,
               "resistance": 5
             },
             "standard": {
-              "hp": 1255.8,
-              "attack": 201.9911111111111,
-              "magic": 173.27049999999997,
-              "armor": 82.1106,
+              "hp": 819,
+              "attack": 131.73333333333335,
+              "magic": 113.0025,
+              "armor": 66.82104,
               "resistance": 5
             },
             "perilous": {
-              "hp": 966,
-              "attack": 155.37777777777777,
-              "magic": 133.28499999999997,
-              "armor": 63.162,
+              "hp": 630,
+              "attack": 101.33333333333334,
+              "magic": 86.925,
+              "armor": 51.4008,
               "resistance": 5
             }
           },
@@ -23885,24 +23885,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 1401,
-              "attack": 225.29777777777775,
-              "magic": 193.26324999999997,
-              "armor": 70.74144000000001,
+              "hp": 913,
+              "attack": 146.93333333333334,
+              "magic": 126.04124999999998,
+              "armor": 57.56889600000001,
               "resistance": 10
             },
             "standard": {
-              "hp": 1821.3,
-              "attack": 292.8871111111111,
-              "magic": 251.24222499999996,
-              "armor": 91.96387200000002,
+              "hp": 1186.9,
+              "attack": 191.01333333333335,
+              "magic": 163.85362499999997,
+              "armor": 74.83956480000002,
               "resistance": 10
             },
             "perilous": {
-              "hp": 1401,
-              "attack": 225.29777777777775,
-              "magic": 193.26324999999997,
-              "armor": 70.74144000000001,
+              "hp": 913,
+              "attack": 146.93333333333334,
+              "magic": 126.04124999999998,
+              "armor": 57.56889600000001,
               "resistance": 10
             }
           },
@@ -24222,24 +24222,24 @@
           "sameArt": true,
           "stats": {
             "base": {
-              "hp": 2029,
-              "attack": 326.29333333333335,
-              "magic": 279.89849999999996,
-              "armor": 78.9525,
+              "hp": 1323,
+              "attack": 212.80000000000004,
+              "magic": 182.54250000000002,
+              "armor": 64.25099999999999,
               "resistance": 15
             },
             "standard": {
-              "hp": 2637.7000000000003,
-              "attack": 424.1813333333334,
-              "magic": 363.86805,
-              "armor": 102.63825,
+              "hp": 1719.9,
+              "attack": 276.64000000000004,
+              "magic": 237.30525000000003,
+              "armor": 83.52629999999999,
               "resistance": 15
             },
             "perilous": {
-              "hp": 2029,
-              "attack": 326.29333333333335,
-              "magic": 279.89849999999996,
-              "armor": 78.9525,
+              "hp": 1323,
+              "attack": 212.80000000000004,
+              "magic": 182.54250000000002,
+              "armor": 64.25099999999999,
               "resistance": 15
             }
           },
@@ -24556,8 +24556,8 @@
       "name": "Spellguard",
       "baseName": "Shieldbearer",
       "family": "Mirror oath",
-      "tier": 6,
-      "price": 4,
+      "tier": 2,
+      "price": 3,
       "core": "iron",
       "addon": "resilient",
       "traitId": "skill",
@@ -24650,24 +24650,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 1613,
-              "attack": 108.0625,
-              "magic": 101.91999999999999,
-              "armor": 137.28,
+              "hp": 691,
+              "attack": 46.3125,
+              "magic": 43.68,
+              "armor": 89.85600000000001,
               "resistance": 25
             },
             "standard": {
-              "hp": 2096.9,
-              "attack": 140.48125000000002,
-              "magic": 132.49599999999998,
-              "armor": 178.464,
+              "hp": 898.3000000000001,
+              "attack": 60.206250000000004,
+              "magic": 56.784,
+              "armor": 116.81280000000001,
               "resistance": 25
             },
             "perilous": {
-              "hp": 1613,
-              "attack": 108.0625,
-              "magic": 101.91999999999999,
-              "armor": 137.28,
+              "hp": 691,
+              "attack": 46.3125,
+              "magic": 43.68,
+              "armor": 89.85600000000001,
               "resistance": 25
             }
           },
@@ -24797,24 +24797,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 2339,
-              "attack": 156.69062499999998,
-              "magic": 147.784,
-              "armor": 153.7536,
+              "hp": 1002,
+              "attack": 67.153125,
+              "magic": 63.336,
+              "armor": 100.63872000000002,
               "resistance": 30
             },
             "standard": {
-              "hp": 3040.7000000000003,
-              "attack": 203.6978125,
-              "magic": 192.1192,
-              "armor": 199.87968,
+              "hp": 1302.6000000000001,
+              "attack": 87.2990625,
+              "magic": 82.3368,
+              "armor": 130.83033600000005,
               "resistance": 30
             },
             "perilous": {
-              "hp": 2339,
-              "attack": 156.69062499999998,
-              "magic": 147.784,
-              "armor": 153.7536,
+              "hp": 1002,
+              "attack": 67.153125,
+              "magic": 63.336,
+              "armor": 100.63872000000002,
               "resistance": 30
             }
           },
@@ -24944,24 +24944,24 @@
           "sameArt": true,
           "stats": {
             "base": {
-              "hp": 3387,
-              "attack": 226.93125,
-              "magic": 214.03199999999998,
-              "armor": 171.6,
+              "hp": 1452,
+              "attack": 97.25625,
+              "magic": 91.728,
+              "armor": 112.32000000000001,
               "resistance": 35
             },
             "standard": {
-              "hp": 4403.1,
-              "attack": 295.010625,
-              "magic": 278.2416,
-              "armor": 223.08,
+              "hp": 1887.6000000000001,
+              "attack": 126.433125,
+              "magic": 119.2464,
+              "armor": 146.01600000000002,
               "resistance": 35
             },
             "perilous": {
-              "hp": 3387,
-              "attack": 226.93125,
-              "magic": 214.03199999999998,
-              "armor": 171.6,
+              "hp": 1452,
+              "attack": 97.25625,
+              "magic": 91.728,
+              "armor": 112.32000000000001,
               "resistance": 35
             }
           },
@@ -25088,8 +25088,8 @@
       "name": "Fate Stitcher",
       "baseName": "Silk Spinner",
       "family": "Thread of fate",
-      "tier": 6,
-      "price": 4,
+      "tier": 2,
+      "price": 3,
       "core": "frost",
       "addon": "marvel",
       "traitId": "heal",
@@ -25240,24 +25240,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 931,
-              "attack": 161.7,
-              "magic": 191.1,
-              "armor": 57.024000000000015,
+              "hp": 399,
+              "attack": 69.3,
+              "magic": 81.89999999999999,
+              "armor": 37.32480000000001,
               "resistance": 10
             },
             "standard": {
-              "hp": 1210.3,
-              "attack": 210.20999999999998,
-              "magic": 248.43,
-              "armor": 74.13120000000002,
+              "hp": 518.7,
+              "attack": 90.09,
+              "magic": 106.47,
+              "armor": 48.52224000000002,
               "resistance": 10
             },
             "perilous": {
-              "hp": 931,
-              "attack": 161.7,
-              "magic": 191.1,
-              "armor": 57.024000000000015,
+              "hp": 399,
+              "attack": 69.3,
+              "magic": 81.89999999999999,
+              "armor": 37.32480000000001,
               "resistance": 10
             }
           },
@@ -25387,24 +25387,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 1350,
-              "attack": 234.46499999999997,
-              "magic": 277.09499999999997,
-              "armor": 63.86688000000002,
+              "hp": 579,
+              "attack": 100.485,
+              "magic": 118.755,
+              "armor": 41.80377600000002,
               "resistance": 15
             },
             "standard": {
-              "hp": 1755,
-              "attack": 304.80449999999996,
-              "magic": 360.2235,
-              "armor": 83.02694400000003,
+              "hp": 752.7,
+              "attack": 130.6305,
+              "magic": 154.3815,
+              "armor": 54.34490880000003,
               "resistance": 15
             },
             "perilous": {
-              "hp": 1350,
-              "attack": 234.46499999999997,
-              "magic": 277.09499999999997,
-              "armor": 63.86688000000002,
+              "hp": 579,
+              "attack": 100.485,
+              "magic": 118.755,
+              "armor": 41.80377600000002,
               "resistance": 15
             }
           },
@@ -25534,24 +25534,24 @@
           "sameArt": true,
           "stats": {
             "base": {
-              "hp": 1955,
-              "attack": 339.57,
-              "magic": 401.31,
-              "armor": 71.28000000000002,
+              "hp": 838,
+              "attack": 145.53,
+              "magic": 171.99,
+              "armor": 46.65600000000001,
               "resistance": 20
             },
             "standard": {
-              "hp": 2541.5,
-              "attack": 441.44100000000003,
-              "magic": 521.703,
-              "armor": 92.66400000000003,
+              "hp": 1089.4,
+              "attack": 189.18900000000002,
+              "magic": 223.58700000000002,
+              "armor": 60.65280000000002,
               "resistance": 20
             },
             "perilous": {
-              "hp": 1955,
-              "attack": 339.57,
-              "magic": 401.31,
-              "armor": 71.28000000000002,
+              "hp": 838,
+              "attack": 145.53,
+              "magic": 171.99,
+              "armor": 46.65600000000001,
               "resistance": 20
             }
           },
@@ -25678,8 +25678,8 @@
       "name": "Archaeomancer",
       "baseName": "Treasure Seeker",
       "family": "Forgotten wonders",
-      "tier": 6,
-      "price": 4,
+      "tier": 1,
+      "price": 2,
       "core": "forge",
       "addon": "marvel",
       "traitId": "block",
@@ -25788,24 +25788,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 1176,
-              "attack": 179.19999999999996,
-              "magic": 162.26,
-              "armor": 71.874,
+              "hp": 420,
+              "attack": 63.99999999999999,
+              "magic": 57.949999999999996,
+              "armor": 43.56,
               "resistance": 5
             },
             "standard": {
-              "hp": 1528.8,
-              "attack": 232.95999999999995,
-              "magic": 210.938,
-              "armor": 93.4362,
+              "hp": 546,
+              "attack": 83.19999999999999,
+              "magic": 75.335,
+              "armor": 56.62800000000001,
               "resistance": 5
             },
             "perilous": {
-              "hp": 1176,
-              "attack": 179.19999999999996,
-              "magic": 162.26,
-              "armor": 71.874,
+              "hp": 420,
+              "attack": 63.99999999999999,
+              "magic": 57.949999999999996,
+              "armor": 43.56,
               "resistance": 5
             }
           },
@@ -25935,24 +25935,24 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 1705,
-              "attack": 259.8399999999999,
-              "magic": 235.27699999999996,
-              "armor": 80.49888000000001,
+              "hp": 609,
+              "attack": 92.79999999999998,
+              "magic": 84.02749999999999,
+              "armor": 48.787200000000006,
               "resistance": 10
             },
             "standard": {
-              "hp": 2216.5,
-              "attack": 337.7919999999999,
-              "magic": 305.86009999999993,
-              "armor": 104.64854400000002,
+              "hp": 791.7,
+              "attack": 120.63999999999999,
+              "magic": 109.23575,
+              "armor": 63.42336000000001,
               "resistance": 10
             },
             "perilous": {
-              "hp": 1705,
-              "attack": 259.8399999999999,
-              "magic": 235.27699999999996,
-              "armor": 80.49888000000001,
+              "hp": 609,
+              "attack": 92.79999999999998,
+              "magic": 84.02749999999999,
+              "armor": 48.787200000000006,
               "resistance": 10
             }
           },
@@ -26082,24 +26082,24 @@
           "sameArt": true,
           "stats": {
             "base": {
-              "hp": 2470,
-              "attack": 376.31999999999994,
-              "magic": 340.746,
-              "armor": 89.8425,
+              "hp": 882,
+              "attack": 134.39999999999998,
+              "magic": 121.695,
+              "armor": 54.45,
               "resistance": 15
             },
             "standard": {
-              "hp": 3211,
-              "attack": 489.21599999999995,
-              "magic": 442.96979999999996,
-              "armor": 116.79525000000001,
+              "hp": 1146.6000000000001,
+              "attack": 174.71999999999997,
+              "magic": 158.2035,
+              "armor": 70.78500000000001,
               "resistance": 15
             },
             "perilous": {
-              "hp": 2470,
-              "attack": 376.31999999999994,
-              "magic": 340.746,
-              "armor": 89.8425,
+              "hp": 882,
+              "attack": 134.39999999999998,
+              "magic": 121.695,
+              "armor": 54.45,
               "resistance": 15
             }
           },
@@ -26662,24 +26662,24 @@
   },
   "notes": [
     "Stats are generated from the Stronghold model with no equipment, alliances, stacks, status effects or strategy bonuses. Standard includes its real +30% HP, ATK, MAG and DEF; Perilous uses the unbuffed values.",
-    "Tier I–VI HP/ATK/MAG budgets scale by 1 / 1.2 / 1.5 / 1.85 / 2.3 / 2.8. Higher-tier classes use a common role budget with at most ±5% stat variation, and basic hit strength normalized within the branch. Unmerged tier-I starters keep their original stats. These are local combat budgets, not native Arknights numbers.",
+    "Tier I–VI HP/ATK/MAG budgets scale by 1 / 1.2 / 1.5 / 1.85 / 2.3 / 2.8. Higher-tier classes use a common role budget with at most ±5% stat variation, and basic hit strength normalized within the branch. The original eight unmerged tier-I starters keep their original stats; relocated starters use the normalized tier-I role budget. These are local combat budgets, not native Arknights numbers.",
     "Normal / Elite / Elite II apply 1 / 1.45 / 2.1 to HP, ATK and MAG exactly once. DEF uses separate, gentler tier and fusion curves; RES gains +5 / +10 from fusion. RPG promotion artwork never adds another stat multiplier or lowers DEF.",
     "One automatic class skill is fixed per identity at every fusion rank. The authored cooldown field sets the SP cost; it is not the actual interval between skill casts. Units gain 1 SP per combat second, begin at 0 SP and have a 3-second operation gap after a skill release.",
-    "Three matching Normal copies become an Elite. Three matching Elites become Elite II (nine originals). Elite II is the cap. Each fusion opens a free recruitment choice, preserves a deployed survivor and returns its equipment.",
-    "Tier V–VI Elite II units retain their final catalog artwork and gain the Elite II aura and stats. Cosmetic RPG stages do not choose Stronghold skills, block, range or stat baselines.",
+    "Three matching Normal copies become an Elite. Three matching Elites become Elite II (nine originals). Elite II is the cap. Each fusion opens a free recruitment choice, preserves a deployed survivor and returns its equipment. Empty reward tiers fall back to the highest available tier at or below the reward within the run’s core pool.",
+    "The ten former V/VI recruits now occupy tiers I–III and retain their existing stage 3/4 artwork. Their price and combat budget follow their new tiers. Elite II units already at final catalog art keep it with the Elite II aura and stats. Cosmetic RPG stages do not choose Stronghold skills, block, range or stat baselines.",
     "Friendly range highlights whole cells whose centers lie inside the branch radius. Enemies anywhere inside a highlighted square can be targeted. Facing is automatic and never gates friendly range.",
     "Fallen defenders normally return after 70 combat seconds if enough DP is available. Preparation restores the roster. Aid and equipment can shorten the timer; revive effects can return units sooner.",
     "Authored tooltip text is shown separately from current Stronghold execution. This wiki documents the implementation and does not change combat or assume full numerical equivalence to Arknights."
   ],
   "sources": {
-    "src/protocol/data.js": "229358a33e496e8d3c8edff486eae5ad2e69f8f13ba669203459e7bbdd69779c",
-    "src/protocol/tierBalance.js": "9f1db367fb54efde6b9aa0707f5f9618824b83a5ca2135cebfebd5f809219543",
-    "src/protocol/model.js": "03d00f952f67900305033823b0470fb4fef5bb12fa468fca7bd354b06359cab2",
+    "src/protocol/data.js": "e3682479f4bffd7f0037bf5fe688bf56338a27e2b5743313a2efaf078244a50b",
+    "src/protocol/tierBalance.js": "8a1cec156078fda736e9e79bd0966f76d2a3369a99b788dca34963a1c9fd738e",
+    "src/protocol/model.js": "c7dd1fb6e47cd622817b31aaea96482490ec1a37b5e361172138519c549ed6fc",
     "src/protocol/simulation.js": "283921ab095335162c6f7312ae6b25dad1816ff1e6461320b9aa015e9e244fd5",
     "src/protocol/classAbilities.js": "1b55b698137544045964ee478263344997460b64da028ee92721980fd9bd22c0",
     "src/protocol/rangePreview.js": "c23bbadcc9bd4950627269176b0331fae71d01a42e1d992526aef48e9ce2841d",
     "src/protocol/facing.js": "4e4b65e00996e4928c78991758977b93e96b03d6a0b4001b75cf3f82eeddce46",
     "src/protocol/artPresentation.js": "1320df0c9f09b678446e9659d73ae9e9b65d6844fa29d483ad12f656997e576b"
   },
-  "catalogHash": "d5ed147b1de4d697b1e31dff0364b95cb1dd2669ddf1bf0ff64b26b49b9ab585"
+  "catalogHash": "7bfb3af655cfceea59f9da13e5930127f501c19a74771e4479d87f8da20999a4"
 }

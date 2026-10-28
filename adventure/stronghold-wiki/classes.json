@@ -26554,12 +26554,12 @@
     "src/protocol/data.js": "884955b53d707b5755852f8c53ff5ef4d4dd3724220353f16100dee243324008",
     "src/protocol/tierBalance.js": "8a1cec156078fda736e9e79bd0966f76d2a3369a99b788dca34963a1c9fd738e",
     "src/protocol/model.js": "c7dd1fb6e47cd622817b31aaea96482490ec1a37b5e361172138519c549ed6fc",
-    "src/protocol/simulation.js": "25d817a37be44024e16aba0fcac9c92d5825b1503f8977033186745b35515a59",
+    "src/protocol/simulation.js": "75097502bc5efd015122c3fc088477cb27eab6c220b086692057f35dde1f235d",
     "src/protocol/classAbilities.js": "dea6b92b1f973c6a89eadc6c852a586cd5f6299cbab421d267f3e5fbe99490e7",
     "src/protocol/specializations.js": "6574449c2353fe73b5d5e683ba45818485504c2611526ec981bf9f073f96f40e",
     "src/protocol/rangePreview.js": "c23bbadcc9bd4950627269176b0331fae71d01a42e1d992526aef48e9ce2841d",
-    "src/protocol/facing.js": "4e4b65e00996e4928c78991758977b93e96b03d6a0b4001b75cf3f82eeddce46",
-    "src/protocol/artPresentation.js": "eac81265bcb91f4accbe908fc96c67bb3fdff861e62650f699ade3fb65fcd438"
+    "src/protocol/facing.js": "40a48ac8bc796e30a12e8fa464c22a048fbe92d98c28e78b1aa01131ce8efb38",
+    "src/protocol/artPresentation.js": "90d4c11230babc5a2b5e14460a30a1306a2ab9a1bda13fe5c3e0882cdd2b4e92"
   },
-  "catalogHash": "12f07abd7e4aab7dfb78dbb741ecd1726ed88e3c7c0d47494601c7011c5c0689"
+  "catalogHash": "81f1461fd47bd683714ba379cf399569ccc8ac8a512886220d4a7a8cf253f534"
 }

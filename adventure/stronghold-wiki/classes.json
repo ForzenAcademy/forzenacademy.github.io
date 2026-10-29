@@ -26969,6 +26969,7 @@
     "Two matching Normal equipment pieces fuse automatically. The enhanced result always returns to the bench, even if a donor was equipped; equip the result manually. Character equipment appears in a small stack at the lower right of its field or bench figure. Matching equipment on a full owner fuses without destroying the unrelated item.",
     "The ten former V/VI recruits now occupy tiers I–III and retain their existing stage 3/4 artwork. Their price and combat budget follow their new tiers. Elite II units already at final catalog art keep it with the Elite II aura and stats. Cosmetic RPG stages do not choose Stronghold skills, block, range or stat baselines.",
     "Standard ranged attackers (Marksmen and Core Casters) reach 2.5 tiles, covering E3 from G2 and G4. Duelists reach 1.5 tiles, including adjacent diagonals, and retain one block and single-target attacks. These ranges apply to all three fusion ranks. Friendly range highlights whole cells whose centers lie inside the branch radius. Enemies anywhere inside a highlighted square can be targeted. Facing is automatic and never gates friendly range.",
+    "Raised platforms protect allies from enemy melee attacks. Only attacks explicitly marked ranged can target them: shots, bolts, blasts, webs, sleep spells and the ranged boss specials. Bites, spears, venom bites and ordinary boss blows cannot reach high ground, including when used by flying enemies. Ranged classes deployed on roads remain exposed to melee. Target acquisition, cast release, splash recipients and direct damage all respect elevation.",
     "Fallen defenders normally return after 70 combat seconds if enough DP is available. Preparation restores the roster. Aid and equipment can shorten the timer; revive effects can return units sooner.",
     "Stronghold tooltips and execution notes include the local class specializations. Original RPG definitions remain separate. This wiki documents the implementation without assuming full numerical equivalence to Arknights."
   ],
@@ -26978,11 +26979,13 @@
     "src/protocol/sustainBalance.js": "5c8caa0a17c5c3bbe46bee8871df9b0275ae1c7ffaac0c5204d872833a307456",
     "src/protocol/model.js": "b5f9d42b80de9b14a65f37b3bca86d07e101a094bb3996ac41d11948c6884190",
     "src/protocol/simulation.js": "c17b4a267fdf28de5d8032c177daa3ed18c0c3a6d1413a1264127201512776d4",
+    "src/protocol/enemies.js": "4f3eae73a189f27e43b7476f671669ab8309f96c542fff990ea31292ccf6069e",
+    "src/protocol/enemyTargeting.js": "977062dc2fb3112c418a0404f03efd4fe7889bd88635229c87543dfc67ee6c61",
     "src/protocol/classAbilities.js": "dea6b92b1f973c6a89eadc6c852a586cd5f6299cbab421d267f3e5fbe99490e7",
     "src/protocol/specializations.js": "a93ded181e8e34855d8f362661d5778278723802f1e7f7e6fa21e1bc05b05410",
     "src/protocol/rangePreview.js": "624f5dfb2da1e26dc37b198e9bdf5954c3804b96be7c5c3fe792b6d4f9c9f9b2",
     "src/protocol/facing.js": "40a48ac8bc796e30a12e8fa464c22a048fbe92d98c28e78b1aa01131ce8efb38",
     "src/protocol/artPresentation.js": "276669207f9d9a97ba41a3a9910996edd26df482e9dfd7b4cd9e528f6a2cb723"
   },
-  "catalogHash": "ed5ced0cd13a0e4523fd9f7535cae0969b1176fdfd0f0d84d299af869e381098"
+  "catalogHash": "55597c16c538cf1376e05670e854d1920e1194be3438f4786d5d18568381732c"
 }

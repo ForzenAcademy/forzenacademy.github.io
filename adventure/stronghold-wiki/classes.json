@@ -20,7 +20,6 @@
         "melee": true,
         "block": 2,
         "range": 1.3,
-        "cost": 14,
         "interval": 1.05,
         "hp": 1.2,
         "offense": 0.8,
@@ -555,7 +554,6 @@
         "melee": true,
         "block": 5,
         "range": 1.3,
-        "cost": 18,
         "interval": 1.2,
         "hp": 1.6,
         "offense": 0.65,
@@ -1092,7 +1090,6 @@
         "melee": true,
         "block": 2,
         "range": 1.5,
-        "cost": 14,
         "interval": 1.3,
         "hp": 1.25,
         "offense": 0.85,
@@ -2030,7 +2027,6 @@
         "melee": true,
         "block": 2,
         "range": 1.3,
-        "cost": 14,
         "interval": 1.05,
         "hp": 1.2,
         "offense": 0.8,
@@ -2565,7 +2561,6 @@
         "melee": true,
         "block": 1,
         "range": 1.5,
-        "cost": 14,
         "interval": 1.3,
         "hp": 1.35,
         "offense": 1.05,
@@ -3116,7 +3111,6 @@
         "melee": true,
         "block": 1,
         "range": 1.5,
-        "cost": 14,
         "interval": 0.85,
         "hp": 1.35,
         "offense": 1.05,
@@ -3667,7 +3661,6 @@
         "melee": true,
         "block": 2,
         "range": 1.3,
-        "cost": 14,
         "interval": 1.3,
         "hp": 1.25,
         "offense": 0.85,
@@ -4208,7 +4201,6 @@
         "melee": true,
         "block": 1,
         "range": 1.5,
-        "cost": 14,
         "interval": 1,
         "hp": 1.35,
         "offense": 1.05,
@@ -4759,7 +4751,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 1,
         "hp": 1,
         "offense": 0.72,
@@ -5358,7 +5349,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 2.7,
         "hp": 1,
         "offense": 1.05,
@@ -5957,7 +5947,6 @@
         "melee": true,
         "block": 2,
         "range": 1.3,
-        "cost": 14,
         "interval": 1.05,
         "hp": 1.2,
         "offense": 0.8,
@@ -6500,7 +6489,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 2.7,
         "hp": 1,
         "offense": 1.05,
@@ -7099,7 +7087,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 2.7,
         "hp": 1,
         "offense": 1.05,
@@ -7705,7 +7692,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 12,
         "interval": 2.85,
         "hp": 1,
         "offense": 1,
@@ -8310,7 +8296,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 1.6,
         "hp": 1,
         "offense": 0.9,
@@ -9295,7 +9280,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 12,
         "interval": 2.85,
         "hp": 1,
         "offense": 1,
@@ -10086,7 +10070,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 12,
         "interval": 2.85,
         "hp": 1,
         "offense": 1,
@@ -10687,7 +10670,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 1.6,
         "hp": 1,
         "offense": 0.9,
@@ -11286,7 +11268,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 1.6,
         "hp": 1,
         "offense": 0.9,
@@ -11896,7 +11877,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 1.6,
         "hp": 1,
         "offense": 0.9,
@@ -12687,7 +12667,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 1.6,
         "hp": 1,
         "offense": 0.9,
@@ -13286,7 +13265,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 1.6,
         "hp": 1,
         "offense": 0.9,
@@ -13887,7 +13865,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 1.6,
         "hp": 1,
         "offense": 0.9,
@@ -14485,7 +14462,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 12,
         "interval": 2.85,
         "hp": 1,
         "offense": 1,
@@ -15465,7 +15441,6 @@
         "melee": true,
         "block": 5,
         "range": 1.3,
-        "cost": 18,
         "interval": 1.2,
         "hp": 1.6,
         "offense": 0.65,
@@ -16004,7 +15979,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 12,
         "interval": 2.85,
         "hp": 1,
         "offense": 1,
@@ -16986,7 +16960,6 @@
         "melee": true,
         "block": 1,
         "range": 1.5,
-        "cost": 14,
         "interval": 1.1,
         "hp": 1.35,
         "offense": 1.05,
@@ -17536,7 +17509,6 @@
         "melee": true,
         "block": 2,
         "range": 1.3,
-        "cost": 14,
         "interval": 1.05,
         "hp": 1.2,
         "offense": 0.8,
@@ -18070,7 +18042,6 @@
         "melee": false,
         "block": 1,
         "range": 1.5,
-        "cost": 12,
         "interval": 2.85,
         "hp": 1,
         "offense": 1,
@@ -19009,7 +18980,6 @@
         "melee": true,
         "block": 6,
         "range": 1.3,
-        "cost": 18,
         "interval": 1.2,
         "hp": 1.6,
         "offense": 0.65,
@@ -19930,7 +19900,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 1,
         "hp": 1,
         "offense": 0.72,
@@ -20532,7 +20501,6 @@
         "melee": true,
         "block": 2,
         "range": 1.3,
-        "cost": 14,
         "interval": 1.05,
         "hp": 1.2,
         "offense": 0.8,
@@ -21066,7 +21034,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 12,
         "interval": 2.85,
         "hp": 1,
         "offense": 1,
@@ -21203,7 +21170,7 @@
         "icon": "../skill-icons/mobile-v2/tradition-33-1.webp",
         "execution": [
           "Restores 24% of the target’s max HP, before healing equipment, sealed reduction and overheal capping.",
-          "Also removes poison, sleep, stun, slow, cold, frozen, weak, exposed and sealed."
+          "Also removes poison, sleep, stun, slow, cold, frozen, weak, exposed, sealed, root and blind."
         ]
       },
       "forms": [
@@ -21668,7 +21635,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 2.7,
         "hp": 1,
         "offense": 1.05,
@@ -22266,7 +22232,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 1.6,
         "hp": 1,
         "offense": 0.9,
@@ -22868,7 +22833,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 12,
         "interval": 2.85,
         "hp": 1,
         "offense": 1,
@@ -23852,7 +23816,6 @@
         "melee": true,
         "block": 2,
         "range": 1.5,
-        "cost": 14,
         "interval": 1.3,
         "hp": 1.25,
         "offense": 0.85,
@@ -24972,7 +24935,6 @@
         "melee": true,
         "block": 6,
         "range": 1.3,
-        "cost": 18,
         "interval": 1.2,
         "hp": 1.6,
         "offense": 0.65,
@@ -25507,7 +25469,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 12,
         "interval": 2.85,
         "hp": 1,
         "offense": 1,
@@ -26110,7 +26071,6 @@
         "melee": true,
         "block": 2,
         "range": 1.5,
-        "cost": 14,
         "interval": 1.3,
         "hp": 1.25,
         "offense": 0.85,
@@ -26661,7 +26621,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 1,
         "hp": 1,
         "offense": 0.72,
@@ -27267,7 +27226,6 @@
         "melee": true,
         "block": 2,
         "range": 1.3,
-        "cost": 14,
         "interval": 1.3,
         "hp": 1.25,
         "offense": 0.85,
@@ -27806,7 +27764,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 1.6,
         "hp": 1,
         "offense": 0.9,
@@ -28412,7 +28369,6 @@
         "melee": true,
         "block": 2,
         "range": 1.3,
-        "cost": 14,
         "interval": 1.3,
         "hp": 1.25,
         "offense": 0.85,
@@ -28949,7 +28905,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 12,
         "interval": 2.85,
         "hp": 1,
         "offense": 1,
@@ -29551,7 +29506,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 1.6,
         "hp": 1,
         "offense": 0.9,
@@ -30153,7 +30107,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 1.6,
         "hp": 1,
         "offense": 0.9,
@@ -30753,7 +30706,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 1,
         "hp": 1,
         "offense": 0.72,
@@ -31352,7 +31304,6 @@
         "melee": true,
         "block": 2,
         "range": 1.5,
-        "cost": 14,
         "interval": 1.3,
         "hp": 1.25,
         "offense": 0.85,
@@ -31902,7 +31853,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 1.6,
         "hp": 1,
         "offense": 0.9,
@@ -32500,7 +32450,6 @@
         "melee": true,
         "block": 7,
         "range": 1.3,
-        "cost": 18,
         "interval": 1.2,
         "hp": 1.6,
         "offense": 0.65,
@@ -33036,7 +32985,6 @@
         "melee": true,
         "block": 1,
         "range": 1.5,
-        "cost": 14,
         "interval": 1,
         "hp": 1.35,
         "offense": 1.05,
@@ -33590,7 +33538,6 @@
         "melee": true,
         "block": 2,
         "range": 1.3,
-        "cost": 14,
         "interval": 1.05,
         "hp": 1.2,
         "offense": 0.8,
@@ -34126,7 +34073,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 1.6,
         "hp": 1,
         "offense": 0.9,
@@ -34720,14 +34666,13 @@
       "addon": "aid",
       "traitId": "heal",
       "trait": "After restoring an ally’s HP (overhealing does not count), this unit adds 1 stack to each of its alliances. Elite and Elite II units add 2 instead.",
-      "strength": "Returns one fallen teammate per battle while continuing ordinary healing.",
-      "weakness": "Only one rescue per battle; long cast can be interrupted.",
+      "strength": "Once per battle, heals a critically wounded living ally, removes harmful effects and gives it a ward.",
+      "weakness": "Only one surgery per battle; its long cast cannot save an ally that falls before it finishes.",
       "profile": {
         "name": "Medic",
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 12,
         "interval": 2.85,
         "hp": 1,
         "offense": 1,
@@ -34848,23 +34793,26 @@
       },
       "skill": {
         "id": "protocol-chirurgeon",
-        "name": "Second Sunrise",
-        "effect": "revive",
-        "target": "fallenAlly",
+        "name": "Emergency Surgery",
+        "effect": "remedy",
+        "target": "allyUnder35",
         "cooldown": 5,
         "castTime": 1.2,
         "power": 1,
-        "description": "Once per battle, revives one fallen ally with 35% max HP. 1.2-second cast.",
+        "description": "Once per battle, heals a living ally below 35% HP for 60% max HP, removes its harmful effects and gives it a ward equal to 25% max HP. 1.2-second cast.",
         "condition": "Eligible target in range",
-        "healRatio": 0.35,
+        "healRatio": 0.6,
+        "wardRatio": 0.25,
         "oncePerBattle": true,
-        "visualKind": "resurrection",
+        "visualKind": "cleanse",
         "visualPalette": "dawn",
         "icon": null,
         "execution": [
-          "Returns the fallen target with 1 HP before applying the heal.",
-          "Restores 35% of the target’s max HP, before healing equipment, sealed reduction and overheal capping.",
-          "Can successfully activate only once per combat; a new wave resets the rescue."
+          "Restores 60% of the target’s max HP, before healing equipment, sealed reduction and overheal capping.",
+          "Targets only living allies below 35% max HP; the target must still be eligible when the cast finishes.",
+          "Also removes poison, sleep, stun, slow, cold, frozen, weak, exposed, sealed, root and blind.",
+          "Also grants a ward equal to 25% recipient max HP.",
+          "Can successfully activate only once per combat; a new wave resets the ability."
         ]
       },
       "forms": [
@@ -35329,7 +35277,6 @@
         "melee": true,
         "block": 2,
         "range": 1.3,
-        "cost": 14,
         "interval": 1.3,
         "hp": 1.25,
         "offense": 0.85,
@@ -35867,7 +35814,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 1.6,
         "hp": 1,
         "offense": 0.9,
@@ -36473,7 +36419,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 3.4,
         "hp": 1,
         "offense": 1.05,
@@ -37069,14 +37014,13 @@
       "addon": "resilient",
       "traitId": "defeat",
       "trait": "When another defender from the same faction falls, this unit adds 1 stack to each of its alliances. Elite and Elite II units add 2 instead.",
-      "strength": "Rises once per battle at 45% HP and combines physical cleaves with an Arts verdict.",
-      "weakness": "Its second fall is ordinary; limited reach and no ally support.",
+      "strength": "Once per battle, gains a 45%-max-HP ward when surviving below 35% HP; combines physical cleaves with an Arts verdict.",
+      "weakness": "A lethal hit bypasses its emergency ward; limited reach and no ally support.",
       "profile": {
         "name": "Guard",
         "melee": true,
         "block": 2,
         "range": 1.3,
-        "cost": 14,
         "interval": 1.3,
         "hp": 1.25,
         "offense": 0.85,
@@ -37113,7 +37057,8 @@
         ]
       },
       "passive": {
-        "rebirth": 0.45
+        "crisisWard": 0.45,
+        "crisisThreshold": 0.35
       },
       "basic": {
         "id": "protocol-basic-phoenix-bailiff",
@@ -37619,7 +37564,6 @@
         "melee": true,
         "block": 8,
         "range": 1.5,
-        "cost": 18,
         "interval": 1.2,
         "hp": 1.6,
         "offense": 0.65,
@@ -38174,7 +38118,6 @@
         "melee": true,
         "block": 3,
         "range": 1.3,
-        "cost": 14,
         "interval": 1.8,
         "hp": 1.25,
         "offense": 0.85,
@@ -38718,7 +38661,6 @@
         "melee": false,
         "block": 1,
         "range": 2.5,
-        "cost": 15,
         "interval": 1.6,
         "hp": 1,
         "offense": 0.9,
@@ -39321,7 +39263,6 @@
         "melee": true,
         "block": 8,
         "range": 1.5,
-        "cost": 18,
         "interval": 1.2,
         "hp": 1.6,
         "offense": 0.65,
@@ -39878,7 +39819,6 @@
         "melee": true,
         "block": 2,
         "range": 1.5,
-        "cost": 14,
         "interval": 1.6,
         "hp": 1.25,
         "offense": 0.85,
@@ -40638,8 +40578,8 @@
     {
       "id": "iron",
       "name": "Ironbound",
-      "reference": "Ægir",
-      "summary": "Ironbound defenders gain HP and can absorb a nearby ally’s strength.",
+      "reference": "Local shieldwall rework",
+      "summary": "Stand together: Ironbound defenders anchor a shield wall that protects nearby teammates.",
       "milestones": [
         {
           "required": 3,
@@ -40650,24 +40590,23 @@
               "scaling": "Each stack adds another 1% max HP."
             },
             {
-              "title": "Absorb an ally",
-              "text": "At the start of combat, each Ironbound defender absorbs the ally on the adjacent tile in front of it. It inherits that ally’s base ATK and Block, plus any stats the ally inherited this way. Inherited ATK increases both ATK and MAG.",
-              "scaling": "Gain 1 Ironbound stack per tier of the absorbed ally."
+              "title": "Shieldwall",
+              "text": "An Ironbound defender and allies on adjacent tiles take 20% less direct damage while standing together. Diagonal tiles count. Protection ends when the Ironbound defender falls; an isolated Ironbound defender has no Shieldwall.",
+              "scaling": "Overlapping Shieldwalls do not stack. Applies before wards, combines multiplicatively with other damage reduction, and does not reduce poison or HP costs."
             }
-          ],
-          "warning": "This deals 6,000 damage to the absorbed ally, ignoring DEF and wards, and can knock it out. The ally stays in your roster."
+          ]
         },
         {
           "required": 5,
           "effects": [
             {
-              "title": "Second chance",
-              "text": "Twice per battle, an Ironbound defender that falls immediately returns with full HP."
+              "title": "Iron bulwark",
+              "text": "Ironbound defenders start each battle with a ward equal to 40% of their max HP."
             }
           ]
         }
       ],
-      "rule": "3: More HP: Ironbound defenders gain 35% max HP. Each stack adds another 1% max HP.\nAbsorb an ally: At the start of combat, each Ironbound defender absorbs the ally on the adjacent tile in front of it. It inherits that ally’s base ATK and Block, plus any stats the ally inherited this way. Inherited ATK increases both ATK and MAG. Gain 1 Ironbound stack per tier of the absorbed ally.\nAlly sacrifice: This deals 6,000 damage to the absorbed ally, ignoring DEF and wards, and can knock it out. The ally stays in your roster.\n\n5: Second chance: Twice per battle, an Ironbound defender that falls immediately returns with full HP.",
+      "rule": "3: More HP: Ironbound defenders gain 35% max HP. Each stack adds another 1% max HP.\nShieldwall: An Ironbound defender and allies on adjacent tiles take 20% less direct damage while standing together. Diagonal tiles count. Protection ends when the Ironbound defender falls; an isolated Ironbound defender has no Shieldwall. Overlapping Shieldwalls do not stack. Applies before wards, combines multiplicatively with other damage reduction, and does not reduce poison or HP costs.\n\n5: Iron bulwark: Ironbound defenders start each battle with a ward equal to 40% of their max HP.",
       "members": [
         "class-squire",
         "class-recruit",
@@ -40679,7 +40618,7 @@
         "class-standard-bearer",
         "class-prizefighter"
       ],
-      "warning": "At 3 distinct deployed Ironbound classes, battle start consumes the ally on each Ironbound unit’s automatically chosen forward tile. The current implementation subtracts 6,000 HP directly, bypassing armor and wards. The consumer gains the ally’s base ATK in both ATK and MAG, its block count, and tier-based alliance stacks. The ally remains in the roster."
+      "warning": null
     }
   ],
   "addons": [
@@ -40693,7 +40632,7 @@
           "effects": [
             {
               "title": "Team defense",
-              "text": "All allies gain 15% DEF and return 30% sooner after falling.",
+              "text": "All allies gain 15% DEF.",
               "scaling": "Each Aid stack adds another 1.2% DEF."
             },
             {
@@ -40707,13 +40646,13 @@
           "effects": [
             {
               "title": "Faster growth",
-              "text": "When combat begins, add 4 stacks to every active alliance instead of 2. The defense and return-time bonuses stay active."
+              "text": "When combat begins, add 4 stacks to every active alliance instead of 2. The defense bonus stays active."
             }
           ]
         }
       ],
       "benchCounts": false,
-      "rule": "2: Team defense: All allies gain 15% DEF and return 30% sooner after falling. Each Aid stack adds another 1.2% DEF.\nAlliance growth: When combat begins, add 2 stacks to every active alliance.\n\n3: Faster growth: When combat begins, add 4 stacks to every active alliance instead of 2. The defense and return-time bonuses stay active.",
+      "rule": "2: Team defense: All allies gain 15% DEF. Each Aid stack adds another 1.2% DEF.\nAlliance growth: When combat begins, add 2 stacks to every active alliance.\n\n3: Faster growth: When combat begins, add 4 stacks to every active alliance instead of 2. The defense bonus stays active.",
       "members": [
         "class-squire",
         "class-cavalier",
@@ -40853,15 +40792,15 @@
     {
       "id": "resilient",
       "name": "Resilient",
-      "summary": "Resilient defenders can return immediately after falling.",
+      "summary": "Resilient defenders take less damage and rally when a frontline ally falls.",
       "milestones": [
         {
           "required": 2,
           "effects": [
             {
-              "title": "Instant return",
-              "text": "When a Resilient defender falls, it has an 18% chance to return immediately with full HP.",
-              "scaling": "Each stack adds 0.4% to the chance, up to 100%."
+              "title": "Damage resistance",
+              "text": "Resilient defenders take 18% less direct damage from attacks and spells.",
+              "scaling": "Each stack adds 0.4% damage reduction, up to 60%. Does not reduce poison or HP costs."
             }
           ]
         },
@@ -40870,13 +40809,13 @@
           "effects": [
             {
               "title": "Skill points",
-              "text": "Whenever an ally with a melee role falls, all Resilient defenders gain 5 SP."
+              "text": "Whenever an ally with a melee role falls, all surviving Resilient defenders gain 5 SP."
             }
           ]
         }
       ],
       "benchCounts": false,
-      "rule": "2: Instant return: When a Resilient defender falls, it has an 18% chance to return immediately with full HP. Each stack adds 0.4% to the chance, up to 100%.\n\n3: Skill points: Whenever an ally with a melee role falls, all Resilient defenders gain 5 SP.",
+      "rule": "2: Damage resistance: Resilient defenders take 18% less direct damage from attacks and spells. Each stack adds 0.4% damage reduction, up to 60%. Does not reduce poison or HP costs.\n\n3: Skill points: Whenever an ally with a melee role falls, all surviving Resilient defenders gain 5 SP.",
       "members": [
         "class-recruit",
         "class-brawler",
@@ -41038,12 +40977,12 @@
       "name": "Drill Whistle",
       "tier": 3,
       "price": 2,
-      "description": "Return time −30% / −40%.",
-      "stat": "return",
-      "normal": 0.3,
-      "enhanced": 0.4,
-      "normalEffect": "Return time −30%",
-      "enhancedEffect": "Return time −40%",
+      "description": "Start each battle with 8 / 14 SP.",
+      "stat": "initialSp",
+      "normal": 8,
+      "enhanced": 14,
+      "normalEffect": "Starts each battle with 8 SP.",
+      "enhancedEffect": "Starts each battle with 14 SP.",
       "art": "../equipment/whistle-v2.webp"
     },
     {
@@ -41233,26 +41172,27 @@
     "Normal / Elite / Elite II apply 1 / 1.45 / 2.1 to HP, ATK and MAG exactly once. DEF uses separate, gentler tier and fusion curves; RES gains +5 / +10 from fusion. RPG promotion artwork never adds another stat multiplier or lowers DEF.",
     "Dedicated healers restore twice their previous HP with basic heals, healing skills and regeneration. Skill descriptions and execution notes include this multiplier; healing equipment, sealed reduction and overheal caps still apply. Wards and non-healing skills keep their existing values. Tank classes gain +2 / +3 / +4 / +5 block at tiers I / II / III / IV, capped at +5 for V–VI. Their total block is 5 / 6 / 7 / 8. Fusion does not add another block bonus. These bonuses are user-requested local tuning, not native Arknights rules.",
     "Brigand cleaves three nearby enemies; Corsair and Miner cleave two. Mage splashes four targets, while Machinist keeps a stronger primary hit with weaker splash on three others. Thunder Mage chains to two additional enemies with falling power; Lancer pierces one aligned enemy behind its primary target. Every victim must be in attack range. New splash, cleave and chain neighborhoods use Euclidean distance; existing class skills retain their authored area rules. Successful-attack traits, ammo and fifth-attack equipment count once per attack rather than per area victim. Normal, Elite and Elite II share these attack identities.",
-    "One automatic class skill is fixed per identity at every fusion rank. The Stronghold skill’s cooldown field sets the SP cost; it is not the actual interval between skill casts. Units gain 1 SP per combat second, begin at 0 SP and have a 3-second operation gap after a skill release.",
+    "One automatic class skill is fixed per identity at every fusion rank. The Stronghold skill’s cooldown field sets the SP cost; it is not the actual interval between skill casts. Units gain 1 SP per combat second, begin at 0 SP unless equipped with a Drill Whistle, and have a 3-second operation gap after a skill release. Drill Whistle grants 8 starting SP, or 14 when Enhanced, capped at skill cost.",
     "Three matching Normal copies become an Elite. Three matching Elites become Elite II (nine originals). Elite II is the cap. Each fusion opens a free recruitment choice, preserves a deployed survivor and returns its equipment. Empty reward tiers fall back to the highest available tier at or below the reward within the run’s core pool.",
     "Recruitment gives class families you already own 25% more relative weight (1.25 versus 1), making matching copies a little more common. Field, bench and temporary units count, including Elite and Elite II forms. The bonus applies once per family; owning extra copies does not increase it, and selling the last copy removes it. This applies to shop rolls, frozen refills, new upgrade slots, free recruitment and the Scout strategy’s Wild slot. Existing faction and tier restrictions still apply, and reopening a free choice keeps its original offers. This is local tuning, not native Arknights recruitment odds.",
     "Two matching Normal equipment pieces fuse automatically. The enhanced result always returns to the bench, even if a donor was equipped; equip the result manually. Character equipment appears in a small stack at the lower right of its field or bench figure. Matching equipment on a full owner fuses without destroying the unrelated item.",
     "The ten former V/VI recruits now occupy tiers I–III and retain their existing stage 3/4 artwork. Their price and combat budget follow their new tiers. Elite II units already at final catalog art keep it with the Elite II aura and stats. Cosmetic RPG stages do not choose Stronghold skills, block, range or stat baselines.",
     "Standard ranged attackers (Marksmen and Core Casters) reach 2.5 tiles, covering E3 from G2 and G4. Duelists reach 1.5 tiles, including adjacent diagonals, and retain one block and single-target attacks. These ranges apply to all three fusion ranks. Friendly range highlights whole cells whose centers lie inside the branch radius. Enemies anywhere inside a highlighted square can be targeted. Facing is automatic and never gates friendly range.",
     "Raised platforms protect allies from enemy melee attacks. Only attacks explicitly marked ranged can target them: shots, bolts, blasts, webs, sleep spells and the ranged boss specials. Bites, spears, venom bites and ordinary boss blows cannot reach high ground, including when used by flying enemies. Ranged classes deployed on roads remain exposed to melee. Target acquisition, cast release, splash recipients and direct damage all respect elevation.",
-    "Fallen defenders normally return after 70 combat seconds if enough DP is available. Preparation restores the roster. Aid and equipment can shorten the timer; revive effects can return units sooner.",
+    "A fallen defender stays down for the rest of the wave. There are no resurrection effects, return timers or DP costs. Preparation and the next combat restore the roster to full HP. Ironbound’s five-class bonus gives a 40%-max-HP starting ward; Resilient reduces direct damage. Phoenix Bailiff gains a one-use ward while critically wounded, and Chirurgeon treats a critically wounded living ally instead of reviving a fallen one.",
     "Stronghold tooltips and execution notes include the local class specializations. Original RPG definitions remain separate. This wiki documents the implementation without assuming full numerical equivalence to Arknights."
   ],
   "sources": {
-    "src/protocol/allianceCopy.js": "ce795208c8c0e1640357a2cb640a78f4febe1e2035471064f9e24824bc4edb45",
-    "src/protocol/expansion-roster.js": "346787164a615b80823e19dd1f9ffbd03a8f551fd935ac31cda9d116726cfb8e",
+    "src/protocol/ironbound.js": "86fe864dc72c9436f4f75b2540863682268a93afe827da65b1dade9266b63720",
+    "src/protocol/allianceCopy.js": "6baaa207224d71bc7c5f14cecf3573db80127bf17205328dd038756ded624091",
+    "src/protocol/expansion-roster.js": "60b9d4731173cab1b3fe918c56bd2f41df65a6cca27013da65d027e767122a7b",
     "src/protocol/expansion-art.js": "cdada49d87c411a5d024ca70435067946acb5cda182e815034045aa414950177",
-    "src/protocol/data.js": "26624c1260e1555f6049da7e53b5a6bac010698bd38d119ae5fb642d5606da21",
+    "src/protocol/data.js": "b06544eb29be3ce5bcdea5eaf355e0734572b5fd3460db70023a474e6f45700b",
     "src/protocol/tierBalance.js": "efd74aec4cc10b865a7407a339674740b8049b486f64ab74a8465e910aa66283",
-    "src/protocol/sustainBalance.js": "5c8caa0a17c5c3bbe46bee8871df9b0275ae1c7ffaac0c5204d872833a307456",
+    "src/protocol/sustainBalance.js": "a986423b6381e1baf609f748cf1368c564075073574ea31dfe5f62c0dc2434b4",
     "src/protocol/model.js": "68dafbd6719fe40ece5d74b17f8179eae1e2eccbaaa77e27ccf69c847950b767",
     "src/protocol/recruitment.js": "073a480ad27457f7ea335de618e02574b90bd8a306649a26f95f39a6583afbc8",
-    "src/protocol/simulation.js": "417b58834c4fc3c2956f5a1812ef6a9d8c214d4bf5108f37e9361e7104daa6cc",
+    "src/protocol/simulation.js": "eba5b07616aca62524b7cd7867b6ef24300d1b0b6fdf9b6c9aa679999969360b",
     "src/protocol/attackPatterns.js": "6bcfb1ca746c5b0fe9155c71ea726671c4ef456f5c18e9cc205f5b14ed7e59a6",
     "src/protocol/enemies.js": "4f3eae73a189f27e43b7476f671669ab8309f96c542fff990ea31292ccf6069e",
     "src/protocol/enemyTargeting.js": "977062dc2fb3112c418a0404f03efd4fe7889bd88635229c87543dfc67ee6c61",
@@ -41262,5 +41202,5 @@
     "src/protocol/facing.js": "40a48ac8bc796e30a12e8fa464c22a048fbe92d98c28e78b1aa01131ce8efb38",
     "src/protocol/artPresentation.js": "f6283b867103dc25719c16a4d67636a2e0db3c2e6230f440adae627da21019c8"
   },
-  "catalogHash": "468392d24c9fa427bb67fce8ce9b31757d7aa8e4ac903d55f259a44b0c67897c"
+  "catalogHash": "d8eb1c835ea90a42e39a9eea531f6df04b47b08c5f08e95f0b3425897971a664"
 }

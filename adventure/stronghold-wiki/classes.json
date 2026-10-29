@@ -26307,7 +26307,7 @@
       "enhanced": 0.5,
       "normalEffect": "DEF +30%",
       "enhancedEffect": "DEF +50%",
-      "art": "../equipment/buckler-v1.webp"
+      "art": "../equipment/buckler-v2.webp"
     },
     {
       "id": "focus",
@@ -26320,7 +26320,7 @@
       "enhanced": 0.35,
       "normalEffect": "ATK and magic +20%",
       "enhancedEffect": "ATK and magic +35%",
-      "art": "../equipment/focus-v1.webp"
+      "art": "../equipment/focus-v2.webp"
     },
     {
       "id": "bell",
@@ -26333,7 +26333,7 @@
       "enhanced": 0.35,
       "normalEffect": "Healing +20%",
       "enhancedEffect": "Healing +35%",
-      "art": "../equipment/bell-v1.webp"
+      "art": "../equipment/bell-v2.webp"
     },
     {
       "id": "heart",
@@ -26346,7 +26346,7 @@
       "enhanced": 0.4,
       "normalEffect": "HP +25%",
       "enhancedEffect": "HP +40%",
-      "art": "../equipment/heart-v1.webp"
+      "art": "../equipment/heart-v2.webp"
     },
     {
       "id": "spring",
@@ -26359,7 +26359,7 @@
       "enhanced": 35,
       "normalEffect": "Attack speed +20",
       "enhancedEffect": "Attack speed +35",
-      "art": "../equipment/spring-v1.webp"
+      "art": "../equipment/spring-v2.webp"
     },
     {
       "id": "whistle",
@@ -26372,7 +26372,7 @@
       "enhanced": 0.4,
       "normalEffect": "Return time −30%",
       "enhancedEffect": "Return time −40%",
-      "art": "../equipment/whistle-v1.webp"
+      "art": "../equipment/whistle-v2.webp"
     },
     {
       "id": "salt",
@@ -26385,7 +26385,7 @@
       "enhanced": 8,
       "normalEffect": "Clears a harmful status from an ally every 12s.",
       "enhancedEffect": "Clears a harmful status from an ally every 8s.",
-      "art": "../equipment/salt-v1.webp"
+      "art": "../equipment/salt-v2.webp"
     },
     {
       "id": "magazine",
@@ -26398,7 +26398,7 @@
       "enhanced": 0.8,
       "normalEffect": "Every fifth basic attack adds a 50% hit.",
       "enhancedEffect": "Every fifth basic attack adds a 80% hit.",
-      "art": "../equipment/magazine-v1.webp"
+      "art": "../equipment/magazine-v2.webp"
     }
   ],
   "arts": {
@@ -26545,6 +26545,7 @@
     "Normal / Elite / Elite II apply 1 / 1.45 / 2.1 to HP, ATK and MAG exactly once. DEF uses separate, gentler tier and fusion curves; RES gains +5 / +10 from fusion. RPG promotion artwork never adds another stat multiplier or lowers DEF.",
     "One automatic class skill is fixed per identity at every fusion rank. The Stronghold skill’s cooldown field sets the SP cost; it is not the actual interval between skill casts. Units gain 1 SP per combat second, begin at 0 SP and have a 3-second operation gap after a skill release.",
     "Three matching Normal copies become an Elite. Three matching Elites become Elite II (nine originals). Elite II is the cap. Each fusion opens a free recruitment choice, preserves a deployed survivor and returns its equipment. Empty reward tiers fall back to the highest available tier at or below the reward within the run’s core pool.",
+    "Two matching Normal equipment pieces fuse automatically. The enhanced result always returns to the bench, even if a donor was equipped; equip the result manually. Character equipment appears in a small stack at the lower right of its field or bench figure. Matching equipment on a full owner fuses without destroying the unrelated item.",
     "The ten former V/VI recruits now occupy tiers I–III and retain their existing stage 3/4 artwork. Their price and combat budget follow their new tiers. Elite II units already at final catalog art keep it with the Elite II aura and stats. Cosmetic RPG stages do not choose Stronghold skills, block, range or stat baselines.",
     "Friendly range highlights whole cells whose centers lie inside the branch radius. Enemies anywhere inside a highlighted square can be targeted. Facing is automatic and never gates friendly range.",
     "Fallen defenders normally return after 70 combat seconds if enough DP is available. Preparation restores the roster. Aid and equipment can shorten the timer; revive effects can return units sooner.",
@@ -26553,7 +26554,7 @@
   "sources": {
     "src/protocol/data.js": "884955b53d707b5755852f8c53ff5ef4d4dd3724220353f16100dee243324008",
     "src/protocol/tierBalance.js": "8a1cec156078fda736e9e79bd0966f76d2a3369a99b788dca34963a1c9fd738e",
-    "src/protocol/model.js": "c7dd1fb6e47cd622817b31aaea96482490ec1a37b5e361172138519c549ed6fc",
+    "src/protocol/model.js": "b5f9d42b80de9b14a65f37b3bca86d07e101a094bb3996ac41d11948c6884190",
     "src/protocol/simulation.js": "75097502bc5efd015122c3fc088477cb27eab6c220b086692057f35dde1f235d",
     "src/protocol/classAbilities.js": "dea6b92b1f973c6a89eadc6c852a586cd5f6299cbab421d267f3e5fbe99490e7",
     "src/protocol/specializations.js": "6574449c2353fe73b5d5e683ba45818485504c2611526ec981bf9f073f96f40e",
@@ -26561,5 +26562,5 @@
     "src/protocol/facing.js": "40a48ac8bc796e30a12e8fa464c22a048fbe92d98c28e78b1aa01131ce8efb38",
     "src/protocol/artPresentation.js": "276669207f9d9a97ba41a3a9910996edd26df482e9dfd7b4cd9e528f6a2cb723"
   },
-  "catalogHash": "6d6dfc405f0acf5a846ec40d2e4ce49056234ee2118b21341416dafcdab31725"
+  "catalogHash": "66c5fadaeb90f5e86e402253f0ad540d32f1f2814c460a7b3969a9708f64613a"
 }

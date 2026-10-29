@@ -22174,7 +22174,7 @@
     },
     {
       "id": "class-ink-student",
-      "name": "Rune Scribe",
+      "name": "Scribe",
       "baseName": "Ink Student",
       "family": "Ink covenant",
       "tier": 2,
@@ -22335,7 +22335,7 @@
           "label": "Normal",
           "copies": 1,
           "species": "class-rune-scribe",
-          "name": "Rune Scribe",
+          "name": "Scribe",
           "stage": 3,
           "sameArt": false,
           "stats": {
@@ -27020,7 +27020,7 @@
     "Stronghold tooltips and execution notes include the local class specializations. Original RPG definitions remain separate. This wiki documents the implementation without assuming full numerical equivalence to Arknights."
   ],
   "sources": {
-    "src/protocol/data.js": "2b40c095193b01e97eb6b45131e13a3846b205465ae7ea9b815305af68b3c3ae",
+    "src/protocol/data.js": "e1103974b7820f90acd62d010d9f7aa4845c429c91f18405fb266678a408b58b",
     "src/protocol/tierBalance.js": "efd74aec4cc10b865a7407a339674740b8049b486f64ab74a8465e910aa66283",
     "src/protocol/sustainBalance.js": "5c8caa0a17c5c3bbe46bee8871df9b0275ae1c7ffaac0c5204d872833a307456",
     "src/protocol/model.js": "b5f9d42b80de9b14a65f37b3bca86d07e101a094bb3996ac41d11948c6884190",
@@ -27034,5 +27034,5 @@
     "src/protocol/facing.js": "40a48ac8bc796e30a12e8fa464c22a048fbe92d98c28e78b1aa01131ce8efb38",
     "src/protocol/artPresentation.js": "276669207f9d9a97ba41a3a9910996edd26df482e9dfd7b4cd9e528f6a2cb723"
   },
-  "catalogHash": "ca8d70e7c96a141154ab32d6e390473bccf943a0ebe3e69c1909736d0a77e2f9"
+  "catalogHash": "211bd1f55e062b2e46f9af1c2fd65a5a88ffd146ea8d8b9c7843b96bdb43bdc8"
 }

@@ -35441,43 +35441,43 @@
           "art": {
             "front": {
               "idle": {
-                "url": "../adventurers/class-cinder-monk-front.webp",
+                "url": "../adventurers/class-cinder-monk-front.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.4587220149253731
+                  "--pr-face-anchor": 0.4798677884615385
                 },
                 "regions": null
               },
               "attack": {
-                "url": "../adventurers/class-cinder-monk-front-attack.webp",
+                "url": "../adventurers/class-cinder-monk-front-attack.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.4967059235074627
+                  "--pr-face-anchor": 0.5019750702247191
                 },
                 "regions": null
               },
               "hurt": {
-                "url": "../adventurers/class-cinder-monk-front-hurt.webp",
+                "url": "../adventurers/class-cinder-monk-front-hurt.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.41292560634328357
+                  "--pr-face-anchor": 0.44641644021739135
                 },
                 "regions": null
               },
               "cast": {
-                "url": "../adventurers/class-cinder-monk-front-cast.webp",
+                "url": "../adventurers/class-cinder-monk-front-cast.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.5181611473880596
+                  "--pr-face-anchor": 0.5186737804878049
                 },
                 "regions": null
               },
               "death": {
-                "url": "../adventurers/class-cinder-monk-front-death.webp",
+                "url": "../adventurers/class-cinder-monk-front-death.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
@@ -35486,54 +35486,54 @@
                 "regions": null
               },
               "celebrate": {
-                "url": "../adventurers/class-cinder-monk-front-celebrate.webp",
+                "url": "../adventurers/class-cinder-monk-front-celebrate.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.5063549440298507
+                  "--pr-face-anchor": 0.5424360795454546
                 },
                 "regions": null
               }
             },
             "back": {
               "idle": {
-                "url": "../adventurers/class-cinder-monk-back.webp",
+                "url": "../adventurers/class-cinder-monk-back.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.5585036057692307
+                  "--pr-face-anchor": 0.5542968749999999
                 },
                 "regions": null
               },
               "attack": {
-                "url": "../adventurers/class-cinder-monk-back-attack.webp",
+                "url": "../adventurers/class-cinder-monk-back-attack.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.5161658653846154
+                  "--pr-face-anchor": 0.5110017800632911
                 },
                 "regions": null
               },
               "hurt": {
-                "url": "../adventurers/class-cinder-monk-back-hurt.webp",
+                "url": "../adventurers/class-cinder-monk-back-hurt.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.6518329326923077
+                  "--pr-face-anchor": 0.5718749999999999
                 },
                 "regions": null
               },
               "cast": {
-                "url": "../adventurers/class-cinder-monk-back-cast.webp",
+                "url": "../adventurers/class-cinder-monk-back-cast.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.4768629807692308
+                  "--pr-face-anchor": 0.4931126644736842
                 },
                 "regions": null
               },
               "death": {
-                "url": "../adventurers/class-cinder-monk-back-death.webp",
+                "url": "../adventurers/class-cinder-monk-back-death.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
@@ -35542,11 +35542,11 @@
                 "regions": null
               },
               "celebrate": {
-                "url": "../adventurers/class-cinder-monk-front-celebrate.webp",
+                "url": "../adventurers/class-cinder-monk-front-celebrate.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.5063549440298507
+                  "--pr-face-anchor": 0.5424360795454546
                 },
                 "regions": null
               }
@@ -35588,43 +35588,43 @@
           "art": {
             "front": {
               "idle": {
-                "url": "../adventurers/class-ashen-ascendant-front.webp",
+                "url": "../adventurers/class-ashen-ascendant-front.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.4118470149253731
+                  "--pr-face-anchor": 0.4758216594827586
                 },
                 "regions": null
               },
               "attack": {
-                "url": "../adventurers/class-ashen-ascendant-front-attack.webp",
+                "url": "../adventurers/class-ashen-ascendant-front-attack.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.47527985074626866
+                  "--pr-face-anchor": 0.5023796695402298
                 },
                 "regions": null
               },
               "hurt": {
-                "url": "../adventurers/class-ashen-ascendant-front-hurt.webp",
+                "url": "../adventurers/class-ashen-ascendant-front-hurt.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.46079174440298504
+                  "--pr-face-anchor": 0.44957386363636365
                 },
                 "regions": null
               },
               "cast": {
-                "url": "../adventurers/class-ashen-ascendant-front-cast.webp",
+                "url": "../adventurers/class-ashen-ascendant-front-cast.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.519560401119403
+                  "--pr-face-anchor": 0.5452769886363636
                 },
                 "regions": null
               },
               "death": {
-                "url": "../adventurers/class-ashen-ascendant-front-death.webp",
+                "url": "../adventurers/class-ashen-ascendant-front-death.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
@@ -35633,54 +35633,54 @@
                 "regions": null
               },
               "celebrate": {
-                "url": "../adventurers/class-ashen-ascendant-front-celebrate.webp",
+                "url": "../adventurers/class-ashen-ascendant-front-celebrate.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.5123017723880596
+                  "--pr-face-anchor": 0.5632059487951807
                 },
                 "regions": null
               }
             },
             "back": {
               "idle": {
-                "url": "../adventurers/class-ashen-ascendant-back.webp",
+                "url": "../adventurers/class-ashen-ascendant-back.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.5619891826923077
+                  "--pr-face-anchor": 0.5609019886363636
                 },
                 "regions": null
               },
               "attack": {
-                "url": "../adventurers/class-ashen-ascendant-back-attack.webp",
+                "url": "../adventurers/class-ashen-ascendant-back-attack.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.54375
+                  "--pr-face-anchor": 0.5299136513157894
                 },
                 "regions": null
               },
               "hurt": {
-                "url": "../adventurers/class-ashen-ascendant-back-hurt.webp",
+                "url": "../adventurers/class-ashen-ascendant-back-hurt.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.6125600961538462
+                  "--pr-face-anchor": 0.544521233974359
                 },
                 "regions": null
               },
               "cast": {
-                "url": "../adventurers/class-ashen-ascendant-back-cast.webp",
+                "url": "../adventurers/class-ashen-ascendant-back-cast.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.4575420673076923
+                  "--pr-face-anchor": 0.5002055921052632
                 },
                 "regions": null
               },
               "death": {
-                "url": "../adventurers/class-ashen-ascendant-back-death.webp",
+                "url": "../adventurers/class-ashen-ascendant-back-death.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
@@ -35689,11 +35689,11 @@
                 "regions": null
               },
               "celebrate": {
-                "url": "../adventurers/class-ashen-ascendant-front-celebrate.webp",
+                "url": "../adventurers/class-ashen-ascendant-front-celebrate.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.5123017723880596
+                  "--pr-face-anchor": 0.5632059487951807
                 },
                 "regions": null
               }
@@ -35735,43 +35735,43 @@
           "art": {
             "front": {
               "idle": {
-                "url": "../adventurers/class-ashen-ascendant-front.webp",
+                "url": "../adventurers/class-ashen-ascendant-front.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.4118470149253731
+                  "--pr-face-anchor": 0.4758216594827586
                 },
                 "regions": null
               },
               "attack": {
-                "url": "../adventurers/class-ashen-ascendant-front-attack.webp",
+                "url": "../adventurers/class-ashen-ascendant-front-attack.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.47527985074626866
+                  "--pr-face-anchor": 0.5023796695402298
                 },
                 "regions": null
               },
               "hurt": {
-                "url": "../adventurers/class-ashen-ascendant-front-hurt.webp",
+                "url": "../adventurers/class-ashen-ascendant-front-hurt.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.46079174440298504
+                  "--pr-face-anchor": 0.44957386363636365
                 },
                 "regions": null
               },
               "cast": {
-                "url": "../adventurers/class-ashen-ascendant-front-cast.webp",
+                "url": "../adventurers/class-ashen-ascendant-front-cast.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.519560401119403
+                  "--pr-face-anchor": 0.5452769886363636
                 },
                 "regions": null
               },
               "death": {
-                "url": "../adventurers/class-ashen-ascendant-front-death.webp",
+                "url": "../adventurers/class-ashen-ascendant-front-death.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
@@ -35780,54 +35780,54 @@
                 "regions": null
               },
               "celebrate": {
-                "url": "../adventurers/class-ashen-ascendant-front-celebrate.webp",
+                "url": "../adventurers/class-ashen-ascendant-front-celebrate.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.5123017723880596
+                  "--pr-face-anchor": 0.5632059487951807
                 },
                 "regions": null
               }
             },
             "back": {
               "idle": {
-                "url": "../adventurers/class-ashen-ascendant-back.webp",
+                "url": "../adventurers/class-ashen-ascendant-back.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.5619891826923077
+                  "--pr-face-anchor": 0.5609019886363636
                 },
                 "regions": null
               },
               "attack": {
-                "url": "../adventurers/class-ashen-ascendant-back-attack.webp",
+                "url": "../adventurers/class-ashen-ascendant-back-attack.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.54375
+                  "--pr-face-anchor": 0.5299136513157894
                 },
                 "regions": null
               },
               "hurt": {
-                "url": "../adventurers/class-ashen-ascendant-back-hurt.webp",
+                "url": "../adventurers/class-ashen-ascendant-back-hurt.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.6125600961538462
+                  "--pr-face-anchor": 0.544521233974359
                 },
                 "regions": null
               },
               "cast": {
-                "url": "../adventurers/class-ashen-ascendant-back-cast.webp",
+                "url": "../adventurers/class-ashen-ascendant-back-cast.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.4575420673076923
+                  "--pr-face-anchor": 0.5002055921052632
                 },
                 "regions": null
               },
               "death": {
-                "url": "../adventurers/class-ashen-ascendant-back-death.webp",
+                "url": "../adventurers/class-ashen-ascendant-back-death.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
@@ -35836,11 +35836,11 @@
                 "regions": null
               },
               "celebrate": {
-                "url": "../adventurers/class-ashen-ascendant-front-celebrate.webp",
+                "url": "../adventurers/class-ashen-ascendant-front-celebrate.webp?v=cinder-chibi-v2",
                 "style": {
                   "--pr-foot-baseline": 0.91796875,
                   "--pr-art-scale": 1,
-                  "--pr-face-anchor": 0.5123017723880596
+                  "--pr-face-anchor": 0.5632059487951807
                 },
                 "regions": null
               }
@@ -41245,8 +41245,8 @@
   ],
   "sources": {
     "src/protocol/allianceCopy.js": "ce795208c8c0e1640357a2cb640a78f4febe1e2035471064f9e24824bc4edb45",
-    "src/protocol/expansion-roster.js": "433518d3b90aedbbefac233a351b37ec3df92225d691cb6a1953a49e61836a48",
-    "src/protocol/expansion-art.js": "cd149fd7eeac58877946ae46e1b6f2dbdeaba584759d350d1e3ce902a422a7db",
+    "src/protocol/expansion-roster.js": "346787164a615b80823e19dd1f9ffbd03a8f551fd935ac31cda9d116726cfb8e",
+    "src/protocol/expansion-art.js": "cdada49d87c411a5d024ca70435067946acb5cda182e815034045aa414950177",
     "src/protocol/data.js": "26624c1260e1555f6049da7e53b5a6bac010698bd38d119ae5fb642d5606da21",
     "src/protocol/tierBalance.js": "efd74aec4cc10b865a7407a339674740b8049b486f64ab74a8465e910aa66283",
     "src/protocol/sustainBalance.js": "5c8caa0a17c5c3bbe46bee8871df9b0275ae1c7ffaac0c5204d872833a307456",
@@ -41262,5 +41262,5 @@
     "src/protocol/facing.js": "40a48ac8bc796e30a12e8fa464c22a048fbe92d98c28e78b1aa01131ce8efb38",
     "src/protocol/artPresentation.js": "f6283b867103dc25719c16a4d67636a2e0db3c2e6230f440adae627da21019c8"
   },
-  "catalogHash": "3d43f82b50d5c1f243452e4c5e52c5405977eb6c2e2223657bcb3c09e6bbeb3b"
+  "catalogHash": "468392d24c9fa427bb67fce8ce9b31757d7aa8e4ac903d55f259a44b0c67897c"
 }

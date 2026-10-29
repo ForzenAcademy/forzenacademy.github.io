@@ -27012,6 +27012,7 @@
     "Brigand cleaves three nearby enemies; Corsair and Miner cleave two. Mage splashes four targets, while Machinist keeps a stronger primary hit with weaker splash on three others. Thunder Mage chains to two additional enemies with falling power; Lancer pierces one aligned enemy behind its primary target. Every victim must be in attack range. New splash, cleave and chain neighborhoods use Euclidean distance; existing class skills retain their authored area rules. Successful-attack traits, ammo and fifth-attack equipment count once per attack rather than per area victim. Normal, Elite and Elite II share these attack identities.",
     "One automatic class skill is fixed per identity at every fusion rank. The Stronghold skill’s cooldown field sets the SP cost; it is not the actual interval between skill casts. Units gain 1 SP per combat second, begin at 0 SP and have a 3-second operation gap after a skill release.",
     "Three matching Normal copies become an Elite. Three matching Elites become Elite II (nine originals). Elite II is the cap. Each fusion opens a free recruitment choice, preserves a deployed survivor and returns its equipment. Empty reward tiers fall back to the highest available tier at or below the reward within the run’s core pool.",
+    "Recruitment gives class families you already own 25% more relative weight (1.25 versus 1), making matching copies a little more common. Field, bench and temporary units count, including Elite and Elite II forms. The bonus applies once per family; owning extra copies does not increase it, and selling the last copy removes it. This applies to shop rolls, frozen refills, new upgrade slots, free recruitment and the Scout strategy’s Wild slot. Existing faction and tier restrictions still apply, and reopening a free choice keeps its original offers. This is local tuning, not native Arknights recruitment odds.",
     "Two matching Normal equipment pieces fuse automatically. The enhanced result always returns to the bench, even if a donor was equipped; equip the result manually. Character equipment appears in a small stack at the lower right of its field or bench figure. Matching equipment on a full owner fuses without destroying the unrelated item.",
     "The ten former V/VI recruits now occupy tiers I–III and retain their existing stage 3/4 artwork. Their price and combat budget follow their new tiers. Elite II units already at final catalog art keep it with the Elite II aura and stats. Cosmetic RPG stages do not choose Stronghold skills, block, range or stat baselines.",
     "Standard ranged attackers (Marksmen and Core Casters) reach 2.5 tiles, covering E3 from G2 and G4. Duelists reach 1.5 tiles, including adjacent diagonals, and retain one block and single-target attacks. These ranges apply to all three fusion ranks. Friendly range highlights whole cells whose centers lie inside the branch radius. Enemies anywhere inside a highlighted square can be targeted. Facing is automatic and never gates friendly range.",
@@ -27024,6 +27025,7 @@
     "src/protocol/tierBalance.js": "efd74aec4cc10b865a7407a339674740b8049b486f64ab74a8465e910aa66283",
     "src/protocol/sustainBalance.js": "5c8caa0a17c5c3bbe46bee8871df9b0275ae1c7ffaac0c5204d872833a307456",
     "src/protocol/model.js": "68dafbd6719fe40ece5d74b17f8179eae1e2eccbaaa77e27ccf69c847950b767",
+    "src/protocol/recruitment.js": "073a480ad27457f7ea335de618e02574b90bd8a306649a26f95f39a6583afbc8",
     "src/protocol/simulation.js": "1ac316a76e27c78e9845820dfe1f2b414a8cc3daf02e11813c10fd0b2fc1e053",
     "src/protocol/attackPatterns.js": "6bcfb1ca746c5b0fe9155c71ea726671c4ef456f5c18e9cc205f5b14ed7e59a6",
     "src/protocol/enemies.js": "4f3eae73a189f27e43b7476f671669ab8309f96c542fff990ea31292ccf6069e",
@@ -27034,5 +27036,5 @@
     "src/protocol/facing.js": "40a48ac8bc796e30a12e8fa464c22a048fbe92d98c28e78b1aa01131ce8efb38",
     "src/protocol/artPresentation.js": "23c59241d9e06ba3aa28a2672306f9fba7f61ee2015e10d5fe9d02b8a649c11b"
   },
-  "catalogHash": "a5e99eba2dc8a66927702994bf4af38835d731b78c992cdf44d20e2cf632f718"
+  "catalogHash": "7848d0c932868de96bda487ba90ecdb6a8f17e2f736e0613fc2c1a9fc20e7e60"
 }

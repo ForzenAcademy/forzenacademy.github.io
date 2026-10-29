@@ -2553,7 +2553,7 @@
         "name": "Duelist",
         "melee": true,
         "block": 1,
-        "range": 1.3,
+        "range": 1.5,
         "cost": 14,
         "interval": 1.3,
         "hp": 1.35,
@@ -2566,10 +2566,18 @@
         "label": "Attack range",
         "support": false,
         "radius": 1,
-        "reach": 1.3,
+        "reach": 1.5,
         "cells": [
           [
+            -1,
+            -1
+          ],
+          [
             0,
+            -1
+          ],
+          [
+            1,
             -1
           ],
           [
@@ -2585,7 +2593,15 @@
             0
           ],
           [
+            -1,
+            1
+          ],
+          [
             0,
+            1
+          ],
+          [
+            1,
             1
           ]
         ]
@@ -3087,7 +3103,7 @@
         "name": "Duelist",
         "melee": true,
         "block": 1,
-        "range": 1.3,
+        "range": 1.5,
         "cost": 14,
         "interval": 0.85,
         "hp": 1.35,
@@ -3100,10 +3116,18 @@
         "label": "Attack range",
         "support": false,
         "radius": 1,
-        "reach": 1.3,
+        "reach": 1.5,
         "cells": [
           [
+            -1,
+            -1
+          ],
+          [
             0,
+            -1
+          ],
+          [
+            1,
             -1
           ],
           [
@@ -3119,7 +3143,15 @@
             0
           ],
           [
+            -1,
+            1
+          ],
+          [
             0,
+            1
+          ],
+          [
+            1,
             1
           ]
         ]
@@ -4155,7 +4187,7 @@
         "name": "Duelist",
         "melee": true,
         "block": 1,
-        "range": 1.3,
+        "range": 1.5,
         "cost": 14,
         "interval": 1,
         "hp": 1.35,
@@ -4168,10 +4200,18 @@
         "label": "Attack range",
         "support": false,
         "radius": 1,
-        "reach": 1.3,
+        "reach": 1.5,
         "cells": [
           [
+            -1,
+            -1
+          ],
+          [
             0,
+            -1
+          ],
+          [
+            1,
             -1
           ],
           [
@@ -4187,7 +4227,15 @@
             0
           ],
           [
+            -1,
+            1
+          ],
+          [
             0,
+            1
+          ],
+          [
+            1,
             1
           ]
         ]
@@ -4689,7 +4737,7 @@
         "name": "Marksman",
         "melee": false,
         "block": 1,
-        "range": 2,
+        "range": 2.5,
         "cost": 15,
         "interval": 1,
         "hp": 1,
@@ -4702,11 +4750,23 @@
         "label": "Attack range",
         "support": false,
         "radius": 2,
-        "reach": 2,
+        "reach": 2.5,
         "cells": [
+          [
+            -1,
+            -2
+          ],
           [
             0,
             -2
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            -2,
+            -1
           ],
           [
             -1,
@@ -4718,6 +4778,10 @@
           ],
           [
             1,
+            -1
+          ],
+          [
+            2,
             -1
           ],
           [
@@ -4741,6 +4805,10 @@
             0
           ],
           [
+            -2,
+            1
+          ],
+          [
             -1,
             1
           ],
@@ -4753,7 +4821,19 @@
             1
           ],
           [
+            2,
+            1
+          ],
+          [
+            -1,
+            2
+          ],
+          [
             0,
+            2
+          ],
+          [
+            1,
             2
           ]
         ]
@@ -8183,7 +8263,7 @@
         "name": "Caster",
         "melee": false,
         "block": 1,
-        "range": 2,
+        "range": 2.5,
         "cost": 15,
         "interval": 1.6,
         "hp": 1,
@@ -8196,11 +8276,23 @@
         "label": "Attack range",
         "support": false,
         "radius": 2,
-        "reach": 2,
+        "reach": 2.5,
         "cells": [
+          [
+            -1,
+            -2
+          ],
           [
             0,
             -2
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            -2,
+            -1
           ],
           [
             -1,
@@ -8212,6 +8304,10 @@
           ],
           [
             1,
+            -1
+          ],
+          [
+            2,
             -1
           ],
           [
@@ -8235,6 +8331,10 @@
             0
           ],
           [
+            -2,
+            1
+          ],
+          [
             -1,
             1
           ],
@@ -8247,7 +8347,19 @@
             1
           ],
           [
+            2,
+            1
+          ],
+          [
+            -1,
+            2
+          ],
+          [
             0,
+            2
+          ],
+          [
+            1,
             2
           ]
         ]
@@ -10507,7 +10619,7 @@
         "name": "Caster",
         "melee": false,
         "block": 1,
-        "range": 2,
+        "range": 2.5,
         "cost": 15,
         "interval": 1.6,
         "hp": 1,
@@ -10520,11 +10632,23 @@
         "label": "Attack range",
         "support": false,
         "radius": 2,
-        "reach": 2,
+        "reach": 2.5,
         "cells": [
+          [
+            -1,
+            -2
+          ],
           [
             0,
             -2
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            -2,
+            -1
           ],
           [
             -1,
@@ -10536,6 +10660,10 @@
           ],
           [
             1,
+            -1
+          ],
+          [
+            2,
             -1
           ],
           [
@@ -10559,6 +10687,10 @@
             0
           ],
           [
+            -2,
+            1
+          ],
+          [
             -1,
             1
           ],
@@ -10571,7 +10703,19 @@
             1
           ],
           [
+            2,
+            1
+          ],
+          [
+            -1,
+            2
+          ],
+          [
             0,
+            2
+          ],
+          [
+            1,
             2
           ]
         ]
@@ -11073,7 +11217,7 @@
         "name": "Caster",
         "melee": false,
         "block": 1,
-        "range": 2,
+        "range": 2.5,
         "cost": 15,
         "interval": 1.6,
         "hp": 1,
@@ -11086,11 +11230,23 @@
         "label": "Attack range",
         "support": false,
         "radius": 2,
-        "reach": 2,
+        "reach": 2.5,
         "cells": [
+          [
+            -1,
+            -2
+          ],
           [
             0,
             -2
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            -2,
+            -1
           ],
           [
             -1,
@@ -11102,6 +11258,10 @@
           ],
           [
             1,
+            -1
+          ],
+          [
+            2,
             -1
           ],
           [
@@ -11125,6 +11285,10 @@
             0
           ],
           [
+            -2,
+            1
+          ],
+          [
             -1,
             1
           ],
@@ -11137,7 +11301,19 @@
             1
           ],
           [
+            2,
+            1
+          ],
+          [
+            -1,
+            2
+          ],
+          [
             0,
+            2
+          ],
+          [
+            1,
             2
           ]
         ]
@@ -11643,7 +11819,7 @@
         "name": "Caster",
         "melee": false,
         "block": 1,
-        "range": 2,
+        "range": 2.5,
         "cost": 15,
         "interval": 1.6,
         "hp": 1,
@@ -11656,11 +11832,23 @@
         "label": "Attack range",
         "support": false,
         "radius": 2,
-        "reach": 2,
+        "reach": 2.5,
         "cells": [
+          [
+            -1,
+            -2
+          ],
           [
             0,
             -2
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            -2,
+            -1
           ],
           [
             -1,
@@ -11672,6 +11860,10 @@
           ],
           [
             1,
+            -1
+          ],
+          [
+            2,
             -1
           ],
           [
@@ -11695,6 +11887,10 @@
             0
           ],
           [
+            -2,
+            1
+          ],
+          [
             -1,
             1
           ],
@@ -11707,7 +11903,19 @@
             1
           ],
           [
+            2,
+            1
+          ],
+          [
+            -1,
+            2
+          ],
+          [
             0,
+            2
+          ],
+          [
+            1,
             2
           ]
         ]
@@ -12401,7 +12609,7 @@
         "name": "Caster",
         "melee": false,
         "block": 1,
-        "range": 2,
+        "range": 2.5,
         "cost": 15,
         "interval": 1.6,
         "hp": 1,
@@ -12414,11 +12622,23 @@
         "label": "Attack range",
         "support": false,
         "radius": 2,
-        "reach": 2,
+        "reach": 2.5,
         "cells": [
+          [
+            -1,
+            -2
+          ],
           [
             0,
             -2
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            -2,
+            -1
           ],
           [
             -1,
@@ -12430,6 +12650,10 @@
           ],
           [
             1,
+            -1
+          ],
+          [
+            2,
             -1
           ],
           [
@@ -12453,6 +12677,10 @@
             0
           ],
           [
+            -2,
+            1
+          ],
+          [
             -1,
             1
           ],
@@ -12465,7 +12693,19 @@
             1
           ],
           [
+            2,
+            1
+          ],
+          [
+            -1,
+            2
+          ],
+          [
             0,
+            2
+          ],
+          [
+            1,
             2
           ]
         ]
@@ -12967,7 +13207,7 @@
         "name": "Caster",
         "melee": false,
         "block": 1,
-        "range": 2,
+        "range": 2.5,
         "cost": 15,
         "interval": 1.6,
         "hp": 1,
@@ -12980,11 +13220,23 @@
         "label": "Attack range",
         "support": false,
         "radius": 2,
-        "reach": 2,
+        "reach": 2.5,
         "cells": [
+          [
+            -1,
+            -2
+          ],
           [
             0,
             -2
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            -2,
+            -1
           ],
           [
             -1,
@@ -12996,6 +13248,10 @@
           ],
           [
             1,
+            -1
+          ],
+          [
+            2,
             -1
           ],
           [
@@ -13019,6 +13275,10 @@
             0
           ],
           [
+            -2,
+            1
+          ],
+          [
             -1,
             1
           ],
@@ -13031,7 +13291,19 @@
             1
           ],
           [
+            2,
+            1
+          ],
+          [
+            -1,
+            2
+          ],
+          [
             0,
+            2
+          ],
+          [
+            1,
             2
           ]
         ]
@@ -13535,7 +13807,7 @@
         "name": "Caster",
         "melee": false,
         "block": 1,
-        "range": 2,
+        "range": 2.5,
         "cost": 15,
         "interval": 1.6,
         "hp": 1,
@@ -13548,11 +13820,23 @@
         "label": "Attack range",
         "support": false,
         "radius": 2,
-        "reach": 2,
+        "reach": 2.5,
         "cells": [
+          [
+            -1,
+            -2
+          ],
           [
             0,
             -2
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            -2,
+            -1
           ],
           [
             -1,
@@ -13564,6 +13848,10 @@
           ],
           [
             1,
+            -1
+          ],
+          [
+            2,
             -1
           ],
           [
@@ -13587,6 +13875,10 @@
             0
           ],
           [
+            -2,
+            1
+          ],
+          [
             -1,
             1
           ],
@@ -13599,7 +13891,19 @@
             1
           ],
           [
+            2,
+            1
+          ],
+          [
+            -1,
+            2
+          ],
+          [
             0,
+            2
+          ],
+          [
+            1,
             2
           ]
         ]
@@ -16586,7 +16890,7 @@
         "name": "Duelist",
         "melee": true,
         "block": 1,
-        "range": 1.3,
+        "range": 1.5,
         "cost": 14,
         "interval": 1.1,
         "hp": 1.35,
@@ -16599,10 +16903,18 @@
         "label": "Attack range",
         "support": false,
         "radius": 1,
-        "reach": 1.3,
+        "reach": 1.5,
         "cells": [
           [
+            -1,
+            -1
+          ],
+          [
             0,
+            -1
+          ],
+          [
+            1,
             -1
           ],
           [
@@ -16618,7 +16930,15 @@
             0
           ],
           [
+            -1,
+            1
+          ],
+          [
             0,
+            1
+          ],
+          [
+            1,
             1
           ]
         ]
@@ -19498,7 +19818,7 @@
         "name": "Marksman",
         "melee": false,
         "block": 1,
-        "range": 2,
+        "range": 2.5,
         "cost": 15,
         "interval": 1,
         "hp": 1,
@@ -19511,11 +19831,23 @@
         "label": "Attack range",
         "support": false,
         "radius": 2,
-        "reach": 2,
+        "reach": 2.5,
         "cells": [
+          [
+            -1,
+            -2
+          ],
           [
             0,
             -2
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            -2,
+            -1
           ],
           [
             -1,
@@ -19527,6 +19859,10 @@
           ],
           [
             1,
+            -1
+          ],
+          [
+            2,
             -1
           ],
           [
@@ -19550,6 +19886,10 @@
             0
           ],
           [
+            -2,
+            1
+          ],
+          [
             -1,
             1
           ],
@@ -19562,7 +19902,19 @@
             1
           ],
           [
+            2,
+            1
+          ],
+          [
+            -1,
+            2
+          ],
+          [
             0,
+            2
+          ],
+          [
+            1,
             2
           ]
         ]
@@ -21792,7 +22144,7 @@
         "name": "Caster",
         "melee": false,
         "block": 1,
-        "range": 2,
+        "range": 2.5,
         "cost": 15,
         "interval": 1.6,
         "hp": 1,
@@ -21805,11 +22157,23 @@
         "label": "Attack range",
         "support": false,
         "radius": 2,
-        "reach": 2,
+        "reach": 2.5,
         "cells": [
+          [
+            -1,
+            -2
+          ],
           [
             0,
             -2
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            -2,
+            -1
           ],
           [
             -1,
@@ -21821,6 +22185,10 @@
           ],
           [
             1,
+            -1
+          ],
+          [
+            2,
             -1
           ],
           [
@@ -21844,6 +22212,10 @@
             0
           ],
           [
+            -2,
+            1
+          ],
+          [
             -1,
             1
           ],
@@ -21856,7 +22228,19 @@
             1
           ],
           [
+            2,
+            1
+          ],
+          [
+            -1,
+            2
+          ],
+          [
             0,
+            2
+          ],
+          [
+            1,
             2
           ]
         ]
@@ -26584,21 +26968,21 @@
     "Three matching Normal copies become an Elite. Three matching Elites become Elite II (nine originals). Elite II is the cap. Each fusion opens a free recruitment choice, preserves a deployed survivor and returns its equipment. Empty reward tiers fall back to the highest available tier at or below the reward within the run’s core pool.",
     "Two matching Normal equipment pieces fuse automatically. The enhanced result always returns to the bench, even if a donor was equipped; equip the result manually. Character equipment appears in a small stack at the lower right of its field or bench figure. Matching equipment on a full owner fuses without destroying the unrelated item.",
     "The ten former V/VI recruits now occupy tiers I–III and retain their existing stage 3/4 artwork. Their price and combat budget follow their new tiers. Elite II units already at final catalog art keep it with the Elite II aura and stats. Cosmetic RPG stages do not choose Stronghold skills, block, range or stat baselines.",
-    "Friendly range highlights whole cells whose centers lie inside the branch radius. Enemies anywhere inside a highlighted square can be targeted. Facing is automatic and never gates friendly range.",
+    "Standard ranged attackers (Marksmen and Core Casters) reach 2.5 tiles, covering E3 from G2 and G4. Duelists reach 1.5 tiles, including adjacent diagonals, and retain one block and single-target attacks. These ranges apply to all three fusion ranks. Friendly range highlights whole cells whose centers lie inside the branch radius. Enemies anywhere inside a highlighted square can be targeted. Facing is automatic and never gates friendly range.",
     "Fallen defenders normally return after 70 combat seconds if enough DP is available. Preparation restores the roster. Aid and equipment can shorten the timer; revive effects can return units sooner.",
     "Stronghold tooltips and execution notes include the local class specializations. Original RPG definitions remain separate. This wiki documents the implementation without assuming full numerical equivalence to Arknights."
   ],
   "sources": {
-    "src/protocol/data.js": "bfbc4cc6ea4f0fc9cf0d763d7aa63ce5d0b1dc4ea6e7244e4fac5f853474f79b",
+    "src/protocol/data.js": "2b40c095193b01e97eb6b45131e13a3846b205465ae7ea9b815305af68b3c3ae",
     "src/protocol/tierBalance.js": "efd74aec4cc10b865a7407a339674740b8049b486f64ab74a8465e910aa66283",
     "src/protocol/sustainBalance.js": "5c8caa0a17c5c3bbe46bee8871df9b0275ae1c7ffaac0c5204d872833a307456",
     "src/protocol/model.js": "b5f9d42b80de9b14a65f37b3bca86d07e101a094bb3996ac41d11948c6884190",
-    "src/protocol/simulation.js": "9a7ec09ed568b78cee4a74c82f8ca3587691b968a0357f0b2e44ed984bbace19",
+    "src/protocol/simulation.js": "c17b4a267fdf28de5d8032c177daa3ed18c0c3a6d1413a1264127201512776d4",
     "src/protocol/classAbilities.js": "dea6b92b1f973c6a89eadc6c852a586cd5f6299cbab421d267f3e5fbe99490e7",
     "src/protocol/specializations.js": "a93ded181e8e34855d8f362661d5778278723802f1e7f7e6fa21e1bc05b05410",
     "src/protocol/rangePreview.js": "624f5dfb2da1e26dc37b198e9bdf5954c3804b96be7c5c3fe792b6d4f9c9f9b2",
     "src/protocol/facing.js": "40a48ac8bc796e30a12e8fa464c22a048fbe92d98c28e78b1aa01131ce8efb38",
     "src/protocol/artPresentation.js": "276669207f9d9a97ba41a3a9910996edd26df482e9dfd7b4cd9e528f6a2cb723"
   },
-  "catalogHash": "e54e40a7e5503365dfd7043f7c64bb1d210125f211e75880a150b58712cd6e09"
+  "catalogHash": "ed5ced0cd13a0e4523fd9f7535cae0969b1176fdfd0f0d84d299af869e381098"
 }

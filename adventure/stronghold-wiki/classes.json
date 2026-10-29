@@ -1083,8 +1083,8 @@
       "addon": "swift",
       "traitId": "heal",
       "trait": "Each effective heal: gain 1 core and add-on stack (2 when Elite).",
-      "strength": "Reaches past the front line and slows one enemy.",
-      "weakness": "Single-target damage; cannot hit flying enemies.",
+      "strength": "Pierces a second enemy aligned behind its primary target and slows one enemy with its skill.",
+      "weakness": "Needs a narrow line for its second hit; cannot hit flying enemies.",
       "profile": {
         "name": "Reach guard",
         "melee": true,
@@ -1143,9 +1143,9 @@
         ]
       },
       "basic": {
-        "name": "Short Spear",
+        "name": "Piercing Thrust",
         "effect": "strike",
-        "power": 1,
+        "power": 0.9,
         "castTime": 0,
         "cooldown": 1.3,
         "target": "enemy",
@@ -1155,10 +1155,17 @@
         "condition": "Lowest-HP enemy",
         "description": "Physical damage.",
         "lineage": "training-3-primary",
+        "attackPattern": "pierce",
+        "targetCount": 2,
+        "pierceWidth": 0.35,
+        "damageMultiplier": 0.9,
+        "secondaryMultiplier": 0.7,
+        "visualKind": "lance",
         "basic": true,
         "kind": "Physical",
         "execution": [
-          "1 × current ATK as physical power before mitigation. Physical damage has a 5% minimum; Arts damage has a 5% minimum multiplier."
+          "Hits one enemy for 90% ATK as physical damage and pierces one enemy behind it for 63% ATK as physical damage, within a 0.35-tile half-width of the thrust line. All targets must be in attack range. Damage is before mitigation.",
+          "Each successful basic attack advances hit-based traits once, spends at most one ammo, and can trigger one fifth-attack equipment hit on its surviving primary target. Secondary victims and the equipment hit do not add extra hit stacks or spend more ammo."
         ]
       },
       "skill": {
@@ -3647,8 +3654,8 @@
       "addon": "precision",
       "traitId": "purchase",
       "trait": "When acquired: gain 1 stack for its core and add-on (2 when Elite).",
-      "strength": "Boosts its own damage before delivering heavy melee hits.",
-      "weakness": "The damage buff helps only itself; needs healing.",
+      "strength": "Sweeps its axe through up to three nearby enemies and boosts its own damage.",
+      "weakness": "Each cleave hit is weaker than its old single-target swing; needs healing.",
       "profile": {
         "name": "Guard",
         "melee": true,
@@ -3691,9 +3698,9 @@
         ]
       },
       "basic": {
-        "name": "Chipped Axe",
+        "name": "Reaving Axe",
         "effect": "strike",
-        "power": 1.25,
+        "power": 0.9375,
         "castTime": 0,
         "cooldown": 1.3,
         "target": "enemy",
@@ -3703,10 +3710,16 @@
         "condition": "Lowest-HP enemy",
         "description": "Physical damage.",
         "lineage": "training-7-primary",
+        "attackPattern": "cleave",
+        "targetCount": 3,
+        "areaRadius": 1.25,
+        "damageMultiplier": 0.75,
+        "visualKind": "axe",
         "basic": true,
         "kind": "Physical",
         "execution": [
-          "1.25 × current ATK as physical power before mitigation. Physical damage has a 5% minimum; Arts damage has a 5% minimum multiplier."
+          "Hits up to 3 enemies within 1.25 tiles of the primary target for 93.75% ATK as physical damage each. All targets must be in attack range. Damage is before mitigation.",
+          "Each successful basic attack advances hit-based traits once, spends at most one ammo, and can trigger one fifth-attack equipment hit on its surviving primary target. Secondary victims and the equipment hit do not add extra hit stacks or spend more ammo."
         ]
       },
       "skill": {
@@ -5927,8 +5940,8 @@
       "addon": "foresight",
       "traitId": "hit",
       "trait": "Every five basic hits: gain 1 core and add-on stack (2 when Elite).",
-      "strength": "Boosts two nearby allies while holding the frontline.",
-      "weakness": "The short-range buff needs a compact formation.",
+      "strength": "Sweeps two nearby enemies with its cutlass and boosts two nearby allies.",
+      "weakness": "Smaller cleave than Brigand; weaker individual hits and a short-range ally buff.",
       "profile": {
         "name": "Vanguard",
         "melee": true,
@@ -5971,9 +5984,9 @@
         ]
       },
       "basic": {
-        "name": "Weathered Cutlass",
+        "name": "Cutlass Sweep",
         "effect": "strike",
-        "power": 0.95,
+        "power": 0.8075,
         "castTime": 0,
         "cooldown": 1.05,
         "target": "enemy",
@@ -5983,10 +5996,16 @@
         "condition": "Lowest-HP enemy",
         "description": "Physical damage.",
         "lineage": "training-11-primary",
+        "attackPattern": "cleave",
+        "targetCount": 2,
+        "areaRadius": 1,
+        "damageMultiplier": 0.85,
+        "visualKind": "sweep",
         "basic": true,
         "kind": "Physical",
         "execution": [
-          "0.95 × current ATK as physical power before mitigation. Physical damage has a 5% minimum; Arts damage has a 5% minimum multiplier."
+          "Hits up to 2 enemies within 1 tiles of the primary target for 80.75% ATK as physical damage each. All targets must be in attack range. Damage is before mitigation.",
+          "Each successful basic attack advances hit-based traits once, spends at most one ammo, and can trigger one fifth-attack equipment hit on its surviving primary target. Secondary victims and the equipment hit do not add extra hit stacks or spend more ammo."
         ]
       },
       "skill": {
@@ -7061,8 +7080,8 @@
       "addon": "agile",
       "traitId": "purchase",
       "trait": "When acquired: gain 1 stack for its core and add-on (2 when Elite).",
-      "strength": "Heavy ranged fire with a ward for a nearby ally.",
-      "weakness": "Slow shots; its ward neither heals nor removes debuffs.",
+      "strength": "Slow explosive bolts hit one enemy hard and splash up to three nearby enemies; wards an ally.",
+      "weakness": "Splash hits are weaker and armor reduces them; long gaps between shots.",
       "profile": {
         "name": "Sharpshooter",
         "melee": false,
@@ -7169,9 +7188,9 @@
         ]
       },
       "basic": {
-        "name": "Loose Springbolt",
+        "name": "Explosive Springbolt",
         "effect": "strike",
-        "power": 0.9,
+        "power": 0.81,
         "castTime": 0,
         "cooldown": 2.7,
         "target": "enemy",
@@ -7181,10 +7200,17 @@
         "condition": "Lowest-HP enemy",
         "description": "Physical damage.",
         "lineage": "training-13-primary",
+        "attackPattern": "splash",
+        "targetCount": 4,
+        "areaRadius": 1.1,
+        "damageMultiplier": 0.9,
+        "secondaryMultiplier": 0.45,
+        "visualKind": "springbolt",
         "basic": true,
         "kind": "Physical",
         "execution": [
-          "0.9 × current ATK as physical power before mitigation. Physical damage has a 5% minimum; Arts damage has a 5% minimum multiplier."
+          "Hits one enemy for 81% ATK as physical damage and splashes up to 3 others within 1.1 tiles for 36.45% ATK as physical damage each. All targets must be in attack range. Damage is before mitigation.",
+          "Each successful basic attack advances hit-based traits once, spends at most one ammo, and can trigger one fifth-attack equipment hit on its surviving primary target. Secondary victims and the equipment hit do not add extra hit stacks or spend more ammo."
         ]
       },
       "skill": {
@@ -8257,8 +8283,8 @@
       "addon": "arcane",
       "traitId": "heal",
       "trait": "Each effective heal: gain 1 core and add-on stack (2 when Elite).",
-      "strength": "Arts barrage hits up to four clustered enemies.",
-      "weakness": "Long cast and poor durability; magic-resistant enemies blunt it.",
+      "strength": "Every ember splashes up to four clustered enemies; its skill adds a larger Arts barrage.",
+      "weakness": "Weaker single-target basics and poor durability; magic resistance blunts its damage.",
       "profile": {
         "name": "Caster",
         "melee": false,
@@ -8365,9 +8391,9 @@
         ]
       },
       "basic": {
-        "name": "Grimoire Spark",
+        "name": "Bursting Ember",
         "effect": "spell",
-        "power": 1.1,
+        "power": 0.8800000000000001,
         "castTime": 0,
         "cooldown": 1.6,
         "target": "enemy",
@@ -8377,10 +8403,16 @@
         "condition": "Lowest-HP enemy",
         "description": "Magic damage.",
         "lineage": "training-15-primary",
+        "attackPattern": "splash",
+        "targetCount": 4,
+        "areaRadius": 1.1,
+        "damageMultiplier": 0.8,
+        "visualKind": "fireball",
         "basic": true,
         "kind": "Arts",
         "execution": [
-          "1.1 × current MAG as Arts power before mitigation. Physical damage has a 5% minimum; Arts damage has a 5% minimum multiplier."
+          "Hits one enemy for 88% MAG as Arts damage and splashes up to 3 others within 1.1 tiles for 88% MAG as Arts damage each. All targets must be in attack range. Damage is before mitigation.",
+          "Each successful basic attack advances hit-based traits once, spends at most one ammo, and can trigger one fifth-attack equipment hit on its surviving primary target. Secondary victims and the equipment hit do not add extra hit stacks or spend more ammo."
         ]
       },
       "skill": {
@@ -11211,8 +11243,8 @@
       "addon": "arcane",
       "traitId": "purchase",
       "trait": "When acquired: gain 1 stack for its core and add-on (2 when Elite).",
-      "strength": "A pulse damages and slows up to three clustered enemies.",
-      "weakness": "Lower damage per target; isolated enemies waste its area control.",
+      "strength": "Basic lightning chains through up to three enemies; its skill damages and slows a cluster.",
+      "weakness": "Each lightning jump loses power; isolated enemies waste its chain and area control.",
       "profile": {
         "name": "Caster",
         "melee": false,
@@ -11319,9 +11351,9 @@
         ]
       },
       "basic": {
-        "name": "Resonant Snap",
+        "name": "Chain Lightning",
         "effect": "spell",
-        "power": 0.95,
+        "power": 0.8075,
         "castTime": 0,
         "cooldown": 1.6,
         "target": "enemy",
@@ -11331,10 +11363,17 @@
         "condition": "Lowest-HP enemy",
         "description": "Magic damage.",
         "lineage": "training-19-primary",
+        "attackPattern": "chain",
+        "targetCount": 3,
+        "chainRadius": 1.5,
+        "chainFalloff": 0.65,
+        "damageMultiplier": 0.85,
+        "visualKind": "lightning",
         "basic": true,
         "kind": "Arts",
         "execution": [
-          "0.95 × current MAG as Arts power before mitigation. Physical damage has a 5% minimum; Arts damage has a 5% minimum multiplier."
+          "Hits one enemy for 80.75% MAG as Arts damage, then jumps to up to 2 other enemies within 1.5 tiles of the previous target. Each jump retains 65% of the preceding hit's power. All targets must be in attack range. Damage is before mitigation.",
+          "Each successful basic attack advances hit-based traits once, spends at most one ammo, and can trigger one fifth-attack equipment hit on its surviving primary target. Secondary victims and the equipment hit do not add extra hit stacks or spend more ammo."
         ]
       },
       "skill": {
@@ -18898,8 +18937,8 @@
       "addon": "foresight",
       "traitId": "defeat",
       "trait": "When another core ally falls: gain 1 core and add-on stack (2 when Elite).",
-      "strength": "A high-block physical tank that exposes an enemy for the team.",
-      "weakness": "No protective ward or healing; vulnerable to Arts damage.",
+      "strength": "A high-block tank whose hammer cleaves two nearby enemies and exposes one with its skill.",
+      "weakness": "Only two hammer targets despite its high block; no ward or healing and vulnerable to Arts.",
       "profile": {
         "name": "Guardian",
         "melee": true,
@@ -18942,9 +18981,9 @@
         ]
       },
       "basic": {
-        "name": "Stone Mallet",
+        "name": "Shattering Mallet",
         "effect": "strike",
-        "power": 1.2,
+        "power": 1.08,
         "castTime": 0,
         "cooldown": 1.2,
         "target": "enemy",
@@ -18954,10 +18993,16 @@
         "condition": "Lowest-HP enemy",
         "description": "Physical damage.",
         "lineage": "training-30-primary",
+        "attackPattern": "cleave",
+        "targetCount": 2,
+        "areaRadius": 1,
+        "damageMultiplier": 0.9,
+        "visualKind": "hammer",
         "basic": true,
         "kind": "Physical",
         "execution": [
-          "1.2 × current ATK as physical power before mitigation. Physical damage has a 5% minimum; Arts damage has a 5% minimum multiplier."
+          "Hits up to 2 enemies within 1 tiles of the primary target for 108% ATK as physical damage each. All targets must be in attack range. Damage is before mitigation.",
+          "Each successful basic attack advances hit-based traits once, spends at most one ammo, and can trigger one fifth-attack equipment hit on its surviving primary target. Secondary victims and the equipment hit do not add extra hit stacks or spend more ammo."
         ]
       },
       "skill": {
@@ -26964,6 +27009,7 @@
     "Tier I–VI HP/ATK/MAG budgets scale by 1 / 1.2 / 1.5 / 1.85 / 2.3 / 2.8. Classes use a common role budget with at most ±5% stat variation, and basic hit strength normalized within the branch. The six original starters remaining at tier I keep their original seeds; Rogue also receives the explicit duelist bonuses. Relocated recruits use their new tier’s role budget. Dedicated healers begin at tier II: Acolyte, Hedgewitch and Troubadour moved up, while Lancer, Geomancer and Huntsman moved down to I. These are local combat budgets, not native Arknights numbers.",
     "Normal / Elite / Elite II apply 1 / 1.45 / 2.1 to HP, ATK and MAG exactly once. DEF uses separate, gentler tier and fusion curves; RES gains +5 / +10 from fusion. RPG promotion artwork never adds another stat multiplier or lowers DEF.",
     "Dedicated healers restore twice their previous HP with basic heals, healing skills and regeneration. Skill descriptions and execution notes include this multiplier; healing equipment, sealed reduction and overheal caps still apply. Wards and non-healing skills keep their existing values. Tank classes gain +2 / +3 / +4 / +5 block at tiers I / II / III / IV, capped at +5 for V–VI. Their total block is 5 / 6 / 7 / 8. Fusion does not add another block bonus. These bonuses are user-requested local tuning, not native Arknights rules.",
+    "Brigand cleaves three nearby enemies; Corsair and Miner cleave two. Mage splashes four targets, while Machinist keeps a stronger primary hit with weaker splash on three others. Thunder Mage chains to two additional enemies with falling power; Lancer pierces one aligned enemy behind its primary target. Every victim must be in attack range. New splash, cleave and chain neighborhoods use Euclidean distance; existing class skills retain their authored area rules. Successful-attack traits, ammo and fifth-attack equipment count once per attack rather than per area victim. Normal, Elite and Elite II share these attack identities.",
     "One automatic class skill is fixed per identity at every fusion rank. The Stronghold skill’s cooldown field sets the SP cost; it is not the actual interval between skill casts. Units gain 1 SP per combat second, begin at 0 SP and have a 3-second operation gap after a skill release.",
     "Three matching Normal copies become an Elite. Three matching Elites become Elite II (nine originals). Elite II is the cap. Each fusion opens a free recruitment choice, preserves a deployed survivor and returns its equipment. Empty reward tiers fall back to the highest available tier at or below the reward within the run’s core pool.",
     "Two matching Normal equipment pieces fuse automatically. The enhanced result always returns to the bench, even if a donor was equipped; equip the result manually. Character equipment appears in a small stack at the lower right of its field or bench figure. Matching equipment on a full owner fuses without destroying the unrelated item.",
@@ -26978,14 +27024,15 @@
     "src/protocol/tierBalance.js": "efd74aec4cc10b865a7407a339674740b8049b486f64ab74a8465e910aa66283",
     "src/protocol/sustainBalance.js": "5c8caa0a17c5c3bbe46bee8871df9b0275ae1c7ffaac0c5204d872833a307456",
     "src/protocol/model.js": "b5f9d42b80de9b14a65f37b3bca86d07e101a094bb3996ac41d11948c6884190",
-    "src/protocol/simulation.js": "c17b4a267fdf28de5d8032c177daa3ed18c0c3a6d1413a1264127201512776d4",
+    "src/protocol/simulation.js": "1ac316a76e27c78e9845820dfe1f2b414a8cc3daf02e11813c10fd0b2fc1e053",
+    "src/protocol/attackPatterns.js": "6bcfb1ca746c5b0fe9155c71ea726671c4ef456f5c18e9cc205f5b14ed7e59a6",
     "src/protocol/enemies.js": "4f3eae73a189f27e43b7476f671669ab8309f96c542fff990ea31292ccf6069e",
     "src/protocol/enemyTargeting.js": "977062dc2fb3112c418a0404f03efd4fe7889bd88635229c87543dfc67ee6c61",
     "src/protocol/classAbilities.js": "dea6b92b1f973c6a89eadc6c852a586cd5f6299cbab421d267f3e5fbe99490e7",
-    "src/protocol/specializations.js": "a93ded181e8e34855d8f362661d5778278723802f1e7f7e6fa21e1bc05b05410",
+    "src/protocol/specializations.js": "8c402af5b9f369f57c252df45bb8507d99f983abe402568959f26a6ef355ad1b",
     "src/protocol/rangePreview.js": "624f5dfb2da1e26dc37b198e9bdf5954c3804b96be7c5c3fe792b6d4f9c9f9b2",
     "src/protocol/facing.js": "40a48ac8bc796e30a12e8fa464c22a048fbe92d98c28e78b1aa01131ce8efb38",
     "src/protocol/artPresentation.js": "276669207f9d9a97ba41a3a9910996edd26df482e9dfd7b4cd9e528f6a2cb723"
   },
-  "catalogHash": "55597c16c538cf1376e05670e854d1920e1194be3438f4786d5d18568381732c"
+  "catalogHash": "ca8d70e7c96a141154ab32d6e390473bccf943a0ebe3e69c1909736d0a77e2f9"
 }

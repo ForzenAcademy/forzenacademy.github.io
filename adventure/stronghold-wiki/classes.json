@@ -5240,7 +5240,7 @@
     },
     {
       "id": "class-huntsman",
-      "name": "Huntsman",
+      "name": "Hunter",
       "baseName": "Huntsman",
       "family": "Siege string",
       "tier": 1,
@@ -5398,7 +5398,7 @@
           "label": "Normal",
           "copies": 1,
           "species": "class-huntsman",
-          "name": "Huntsman",
+          "name": "Hunter",
           "stage": 1,
           "sameArt": false,
           "stats": {
@@ -13520,7 +13520,7 @@
     },
     {
       "id": "class-apprentice",
-      "name": "Pact Keeper",
+      "name": "Warlock",
       "baseName": "Apprentice",
       "family": "Astral pact",
       "tier": 1,
@@ -13645,7 +13645,7 @@
           "label": "Normal",
           "copies": 1,
           "species": "class-pact-keeper",
-          "name": "Pact Keeper",
+          "name": "Warlock",
           "stage": 3,
           "sameArt": false,
           "stats": {
@@ -21180,7 +21180,7 @@
     },
     {
       "id": "class-beast-tender",
-      "name": "Flock Warden",
+      "name": "Tamer",
       "baseName": "Beast Tender",
       "family": "Wild kin",
       "tier": 1,
@@ -21337,7 +21337,7 @@
           "label": "Normal",
           "copies": 1,
           "species": "class-flock-warden",
-          "name": "Flock Warden",
+          "name": "Tamer",
           "stage": 3,
           "sameArt": false,
           "stats": {
@@ -25572,7 +25572,7 @@
     },
     {
       "id": "class-treasure-seeker",
-      "name": "Archaeomancer",
+      "name": "Explorer",
       "baseName": "Treasure Seeker",
       "family": "Forgotten wonders",
       "tier": 1,
@@ -25682,7 +25682,7 @@
           "label": "Normal",
           "copies": 1,
           "species": "class-archaeomancer",
-          "name": "Archaeomancer",
+          "name": "Explorer",
           "stage": 3,
           "sameArt": false,
           "stats": {
@@ -26558,6 +26558,12 @@
         "basicPower": 1
       }
     },
+    "duelistBonuses": {
+      "hp": 1.35,
+      "offense": 1.65,
+      "armor": 1.3,
+      "resistance": 10
+    },
     "healerOutputMultiplier": 2,
     "tankBlockBonus": [
       2,
@@ -26570,7 +26576,8 @@
   },
   "notes": [
     "Stats are generated from the Stronghold model with no equipment, alliances, stacks, status effects or strategy bonuses. Standard includes its real +30% HP, ATK, MAG and DEF; Perilous uses the unbuffed values.",
-    "Tier I–VI HP/ATK/MAG budgets scale by 1 / 1.2 / 1.5 / 1.85 / 2.3 / 2.8. Classes use a common role budget with at most ±5% stat variation, and basic hit strength normalized within the branch. The six original starters remaining at tier I keep their original stats; relocated recruits use their new tier’s role budget. Dedicated healers begin at tier II: Acolyte, Hedgewitch and Troubadour moved up, while Lancer, Geomancer and Huntsman moved down to I. These are local combat budgets, not native Arknights numbers.",
+    "Duelists gain +65% ATK/MAG, +35% HP, +30% DEF and +10 RES over their previous branch baseline, including Rogue. These local bonuses apply once before tier and fusion scaling. Offensive attacks and eligible skills prioritize the enemy the duelist is blocking, including when a cast releases; support skills retain ally targeting. Duelists still block one and their attacks remain single-target.",
+    "Tier I–VI HP/ATK/MAG budgets scale by 1 / 1.2 / 1.5 / 1.85 / 2.3 / 2.8. Classes use a common role budget with at most ±5% stat variation, and basic hit strength normalized within the branch. The six original starters remaining at tier I keep their original seeds; Rogue also receives the explicit duelist bonuses. Relocated recruits use their new tier’s role budget. Dedicated healers begin at tier II: Acolyte, Hedgewitch and Troubadour moved up, while Lancer, Geomancer and Huntsman moved down to I. These are local combat budgets, not native Arknights numbers.",
     "Normal / Elite / Elite II apply 1 / 1.45 / 2.1 to HP, ATK and MAG exactly once. DEF uses separate, gentler tier and fusion curves; RES gains +5 / +10 from fusion. RPG promotion artwork never adds another stat multiplier or lowers DEF.",
     "Dedicated healers restore twice their previous HP with basic heals, healing skills and regeneration. Skill descriptions and execution notes include this multiplier; healing equipment, sealed reduction and overheal caps still apply. Wards and non-healing skills keep their existing values. Tank classes gain +2 / +3 / +4 / +5 block at tiers I / II / III / IV, capped at +5 for V–VI. Their total block is 5 / 6 / 7 / 8. Fusion does not add another block bonus. These bonuses are user-requested local tuning, not native Arknights rules.",
     "One automatic class skill is fixed per identity at every fusion rank. The Stronghold skill’s cooldown field sets the SP cost; it is not the actual interval between skill casts. Units gain 1 SP per combat second, begin at 0 SP and have a 3-second operation gap after a skill release.",
@@ -26582,7 +26589,7 @@
     "Stronghold tooltips and execution notes include the local class specializations. Original RPG definitions remain separate. This wiki documents the implementation without assuming full numerical equivalence to Arknights."
   ],
   "sources": {
-    "src/protocol/data.js": "f178331f053ba0159d3bc24a34e4a22cefa9b1ec8abe34afc60c85be3126adc3",
+    "src/protocol/data.js": "bfbc4cc6ea4f0fc9cf0d763d7aa63ce5d0b1dc4ea6e7244e4fac5f853474f79b",
     "src/protocol/tierBalance.js": "efd74aec4cc10b865a7407a339674740b8049b486f64ab74a8465e910aa66283",
     "src/protocol/sustainBalance.js": "5c8caa0a17c5c3bbe46bee8871df9b0275ae1c7ffaac0c5204d872833a307456",
     "src/protocol/model.js": "b5f9d42b80de9b14a65f37b3bca86d07e101a094bb3996ac41d11948c6884190",
@@ -26593,5 +26600,5 @@
     "src/protocol/facing.js": "40a48ac8bc796e30a12e8fa464c22a048fbe92d98c28e78b1aa01131ce8efb38",
     "src/protocol/artPresentation.js": "276669207f9d9a97ba41a3a9910996edd26df482e9dfd7b4cd9e528f6a2cb723"
   },
-  "catalogHash": "f1b76d699d346d2953b5a6f9864e37eafa52256bb33b6aab33f058b2eed1eadb"
+  "catalogHash": "e54e40a7e5503365dfd7043f7c64bb1d210125f211e75880a150b58712cd6e09"
 }

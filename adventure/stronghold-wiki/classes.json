@@ -547,12 +547,12 @@
       "addon": "resilient",
       "traitId": "skill",
       "trait": "Each ability activation: gain 1 core and add-on stack (2 when Elite).",
-      "strength": "Holds three enemies and reserves a large ward for itself.",
+      "strength": "Holds large groups and reserves a large ward for itself.",
       "weakness": "Cannot shield teammates; vulnerable to sustained Arts damage.",
       "profile": {
         "name": "Guardian",
         "melee": true,
-        "block": 3,
+        "block": 5,
         "range": 1.3,
         "cost": 18,
         "interval": 1.2,
@@ -2547,7 +2547,7 @@
       "addon": "swift",
       "traitId": "hit",
       "trait": "Every five basic hits: gain 1 core and add-on stack (2 when Elite).",
-      "strength": "A melee duelist that exposes one target for the whole team.",
+      "strength": "Durable, hard-hitting duelist that prioritizes its blocked foe and exposes it for the team.",
       "weakness": "Blocks only one; vulnerable to crowds.",
       "profile": {
         "name": "Duelist",
@@ -2637,25 +2637,25 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 522,
-              "attack": 101.15,
-              "magic": 86.94,
-              "armor": 36.72,
-              "resistance": 0
+              "hp": 705,
+              "attack": 166.8975,
+              "magic": 143.451,
+              "armor": 47.736000000000004,
+              "resistance": 10
             },
             "standard": {
-              "hp": 678.6,
-              "attack": 131.495,
-              "magic": 113.022,
-              "armor": 47.736,
-              "resistance": 0
+              "hp": 916.5,
+              "attack": 216.96675000000002,
+              "magic": 186.4863,
+              "armor": 62.05680000000001,
+              "resistance": 10
             },
             "perilous": {
-              "hp": 522,
-              "attack": 101.15,
-              "magic": 86.94,
-              "armor": 36.72,
-              "resistance": 0
+              "hp": 705,
+              "attack": 166.8975,
+              "magic": 143.451,
+              "armor": 47.736000000000004,
+              "resistance": 10
             }
           },
           "sp": 10,
@@ -2784,25 +2784,25 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 758,
-              "attack": 146.66750000000002,
-              "magic": 126.063,
-              "armor": 41.12640000000001,
-              "resistance": 5
+              "hp": 1023,
+              "attack": 242.00137500000002,
+              "magic": 208.00395,
+              "armor": 53.464320000000015,
+              "resistance": 15
             },
             "standard": {
-              "hp": 985.4,
-              "attack": 190.66775000000004,
-              "magic": 163.8819,
-              "armor": 53.464320000000015,
-              "resistance": 5
+              "hp": 1329.9,
+              "attack": 314.60178750000006,
+              "magic": 270.40513500000003,
+              "armor": 69.50361600000002,
+              "resistance": 15
             },
             "perilous": {
-              "hp": 758,
-              "attack": 146.66750000000002,
-              "magic": 126.063,
-              "armor": 41.12640000000001,
-              "resistance": 5
+              "hp": 1023,
+              "attack": 242.00137500000002,
+              "magic": 208.00395,
+              "armor": 53.464320000000015,
+              "resistance": 15
             }
           },
           "sp": 9,
@@ -2931,25 +2931,25 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 1097,
-              "attack": 212.41500000000002,
-              "magic": 182.574,
-              "armor": 45.900000000000006,
-              "resistance": 10
+              "hp": 1481,
+              "attack": 350.48475,
+              "magic": 301.2471,
+              "armor": 59.67000000000001,
+              "resistance": 20
             },
             "standard": {
-              "hp": 1426.1000000000001,
-              "attack": 276.13950000000006,
-              "magic": 237.3462,
-              "armor": 59.67000000000001,
-              "resistance": 10
+              "hp": 1925.3,
+              "attack": 455.63017500000007,
+              "magic": 391.62123,
+              "armor": 77.57100000000001,
+              "resistance": 20
             },
             "perilous": {
-              "hp": 1097,
-              "attack": 212.41500000000002,
-              "magic": 182.574,
-              "armor": 45.900000000000006,
-              "resistance": 10
+              "hp": 1481,
+              "attack": 350.48475,
+              "magic": 301.2471,
+              "armor": 59.67000000000001,
+              "resistance": 20
             }
           },
           "sp": 9,
@@ -3081,7 +3081,7 @@
       "addon": "resilient",
       "traitId": "defeat",
       "trait": "When another core ally falls: gain 1 core and add-on stack (2 when Elite).",
-      "strength": "Very fast punches and an enemy damage reduction debuff.",
+      "strength": "Durable duelist with very fast punches; prioritizes and weakens its blocked foe.",
       "weakness": "Blocks one; physical hits struggle against heavy armor.",
       "profile": {
         "name": "Duelist",
@@ -3171,25 +3171,25 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 685,
-              "attack": 159.60000000000002,
-              "magic": 113.4,
-              "armor": 42.126,
-              "resistance": 0
+              "hp": 925,
+              "attack": 263.34000000000003,
+              "magic": 187.11,
+              "armor": 54.7638,
+              "resistance": 10
             },
             "standard": {
-              "hp": 890.5,
-              "attack": 207.48000000000005,
-              "magic": 147.42000000000002,
-              "armor": 54.763799999999996,
-              "resistance": 0
+              "hp": 1202.5,
+              "attack": 342.34200000000004,
+              "magic": 243.24300000000002,
+              "armor": 71.19294000000001,
+              "resistance": 10
             },
             "perilous": {
-              "hp": 685,
-              "attack": 159.60000000000002,
-              "magic": 113.4,
-              "armor": 42.126,
-              "resistance": 0
+              "hp": 925,
+              "attack": 263.34000000000003,
+              "magic": 187.11,
+              "armor": 54.7638,
+              "resistance": 10
             }
           },
           "sp": 10,
@@ -3318,25 +3318,25 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 993,
-              "attack": 231.42,
-              "magic": 164.43,
-              "armor": 47.18112000000001,
-              "resistance": 5
+              "hp": 1341,
+              "attack": 381.84299999999996,
+              "magic": 271.3095,
+              "armor": 61.33545600000001,
+              "resistance": 15
             },
             "standard": {
-              "hp": 1290.9,
-              "attack": 300.846,
-              "magic": 213.75900000000001,
-              "armor": 61.33545600000001,
-              "resistance": 5
+              "hp": 1743.3,
+              "attack": 496.3959,
+              "magic": 352.70235,
+              "armor": 79.73609280000001,
+              "resistance": 15
             },
             "perilous": {
-              "hp": 993,
-              "attack": 231.42,
-              "magic": 164.43,
-              "armor": 47.18112000000001,
-              "resistance": 5
+              "hp": 1341,
+              "attack": 381.84299999999996,
+              "magic": 271.3095,
+              "armor": 61.33545600000001,
+              "resistance": 15
             }
           },
           "sp": 9,
@@ -3465,25 +3465,25 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 1439,
-              "attack": 335.1600000000001,
-              "magic": 238.14000000000004,
-              "armor": 52.6575,
-              "resistance": 10
+              "hp": 1942,
+              "attack": 553.0140000000001,
+              "magic": 392.9310000000001,
+              "armor": 68.45475,
+              "resistance": 20
             },
             "standard": {
-              "hp": 1870.7,
-              "attack": 435.70800000000014,
-              "magic": 309.58200000000005,
-              "armor": 68.45475,
-              "resistance": 10
+              "hp": 2524.6,
+              "attack": 718.9182000000002,
+              "magic": 510.81030000000015,
+              "armor": 88.99117500000001,
+              "resistance": 20
             },
             "perilous": {
-              "hp": 1439,
-              "attack": 335.1600000000001,
-              "magic": 238.14000000000004,
-              "armor": 52.6575,
-              "resistance": 10
+              "hp": 1942,
+              "attack": 553.0140000000001,
+              "magic": 392.9310000000001,
+              "armor": 68.45475,
+              "resistance": 20
             }
           },
           "sp": 9,
@@ -4149,8 +4149,8 @@
       "addon": "foresight",
       "traitId": "skill",
       "trait": "Each ability activation: gain 1 core and add-on stack (2 when Elite).",
-      "strength": "Poisons durable ground enemies for damage over time.",
-      "weakness": "Fragile, blocks one, and cannot poison flying enemies.",
+      "strength": "Durable, hard-hitting duelist that prioritizes its blocked foe and poisons ground enemies.",
+      "weakness": "Blocks one; heavy armor blunts its basic hits and poison needs time.",
       "profile": {
         "name": "Duelist",
         "melee": true,
@@ -4239,25 +4239,25 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 435,
-              "attack": 75.8625,
-              "magic": 72.45,
-              "armor": 34,
-              "resistance": 0
+              "hp": 588,
+              "attack": 125.17312499999998,
+              "magic": 119.5425,
+              "armor": 44.2,
+              "resistance": 10
             },
             "standard": {
-              "hp": 565.5,
-              "attack": 98.62125,
-              "magic": 94.185,
-              "armor": 44.2,
-              "resistance": 0
+              "hp": 764.4,
+              "attack": 162.72506249999998,
+              "magic": 155.40525000000002,
+              "armor": 57.46000000000001,
+              "resistance": 10
             },
             "perilous": {
-              "hp": 435,
-              "attack": 75.8625,
-              "magic": 72.45,
-              "armor": 34,
-              "resistance": 0
+              "hp": 588,
+              "attack": 125.17312499999998,
+              "magic": 119.5425,
+              "armor": 44.2,
+              "resistance": 10
             }
           },
           "sp": 11,
@@ -4386,25 +4386,25 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 631,
-              "attack": 110.000625,
-              "magic": 105.0525,
-              "armor": 38.080000000000005,
-              "resistance": 5
+              "hp": 852,
+              "attack": 181.50103124999998,
+              "magic": 173.336625,
+              "armor": 49.504000000000005,
+              "resistance": 15
             },
             "standard": {
-              "hp": 820.3000000000001,
-              "attack": 143.0008125,
-              "magic": 136.56825,
-              "armor": 49.50400000000001,
-              "resistance": 5
+              "hp": 1107.6000000000001,
+              "attack": 235.95134062499997,
+              "magic": 225.3376125,
+              "armor": 64.35520000000001,
+              "resistance": 15
             },
             "perilous": {
-              "hp": 631,
-              "attack": 110.000625,
-              "magic": 105.0525,
-              "armor": 38.080000000000005,
-              "resistance": 5
+              "hp": 852,
+              "attack": 181.50103124999998,
+              "magic": 173.336625,
+              "armor": 49.504000000000005,
+              "resistance": 15
             }
           },
           "sp": 9,
@@ -4533,25 +4533,25 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 914,
-              "attack": 159.31125,
-              "magic": 152.145,
-              "armor": 42.5,
-              "resistance": 10
+              "hp": 1234,
+              "attack": 262.8635625,
+              "magic": 251.03925,
+              "armor": 55.25,
+              "resistance": 20
             },
             "standard": {
-              "hp": 1188.2,
-              "attack": 207.104625,
-              "magic": 197.78850000000003,
-              "armor": 55.25,
-              "resistance": 10
+              "hp": 1604.2,
+              "attack": 341.72263125,
+              "magic": 326.35102500000005,
+              "armor": 71.825,
+              "resistance": 20
             },
             "perilous": {
-              "hp": 914,
-              "attack": 159.31125,
-              "magic": 152.145,
-              "armor": 42.5,
-              "resistance": 10
+              "hp": 1234,
+              "attack": 262.8635625,
+              "magic": 251.03925,
+              "armor": 55.25,
+              "resistance": 20
             }
           },
           "sp": 9,
@@ -7592,6 +7592,7 @@
         "offense": 1,
         "defense": 0.9,
         "resistance": 10,
+        "healingMultiplier": 2,
         "branch": "support"
       },
       "range": {
@@ -7694,9 +7695,10 @@
         "cooldown": 2.85,
         "castTime": 0,
         "basic": true,
+        "healPower": 2,
         "kind": "Healing",
         "execution": [
-          "Each basic heal restores HP equal to 100% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
+          "Each basic heal restores HP equal to 200% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
         ]
       },
       "skill": {
@@ -7709,14 +7711,14 @@
         "castTime": 0,
         "id": "tradition-14-2",
         "condition": "Ally below 50% HP",
-        "description": "Instantly heals one ally for 28% max HP and removes poison.",
-        "healRatio": 0.28,
+        "description": "Instantly heals one ally for 56% max HP and removes poison.",
+        "healRatio": 0.56,
         "cleanseStatuses": [
           "poison"
         ],
         "icon": "../skill-icons/mobile-v2/tradition-14-2.webp",
         "execution": [
-          "Restores 28% of the target’s max HP, before healing equipment, sealed reduction and overheal capping.",
+          "Restores 56% of the target’s max HP, before healing equipment, sealed reduction and overheal capping.",
           "Also removes poison."
         ]
       },
@@ -9134,6 +9136,7 @@
         "offense": 1,
         "defense": 0.9,
         "resistance": 10,
+        "healingMultiplier": 2,
         "branch": "support"
       },
       "range": {
@@ -9236,9 +9239,10 @@
         "cooldown": 2.85,
         "castTime": 0,
         "basic": true,
+        "healPower": 2,
         "kind": "Healing",
         "execution": [
-          "Each basic heal restores HP equal to 100% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
+          "Each basic heal restores HP equal to 200% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
         ]
       },
       "skill": {
@@ -9251,10 +9255,11 @@
         "castTime": 1.2,
         "id": "tradition-16-1",
         "condition": "Ally below 50% HP",
-        "description": "Heal 34% HP.",
+        "description": "Heal 68% HP.",
+        "healRatio": 0.68,
         "icon": "../skill-icons/mobile-v2/tradition-16-1.webp",
         "execution": [
-          "Restores 34% of the target’s max HP, before healing equipment, sealed reduction and overheal capping."
+          "Restores 68% of the target’s max HP, before healing equipment, sealed reduction and overheal capping."
         ]
       },
       "forms": [
@@ -9915,6 +9920,7 @@
         "offense": 1,
         "defense": 0.9,
         "resistance": 10,
+        "healingMultiplier": 2,
         "branch": "support"
       },
       "range": {
@@ -10017,9 +10023,10 @@
         "cooldown": 2.85,
         "castTime": 0,
         "basic": true,
+        "healPower": 2,
         "kind": "Healing",
         "execution": [
-          "Each basic heal restores HP equal to 100% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
+          "Each basic heal restores HP equal to 200% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
         ]
       },
       "skill": {
@@ -10032,10 +10039,11 @@
         "castTime": 1.2,
         "id": "tradition-17-1",
         "condition": "Injured ally without regen",
-        "description": "Heal 5% HP/s (6s).",
+        "description": "Heal 10% HP/s (6s).",
+        "regenRatio": 0.1,
         "icon": "../skill-icons/mobile-v2/tradition-17-1.webp",
         "execution": [
-          "Applies regeneration for 6 combat seconds. Each whole-second tick restores 5% of the recipient’s max HP."
+          "Applies regeneration for 6 combat seconds. Each whole-second tick restores 10% of the recipient’s max HP."
         ]
       },
       "forms": [
@@ -14099,6 +14107,7 @@
         "offense": 1,
         "defense": 0.9,
         "resistance": 10,
+        "healingMultiplier": 2,
         "branch": "support"
       },
       "range": {
@@ -14201,9 +14210,10 @@
         "cooldown": 2.85,
         "castTime": 0,
         "basic": true,
+        "healPower": 2,
         "kind": "Healing",
         "execution": [
-          "Each basic heal restores HP equal to 100% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
+          "Each basic heal restores HP equal to 200% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
         ]
       },
       "skill": {
@@ -15057,12 +15067,12 @@
       "addon": "resilient",
       "traitId": "purchase",
       "trait": "When acquired: gain 1 stack for its core and add-on (2 when Elite).",
-      "strength": "Blocks three and spreads small wards over a nearby group.",
+      "strength": "Holds large groups and spreads small wards over nearby allies.",
       "weakness": "Each ward is small; cannot restore lost HP.",
       "profile": {
         "name": "Guardian",
         "melee": true,
-        "block": 3,
+        "block": 5,
         "range": 1.3,
         "cost": 18,
         "interval": 1.2,
@@ -15608,6 +15618,7 @@
         "offense": 1,
         "defense": 0.9,
         "resistance": 10,
+        "healingMultiplier": 2,
         "branch": "support"
       },
       "range": {
@@ -15710,9 +15721,10 @@
         "cooldown": 2.85,
         "castTime": 0,
         "basic": true,
+        "healPower": 2,
         "kind": "Healing",
         "execution": [
-          "Each basic heal restores HP equal to 100% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
+          "Each basic heal restores HP equal to 200% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
         ]
       },
       "skill": {
@@ -15725,10 +15737,11 @@
         "castTime": 0,
         "id": "tradition-26-1",
         "condition": "Ally below 75% HP",
-        "description": "Heal each ally 12% HP.",
+        "description": "Heal each ally 24% HP.",
+        "healRatio": 0.24,
         "icon": "../skill-icons/mobile-v2/tradition-26-1.webp",
         "execution": [
-          "Restores 12% of the target’s max HP, before healing equipment, sealed reduction and overheal capping.",
+          "Restores 24% of the target’s max HP, before healing equipment, sealed reduction and overheal capping.",
           "Heals up to 4 eligible allies within 1.5 Manhattan tiles of the primary target. Every recipient must also be in the caster’s range."
         ]
       },
@@ -16567,7 +16580,7 @@
       "addon": "swift",
       "traitId": "heal",
       "trait": "Each effective heal: gain 1 core and add-on stack (2 when Elite).",
-      "strength": "Fast melee attacks and an attack-speed buff for a nearby ally.",
+      "strength": "Durable duelist with fast, strong hits on its blocked foe and an ally attack-speed buff.",
       "weakness": "Blocks only one and must stand close to the fight.",
       "profile": {
         "name": "Duelist",
@@ -16656,25 +16669,25 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 525,
-              "attack": 114.05907692307696,
-              "magic": 88.57800000000002,
-              "armor": 37.15200000000001,
-              "resistance": 0
+              "hp": 709,
+              "attack": 188.19747692307698,
+              "magic": 146.15370000000001,
+              "armor": 48.29760000000001,
+              "resistance": 10
             },
             "standard": {
-              "hp": 682.5,
-              "attack": 148.27680000000004,
-              "magic": 115.15140000000002,
-              "armor": 48.29760000000001,
-              "resistance": 0
+              "hp": 921.7,
+              "attack": 244.65672000000006,
+              "magic": 189.99981000000002,
+              "armor": 62.78688000000002,
+              "resistance": 10
             },
             "perilous": {
-              "hp": 525,
-              "attack": 114.05907692307696,
-              "magic": 88.57800000000002,
-              "armor": 37.15200000000001,
-              "resistance": 0
+              "hp": 709,
+              "attack": 188.19747692307698,
+              "magic": 146.15370000000001,
+              "armor": 48.29760000000001,
+              "resistance": 10
             }
           },
           "sp": 11,
@@ -16803,25 +16816,25 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 761,
-              "attack": 165.3856615384616,
-              "magic": 128.43810000000002,
-              "armor": 41.61024000000001,
-              "resistance": 5
+              "hp": 1027,
+              "attack": 272.88634153846164,
+              "magic": 211.922865,
+              "armor": 54.09331200000002,
+              "resistance": 15
             },
             "standard": {
-              "hp": 989.3000000000001,
-              "attack": 215.00136000000006,
-              "magic": 166.96953000000002,
-              "armor": 54.09331200000002,
-              "resistance": 5
+              "hp": 1335.1000000000001,
+              "attack": 354.75224400000013,
+              "magic": 275.4997245,
+              "armor": 70.32130560000003,
+              "resistance": 15
             },
             "perilous": {
-              "hp": 761,
-              "attack": 165.3856615384616,
-              "magic": 128.43810000000002,
-              "armor": 41.61024000000001,
-              "resistance": 5
+              "hp": 1027,
+              "attack": 272.88634153846164,
+              "magic": 211.922865,
+              "armor": 54.09331200000002,
+              "resistance": 15
             }
           },
           "sp": 10,
@@ -16950,25 +16963,25 @@
           "sameArt": false,
           "stats": {
             "base": {
-              "hp": 1102,
-              "attack": 239.52406153846164,
-              "magic": 186.01380000000003,
-              "armor": 46.44000000000001,
-              "resistance": 10
+              "hp": 1488,
+              "attack": 395.21470153846167,
+              "magic": 306.92277,
+              "armor": 60.372000000000014,
+              "resistance": 20
             },
             "standard": {
-              "hp": 1432.6000000000001,
-              "attack": 311.3812800000001,
-              "magic": 241.81794000000005,
-              "armor": 60.372000000000014,
-              "resistance": 10
+              "hp": 1934.4,
+              "attack": 513.7791120000002,
+              "magic": 398.99960100000004,
+              "armor": 78.48360000000002,
+              "resistance": 20
             },
             "perilous": {
-              "hp": 1102,
-              "attack": 239.52406153846164,
-              "magic": 186.01380000000003,
-              "armor": 46.44000000000001,
-              "resistance": 10
+              "hp": 1488,
+              "attack": 395.21470153846167,
+              "magic": 306.92277,
+              "armor": 60.372000000000014,
+              "resistance": 20
             }
           },
           "sp": 10,
@@ -17646,6 +17659,7 @@
         "offense": 1,
         "defense": 0.9,
         "resistance": 10,
+        "healingMultiplier": 2,
         "branch": "support"
       },
       "range": {
@@ -17697,7 +17711,7 @@
         "effect": "heal",
         "target": "injuredAlly",
         "power": 1,
-        "healPower": 0.55,
+        "healPower": 1.1,
         "targetCount": 3,
         "areaRadius": 1.5,
         "cooldown": 2.85,
@@ -17705,7 +17719,7 @@
         "basic": true,
         "kind": "Healing",
         "execution": [
-          "Each basic heal restores HP equal to 55% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time.",
+          "Each basic heal restores HP equal to 110% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time.",
           "Heals up to 3 eligible allies within 1.5 Manhattan tiles of the primary target. Every recipient must also be in the caster’s range."
         ]
       },
@@ -17719,13 +17733,13 @@
         "castTime": 0,
         "id": "tradition-29-1",
         "condition": "Ally below 75% HP",
-        "description": "Instantly heals up to 3 nearby allies for 20% max HP each. Healing radius is only 1.5 tiles.",
-        "healRatio": 0.2,
+        "description": "Instantly heals up to 3 nearby allies for 40% max HP each. Healing radius is only 1.5 tiles.",
+        "healRatio": 0.4,
         "targetCount": 3,
         "areaRadius": 1.5,
         "icon": "../skill-icons/mobile-v2/tradition-29-1.webp",
         "execution": [
-          "Restores 20% of the target’s max HP, before healing equipment, sealed reduction and overheal capping.",
+          "Restores 40% of the target’s max HP, before healing equipment, sealed reduction and overheal capping.",
           "Heals up to 3 eligible allies within 1.5 Manhattan tiles of the primary target. Every recipient must also be in the caster’s range."
         ]
       },
@@ -18564,12 +18578,12 @@
       "addon": "foresight",
       "traitId": "defeat",
       "trait": "When another core ally falls: gain 1 core and add-on stack (2 when Elite).",
-      "strength": "A three-block physical tank that exposes an enemy for the team.",
+      "strength": "A high-block physical tank that exposes an enemy for the team.",
       "weakness": "No protective ward or healing; vulnerable to Arts damage.",
       "profile": {
         "name": "Guardian",
         "melee": true,
-        "block": 3,
+        "block": 6,
         "range": 1.3,
         "cost": 18,
         "interval": 1.2,
@@ -20593,6 +20607,7 @@
         "offense": 1,
         "defense": 0.9,
         "resistance": 10,
+        "healingMultiplier": 2,
         "branch": "support"
       },
       "range": {
@@ -20695,9 +20710,10 @@
         "cooldown": 2.85,
         "castTime": 0,
         "basic": true,
+        "healPower": 2,
         "kind": "Healing",
         "execution": [
-          "Each basic heal restores HP equal to 100% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
+          "Each basic heal restores HP equal to 200% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
         ]
       },
       "skill": {
@@ -20710,10 +20726,11 @@
         "castTime": 0.8,
         "id": "tradition-33-1",
         "condition": "Ally with a debuff",
-        "description": "Remove debuffs; heal 12% HP.",
+        "description": "Remove debuffs; heal 24% HP.",
+        "healRatio": 0.24,
         "icon": "../skill-icons/mobile-v2/tradition-33-1.webp",
         "execution": [
-          "Restores 12% of the target’s max HP, before healing equipment, sealed reduction and overheal capping.",
+          "Restores 24% of the target’s max HP, before healing equipment, sealed reduction and overheal capping.",
           "Also removes poison, sleep, stun, slow, cold, frozen, weak, exposed and sealed."
         ]
       },
@@ -22351,6 +22368,7 @@
         "offense": 1,
         "defense": 0.9,
         "resistance": 10,
+        "healingMultiplier": 2,
         "branch": "support"
       },
       "range": {
@@ -22450,13 +22468,13 @@
         "effect": "heal",
         "target": "injuredAlly",
         "power": 1,
-        "healPower": 0.9,
+        "healPower": 1.8,
         "cooldown": 2.85,
         "castTime": 0,
         "basic": true,
         "kind": "Healing",
         "execution": [
-          "Each basic heal restores HP equal to 90% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
+          "Each basic heal restores HP equal to 180% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
         ]
       },
       "skill": {
@@ -24433,12 +24451,12 @@
       "addon": "resilient",
       "traitId": "skill",
       "trait": "Each ability activation: gain 1 core and add-on stack (2 when Elite).",
-      "strength": "Three-block anti-Arts tank that strips enemy wards and focus.",
+      "strength": "High-block anti-Arts tank that strips enemy wards and focus.",
       "weakness": "Its skill requires a buffed enemy; cannot shield or heal allies.",
       "profile": {
         "name": "Guardian",
         "melee": true,
-        "block": 3,
+        "block": 6,
         "range": 1.3,
         "cost": 18,
         "interval": 1.2,
@@ -24980,6 +24998,7 @@
         "offense": 1,
         "defense": 0.9,
         "resistance": 10,
+        "healingMultiplier": 2,
         "branch": "support"
       },
       "range": {
@@ -25082,9 +25101,10 @@
         "cooldown": 2.85,
         "castTime": 0,
         "basic": true,
+        "healPower": 2,
         "kind": "Healing",
         "execution": [
-          "Each basic heal restores HP equal to 100% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
+          "Each basic heal restores HP equal to 200% of the healer’s current MAG, before healing equipment and the target’s sealed penalty. It uses the branch interval, with no cast time."
         ]
       },
       "skill": {
@@ -25097,12 +25117,12 @@
         "castTime": 0.4,
         "id": "tradition-39-2",
         "condition": "Ally below 75% HP",
-        "description": "Heals the two most injured eligible allies in range for 16% max HP each. No clustering required.",
-        "healRatio": 0.16,
+        "description": "Heals the two most injured eligible allies in range for 32% max HP each. No clustering required.",
+        "healRatio": 0.32,
         "targetCount": 2,
         "icon": "../skill-icons/mobile-v2/tradition-39-2.webp",
         "execution": [
-          "Restores 16% of the target’s max HP, before healing equipment, sealed reduction and overheal capping.",
+          "Restores 32% of the target’s max HP, before healing equipment, sealed reduction and overheal capping.",
           "Heals up to 2 eligible allies anywhere in the caster’s range. Every recipient must also be in the caster’s range."
         ]
       },
@@ -26537,12 +26557,22 @@
         "armor": 36,
         "basicPower": 1
       }
-    }
+    },
+    "healerOutputMultiplier": 2,
+    "tankBlockBonus": [
+      2,
+      3,
+      4,
+      5,
+      5,
+      5
+    ]
   },
   "notes": [
     "Stats are generated from the Stronghold model with no equipment, alliances, stacks, status effects or strategy bonuses. Standard includes its real +30% HP, ATK, MAG and DEF; Perilous uses the unbuffed values.",
     "Tier I–VI HP/ATK/MAG budgets scale by 1 / 1.2 / 1.5 / 1.85 / 2.3 / 2.8. Classes use a common role budget with at most ±5% stat variation, and basic hit strength normalized within the branch. The six original starters remaining at tier I keep their original stats; relocated recruits use their new tier’s role budget. Dedicated healers begin at tier II: Acolyte, Hedgewitch and Troubadour moved up, while Lancer, Geomancer and Huntsman moved down to I. These are local combat budgets, not native Arknights numbers.",
     "Normal / Elite / Elite II apply 1 / 1.45 / 2.1 to HP, ATK and MAG exactly once. DEF uses separate, gentler tier and fusion curves; RES gains +5 / +10 from fusion. RPG promotion artwork never adds another stat multiplier or lowers DEF.",
+    "Dedicated healers restore twice their previous HP with basic heals, healing skills and regeneration. Skill descriptions and execution notes include this multiplier; healing equipment, sealed reduction and overheal caps still apply. Wards and non-healing skills keep their existing values. Tank classes gain +2 / +3 / +4 / +5 block at tiers I / II / III / IV, capped at +5 for V–VI. Their total block is 5 / 6 / 7 / 8. Fusion does not add another block bonus. These bonuses are user-requested local tuning, not native Arknights rules.",
     "One automatic class skill is fixed per identity at every fusion rank. The Stronghold skill’s cooldown field sets the SP cost; it is not the actual interval between skill casts. Units gain 1 SP per combat second, begin at 0 SP and have a 3-second operation gap after a skill release.",
     "Three matching Normal copies become an Elite. Three matching Elites become Elite II (nine originals). Elite II is the cap. Each fusion opens a free recruitment choice, preserves a deployed survivor and returns its equipment. Empty reward tiers fall back to the highest available tier at or below the reward within the run’s core pool.",
     "Two matching Normal equipment pieces fuse automatically. The enhanced result always returns to the bench, even if a donor was equipped; equip the result manually. Character equipment appears in a small stack at the lower right of its field or bench figure. Matching equipment on a full owner fuses without destroying the unrelated item.",
@@ -26552,15 +26582,16 @@
     "Stronghold tooltips and execution notes include the local class specializations. Original RPG definitions remain separate. This wiki documents the implementation without assuming full numerical equivalence to Arknights."
   ],
   "sources": {
-    "src/protocol/data.js": "41d9ab097b1085227ab270930a3dd0f1fec60723a8bdb5a72a49c074dd31aa23",
-    "src/protocol/tierBalance.js": "8a1cec156078fda736e9e79bd0966f76d2a3369a99b788dca34963a1c9fd738e",
+    "src/protocol/data.js": "f178331f053ba0159d3bc24a34e4a22cefa9b1ec8abe34afc60c85be3126adc3",
+    "src/protocol/tierBalance.js": "efd74aec4cc10b865a7407a339674740b8049b486f64ab74a8465e910aa66283",
+    "src/protocol/sustainBalance.js": "5c8caa0a17c5c3bbe46bee8871df9b0275ae1c7ffaac0c5204d872833a307456",
     "src/protocol/model.js": "b5f9d42b80de9b14a65f37b3bca86d07e101a094bb3996ac41d11948c6884190",
-    "src/protocol/simulation.js": "75097502bc5efd015122c3fc088477cb27eab6c220b086692057f35dde1f235d",
+    "src/protocol/simulation.js": "9a7ec09ed568b78cee4a74c82f8ca3587691b968a0357f0b2e44ed984bbace19",
     "src/protocol/classAbilities.js": "dea6b92b1f973c6a89eadc6c852a586cd5f6299cbab421d267f3e5fbe99490e7",
-    "src/protocol/specializations.js": "6574449c2353fe73b5d5e683ba45818485504c2611526ec981bf9f073f96f40e",
+    "src/protocol/specializations.js": "a93ded181e8e34855d8f362661d5778278723802f1e7f7e6fa21e1bc05b05410",
     "src/protocol/rangePreview.js": "624f5dfb2da1e26dc37b198e9bdf5954c3804b96be7c5c3fe792b6d4f9c9f9b2",
     "src/protocol/facing.js": "40a48ac8bc796e30a12e8fa464c22a048fbe92d98c28e78b1aa01131ce8efb38",
     "src/protocol/artPresentation.js": "276669207f9d9a97ba41a3a9910996edd26df482e9dfd7b4cd9e528f6a2cb723"
   },
-  "catalogHash": "f0af434491824c689b24045d46680e1c3e32b30d87786b177d2e51c9ca5a14fa"
+  "catalogHash": "f1b76d699d346d2953b5a6f9864e37eafa52256bb33b6aab33f058b2eed1eadb"
 }

@@ -41352,7 +41352,7 @@
     "src/protocol/sustainBalance.js": "a986423b6381e1baf609f748cf1368c564075073574ea31dfe5f62c0dc2434b4",
     "src/protocol/model.js": "68dafbd6719fe40ece5d74b17f8179eae1e2eccbaaa77e27ccf69c847950b767",
     "src/protocol/recruitment.js": "073a480ad27457f7ea335de618e02574b90bd8a306649a26f95f39a6583afbc8",
-    "src/protocol/simulation.js": "1226636268de9433e1fc5e096f07c0b0cbb43ba71bb03b125ca4d71b24514254",
+    "src/protocol/simulation.js": "5a3fed56004089103a861e0808c602c068f666a615e0855096955c32c8cf218a",
     "src/protocol/attackPatterns.js": "6bcfb1ca746c5b0fe9155c71ea726671c4ef456f5c18e9cc205f5b14ed7e59a6",
     "src/protocol/enemies.js": "4f3eae73a189f27e43b7476f671669ab8309f96c542fff990ea31292ccf6069e",
     "src/protocol/enemyTargeting.js": "977062dc2fb3112c418a0404f03efd4fe7889bd88635229c87543dfc67ee6c61",
@@ -41362,5 +41362,5 @@
     "src/protocol/facing.js": "40a48ac8bc796e30a12e8fa464c22a048fbe92d98c28e78b1aa01131ce8efb38",
     "src/protocol/artPresentation.js": "d277e5f8196a6830c7175a2767f6c41a896fe0d6bcf20e07e664472a9c45affd"
   },
-  "catalogHash": "c957497bda7b4879a75b51821901d993ec115e66e272d8fd746335489f3f68ba"
+  "catalogHash": "3d44e30c76b2b69bcf0a7f857bb37c75dfa10f34d92744e2d6a5e181dafe6bc9"
 }

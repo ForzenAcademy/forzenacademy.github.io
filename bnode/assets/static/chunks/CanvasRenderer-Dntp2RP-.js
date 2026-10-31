@@ -1,0 +1,1 @@
+import{i as e}from"./game-renderer-BjX9-r35.js";export{e as CanvasRenderer};

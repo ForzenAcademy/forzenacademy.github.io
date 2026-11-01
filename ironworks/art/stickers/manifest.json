@@ -1591,7 +1591,7 @@
       "url": "/art/stickers/items/bowandarrow.webp",
       "width": 128,
       "height": 128,
-      "bytes": 6868,
+      "bytes": 7836,
       "sourceRegion": {
         "left": 0,
         "top": 0,
@@ -1599,10 +1599,10 @@
         "height": 1254
       },
       "alphaCrop": {
-        "left": 80,
-        "top": 10,
-        "width": 1126,
-        "height": 1201
+        "left": 10,
+        "top": 8,
+        "width": 1238,
+        "height": 1240
       }
     },
     {
@@ -1871,7 +1871,7 @@
       "url": "/art/stickers/items/whitepotion.webp",
       "width": 128,
       "height": 128,
-      "bytes": 5640,
+      "bytes": 6140,
       "sourceRegion": {
         "left": 0,
         "top": 0,
@@ -1879,13 +1879,13 @@
         "height": 1254
       },
       "alphaCrop": {
-        "left": 184,
-        "top": 57,
-        "width": 885,
-        "height": 1133
+        "left": 181,
+        "top": 54,
+        "width": 891,
+        "height": 1137
       }
     }
   ],
-  "totalBytes": 1148136,
-  "sourceBytes": 72324415
+  "totalBytes": 1149604,
+  "sourceBytes": 72549006
 }

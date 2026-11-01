@@ -1884,8 +1884,468 @@
         "width": 891,
         "height": 1137
       }
+    },
+    {
+      "group": "items",
+      "name": "hammer",
+      "url": "/art/stickers/items/hammer.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 4930,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1254,
+        "height": 1254
+      },
+      "alphaCrop": {
+        "left": 161,
+        "top": 48,
+        "width": 1009,
+        "height": 1143
+      }
+    },
+    {
+      "group": "items",
+      "name": "shovel",
+      "url": "/art/stickers/items/shovel.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 4160,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1254,
+        "height": 1254
+      },
+      "alphaCrop": {
+        "left": 91,
+        "top": 72,
+        "width": 1115,
+        "height": 1125
+      }
+    },
+    {
+      "group": "items",
+      "name": "ironshield",
+      "url": "/art/stickers/items/ironshield.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 6876,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1254,
+        "height": 1254
+      },
+      "alphaCrop": {
+        "left": 139,
+        "top": 41,
+        "width": 1009,
+        "height": 1178
+      }
+    },
+    {
+      "group": "items",
+      "name": "paddle",
+      "url": "/art/stickers/items/paddle.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 4022,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1254,
+        "height": 1254
+      },
+      "alphaCrop": {
+        "left": 27,
+        "top": 49,
+        "width": 1201,
+        "height": 1180
+      }
+    },
+    {
+      "group": "items",
+      "name": "flag",
+      "url": "/art/stickers/items/flag.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 5816,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1254,
+        "height": 1254
+      },
+      "alphaCrop": {
+        "left": 116,
+        "top": 78,
+        "width": 1102,
+        "height": 1084
+      }
+    },
+    {
+      "group": "items",
+      "name": "brush",
+      "url": "/art/stickers/items/brush.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 5964,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1254,
+        "height": 1254
+      },
+      "alphaCrop": {
+        "left": 83,
+        "top": 54,
+        "width": 1145,
+        "height": 1155
+      }
+    },
+    {
+      "group": "items",
+      "name": "cloak",
+      "url": "/art/stickers/items/cloak.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 6162,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1254,
+        "height": 1254
+      },
+      "alphaCrop": {
+        "left": 93,
+        "top": 52,
+        "width": 1082,
+        "height": 1150
+      }
+    },
+    {
+      "group": "items",
+      "name": "boots",
+      "url": "/art/stickers/items/boots.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 6432,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1254,
+        "height": 1254
+      },
+      "alphaCrop": {
+        "left": 57,
+        "top": 107,
+        "width": 1168,
+        "height": 1050
+      }
+    },
+    {
+      "group": "items",
+      "name": "coat",
+      "url": "/art/stickers/items/coat.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 7732,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1254,
+        "height": 1254
+      },
+      "alphaCrop": {
+        "left": 0,
+        "top": 84,
+        "width": 1254,
+        "height": 1110
+      }
+    },
+    {
+      "group": "items",
+      "name": "backpack",
+      "url": "/art/stickers/items/backpack.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 7772,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1254,
+        "height": 1254
+      },
+      "alphaCrop": {
+        "left": 63,
+        "top": 44,
+        "width": 1143,
+        "height": 1164
+      }
+    },
+    {
+      "group": "items",
+      "name": "stormpotion",
+      "url": "/art/stickers/items/stormpotion.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 6330,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1254,
+        "height": 1254
+      },
+      "alphaCrop": {
+        "left": 149,
+        "top": 54,
+        "width": 957,
+        "height": 1155
+      }
+    },
+    {
+      "group": "items",
+      "name": "plantfood",
+      "url": "/art/stickers/items/plantfood.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 7036,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1254,
+        "height": 1254
+      },
+      "alphaCrop": {
+        "left": 134,
+        "top": 133,
+        "width": 980,
+        "height": 1003
+      }
+    },
+    {
+      "group": "items",
+      "name": "sleeppotion",
+      "url": "/art/stickers/items/sleeppotion.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 5690,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1254,
+        "height": 1254
+      },
+      "alphaCrop": {
+        "left": 134,
+        "top": 43,
+        "width": 987,
+        "height": 1168
+      }
+    },
+    {
+      "group": "items",
+      "name": "novel",
+      "url": "/art/stickers/items/novel.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 8032,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1254,
+        "height": 1254
+      },
+      "alphaCrop": {
+        "left": 73,
+        "top": 48,
+        "width": 1120,
+        "height": 1162
+      }
+    },
+    {
+      "group": "items",
+      "name": "map",
+      "url": "/art/stickers/items/map.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 6612,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1254,
+        "height": 1254
+      },
+      "alphaCrop": {
+        "left": 28,
+        "top": 148,
+        "width": 1202,
+        "height": 922
+      }
+    },
+    {
+      "group": "items",
+      "name": "signboard",
+      "url": "/art/stickers/items/signboard.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 6884,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1254,
+        "height": 1254
+      },
+      "alphaCrop": {
+        "left": 96,
+        "top": 90,
+        "width": 1075,
+        "height": 1074
+      }
+    },
+    {
+      "group": "items",
+      "name": "drawing",
+      "url": "/art/stickers/items/drawing.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 6510,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1254,
+        "height": 1254
+      },
+      "alphaCrop": {
+        "left": 91,
+        "top": 65,
+        "width": 1075,
+        "height": 1138
+      }
+    },
+    {
+      "group": "stations",
+      "name": "enchantingtable",
+      "url": "/art/stickers/stations/enchantingtable.webp",
+      "width": 384,
+      "height": 256,
+      "bytes": 32172,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1536,
+        "height": 1024
+      },
+      "alphaCrop": {
+        "left": 17,
+        "top": 45,
+        "width": 1498,
+        "height": 941
+      }
+    },
+    {
+      "group": "items",
+      "name": "thunderhammer",
+      "url": "/art/stickers/items/thunderhammer.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 6730,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1312,
+        "height": 1199
+      },
+      "alphaCrop": {
+        "left": 137,
+        "top": 43,
+        "width": 1098,
+        "height": 1105
+      }
+    },
+    {
+      "group": "items",
+      "name": "moonsword",
+      "url": "/art/stickers/items/moonsword.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 5596,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1312,
+        "height": 1199
+      },
+      "alphaCrop": {
+        "left": 89,
+        "top": 43,
+        "width": 1173,
+        "height": 1115
+      }
+    },
+    {
+      "group": "items",
+      "name": "holytome",
+      "url": "/art/stickers/items/holytome.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 8298,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1312,
+        "height": 1199
+      },
+      "alphaCrop": {
+        "left": 89,
+        "top": 44,
+        "width": 1131,
+        "height": 1104
+      }
+    },
+    {
+      "group": "items",
+      "name": "naturetome",
+      "url": "/art/stickers/items/naturetome.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 8634,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1312,
+        "height": 1199
+      },
+      "alphaCrop": {
+        "left": 166,
+        "top": 75,
+        "width": 1019,
+        "height": 1057
+      }
+    },
+    {
+      "group": "items",
+      "name": "darkshield",
+      "url": "/art/stickers/items/darkshield.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 6972,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 1230,
+        "height": 1278
+      },
+      "alphaCrop": {
+        "left": 164,
+        "top": 92,
+        "width": 909,
+        "height": 1096
+      }
     }
   ],
-  "totalBytes": 1149604,
-  "sourceBytes": 72549006
+  "totalBytes": 1324966,
+  "sourceBytes": 94300296
 }

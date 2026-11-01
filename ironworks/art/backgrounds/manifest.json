@@ -1,0 +1,34 @@
+{
+  "generator": "built-in image_gen",
+  "format": "webp",
+  "quality": 88,
+  "assets": [
+    {
+      "source": "assets/source/sunny-outdoors-v1.png",
+      "url": "/art/backgrounds/sunny-outdoors.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 80108
+    },
+    {
+      "source": "assets/source/workshop-plank-strip-v5.png",
+      "url": "/art/backgrounds/workshop-plank-strip.webp",
+      "width": 768,
+      "height": 256,
+      "bytes": 6870,
+      "crop": {
+        "left": 0,
+        "top": 25,
+        "width": 2172,
+        "height": 674
+      }
+    },
+    {
+      "source": "assets/source/workshop-counter-v6-original-soft-shadow.png",
+      "url": "/art/backgrounds/workshop-counter.webp",
+      "width": 1536,
+      "height": 512,
+      "bytes": 35370
+    }
+  ]
+}

@@ -1,0 +1,7391 @@
+{
+  "summary": {
+    "levels": 210,
+    "added": 200,
+    "hard": 117,
+    "superHard": 33,
+    "forced": 149,
+    "doubleBottlenecks": 22,
+    "crossColumnOpenings": 34,
+    "mechanics": {
+      "mystery": 200,
+      "linked": 138,
+      "keys": 118,
+      "dual": 100,
+      "crates": 94,
+      "hungry": 73
+    }
+  },
+  "levels": [
+    {
+      "id": 11,
+      "name": "Barn owl I",
+      "difficulty": "CURIOUS",
+      "mechanics": [
+        "mystery"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 15,
+        "seed": 87109,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 12,
+      "name": "Garden snail I",
+      "difficulty": "CURIOUS",
+      "mechanics": [
+        "mystery"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 14,
+        "seed": 95028,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 13,
+      "name": "Honey bee I",
+      "difficulty": "CURIOUS",
+      "mechanics": [
+        "mystery"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 13,
+        "seed": 102947,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 14,
+      "name": "Little turtle I",
+      "difficulty": "CURIOUS",
+      "mechanics": [
+        "mystery"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 15,
+        "seed": 110866,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 15,
+      "name": "Golden acorn I",
+      "difficulty": "CURIOUS",
+      "mechanics": [
+        "mystery"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 23,
+        "seed": 118785,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 16,
+      "name": "Orchard apple I",
+      "difficulty": "CURIOUS",
+      "mechanics": [
+        "mystery"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 25,
+        "seed": 126704,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 17,
+      "name": "Autumn pear I",
+      "difficulty": "CURIOUS",
+      "mechanics": [
+        "mystery"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 21,
+        "seed": 134623,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 18,
+      "name": "Cherry picnic I",
+      "difficulty": "CURIOUS",
+      "mechanics": [
+        "mystery"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 18,
+        "seed": 142542,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 19,
+      "name": "Watermelon day I",
+      "difficulty": "CURIOUS",
+      "mechanics": [
+        "mystery"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 16,
+        "seed": 150461,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 20,
+      "name": "Sweet cupcake I",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 18,
+        "seed": 158380,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 21,
+      "name": "Tea for two I",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 14,
+        "seed": 166299,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 22,
+      "name": "Warm cocoa I",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 15,
+        "seed": 174218,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 23,
+      "name": "Summer cone I",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 15,
+        "seed": 182137,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 24,
+      "name": "Sugar ring I",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          2
+        ],
+        "losingOpenings": [
+          1,
+          3
+        ],
+        "searchNodes": 90,
+        "peakSlots": 5,
+        "solutionMoves": 11,
+        "seed": 190056,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              2
+            ],
+            "losingColumns": [
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "name": "Pizza party I",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 271,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 197975,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "name": "Shore crab I",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 137,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 205894,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "name": "Blue whale I",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1
+        ],
+        "searchNodes": 102,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 213813,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "name": "Jellyfish dance I",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 334,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 221732,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "name": "Little penguin I",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 196,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 229651,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "name": "Sleepy cat I",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1
+        ],
+        "searchNodes": 80,
+        "peakSlots": 5,
+        "solutionMoves": 10,
+        "seed": 237570,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "name": "Moon rabbit I",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 23,
+        "seed": 245489,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 32,
+      "name": "Forest bear I",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 21,
+        "seed": 253408,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 33,
+      "name": "Pond duck I",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 19,
+        "seed": 261327,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 34,
+      "name": "Lucky clover I",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 293,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 269246,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "name": "Night lantern I",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 213,
+        "peakSlots": 5,
+        "solutionMoves": 11,
+        "seed": 277165,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "name": "Paper kite I",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          1
+        ],
+        "losingOpenings": [
+          2
+        ],
+        "searchNodes": 14,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 285084,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              1
+            ],
+            "losingColumns": [
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "name": "Cloud balloon I",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 343,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 293003,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "name": "Tiny robot I",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 213,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 300922,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "name": "Mountain cabin I",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1
+        ],
+        "searchNodes": 58,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 308841,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "name": "Music maker I",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          3
+        ],
+        "losingOpenings": [
+          1,
+          2
+        ],
+        "searchNodes": 61,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 316760,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              3
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "name": "Barn owl II",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 14,
+        "seed": 324679,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 42,
+      "name": "Garden snail II",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 13,
+        "seed": 332598,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 43,
+      "name": "Honey bee II",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 13,
+        "seed": 340517,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 44,
+      "name": "Little turtle II",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          1
+        ],
+        "losingOpenings": [
+          2,
+          3
+        ],
+        "searchNodes": 95,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 348436,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              1
+            ],
+            "losingColumns": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "name": "Golden acorn II",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2
+        ],
+        "searchNodes": 36,
+        "peakSlots": 5,
+        "solutionMoves": 11,
+        "seed": 356355,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "name": "Orchard apple II",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 203,
+        "peakSlots": 5,
+        "solutionMoves": 11,
+        "seed": 364274,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "name": "Autumn pear II",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2
+        ],
+        "searchNodes": 59,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 372193,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "name": "Cherry picnic II",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          3
+        ],
+        "losingOpenings": [
+          1,
+          2
+        ],
+        "searchNodes": 97,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 380112,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              3
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "name": "Watermelon day II",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "dual"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 293,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 388031,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "name": "Sweet cupcake II",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 126,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 395950,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "name": "Tea for two II",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 14,
+        "seed": 403869,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 52,
+      "name": "Warm cocoa II",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 15,
+        "seed": 411788,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 53,
+      "name": "Summer cone II",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 13,
+        "seed": 419707,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 54,
+      "name": "Sugar ring II",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2
+        ],
+        "searchNodes": 36,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 427626,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 55,
+      "name": "Pizza party II",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 289,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 435545,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 56,
+      "name": "Shore crab II",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          1
+        ],
+        "losingOpenings": [
+          2
+        ],
+        "searchNodes": 14,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 443464,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              1
+            ],
+            "losingColumns": [
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 57,
+      "name": "Blue whale II",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 64,
+        "peakSlots": 5,
+        "solutionMoves": 10,
+        "seed": 451383,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 58,
+      "name": "Jellyfish dance II",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 203,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 459302,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "name": "Little penguin II",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2
+        ],
+        "searchNodes": 80,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 467221,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 60,
+      "name": "Sleepy cat II",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          1
+        ],
+        "losingOpenings": [
+          2
+        ],
+        "searchNodes": 14,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 475140,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              1
+            ],
+            "losingColumns": [
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 61,
+      "name": "Moon rabbit II",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 23,
+        "seed": 483059,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 62,
+      "name": "Forest bear II",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 23,
+        "seed": 490978,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 63,
+      "name": "Pond duck II",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 19,
+        "seed": 498897,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 64,
+      "name": "Lucky clover II",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 293,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 506816,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 65,
+      "name": "Night lantern II",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1
+        ],
+        "searchNodes": 99,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 514735,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 66,
+      "name": "Paper kite II",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 144,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 522654,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 67,
+      "name": "Cloud balloon II",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 379,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 530573,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 68,
+      "name": "Tiny robot II",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          3
+        ],
+        "losingOpenings": [
+          1,
+          2
+        ],
+        "searchNodes": 114,
+        "peakSlots": 5,
+        "solutionMoves": 10,
+        "seed": 538492,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              3
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 69,
+      "name": "Mountain cabin II",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 147,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 546411,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 70,
+      "name": "Music maker II",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2
+        ],
+        "searchNodes": 51,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 554330,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 71,
+      "name": "Barn owl III",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 15,
+        "seed": 562249,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 72,
+      "name": "Garden snail III",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 13,
+        "seed": 570168,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 73,
+      "name": "Honey bee III",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 15,
+        "seed": 578087,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 74,
+      "name": "Little turtle III",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 253,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 586006,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 75,
+      "name": "Golden acorn III",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 137,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 593925,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 76,
+      "name": "Orchard apple III",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 379,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 601844,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 77,
+      "name": "Autumn pear III",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 196,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 609763,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 78,
+      "name": "Cherry picnic III",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2
+        ],
+        "searchNodes": 51,
+        "peakSlots": 5,
+        "solutionMoves": 11,
+        "seed": 617682,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 79,
+      "name": "Watermelon day III",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 250,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 625601,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 80,
+      "name": "Sweet cupcake III",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          2
+        ],
+        "losingOpenings": [
+          1,
+          3
+        ],
+        "searchNodes": 52,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 633520,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              2
+            ],
+            "losingColumns": [
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 81,
+      "name": "Tea for two III",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 15,
+        "seed": 641439,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 82,
+      "name": "Warm cocoa III",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 17,
+        "seed": 649358,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 83,
+      "name": "Summer cone III",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 13,
+        "seed": 657277,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 84,
+      "name": "Sugar ring III",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          1
+        ],
+        "losingOpenings": [
+          2,
+          3
+        ],
+        "searchNodes": 68,
+        "peakSlots": 5,
+        "solutionMoves": 10,
+        "seed": 665196,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              1
+            ],
+            "losingColumns": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 85,
+      "name": "Pizza party III",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 250,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 673115,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 86,
+      "name": "Shore crab III",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 140,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 681034,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 87,
+      "name": "Blue whale III",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1
+        ],
+        "searchNodes": 36,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 688953,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 88,
+      "name": "Jellyfish dance III",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          3
+        ],
+        "losingOpenings": [
+          1,
+          2
+        ],
+        "searchNodes": 97,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 696872,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              3
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 89,
+      "name": "Little penguin III",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1
+        ],
+        "searchNodes": 98,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 704791,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 90,
+      "name": "Sleepy cat III",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 172,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 712710,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 91,
+      "name": "Moon rabbit III",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 23,
+        "seed": 720629,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 92,
+      "name": "Forest bear III",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 21,
+        "seed": 728548,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 93,
+      "name": "Pond duck III",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 19,
+        "seed": 736467,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 94,
+      "name": "Lucky clover III",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 271,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 744386,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 95,
+      "name": "Night lantern III",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1
+        ],
+        "searchNodes": 87,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 752305,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 96,
+      "name": "Paper kite III",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          1
+        ],
+        "losingOpenings": [
+          2,
+          3
+        ],
+        "searchNodes": 68,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 760224,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              1
+            ],
+            "losingColumns": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 97,
+      "name": "Cloud balloon III",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 203,
+        "peakSlots": 5,
+        "solutionMoves": 15,
+        "seed": 768143,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 98,
+      "name": "Tiny robot III",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 117,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 776062,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 99,
+      "name": "Mountain cabin III",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 147,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 783981,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 100,
+      "name": "Music maker III",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          3
+        ],
+        "losingOpenings": [
+          1,
+          2
+        ],
+        "searchNodes": 61,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 791900,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              3
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 101,
+      "name": "Barn owl IV",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 12,
+        "seed": 799819,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 102,
+      "name": "Garden snail IV",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 13,
+        "seed": 807738,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 103,
+      "name": "Honey bee IV",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 15,
+        "seed": 815657,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 104,
+      "name": "Double weave 104",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          3
+        ],
+        "losingOpenings": [
+          1,
+          2
+        ],
+        "searchNodes": 73,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 823576,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              3
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 105,
+      "name": "Golden acorn IV",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 144,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 831495,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 106,
+      "name": "Double weave 106",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 238,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 839414,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 107,
+      "name": "Autumn pear IV",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 147,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 847333,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 108,
+      "name": "Cherry picnic IV",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          1
+        ],
+        "losingOpenings": [
+          2,
+          3
+        ],
+        "searchNodes": 55,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 855252,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              1
+            ],
+            "losingColumns": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 109,
+      "name": "Watermelon day IV",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 401,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 863171,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 110,
+      "name": "Sweet cupcake IV",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 129,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 871090,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 111,
+      "name": "Tea for two IV",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 15,
+        "seed": 879009,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 112,
+      "name": "Warm cocoa IV",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 17,
+        "seed": 886928,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 113,
+      "name": "Summer cone IV",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 15,
+        "seed": 894847,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 114,
+      "name": "Double weave 114",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 219,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 902766,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 115,
+      "name": "Pizza party IV",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 280,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 910685,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 116,
+      "name": "Double weave 116",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          3
+        ],
+        "losingOpenings": [
+          1,
+          2
+        ],
+        "searchNodes": 73,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 918604,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              3
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 117,
+      "name": "Blue whale IV",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1
+        ],
+        "searchNodes": 58,
+        "peakSlots": 5,
+        "solutionMoves": 10,
+        "seed": 926523,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 118,
+      "name": "Jellyfish dance IV",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2
+        ],
+        "searchNodes": 51,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 934442,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 119,
+      "name": "Little penguin IV",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 159,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 942361,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 120,
+      "name": "Sleepy cat IV",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          3
+        ],
+        "losingOpenings": [
+          1,
+          2
+        ],
+        "searchNodes": 97,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 950280,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              3
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 121,
+      "name": "Moon rabbit IV",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 23,
+        "seed": 958199,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 122,
+      "name": "Forest bear IV",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 22,
+        "seed": 966118,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 123,
+      "name": "Pond duck IV",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 18,
+        "seed": 974037,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 124,
+      "name": "Double weave 124",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 173,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 981956,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 125,
+      "name": "Night lantern IV",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 200,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 989875,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 126,
+      "name": "Double weave 126",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 196,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 997794,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 127,
+      "name": "Cloud balloon IV",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 203,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1005713,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 128,
+      "name": "Tiny robot IV",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          1
+        ],
+        "losingOpenings": [
+          2
+        ],
+        "searchNodes": 14,
+        "peakSlots": 5,
+        "solutionMoves": 11,
+        "seed": 1013632,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              1
+            ],
+            "losingColumns": [
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 129,
+      "name": "Mountain cabin IV",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 117,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1021551,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 130,
+      "name": "Music maker IV",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 147,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1029470,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 131,
+      "name": "Barn owl V",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 14,
+        "seed": 1037389,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 132,
+      "name": "Garden snail V",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          1
+        ],
+        "losingOpenings": [
+          2
+        ],
+        "searchNodes": 14,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1045308,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              1
+            ],
+            "losingColumns": [
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 133,
+      "name": "Honey bee V",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 343,
+        "peakSlots": 5,
+        "solutionMoves": 11,
+        "seed": 1053227,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 134,
+      "name": "Double weave 134",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 170,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1061146,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 135,
+      "name": "Golden acorn V",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 100,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1069065,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 136,
+      "name": "Double weave 136",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 245,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 1076984,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 137,
+      "name": "Autumn pear V",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 101,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1084903,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 138,
+      "name": "Cherry picnic V",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 79,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1092822,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 139,
+      "name": "Watermelon day V",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 343,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 1100741,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 140,
+      "name": "Sweet cupcake V",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          1
+        ],
+        "losingOpenings": [
+          2
+        ],
+        "searchNodes": 14,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1108660,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              1
+            ],
+            "losingColumns": [
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 141,
+      "name": "Tea for two V",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 16,
+        "seed": 1116579,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 142,
+      "name": "Warm cocoa V",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 401,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 1124498,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 143,
+      "name": "Summer cone V",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1
+        ],
+        "searchNodes": 80,
+        "peakSlots": 5,
+        "solutionMoves": 11,
+        "seed": 1132417,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 144,
+      "name": "Double weave 144",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          1
+        ],
+        "losingOpenings": [
+          2,
+          3
+        ],
+        "searchNodes": 48,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1140336,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              1
+            ],
+            "losingColumns": [
+              2,
+              3
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 145,
+      "name": "Pizza party V",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 343,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1148255,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 146,
+      "name": "Double weave 146",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 196,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1156174,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 147,
+      "name": "Blue whale V",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2
+        ],
+        "searchNodes": 36,
+        "peakSlots": 5,
+        "solutionMoves": 11,
+        "seed": 1164093,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 148,
+      "name": "Jellyfish dance V",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          1
+        ],
+        "losingOpenings": [
+          2,
+          3
+        ],
+        "searchNodes": 68,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1172012,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              1
+            ],
+            "losingColumns": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 149,
+      "name": "Little penguin V",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 184,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1179931,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 150,
+      "name": "Sleepy cat V",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2
+        ],
+        "searchNodes": 36,
+        "peakSlots": 5,
+        "solutionMoves": 11,
+        "seed": 1187850,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 151,
+      "name": "Moon rabbit V",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 24,
+        "seed": 1195769,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 152,
+      "name": "Forest bear V",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          3
+        ],
+        "losingOpenings": [
+          1,
+          2
+        ],
+        "searchNodes": 100,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1203688,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              3
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 153,
+      "name": "Pond duck V",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 188,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1211607,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 154,
+      "name": "Double weave 154",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 330,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 1219526,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 155,
+      "name": "Night lantern V",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2
+        ],
+        "searchNodes": 59,
+        "peakSlots": 5,
+        "solutionMoves": 10,
+        "seed": 1227445,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 156,
+      "name": "Double weave 156",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          3
+        ],
+        "losingOpenings": [
+          1,
+          2
+        ],
+        "searchNodes": 102,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1235364,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              3
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 157,
+      "name": "Cloud balloon V",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 343,
+        "peakSlots": 5,
+        "solutionMoves": 15,
+        "seed": 1243283,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 158,
+      "name": "Tiny robot V",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 129,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1251202,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 159,
+      "name": "Mountain cabin V",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 206,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1259121,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 160,
+      "name": "Music maker V",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          1
+        ],
+        "losingOpenings": [
+          2
+        ],
+        "searchNodes": 14,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1267040,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              1
+            ],
+            "losingColumns": [
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 161,
+      "name": "Barn owl VI",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 14,
+        "seed": 1274959,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 162,
+      "name": "Garden snail VI",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 147,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1282878,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 163,
+      "name": "Honey bee VI",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 271,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1290797,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 164,
+      "name": "Double weave 164",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          2
+        ],
+        "losingOpenings": [
+          1,
+          3
+        ],
+        "searchNodes": 62,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1298716,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              2
+            ],
+            "losingColumns": [
+              1,
+              3
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 165,
+      "name": "Golden acorn VI",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1
+        ],
+        "searchNodes": 58,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1306635,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 166,
+      "name": "Double weave 166",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 221,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 1314554,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 167,
+      "name": "Autumn pear VI",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 152,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1322473,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 168,
+      "name": "Cherry picnic VI",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          2
+        ],
+        "losingOpenings": [
+          1,
+          3
+        ],
+        "searchNodes": 39,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1330392,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              2
+            ],
+            "losingColumns": [
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 169,
+      "name": "Watermelon day VI",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 250,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 1338311,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 170,
+      "name": "Sweet cupcake VI",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 147,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1346230,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 171,
+      "name": "Tea for two VI",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 15,
+        "seed": 1354149,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 172,
+      "name": "Warm cocoa VI",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 271,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1362068,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 173,
+      "name": "Summer cone VI",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2
+        ],
+        "searchNodes": 90,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1369987,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 174,
+      "name": "Double weave 174",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 273,
+        "peakSlots": 5,
+        "solutionMoves": 15,
+        "seed": 1377906,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 175,
+      "name": "Pizza party VI",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 289,
+        "peakSlots": 5,
+        "solutionMoves": 16,
+        "seed": 1385825,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 176,
+      "name": "Double weave 176",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          3
+        ],
+        "losingOpenings": [
+          1,
+          2
+        ],
+        "searchNodes": 73,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1393744,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              3
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 177,
+      "name": "Blue whale VI",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1
+        ],
+        "searchNodes": 58,
+        "peakSlots": 5,
+        "solutionMoves": 10,
+        "seed": 1401663,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 178,
+      "name": "Jellyfish dance VI",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1
+        ],
+        "searchNodes": 58,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1409582,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 179,
+      "name": "Little penguin VI",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 146,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1417501,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 180,
+      "name": "Sleepy cat VI",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          3
+        ],
+        "losingOpenings": [
+          1,
+          2
+        ],
+        "searchNodes": 97,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1425420,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              3
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 181,
+      "name": "Moon rabbit VI",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 1,
+        "solutionMoves": 23,
+        "seed": 1433339,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 182,
+      "name": "Forest bear VI",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 135,
+        "peakSlots": 5,
+        "solutionMoves": 11,
+        "seed": 1441258,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 183,
+      "name": "Pond duck VI",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2
+        ],
+        "searchNodes": 51,
+        "peakSlots": 5,
+        "solutionMoves": 11,
+        "seed": 1449177,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 184,
+      "name": "Double weave 184",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 343,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 1457096,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 185,
+      "name": "Night lantern VI",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 141,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1465015,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 186,
+      "name": "Double weave 186",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 164,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1472934,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 187,
+      "name": "Cloud balloon VI",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 289,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1480853,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 188,
+      "name": "Tiny robot VI",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          1
+        ],
+        "losingOpenings": [
+          2
+        ],
+        "searchNodes": 14,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1488772,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              1
+            ],
+            "losingColumns": [
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 189,
+      "name": "Mountain cabin VI",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 99,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1496691,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 190,
+      "name": "Music maker VI",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 206,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1504610,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 191,
+      "name": "Barn owl VII",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 13,
+        "seed": 1512529,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 192,
+      "name": "Garden snail VII",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          1
+        ],
+        "losingOpenings": [
+          2,
+          3
+        ],
+        "searchNodes": 68,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1520448,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              1
+            ],
+            "losingColumns": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 193,
+      "name": "Honey bee VII",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 175,
+        "peakSlots": 5,
+        "solutionMoves": 10,
+        "seed": 1528367,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 194,
+      "name": "Double weave 194",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 185,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1536286,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 195,
+      "name": "Golden acorn VII",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 144,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1544205,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 196,
+      "name": "Double weave 196",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 321,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 1552124,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 197,
+      "name": "Autumn pear VII",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 208,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1560043,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 198,
+      "name": "Cherry picnic VII",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 80,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 1567962,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 199,
+      "name": "Watermelon day VII",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 401,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 1575881,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 200,
+      "name": "Sweet cupcake VII",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          3
+        ],
+        "losingOpenings": [
+          1,
+          2
+        ],
+        "searchNodes": 61,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1583800,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              3
+            ],
+            "losingColumns": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 201,
+      "name": "Tea for two VII",
+      "difficulty": "TACTICAL",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": false,
+        "winningOpenings": [],
+        "losingOpenings": [],
+        "searchNodes": 0,
+        "peakSlots": 2,
+        "solutionMoves": 15,
+        "seed": 1591719,
+        "bottlenecks": 0,
+        "gates": []
+      }
+    },
+    {
+      "id": 202,
+      "name": "Warm cocoa VII",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 250,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 1599638,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 203,
+      "name": "Summer cone VII",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 208,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1607557,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 204,
+      "name": "Double weave 204",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          2
+        ],
+        "losingOpenings": [
+          1,
+          3
+        ],
+        "searchNodes": 104,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1615476,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              2
+            ],
+            "losingColumns": [
+              1,
+              3
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 205,
+      "name": "Pizza party VII",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 250,
+        "peakSlots": 5,
+        "solutionMoves": 14,
+        "seed": 1623395,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 206,
+      "name": "Double weave 206",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          3
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          2
+        ],
+        "searchNodes": 235,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1631314,
+        "bottlenecks": 2,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              3
+            ],
+            "losingColumns": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "afterMoves": 5,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 207,
+      "name": "Blue whale VII",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0
+        ],
+        "losingOpenings": [
+          1,
+          2,
+          3
+        ],
+        "searchNodes": 99,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1639233,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0
+            ],
+            "losingColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 208,
+      "name": "Jellyfish dance VII",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          0,
+          2
+        ],
+        "losingOpenings": [
+          1,
+          3
+        ],
+        "searchNodes": 79,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1647152,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              0,
+              2
+            ],
+            "losingColumns": [
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 209,
+      "name": "Little penguin VII",
+      "difficulty": "HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "dual",
+        "crates"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          1
+        ],
+        "losingOpenings": [
+          0,
+          2,
+          3
+        ],
+        "searchNodes": 168,
+        "peakSlots": 5,
+        "solutionMoves": 12,
+        "seed": 1655071,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              1
+            ],
+            "losingColumns": [
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 210,
+      "name": "Sleepy cat VII",
+      "difficulty": "SUPER HARD",
+      "mechanics": [
+        "mystery",
+        "linked",
+        "keys",
+        "dual",
+        "crates",
+        "hungry"
+      ],
+      "audit": {
+        "verified": true,
+        "forcedOpening": true,
+        "winningOpenings": [
+          2
+        ],
+        "losingOpenings": [
+          0,
+          1,
+          3
+        ],
+        "searchNodes": 188,
+        "peakSlots": 5,
+        "solutionMoves": 13,
+        "seed": 1662990,
+        "bottlenecks": 1,
+        "gates": [
+          {
+            "afterMoves": 0,
+            "winningColumns": [
+              2
+            ],
+            "losingColumns": [
+              0,
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

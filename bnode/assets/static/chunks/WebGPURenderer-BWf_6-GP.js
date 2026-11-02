@@ -1,1 +1,0 @@
-import{n as e}from"./game-renderer-BjX9-r35.js";export{e as WebGPURenderer};

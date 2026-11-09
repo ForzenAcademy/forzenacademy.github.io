@@ -1,0 +1,1 @@
+import{r as e}from"./game-renderer-CV39L1dn.js";export{e as WebGLRenderer};

@@ -82,15 +82,15 @@
       "_rolldown-runtime-Dh2opQnG.js"
     ]
   },
-  "_game-load-recovery-DKatgLWm.js": {
-    "file": "bnode/_next/static/chunks/game-load-recovery-DKatgLWm.js",
+  "_game-load-recovery-DNONYPxe.js": {
+    "file": "bnode/_next/static/chunks/game-load-recovery-DNONYPxe.js",
     "name": "game-load-recovery",
     "imports": [
       "_rolldown-runtime-Dh2opQnG.js",
-      "_use-locale-Bt3vkLaf.js",
-      "_services-QDrYDqB-.js",
-      "_renderer-diagnostics-CGavgFgg.js",
-      "_localization-CWqOiz2X.js",
+      "_use-locale-vIHeDap6.js",
+      "_services-RQRy-FWv.js",
+      "_renderer-diagnostics-Bdb-S7Rg.js",
+      "_localization-B-wC2a9U.js",
       "_framework-xWbE11K6.js"
     ]
   },
@@ -118,39 +118,39 @@
       "_FilterSystem-B3Ra0i0S.js"
     ]
   },
-  "_language-settings-BFYYkyFd.js": {
-    "file": "bnode/_next/static/chunks/language-settings-BFYYkyFd.js",
+  "_language-settings-YoE4gx37.js": {
+    "file": "bnode/_next/static/chunks/language-settings-YoE4gx37.js",
     "name": "language-settings",
     "imports": [
       "_rolldown-runtime-Dh2opQnG.js",
-      "_use-locale-Bt3vkLaf.js",
-      "_localization-CWqOiz2X.js",
+      "_use-locale-vIHeDap6.js",
+      "_localization-B-wC2a9U.js",
       "_framework-xWbE11K6.js"
     ]
   },
-  "_localization-CWqOiz2X.js": {
-    "file": "bnode/_next/static/chunks/localization-CWqOiz2X.js",
+  "_localization-B-wC2a9U.js": {
+    "file": "bnode/_next/static/chunks/localization-B-wC2a9U.js",
     "name": "localization",
     "imports": [
-      "_services-QDrYDqB-.js"
+      "_services-RQRy-FWv.js"
     ]
   },
-  "_player-combat-popups-C67yDOdB.js": {
-    "file": "bnode/_next/static/chunks/player-combat-popups-C67yDOdB.js",
+  "_player-combat-popups-CfDfO2BP.js": {
+    "file": "bnode/_next/static/chunks/player-combat-popups-CfDfO2BP.js",
     "name": "player-combat-popups",
     "imports": [
       "_rolldown-runtime-Dh2opQnG.js",
-      "_language-settings-BFYYkyFd.js",
-      "_services-QDrYDqB-.js",
-      "_localization-CWqOiz2X.js",
+      "_language-settings-YoE4gx37.js",
+      "_services-RQRy-FWv.js",
+      "_localization-B-wC2a9U.js",
       "_framework-xWbE11K6.js"
     ]
   },
-  "_player-name-Cwcte42x.js": {
-    "file": "bnode/_next/static/chunks/player-name-Cwcte42x.js",
+  "_player-name-_X6O3-rV.js": {
+    "file": "bnode/_next/static/chunks/player-name-_X6O3-rV.js",
     "name": "player-name",
     "imports": [
-      "_services-QDrYDqB-.js"
+      "_services-RQRy-FWv.js"
     ]
   },
   "_react-dom-server-BuE-8dIJ.js": {
@@ -161,11 +161,11 @@
       "_framework-xWbE11K6.js"
     ]
   },
-  "_renderer-diagnostics-CGavgFgg.js": {
-    "file": "bnode/_next/static/chunks/renderer-diagnostics-CGavgFgg.js",
+  "_renderer-diagnostics-Bdb-S7Rg.js": {
+    "file": "bnode/_next/static/chunks/renderer-diagnostics-Bdb-S7Rg.js",
     "name": "renderer-diagnostics",
     "imports": [
-      "_services-QDrYDqB-.js"
+      "_services-RQRy-FWv.js"
     ]
   },
   "_rolldown-runtime-Dh2opQnG.js": {
@@ -176,8 +176,8 @@
     "file": "bnode/_next/static/chunks/scene-counters-C0VHwXwp.js",
     "name": "scene-counters"
   },
-  "_services-QDrYDqB-.js": {
-    "file": "bnode/_next/static/chunks/services-QDrYDqB-.js",
+  "_services-RQRy-FWv.js": {
+    "file": "bnode/_next/static/chunks/services-RQRy-FWv.js",
     "name": "services",
     "imports": [
       "virtual:vinext-app-browser-entry"
@@ -190,41 +190,41 @@
     "file": "bnode/_next/static/chunks/ui-navigation-sfx-Brsb10Xe.js",
     "name": "ui-navigation-sfx"
   },
-  "_use-clipboard-copy-BhmLxABv.js": {
-    "file": "bnode/_next/static/chunks/use-clipboard-copy-BhmLxABv.js",
+  "_use-clipboard-copy-D9hI9Whh.js": {
+    "file": "bnode/_next/static/chunks/use-clipboard-copy-D9hI9Whh.js",
     "name": "use-clipboard-copy",
     "imports": [
       "_rolldown-runtime-Dh2opQnG.js",
-      "_language-settings-BFYYkyFd.js",
+      "_language-settings-YoE4gx37.js",
       "_framework-xWbE11K6.js"
     ]
   },
-  "_use-locale-Bt3vkLaf.js": {
-    "file": "bnode/_next/static/chunks/use-locale-Bt3vkLaf.js",
+  "_use-locale-vIHeDap6.js": {
+    "file": "bnode/_next/static/chunks/use-locale-vIHeDap6.js",
     "name": "use-locale",
     "imports": [
       "_rolldown-runtime-Dh2opQnG.js",
-      "_localization-CWqOiz2X.js",
+      "_localization-B-wC2a9U.js",
       "_framework-xWbE11K6.js"
     ]
   },
   "app/error.tsx": {
-    "file": "bnode/_next/static/chunks/error-CCwkodUu.js",
+    "file": "bnode/_next/static/chunks/error-Bv1Mk1G1.js",
     "name": "error",
     "src": "app/error.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_game-load-recovery-DKatgLWm.js",
+      "_game-load-recovery-DNONYPxe.js",
       "_framework-xWbE11K6.js"
     ]
   },
   "app/global-error.tsx": {
-    "file": "bnode/_next/static/chunks/global-error-CEW-CACJ.js",
+    "file": "bnode/_next/static/chunks/global-error-CWiI7L9H.js",
     "name": "global-error",
     "src": "app/global-error.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_game-load-recovery-DKatgLWm.js",
+      "_game-load-recovery-DNONYPxe.js",
       "_framework-xWbE11K6.js"
     ]
   },
@@ -239,35 +239,35 @@
     ]
   },
   "components/game/game-error-boundary.tsx": {
-    "file": "bnode/_next/static/chunks/game-error-boundary-q7KHHg-j.js",
+    "file": "bnode/_next/static/chunks/game-error-boundary-0JdkLETe.js",
     "name": "game-error-boundary",
     "src": "components/game/game-error-boundary.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-Dh2opQnG.js",
-      "_game-load-recovery-DKatgLWm.js",
-      "_renderer-diagnostics-CGavgFgg.js",
-      "_localization-CWqOiz2X.js",
+      "_game-load-recovery-DNONYPxe.js",
+      "_renderer-diagnostics-Bdb-S7Rg.js",
+      "_localization-B-wC2a9U.js",
       "_framework-xWbE11K6.js"
     ]
   },
   "components/game/game-page.tsx": {
-    "file": "bnode/_next/static/chunks/game-page-BU-QJGN7.js",
+    "file": "bnode/_next/static/chunks/game-page-BQf2Dwo4.js",
     "name": "game-page",
     "src": "components/game/game-page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-Dh2opQnG.js",
       "virtual:vinext-app-browser-entry",
-      "_player-combat-popups-C67yDOdB.js",
-      "_language-settings-BFYYkyFd.js",
-      "_use-clipboard-copy-BhmLxABv.js",
-      "_use-locale-Bt3vkLaf.js",
-      "_services-QDrYDqB-.js",
-      "_renderer-diagnostics-CGavgFgg.js",
+      "_player-combat-popups-CfDfO2BP.js",
+      "_language-settings-YoE4gx37.js",
+      "_use-clipboard-copy-D9hI9Whh.js",
+      "_use-locale-vIHeDap6.js",
+      "_services-RQRy-FWv.js",
+      "_renderer-diagnostics-Bdb-S7Rg.js",
       "_duration-histogram-C0N_aCRb.js",
-      "_localization-CWqOiz2X.js",
-      "_player-name-Cwcte42x.js",
+      "_localization-B-wC2a9U.js",
+      "_player-name-_X6O3-rV.js",
       "_ui-navigation-sfx-Brsb10Xe.js",
       "_framework-xWbE11K6.js"
     ],
@@ -279,92 +279,92 @@
     ]
   },
   "components/game/gamepad-navigation.tsx": {
-    "file": "bnode/_next/static/chunks/gamepad-navigation-C6bkCzqi.js",
+    "file": "bnode/_next/static/chunks/gamepad-navigation-Cp5WjuCV.js",
     "name": "gamepad-navigation",
     "src": "components/game/gamepad-navigation.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-Dh2opQnG.js",
-      "_services-QDrYDqB-.js",
-      "_localization-CWqOiz2X.js",
+      "_services-RQRy-FWv.js",
+      "_localization-B-wC2a9U.js",
       "_ui-navigation-sfx-Brsb10Xe.js",
       "_framework-xWbE11K6.js"
     ]
   },
   "components/game/performance-capture-report.tsx": {
-    "file": "bnode/_next/static/chunks/performance-capture-report-BszekGHD.js",
+    "file": "bnode/_next/static/chunks/performance-capture-report-C8C2D0-s.js",
     "name": "performance-capture-report",
     "src": "components/game/performance-capture-report.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_language-settings-BFYYkyFd.js",
-      "_use-clipboard-copy-BhmLxABv.js",
-      "_localization-CWqOiz2X.js",
+      "_language-settings-YoE4gx37.js",
+      "_use-clipboard-copy-D9hI9Whh.js",
+      "_localization-B-wC2a9U.js",
       "_framework-xWbE11K6.js"
     ]
   },
   "components/game/platform-initialization.tsx": {
-    "file": "bnode/_next/static/chunks/platform-initialization-DAfP3aSC.js",
+    "file": "bnode/_next/static/chunks/platform-initialization-BGKlvQ93.js",
     "name": "platform-initialization",
     "src": "components/game/platform-initialization.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-Dh2opQnG.js",
-      "_services-QDrYDqB-.js",
-      "_player-name-Cwcte42x.js",
+      "_services-RQRy-FWv.js",
+      "_player-name-_X6O3-rV.js",
       "_framework-xWbE11K6.js"
     ]
   },
   "components/game/renderer-diagnostics.tsx": {
-    "file": "bnode/_next/static/chunks/renderer-diagnostics-CQbgx1Fd.js",
+    "file": "bnode/_next/static/chunks/renderer-diagnostics-DEmudADC.js",
     "name": "renderer-diagnostics",
     "src": "components/game/renderer-diagnostics.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-Dh2opQnG.js",
-      "_renderer-diagnostics-CGavgFgg.js",
-      "_localization-CWqOiz2X.js",
+      "_renderer-diagnostics-Bdb-S7Rg.js",
+      "_localization-B-wC2a9U.js",
       "_framework-xWbE11K6.js"
     ]
   },
   "components/game/tutorial-screen.tsx": {
-    "file": "bnode/_next/static/chunks/tutorial-screen-Dnzd-gWc.js",
+    "file": "bnode/_next/static/chunks/tutorial-screen-C73lWc-d.js",
     "name": "tutorial-screen",
     "src": "components/game/tutorial-screen.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-Dh2opQnG.js",
       "components/game/game-page.tsx",
-      "_player-combat-popups-C67yDOdB.js",
-      "_language-settings-BFYYkyFd.js",
-      "_services-QDrYDqB-.js",
-      "_localization-CWqOiz2X.js",
+      "_player-combat-popups-CfDfO2BP.js",
+      "_language-settings-YoE4gx37.js",
+      "_services-RQRy-FWv.js",
+      "_localization-B-wC2a9U.js",
       "_framework-xWbE11K6.js"
     ]
   },
   "lib/performance-capture.ts": {
-    "file": "bnode/_next/static/chunks/performance-capture-BIoBXm2Y.js",
+    "file": "bnode/_next/static/chunks/performance-capture-Y9uPtJIR.js",
     "name": "performance-capture",
     "src": "lib/performance-capture.ts",
     "isDynamicEntry": true,
     "imports": [
-      "_renderer-diagnostics-CGavgFgg.js",
+      "_renderer-diagnostics-Bdb-S7Rg.js",
       "_duration-histogram-C0N_aCRb.js",
       "_scene-counters-C0VHwXwp.js"
     ]
   },
   "lib/renderer/game-renderer.ts": {
-    "file": "bnode/_next/static/chunks/game-renderer-CV39L1dn.js",
+    "file": "bnode/_next/static/chunks/game-renderer-BrzDcWyg.js",
     "name": "game-renderer",
     "src": "lib/renderer/game-renderer.ts",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-Dh2opQnG.js",
       "virtual:vinext-app-browser-entry",
-      "_player-combat-popups-C67yDOdB.js",
-      "_services-QDrYDqB-.js",
-      "_renderer-diagnostics-CGavgFgg.js",
-      "_localization-CWqOiz2X.js",
+      "_player-combat-popups-CfDfO2BP.js",
+      "_services-RQRy-FWv.js",
+      "_renderer-diagnostics-Bdb-S7Rg.js",
+      "_localization-B-wC2a9U.js",
       "_scene-counters-C0VHwXwp.js",
       "_CanvasPool-C5iIansR.js",
       "_GCManagedHash-CSOfFQAK.js",
@@ -418,7 +418,7 @@
     ]
   },
   "node_modules/pixi.js/lib/rendering/renderers/canvas/CanvasRenderer.mjs": {
-    "file": "bnode/_next/static/chunks/CanvasRenderer-CgSQ2HZI.js",
+    "file": "bnode/_next/static/chunks/CanvasRenderer-DnhhQIuC.js",
     "name": "CanvasRenderer",
     "src": "node_modules/pixi.js/lib/rendering/renderers/canvas/CanvasRenderer.mjs",
     "isDynamicEntry": true,
@@ -427,7 +427,7 @@
     ]
   },
   "node_modules/pixi.js/lib/rendering/renderers/gl/WebGLRenderer.mjs": {
-    "file": "bnode/_next/static/chunks/WebGLRenderer-DEuifhee.js",
+    "file": "bnode/_next/static/chunks/WebGLRenderer-D_e7vcpC.js",
     "name": "WebGLRenderer",
     "src": "node_modules/pixi.js/lib/rendering/renderers/gl/WebGLRenderer.mjs",
     "isDynamicEntry": true,
@@ -436,7 +436,7 @@
     ]
   },
   "node_modules/pixi.js/lib/rendering/renderers/gpu/WebGPURenderer.mjs": {
-    "file": "bnode/_next/static/chunks/WebGPURenderer-DPcJKwdq.js",
+    "file": "bnode/_next/static/chunks/WebGPURenderer-B-lyyrXp.js",
     "name": "WebGPURenderer",
     "src": "node_modules/pixi.js/lib/rendering/renderers/gpu/WebGPURenderer.mjs",
     "isDynamicEntry": true,
@@ -445,7 +445,7 @@
     ]
   },
   "node_modules/pixi.js/lib/scene/text-bitmap/BitmapFont.mjs": {
-    "file": "bnode/_next/static/chunks/BitmapFont-eIzSsl4O.js",
+    "file": "bnode/_next/static/chunks/BitmapFont-DWXNbn2R.js",
     "name": "BitmapFont",
     "src": "node_modules/pixi.js/lib/scene/text-bitmap/BitmapFont.mjs",
     "isDynamicEntry": true,
@@ -454,7 +454,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js": {
-    "file": "bnode/_next/static/chunks/app-route-prefetch-policy-BL98vKfJ.js",
+    "file": "bnode/_next/static/chunks/app-route-prefetch-policy-B8xv2FKf.js",
     "name": "app-route-prefetch-policy",
     "src": "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js",
     "isDynamicEntry": true,
@@ -463,7 +463,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "bnode/_next/static/chunks/layout-segment-context-QIv7f17b.js",
+    "file": "bnode/_next/static/chunks/layout-segment-context-BS01LOqe.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -484,7 +484,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "bnode/_next/static/chunks/index-CbeoZAvF.js",
+    "file": "bnode/_next/static/chunks/index-1oKYObQL.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -497,7 +497,7 @@
       "virtual:vinext-app-browser-entry",
       "components/game/platform-initialization.tsx",
       "node_modules/vinext/dist/shims/layout-segment-context.js",
-      "_language-settings-BFYYkyFd.js",
+      "_language-settings-YoE4gx37.js",
       "components/game/game-page.tsx",
       "components/game/renderer-diagnostics.tsx",
       "components/game/game-error-boundary.tsx",

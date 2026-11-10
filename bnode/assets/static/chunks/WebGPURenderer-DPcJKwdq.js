@@ -1,1 +1,0 @@
-import{n as e}from"./game-renderer-CV39L1dn.js";export{e as WebGPURenderer};

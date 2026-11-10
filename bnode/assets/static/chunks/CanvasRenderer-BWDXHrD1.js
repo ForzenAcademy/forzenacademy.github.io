@@ -1,0 +1,1 @@
+import{r as e}from"./game-renderer-BIRwh3-u.js";export{e as CanvasRenderer};

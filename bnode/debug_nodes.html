@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex" />
     <title>Node gallery · magitower</title>
-    <script type="module" crossorigin src="./debug-node-assets/debug_nodes-BIpUHY-2.js"></script>
-    <link rel="modulepreload" crossorigin href="./debug-node-assets/enemy-slow-DgzieStZ.js">
-    <link rel="modulepreload" crossorigin href="./debug-node-assets/artwork-image-0XyaAAiB.js">
-    <link rel="modulepreload" crossorigin href="./debug-node-assets/phoenix-boss-CgkyL_06.js">
-    <link rel="modulepreload" crossorigin href="./debug-node-assets/fade-modal-Y_VVSDSw.js">
-    <link rel="modulepreload" crossorigin href="./debug-node-assets/renderer-diagnostics-CmHOSVgz.js">
-    <link rel="modulepreload" crossorigin href="./debug-node-assets/reward-descriptions-DFaCOV4P.js">
-    <link rel="modulepreload" crossorigin href="./debug-node-assets/node-catalog-BLhQsXO5.js">
-    <link rel="modulepreload" crossorigin href="./debug-node-assets/node-preview-model-PF-KSkOL.js">
-    <link rel="stylesheet" crossorigin href="./debug-node-assets/enemy-slow-BIRh-_o7.css">
-    <link rel="stylesheet" crossorigin href="./debug-node-assets/debug_nodes-BsEC4ibc.css">
+    <script type="module" crossorigin src="./debug-node-assets/react-dom-D6wJGrJz.js"></script>
+    <script type="module" crossorigin src="./debug-node-assets/artwork-image-BVb870sF.js"></script>
+    <script type="module" crossorigin src="./debug-node-assets/enemy-slow-BvVZSSnO.js"></script>
+    <script type="module" crossorigin src="./debug-node-assets/x-BoZLDC5F.js"></script>
+    <script type="module" crossorigin src="./debug-node-assets/phoenix-boss-BgCvgd9t.js"></script>
+    <script type="module" crossorigin src="./debug-node-assets/fade-modal-BZgt_SIa.js"></script>
+    <script type="module" crossorigin src="./debug-node-assets/renderer-diagnostics-BkeOiW01.js"></script>
+    <script type="module" crossorigin src="./debug-node-assets/reward-descriptions-DM691dJH.js"></script>
+    <script type="module" crossorigin src="./debug-node-assets/node-catalog-D4uJRDxg.js"></script>
+    <script type="module" crossorigin src="./debug-node-assets/node-preview-model-DiaSOpZd.js"></script>
+    <script type="module" crossorigin src="./debug-node-assets/nodes-D4tT6ri5.js"></script>
+    <link rel="stylesheet" crossorigin href="./debug-node-assets/react-dom-B6wsl0mm.css">
+    <link rel="stylesheet" crossorigin href="./debug-node-assets/nodes-BsEC4ibc.css">
   </head>
   <body>
     <header id="node-debug-toolbar">
@@ -28,6 +30,8 @@
         <label>Zoom <output id="node-debug-zoom-value">100%</output><input id="node-debug-zoom" aria-label="Zoom" type="range" min="60" max="160" step="10" value="100" /></label>
         <label>Sample values <output id="node-debug-sample-value">50%</output><input id="node-debug-sample" aria-label="Sample values" type="range" min="0" max="100" value="50" /></label>
         <label class="node-debug-toggle"><input id="node-debug-animate" type="checkbox" /> Animate widgets</label>
+        <label class="node-debug-toggle"><input id="node-debug-random-order" type="checkbox" /> Random order</label>
+        <label class="node-debug-toggle"><input id="node-debug-auto-scroll" type="checkbox" /> Auto-scroll</label>
       </div>
       <p id="node-debug-status" role="status">Preparing the renderer…</p>
     </header>

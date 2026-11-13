@@ -1,0 +1,1 @@
+import{r as e}from"./game-renderer-DM801fUA.js";export{e as CanvasRenderer};

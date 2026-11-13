@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-r8OmYuONMx/guS1ngf8t5zdfT8g24hf9WV9MDnvrIbU=' https://www.googletagmanager.com; connect-src https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com; img-src https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com; base-uri 'none'; form-action 'none'">
+<title>Google Analytics</title>
+</head>
+<body>
+<script>
+(() => {
+  if (parent === window) return;
+  const measurementId = location.hash.slice(1);
+  if (!/^G-[A-Z0-9]+$/.test(measurementId)) return;
+
+  let initialized = false;
+  window.addEventListener("message", event => {
+    if (event.source !== parent || event.data?.type !== "magitower-analytics-event") return;
+    if (!/^(?:http:\/\/127\.0\.0\.1:\d+|https:\/\/appassets\.androidplatform\.net|magitower:\/\/localhost|tauri:\/\/localhost|https?:\/\/tauri\.localhost)$/.test(event.origin)) return;
+    const { name, parameters } = event.data;
+    if (typeof name !== "string" || !/^[a-z][a-z0-9_]{0,39}$/.test(name) || !parameters) return;
+
+    if (!initialized) {
+      initialized = true;
+      const [random] = crypto.getRandomValues(new Uint32Array(1));
+      const clientId = random + "." + Math.floor(Date.now() / 1000);
+      window.dataLayer = [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      gtag("consent", "default", {
+        analytics_storage: "granted", ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied",
+      });
+      gtag("js", new Date());
+      gtag("config", measurementId, {
+        client_id: clientId,
+        cookie_expires: 0,
+        send_page_view: false,
+        allow_google_signals: false,
+        allow_ad_personalization_signals: false,
+        page_location: "https://www.forzenacademy.com/bnode/",
+        page_referrer: "",
+      });
+      const tag = document.createElement("script");
+      tag.async = true;
+      tag.referrerPolicy = "no-referrer";
+      tag.src = "https://www.googletagmanager.com/gtag/js?id=" + measurementId;
+      document.head.appendChild(tag);
+    }
+    gtag("event", name, { ...parameters, send_to: measurementId });
+  });
+  parent.postMessage("magitower-analytics-ready", "*");
+})();
+</script>
+</body>
+</html>

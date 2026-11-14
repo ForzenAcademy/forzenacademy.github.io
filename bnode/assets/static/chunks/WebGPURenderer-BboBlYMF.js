@@ -1,0 +1,1 @@
+import{t as e}from"./game-renderer-DEptH_eW.js";export{e as WebGPURenderer};

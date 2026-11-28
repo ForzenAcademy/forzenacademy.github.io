@@ -1,1 +1,0 @@
-import{a as e,gt as t,i as n,r,s as i}from"./react-dom-BEedX1Mh.js";var a=t(r(),1);function o(){return(0,a.useSyncExternalStore)(i,n,e)}export{o as t};

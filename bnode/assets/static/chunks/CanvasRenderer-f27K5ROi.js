@@ -1,0 +1,1 @@
+import{r as e}from"./game-renderer-DPl6geJq.js";export{e as CanvasRenderer};
